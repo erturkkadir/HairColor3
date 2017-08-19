@@ -63,9 +63,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         ArrayList<BarData> list = new ArrayList<>();
         for(int i=0; i<20; i++) list.add(generateData(i+1));
 
-        adapter = new GraphAdapter(context, list);
-        RecyclerView rv_graph = (RecyclerView) findViewById(R.id.rv_graph);
-        rv_graph.setAdapter(adapter);
+        //adapter = new GraphAdapter(context, list);
+        //RecyclerView rv_graph = (RecyclerView) findViewById(R.id.rv_graph);
+        //rv_graph.setAdapter(adapter);
 
 
         btnBLE = (FloatingActionButton) findViewById(R.id.btnBLE);

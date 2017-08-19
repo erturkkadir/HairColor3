@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 19 14:40:34 PDT 2017
+#Sat Aug 19 15:12:52 PDT 2017
 20.base=C\:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=C\:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\resources-debug.ap_
 493.base=C\:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\resources-debug.ap_
