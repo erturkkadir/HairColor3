@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/kerturkx/Documents/Github/haircolor/haircolor3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="C:\Users\kadir\Documents\Github\HairColor3C\HairColor3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0d9d993b8f52bf678361114743cce11b30c86e54">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/haircolor3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9244f2930bfd3fd2867296cbab78723bdc51bef5/classes.dex" />
+        sha1="20e1aacdd1e7ed7d7f38c28d662394855bb74583">
+        <dex dex="C:\Users\kadir\Documents\Github\HairColor3C\HairColor3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e806f86ba36138d07cf9c50cef337c1f8682b40f\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/kerturkx/Documents/Github/haircolor/haircolor3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="C:\Users\kadir\Documents\Github\HairColor3C\HairColor3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/haircolor3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_ef48ff6f13e0d7fde401305a6eb242bc2191a34c/classes.dex" />
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\kadir\Documents\Github\HairColor3C\HairColor3\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b7cc7176a1323628ec17e7025153824ad27eacf3\classes.dex" />
     </item>
 
 </items>
