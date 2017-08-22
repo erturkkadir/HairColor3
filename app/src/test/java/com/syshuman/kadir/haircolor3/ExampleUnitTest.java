@@ -1,4 +1,4 @@
-package com.syshuman.kadir.socks;
+package com.syshuman.kadir.haircolor3;
 
 import org.junit.Test;
 

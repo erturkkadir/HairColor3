@@ -1,4 +1,4 @@
-package com.syshuman.kadir.socks;
+package com.syshuman.kadir.haircolor3;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -7,6 +7,7 @@ import android.support.test.runner.AndroidJUnit4;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import static junit.framework.Assert.assertEquals;
 import static org.junit.Assert.*;
 
 /**
@@ -21,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.syshuman.kadir.socks", appContext.getPackageName());
+        assertEquals("com.syshuman.kadir.haircolor3", appContext.getPackageName());
     }
 }

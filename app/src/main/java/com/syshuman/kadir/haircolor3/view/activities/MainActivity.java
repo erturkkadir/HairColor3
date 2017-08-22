@@ -10,35 +10,32 @@ import android.content.res.ColorStateList;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.RequiresPermission;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
-
-import com.github.mikephil.charting.data.BarData;
-import com.github.mikephil.charting.data.BarDataSet;
-import com.github.mikephil.charting.data.BarEntry;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 import com.syshuman.kadir.haircolor3.R;
-import com.syshuman.kadir.haircolor3.view.adapter.GraphAdapter;
+import com.syshuman.kadir.haircolor3.view.fragments.ReadFragment;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements BluetoothLeUart.Callback {
+public class MainActivity extends AppCompatActivity implements BluetoothLeUart.Callback, ReadFragment.OnFragmentInteractionListener {
 
     String deviceID, messages, readStr, ble_status="No connection";
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
@@ -46,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     private Context context;
     private FloatingActionButton btnBLE;
     private Toolbar toolbar;
-    private GraphAdapter adapter;
+    private Button btnZone1, btnZone2, btnZone3, btnTarget;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,13 +57,14 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
         NavAndDraw();
 
-        ArrayList<BarData> list = new ArrayList<>();
-        for(int i=0; i<20; i++) list.add(generateData(i+1));
-
-        //adapter = new GraphAdapter(context, list);
-        //RecyclerView rv_graph = (RecyclerView) findViewById(R.id.rv_graph);
-        //rv_graph.setAdapter(adapter);
-
+        btnZone1 = (Button) findViewById(R.id.btnZone1);
+        btnZone2 = (Button) findViewById(R.id.btnZone2);
+        btnZone3 = (Button) findViewById(R.id.btnZone3);
+        btnTarget = (Button) findViewById(R.id.btnTarget);
+        btnZone1.setOnClickListener(onZone1Click);
+        btnZone2.setOnClickListener(onZone2Click);
+        btnZone3.setOnClickListener(onZone3Click);
+        btnTarget.setOnClickListener(onTargetClick);
 
         btnBLE = (FloatingActionButton) findViewById(R.id.btnBLE);
         btnBLE.setOnClickListener(new View.OnClickListener() {
@@ -83,19 +81,38 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                 uart = new BluetoothLeUart(context);
             }
         });
-    }
-
-    private BarData generateData(int cnt) {
-        ArrayList<BarEntry> entries = new ArrayList<>();
-        for(int i=0; i<12; i++)
-            entries.add(new BarEntry(i, (float) (Math.random() * 70) + 30));
-        BarDataSet d = new BarDataSet(entries, "New Dataset " + cnt);
-        ArrayList<IBarDataSet> sets = new ArrayList<>();
-        sets.add(d);
-        BarData cd = new BarData(sets);
-        return cd;
 
     }
+
+    View.OnClickListener onZone1Click = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            ReadFragment readFragment = new ReadFragment().newInstance("Zone1");
+            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+            transaction.add(R.id.content_main, readFragment, "ReadFragment");
+            transaction.commit();
+            Log.d("HC", "zone1");
+
+            }
+    };
+    View.OnClickListener onZone2Click = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+
+        }
+    };
+    View.OnClickListener onZone3Click = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+
+        }
+    };
+    View.OnClickListener onTargetClick = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+
+        }
+    };
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -309,17 +326,12 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                 DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);
                 return true;
-
             }
         });
     }
 
-
-    public List<Entry> getData() {
-        List<Entry> data = new ArrayList<Entry>();
-        data.add(new Entry(1, 1 ));
-        data.add(new Entry(2, 2 ));
-        return data;
+    @Override
+    public void onFragmentInteraction(String color1, String delta1, String color2, String delta2) {
 
     }
 }

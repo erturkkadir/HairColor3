@@ -1,70 +1,62 @@
 [
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\187db1d8239b27ece689d4937cbaee43318ef520\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\187db1d8239b27ece689d4937cbaee43318ef520\\output\\res\\color\\common_google_signin_btn_tint.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\2a2d11cef6f82b2ad92657ad349c52a98910acc4\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\color\\design_error.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\187db1d8239b27ece689d4937cbaee43318ef520\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\2a2d11cef6f82b2ad92657ad349c52a98910acc4\\output\\res\\color\\wallet_primary_text_holo_light.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\e1aeaf73769c2905769c42254cf1e0f7363e661c\\output\\res\\color\\design_error.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\kadir\\Documents\\Github\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f6ca1f256cdea7869b0606d030914328f632cb62\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\color\\common_google_signin_btn_tint.xml"
     }
 ]
