@@ -246,9 +246,12 @@ public class RestServer {
 
 
 
-    public void getColor(final Context context, final TextView txtcolor, final String company, final String readType, final String Red, final String Gre, final String Blu, final String Cle, final String Tem, final String Lum ) {
+    public void getColor(final TextView txtcolor, final String company, final String catalog,
+                         final String red_red, final String red_gre, final String red_blu, final String red_cle,
+                         final String gre_red, final String gre_gre, final String gre_blu, final String gre_cle,
+                         final String blu_red, final String blu_gre, final String blu_blu, final String blu_cle) {
 
-        String url   = baseUrl + "api/v1/users/getcolor";
+        String url   = baseUrl + "api/v1/users/getcolor3";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>(){
                     @Override
@@ -276,20 +279,17 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check service at gelcolor", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "Please double check service at gelcolor3", Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
             protected Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<String, String>();
                 params.put("company", company);
-                params.put("readType", readType);
-                params.put("Red", Red);
-                params.put("Gre", Gre);
-                params.put("Blu", Blu);
-                params.put("Cle", Cle);
-                params.put("Tem", Tem);
-                params.put("Lum", Lum);
+                params.put("catalog", catalog);
+                params.put("r_r", red_red); params.put("r_g", red_gre); params.put("r_b", red_blu); params.put("r_c", red_cle);
+                params.put("g_r", gre_red); params.put("g_g", gre_gre); params.put("g_b", gre_blu); params.put("g_c", gre_cle);
+                params.put("b_r", blu_red); params.put("b_g", blu_gre); params.put("b_b", blu_blu); params.put("b_c", blu_cle);
                 return params;
             }
 

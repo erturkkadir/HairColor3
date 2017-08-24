@@ -1,14 +1,26 @@
 [
     {
-        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_boarding.xml",
-        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\menu\\menu_boarding.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/menu/menu_boarding.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/menu/menu_boarding.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_boarding.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\menu\\menu_boarding.xml"
     }
 ]

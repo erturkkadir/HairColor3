@@ -51,11 +51,23 @@
         <activity
             android:name=".view.activities.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view.activities.DeviceActivity"
             android:label="@string/title_activity_device"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.activities.TrainingActivity"
+            android:label="@string/title_activity_trainig"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.activities.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

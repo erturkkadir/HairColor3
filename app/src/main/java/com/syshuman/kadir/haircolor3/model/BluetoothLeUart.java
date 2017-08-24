@@ -99,7 +99,6 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
 
     // Return true if connected to UART device, false otherwise.
     public boolean isConnected() {
-
         Log.d(LOG_TAG, "isConnected");
         return (tx != null && rx != null);
     }
