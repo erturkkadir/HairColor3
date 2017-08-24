@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\model.svm",
+        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\raw\\model.svm"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep04.mp3",
+        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\raw\\beep04.mp3"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep07.mp3",
+        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\raw\\beep07.mp3"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_sync_black_24dp.xml",
+        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_sync_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\shape_black_stroke_rectangle.xml",
+        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\drawable-v21\\shape_black_stroke_rectangle.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\shape_curve_corner_retangle.xml",
+        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\drawable-v21\\shape_curve_corner_retangle.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_info_black_24dp.xml",
+        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_info_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_notifications_black_24dp.xml",
+        "source": "C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_notifications_black_24dp.xml"
+    }
+]
