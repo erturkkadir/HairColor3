@@ -29,6 +29,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
@@ -71,6 +73,10 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
@@ -107,8 +113,8 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
         //messages.setText("Started..!!!!!!!.\n");
        // messages.setMovementMethod(new ScrollingMovementMethod());
-        firstSound = MediaPlayer.create(getApplicationContext(), R.raw.beep07);
-        lastSound = MediaPlayer.create(getApplicationContext(), R.raw.beep04);
+        firstSound = MediaPlayer.create(context, R.raw.beep07);
+        lastSound = MediaPlayer.create(context, R.raw.beep04);
 
     }
 
@@ -297,20 +303,25 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                String red_red = str.substring(str.indexOf("r_r") + 1, str.indexOf("r_g"));
-                String red_gre = str.substring(str.indexOf("r_g") + 1, str.indexOf("r_b"));
-                String red_blu = str.substring(str.indexOf("r_b") + 1, str.indexOf("r_c"));
-                String red_cle = str.substring(str.indexOf("r_c") + 1, str.indexOf("g_r"));
+                String r_r = str.substring(str.indexOf("r_r") + 1, str.indexOf("r_g"));
+                String r_g = str.substring(str.indexOf("r_g") + 1, str.indexOf("r_b"));
+                String r_b = str.substring(str.indexOf("r_b") + 1, str.indexOf("r_c"));
+                String r_c = str.substring(str.indexOf("r_c") + 1, str.indexOf("g_r"));
 
-                String gre_red = str.substring(str.indexOf("g_r") + 1, str.indexOf("g_g"));
-                String gre_gre = str.substring(str.indexOf("g_g") + 1, str.indexOf("g_b"));
-                String gre_blu = str.substring(str.indexOf("g_b") + 1, str.indexOf("g_c"));
-                String gre_cle = str.substring(str.indexOf("g_c") + 1, str.indexOf("b_r"));
+                String g_r = str.substring(str.indexOf("g_r") + 1, str.indexOf("g_g"));
+                String g_g = str.substring(str.indexOf("g_g") + 1, str.indexOf("g_b"));
+                String g_b = str.substring(str.indexOf("g_b") + 1, str.indexOf("g_c"));
+                String g_c = str.substring(str.indexOf("g_c") + 1, str.indexOf("b_r"));
 
-                String blu_red = str.substring(str.indexOf("b_r") + 1, str.indexOf("b_g"));
-                String blu_gre = str.substring(str.indexOf("b_g") + 1, str.indexOf("b_b"));
-                String blu_blu = str.substring(str.indexOf("b_b") + 1, str.indexOf("b_c"));
-                String blu_cle = str.substring(str.indexOf("b_c") + 1, str.indexOf("e_r"));
+                String b_r = str.substring(str.indexOf("b_r") + 1, str.indexOf("b_g"));
+                String b_g = str.substring(str.indexOf("b_g") + 1, str.indexOf("b_b"));
+                String b_b = str.substring(str.indexOf("b_b") + 1, str.indexOf("b_c"));
+                String b_c = str.substring(str.indexOf("b_c") + 1, str.indexOf("a_r"));
+
+                String a_r = str.substring(str.indexOf("a_r") + 1, str.indexOf("a_g"));
+                String a_g = str.substring(str.indexOf("a_g") + 1, str.indexOf("a_b"));
+                String a_b = str.substring(str.indexOf("a_b") + 1, str.indexOf("a_c"));
+                String a_c = str.substring(str.indexOf("a_c") + 1, str.indexOf("e_e"));
 
                 String company = spCompanies.getSelectedItem().toString();
                 lastSound.start();
@@ -318,9 +329,10 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                 RestServer restServer = new RestServer(context);
 
                 restServer.getColor(txtZone1, company, "Natural",
-                        red_red, red_gre, red_blu, red_cle,
-                        gre_red, gre_gre, gre_blu, gre_cle,
-                        blu_red, blu_gre, blu_blu, blu_cle);
+                        r_r, r_g, r_b, r_c,
+                        g_r, g_g, g_b, g_c,
+                        b_r, b_g, b_b, b_c,
+                        a_r, a_g, a_b, a_c);
 
 
                 Log.d("Debug", "Step data here");

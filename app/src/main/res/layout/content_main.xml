@@ -27,7 +27,6 @@
 
             <Spinner
                 android:id="@+id/spCompany"
-                style="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/companies"

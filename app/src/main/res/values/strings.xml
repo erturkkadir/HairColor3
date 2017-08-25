@@ -69,7 +69,7 @@
         <item>10 N</item>
     </string-array>
 
-    <string name="title_activity_trainig">TrainigActivity</string>
-    <string name="title_activity_settings">SettingsActivity</string>
-    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_trainig">Training </string>
+    <string name="title_activity_settings">Settings </string>
+    <string name="title_activity_about">About </string>
 </resources>
