@@ -11,15 +11,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11a6fd4a-456b-482f-a465-b955b99b1d56" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-08-25-11-34-28-732.rawproto" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-08-25-11-34-33-830.rawproto" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/AboutActivity$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/graph_item.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/graph_item.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$layout.class" />
@@ -29,22 +37,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$15.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/model/RestServer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/AboutActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/AboutActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/BoardingActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/BoardingActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$11.class" />
@@ -61,51 +53,34 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity_ViewBinding.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/MainActivity_ViewBinding.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/SettingsActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/SettingsActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/SettingsActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/SettingsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity_ViewBinding.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity_ViewBinding.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/fragments/LoginFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/syshuman/kadir/haircolor3/view/fragments/LoginFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/4mRG45qdzeyxFXr4hkbmo1Ee0Q0=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/4mRG45qdzeyxFXr4hkbmo1Ee0Q0=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_b00dc1483a0d30cbbdd9f4c5237cecfc19af1f5d.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_b00dc1483a0d30cbbdd9f4c5237cecfc19af1f5d.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/apt/debug/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity_ViewBinding.java" afterPath="$PROJECT_DIR$/app/build/generated/source/apt/debug/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity_ViewBinding.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/syshuman/kadir/haircolor3/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/syshuman/kadir/haircolor3/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_about.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_about.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_trainig.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_trainig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_about.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_training.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/content_training.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/nav_header_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/nav_header_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/model/RestServer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/model/RestServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/AboutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/AboutActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/BoardingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/BoardingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/SettingsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/SettingsActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_trainig.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_trainig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_about.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_training.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_training.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
     </list>
     <list id="1847c7d7-a873-467f-b4d2-0a7d0add7cea" name="Rejected commit: Default" comment="" />
     <ignored path="HairColor3.iws" />
@@ -138,16 +113,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+            <state relative-caret-position="420">
+              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding>
-                <element signature="e#4369#4572#0" expanded="true" />
-                <element signature="e#4571#4572#0" expanded="true" />
                 <element signature="method#enableBLE#0;class#MainActivity#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2180,24 +2176,29 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/model/RestServer.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_trainig.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_about.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/content_about.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/AboutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/BoardingActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/DeviceActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/SettingsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/TrainingActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/content_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1440" />
-    <option name="y" value="23" />
+    <option name="x" value="3355" />
+    <option name="y" value="199" />
     <option name="width" value="1920" />
-    <option name="height" value="1097" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -2243,8 +2244,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
@@ -2314,6 +2313,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HairColor3" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2434,11 +2451,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HairColor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="LGH81221b31f55" />
     <property name="settings.editor.selected.configurable" value="instant.run" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -2785,7 +2804,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="23" width="1920" height="1097" extended-state="6" />
+    <frame x="3355" y="199" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2798,7 +2817,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26713008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27817994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2843,7 +2862,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/MainActivity.java</url>
-          <line>191</line>
+          <line>193</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -2865,35 +2884,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher_old.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -3020,7 +3010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3065,28 +3054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/graph_item.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_device.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -3113,7 +3080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3129,29 +3095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="32" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3163,19 +3106,8 @@
         <state relative-caret-position="465">
           <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
           <folding>
-            <element signature="e#1266#1285#0" expanded="true" />
+            <element signature="e#1266#1285#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="2925">
-          <caret line="196" column="53" selection-start-line="193" selection-start-column="7" selection-end-line="196" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3184,15 +3116,15 @@
         <state relative-caret-position="375">
           <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
           <folding>
-            <element signature="e#2621#2768#0" expanded="true" />
-            <element signature="e#2767#2768#0" expanded="true" />
-            <element signature="e#3351#3554#0" expanded="true" />
-            <element signature="e#3553#3554#0" expanded="true" />
-            <element signature="e#3633#3768#0" expanded="true" />
-            <element signature="e#3767#3768#0" expanded="true" />
+            <element signature="e#2621#2768#0" expanded="false" />
+            <element signature="e#2767#2768#0" expanded="false" />
+            <element signature="e#3351#3554#0" expanded="false" />
+            <element signature="e#3553#3554#0" expanded="false" />
+            <element signature="e#3633#3768#0" expanded="false" />
+            <element signature="e#3767#3768#0" expanded="false" />
             <element signature="method#getData#0;class#TrainingActivity#0" expanded="false" />
-            <element signature="e#6599#6600#0" expanded="true" />
-            <element signature="e#6644#6645#0" expanded="true" />
+            <element signature="e#6599#6600#0" expanded="false" />
+            <element signature="e#6644#6645#0" expanded="false" />
             <element signature="method#decode#0;class#TrainingActivity#0" expanded="false" />
             <element signature="method#onRequestPermissionsResult#0;class#TrainingActivity#0" expanded="false" />
           </folding>
@@ -3230,7 +3162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3278,15 +3209,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/graph_item.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/app_bar_main.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/platforms/android-25/data/res/layout/simple_spinner_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/view/activities/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="62" column="45" selection-start-line="62" selection-start-column="45" selection-end-line="62" selection-end-column="45" />
+        <state relative-caret-position="420">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding>
-            <element signature="e#4369#4572#0" expanded="true" />
-            <element signature="e#4571#4572#0" expanded="true" />
             <element signature="method#enableBLE#0;class#MainActivity#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="50" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>

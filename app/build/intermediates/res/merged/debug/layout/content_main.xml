@@ -27,6 +27,7 @@
 
             <Spinner
                 android:id="@+id/spCompany"
+                style="@style/AppTheme.mySpinner"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:entries="@array/companies"

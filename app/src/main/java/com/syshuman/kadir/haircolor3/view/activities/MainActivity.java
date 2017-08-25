@@ -8,6 +8,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
@@ -110,6 +111,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.companies, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spCompanies.setAdapter(adapter);
+
 
         //messages.setText("Started..!!!!!!!.\n");
        // messages.setMovementMethod(new ScrollingMovementMethod());
