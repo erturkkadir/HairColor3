@@ -34,6 +34,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -52,6 +53,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 import static com.syshuman.kadir.haircolor3.R.id.btnBLE;
+import static com.syshuman.kadir.haircolor3.R.id.btnGetRecipe;
+import static com.syshuman.kadir.haircolor3.R.id.txtRecipe;
 
 public class MainActivity extends AppCompatActivity implements BluetoothLeUart.Callback, ReadFragment.OnFragmentInteractionListener {
 
@@ -70,11 +73,16 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     @BindView(R.id.btnZone3) Button btnZone3;
     @BindView(R.id.btnTarget) Button btnTarget;
 
+    @BindView(R.id.txtRecipe) TextView txtRecipe;
+    @BindView(R.id.btnGetRecipe) ImageButton btnGetRecipe;
+
     @BindView(R.id.btnBLE) FloatingActionButton btnBLE;
     @BindView(R.id.spCompany) Spinner spCompanies;
     @BindView(R.id.toolbar) Toolbar toolbar;
+    RestServer restServer;
 
     private MediaPlayer firstSound, lastSound;
+    private int zone = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -101,6 +109,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         btnZone3.setOnClickListener(onZone3Click);
         btnTarget.setOnClickListener(onTargetClick);
         btnBLE.setOnClickListener(onBLEListener);
+        btnGetRecipe.setOnClickListener(onGetRecipeListener);
 
         runOnUiThread(new Runnable() {
             @Override
@@ -110,6 +119,8 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         });
 
         getCompanies();
+
+        restServer = new RestServer(context);
 
     }
 
@@ -140,6 +151,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             Log.d("Debug", "Sent 1");
             firstSound.start();
             uart.send("1"); // Tell Arduino to read
+            zone = 1;
             }
     };
 
@@ -149,6 +161,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             firstSound.start();
             uart.send("2"); // Tell Arduino to read
             Log.d("Debug", "Sent 2");
+            zone = 2;
         }
     };
 
@@ -157,6 +170,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         public void onClick(View view) {
             firstSound.start();
             uart.send("3"); // Tell Arduino to read
+            zone = 3;
         }
     };
 
@@ -165,6 +179,16 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         public void onClick(View view) {
             firstSound.start();
             uart.send("4"); // Tell Arduino to read
+            zone = 4;
+        }
+    };
+
+    View.OnClickListener onGetRecipeListener = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            firstSound.start();
+
+            restServer.getRecipe(txtZone1.getText().toString(), txtZone2.getText().toString(), txtZone3.getText().toString(), txtTarget.getText().toString());
         }
     };
 
@@ -448,8 +472,19 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onEvent(MessageEvents.onGetColor event) {
+    public void onGetColor(MessageEvents.onGetColor event) {
         Toast.makeText(context, event.color + event.zone, Toast.LENGTH_LONG).show();
+        if(zone==1) txtZone1.setText("Zone11");
+        if(zone==2) txtZone2.setText("Zone22");
+        if(zone==3) txtZone3.setText("Zone33");
+        if(zone==4) txtTarget.setText("Target");
+
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onGetRecipe(MessageEvents.onGetRecipe event) {
+        Toast.makeText(context, event.recipe, Toast.LENGTH_LONG).show();
+        txtRecipe.setText(event.recipe);
 
     }
 

@@ -7,6 +7,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 import butterknife.Unbinder;
@@ -35,6 +36,8 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.btnZone2 = Utils.findRequiredViewAsType(source, R.id.btnZone2, "field 'btnZone2'", Button.class);
     target.btnZone3 = Utils.findRequiredViewAsType(source, R.id.btnZone3, "field 'btnZone3'", Button.class);
     target.btnTarget = Utils.findRequiredViewAsType(source, R.id.btnTarget, "field 'btnTarget'", Button.class);
+    target.txtRecipe = Utils.findRequiredViewAsType(source, R.id.txtRecipe, "field 'txtRecipe'", TextView.class);
+    target.btnGetRecipe = Utils.findRequiredViewAsType(source, R.id.btnGetRecipe, "field 'btnGetRecipe'", ImageButton.class);
     target.btnBLE = Utils.findRequiredViewAsType(source, R.id.btnBLE, "field 'btnBLE'", FloatingActionButton.class);
     target.spCompanies = Utils.findRequiredViewAsType(source, R.id.spCompany, "field 'spCompanies'", Spinner.class);
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
@@ -55,6 +58,8 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.btnZone2 = null;
     target.btnZone3 = null;
     target.btnTarget = null;
+    target.txtRecipe = null;
+    target.btnGetRecipe = null;
     target.btnBLE = null;
     target.spCompanies = null;
     target.toolbar = null;

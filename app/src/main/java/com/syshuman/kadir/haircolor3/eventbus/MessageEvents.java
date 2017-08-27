@@ -20,4 +20,12 @@ public class MessageEvents {
         }
     }
 
+    public static class onGetRecipe {
+        public String recipe;
+
+        public onGetRecipe(String recipe) {
+            this.recipe = recipe;
+        }
+    }
+
 }

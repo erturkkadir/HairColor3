@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Aug 26 21:33:35 PDT 2017
+#Sat Aug 26 23:13:26 PDT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\notification_template_lines_media.xml
 14.set=ANDROID_RESOURCE
