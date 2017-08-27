@@ -131,15 +131,22 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         // Update TX characteristic value.  Note the setValue overload that takes a byte array must be used.
         tx.setValue(data);
         writeInProgress = true; // Set the write in progress flag
+        Log.d("Debug", "Before writeCharacteristic");
         gatt.writeCharacteristic(tx);
+
         // ToDo: Update to include a timeout in case this goes into the weeds
+        Log.d("Debug", "Before writeInProgress " + Boolean.toString(writeInProgress));
         while (writeInProgress); // Wait for the flag to clear in onCharacteristicWrite
+        Log.d("Debug", "After writeInProgress" + Boolean.toString(writeInProgress));
     }
 
     // Send data to connected UART device.
     public void send(String data) {
         if (data != null && !data.isEmpty()) {
+            Log.d("Debug", "in the send 1");
             send(data.getBytes(Charset.forName("UTF-8")));
+        } else {
+            Log.d("Debug", "out of the send 1");
         }
     }
 
@@ -278,7 +285,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         desc.setValue(BluetoothGattDescriptor.ENABLE_NOTIFICATION_VALUE);
         if (!gatt.writeDescriptor(desc)) {
             // Stop if the client descriptor could not be written.
-            Log.d(LOG_TAG, "ENEBALE NOTIFICA" );
+            Log.d(LOG_TAG, "ENABLE NOTIFICATION" );
             connectFailure();
             return;
         }
@@ -318,13 +325,14 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
 
     @Override
     public void onCharacteristicWrite(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic, int status) {
-        Log.d(LOG_TAG, "Chr write: " );
+        Log.d("Debug", "Chr write: " );
         super.onCharacteristicWrite(gatt, characteristic, status);
 
         if (status == BluetoothGatt.GATT_SUCCESS) {
-            Log.d(LOG_TAG,"Characteristic write successful");
+            Log.d("Debug","Characteristic write successful");
+            writeInProgress = false;
         }
-        writeInProgress = false;
+
     }
 
     @Override

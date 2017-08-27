@@ -3,165 +3,174 @@
 
     <item
         is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/5c3cd5b5115d766e733732683a3f410891cc9157/output/jars/classes.jar"
+        jar="C:\Users\kadir\.android\build-cache\ccf67d5c269287d9f6aae27aadcadb1c86cdd5d9\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_20f457e0f62348d92dc44f33e3c1aae535f4045a.jar" />
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_858041e718d539c9a9151f7be41ae818497d4be3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/kerturkx/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.8.1/bc373fb6bc7bca3035041b924f158fd2b946ee8d/butterknife-annotations-8.8.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.8.1_77a7578396f814ba73e41708e4cc38c700ef1ea4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/2874364a5f2f092810a2d9c3188baad763f02494/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_e5841e49efdfb8b54c7a39c639d930a17a31f6fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/eb33cc96dd94dc8732b96f5c305ee9558e10b51d/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_e890d1e39dc9b073a7979705772ac98aba415267.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/ae2d8e1e00ecea37da4ca9b4512ddcae247a4e46/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_5ee62a7c4dc0d4db8007a072167c41b7e3d11062.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/a89276e74cbb7e320e31cbdb6b535c2a2c0e25cc/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e51c2f662bb72419632af5192553c37e33890a99">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_917aec8de2c916755f6bf8f1f0cbbf1535ed6bfa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/9b96b21be84e6c82f0d0dcb6c62a8eafc3a95b5c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_87ef5f58250fea29333b711933cb69155cd71f1b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/2e7d204c88457211dae3628234e54ab231b6511a/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_8aa98a2822996d16d4506ad72f25e318dae7eac0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/ac4ea60281b04ea9dcca03f47db19bafad959a0f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_a13eb6ea099e8137b143e78c7a2c8cdcb186e8d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/7c96e0cb99a440f235d760094cf30434cf1cb4c4/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_827c039c916a647fb3e255bc3840d783efd7f0fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/libsvm/libsvm.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7c5d53930d63e452fd870a01bdf8c001cc0c9670">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/libsvm_5f26e4ae652811768e49d3ae5db200369d8762a8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_033739ef90e4d5fdace1d75c7f335c68fa968e8d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/03283949ec2f9e140310c5adc1ccdaf22b6a92f5/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_46b640216026afcad9bb3ed72de3876d6e7d50ec.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/6ece5f81d2563d694b54384bbc3f2c1facbc82de/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_14d87162fc7274d71d2d53ccf5c0d4f6c0b4379b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/6844291f48b67c29f1940e87974540b545bcfc2c/output/jars/classes.jar"
+        jar="C:\Users\kadir\.android\build-cache\5d1ba2ee92a0ca919df08b11622deff913d66515\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_41ee786b528e9fbe3bdeacb9dd9c5611367bf729.jar" />
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_22e6134c0798ded2c05346eb078d680bcff3b022.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/kerturkx/.android/build-cache/3e99ecc2e10d7ebd988a843455f0b57e19a4c2c5/output/jars/classes.jar"
+        jar="C:\Users\kadir\.android\build-cache\5975105fdd123c5601f07edc69899f15ca68a582\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/classes_b3160a8f3756d0a5aa3746a228e37dc63db3398b.jar" />
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_94757de9b65c56be22bf977e3e5138cb62146b37.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/kerturkx/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jar="C:\Users\kadir\.android\build-cache\8f03056a2286f32eec65e1cd98d663f8843a94f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_05dab22d477e55ca5e1ffde319339cd3546a39d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\eventbus-3.0.0_5889ce34d5b371681103de78a50f8951ab6838b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_4ebbb17ea7f09a06ba077036767d83f0a0a8d591.jar" />
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_0ea878919d71577a9a7e4172d6d7a5527338282f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/kerturkx/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jar="C:\Users\kadir\.android\build-cache\5a15632574404222a6e9e1743d1f64af363dbea3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_ac7104f95acb22a28ae1b69e37f681ed9ca2e22e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\bdc09ca44567606631288281be70eb67827f47b5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_e1525a1d5e184918026f7ef32dd7897ebf714b2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\HairColor\HairColor3\libsvm\libsvm.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7c5d53930d63e452fd870a01bdf8c001cc0c9670">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\libsvm_33501e4f9b41e33b75c4a742556c01b8085b3b9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_0942d360e34fb052667f6a5577742957ab3568c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.0\support-annotations-25.3.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_85d1c895256273d69e0cd104003acd7c58a88757.jar" />
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.0_b4aa6e3c0e00b9a0955ec59533b629e7fef99bf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\2399a2b58d070589b030e552b1f263e03f7d82b1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_9f3c27592d18e3e2f3a4d2942e68fd09acf18c18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\34d226bd6e01ba37ab4754f68f96234f5acbb683\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_6d775238459bf9e367cb77349d76de578c9a5aee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\ce8ed86d43dc59e9a8cc9eb03868d1c37bc00fba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_d3db1e89b77dfe16839ff2c2ad1dd5c7cdad13c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_4baa4773ccd5be8661b1034f9491c9541fc3b1c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\0a5fef6f7f02afd5c1d218f83be65d108fb309b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_7bb7e2d7d75dd8f2aeed631b1debe1318bd5d891.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\0f850cc3919f8e891abf79a1c1b01cf63193873a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_ca16542cb43ff0c3d368dab10a2f5eaa4fd03894.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.android\build-cache\6d4b3f9a200acd892f4446da35f7b057a88965ac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\classes_a39af4f651fff1978555395374362928d0dc4770.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\kadir\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.8.1_07e2c67f7a9069ed010a6b5f906be676c3e6869b.jar" />
     </item>
 
 </items>

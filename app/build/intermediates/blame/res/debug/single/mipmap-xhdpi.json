@@ -1,74 +1,110 @@
 [
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_lock_bk.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/ic_lock_bk.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_check.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/ic_check.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock_bk.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock_bk.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_email_bk.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_email_bk.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_ble.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_ble.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_qr_code.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_qr_code.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_back.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_back.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_ble.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/ic_ble.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock_bk.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock_bk.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_email_bk.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/ic_email_bk.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\sing_upemail.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\sing_upemail.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_ble.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_ble.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_back.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/ic_back.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_check.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_check.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_email_bk.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_email_bk.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/sing_upemail.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/sing_upemail.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_check.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_check.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_email_bk.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_email_bk.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_qr_code.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_qr_code.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_lock.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/ic_lock.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_back.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_back.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock_bk.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock_bk.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_ble.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_ble.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_ble.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_ble.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_back.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_back.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_email_bk.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_email_bk.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_qr_code.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/mipmap-xhdpi/ic_qr_code.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\sing_upemail.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\sing_upemail.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_check.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_check.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock_bk.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock_bk.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_check.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_check.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\sing_upemail.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\sing_upemail.png"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\sing_upemail.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\sing_upemail.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_qr_code.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_qr_code.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_qr_code.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_qr_code.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_lock.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_lock.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_back.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\mipmap-xhdpi\\ic_back.png"
     }
 ]

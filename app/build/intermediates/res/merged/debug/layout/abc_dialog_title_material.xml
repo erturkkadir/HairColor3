@@ -27,7 +27,7 @@ enabled.
         android:fitsSystemWindows="true">
 
     <TextView
-            android:id="@+id/top_title"
+            android:id="@+id/title"
             style="?android:attr/windowTitleStyle"
             android:singleLine="true"
             android:ellipsize="end"

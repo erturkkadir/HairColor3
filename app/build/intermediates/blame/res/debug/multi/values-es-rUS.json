@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml",
+        "outputFile": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 170
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 278
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 401
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 510
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 618
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 703
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 804
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 927
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1012
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1094
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1176
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1288
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1400
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1501
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1609
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1716
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1823
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 1945
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 2045
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 2127
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 2228
                 },
                 "from": {
-                    "file": "/Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/res/values-es-rUS/values-es-rUS.xml",
+                    "file": "C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -404,7 +404,7 @@
         ]
     },
     {
-        "outputFile": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
+        "outputFile": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
         "map": [
             {
                 "to": {
@@ -415,7 +415,7 @@
                     "endOffset": 220
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -434,7 +434,7 @@
                     "endOffset": 328
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 451
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -472,7 +472,7 @@
                     "endOffset": 560
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -491,7 +491,7 @@
                     "endOffset": 668
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -510,7 +510,7 @@
                     "endOffset": 753
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -529,7 +529,7 @@
                     "endOffset": 854
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -548,7 +548,7 @@
                     "endOffset": 977
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -567,7 +567,7 @@
                     "endOffset": 1062
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -586,7 +586,7 @@
                     "endOffset": 1144
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -605,7 +605,7 @@
                     "endOffset": 1226
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -624,7 +624,7 @@
                     "endOffset": 1338
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -643,7 +643,7 @@
                     "endOffset": 1450
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -662,7 +662,7 @@
                     "endOffset": 1551
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -681,7 +681,7 @@
                     "endOffset": 1659
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -700,7 +700,7 @@
                     "endOffset": 1766
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -719,7 +719,7 @@
                     "endOffset": 1873
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -738,7 +738,7 @@
                     "endOffset": 1995
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -757,7 +757,7 @@
                     "endOffset": 2095
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -776,7 +776,7 @@
                     "endOffset": 2205
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -795,7 +795,7 @@
                     "endOffset": 2403
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -814,7 +814,7 @@
                     "endOffset": 2537
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -833,7 +833,7 @@
                     "endOffset": 2647
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -852,7 +852,7 @@
                     "endOffset": 2867
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -871,7 +871,7 @@
                     "endOffset": 3000
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -890,7 +890,7 @@
                     "endOffset": 3135
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -909,7 +909,7 @@
                     "endOffset": 3340
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\ed87543c644cf5eaab7c34c115266461ceb42515\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\ed87543c644cf5eaab7c34c115266461ceb42515\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -928,7 +928,7 @@
                     "endOffset": 3570
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -947,7 +947,7 @@
                     "endOffset": 3681
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 0,
@@ -966,7 +966,7 @@
                     "endOffset": 3882
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 0,
@@ -985,7 +985,7 @@
                     "endOffset": 4017
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -1004,7 +1004,7 @@
                     "endOffset": 4253
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -1023,7 +1023,7 @@
                     "endOffset": 4461
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -1042,7 +1042,7 @@
                     "endOffset": 4561
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -1061,7 +1061,7 @@
                     "endOffset": 4653
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -1080,7 +1080,7 @@
                     "endOffset": 4760
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\4162217a74b8881ab3a08ab215d7c9cb23e7cfd3\\output\\res\\values-es-rUS\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -1099,7 +1099,7 @@
                     "endOffset": 4842
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1118,7 +1118,411 @@
                     "endOffset": 4943
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2132,
+                        "endColumn": 100,
+                        "endOffset": 2228
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rUS\\values-es-rUS.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 119,
+                    "endOffset": 170
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 119,
+                        "endOffset": 170
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 175,
+                    "endColumn": 107,
+                    "endOffset": 278
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 175,
+                        "endColumn": 107,
+                        "endOffset": 278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 283,
+                    "endColumn": 122,
+                    "endOffset": 401
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 283,
+                        "endColumn": 122,
+                        "endOffset": 401
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 406,
+                    "endColumn": 108,
+                    "endOffset": 510
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 406,
+                        "endColumn": 108,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 515,
+                    "endColumn": 107,
+                    "endOffset": 618
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 515,
+                        "endColumn": 107,
+                        "endOffset": 618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 623,
+                    "endColumn": 84,
+                    "endOffset": 703
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 623,
+                        "endColumn": 84,
+                        "endOffset": 703
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 708,
+                    "endColumn": 100,
+                    "endOffset": 804
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 708,
+                        "endColumn": 100,
+                        "endOffset": 804
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 809,
+                    "endColumn": 122,
+                    "endOffset": 927
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 809,
+                        "endColumn": 122,
+                        "endOffset": 927
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 932,
+                    "endColumn": 84,
+                    "endOffset": 1012
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 932,
+                        "endColumn": 84,
+                        "endOffset": 1012
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1017,
+                    "endColumn": 81,
+                    "endOffset": 1094
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1017,
+                        "endColumn": 81,
+                        "endOffset": 1094
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1099,
+                    "endColumn": 81,
+                    "endOffset": 1176
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1099,
+                        "endColumn": 81,
+                        "endOffset": 1176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1181,
+                    "endColumn": 111,
+                    "endOffset": 1288
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1181,
+                        "endColumn": 111,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1293,
+                    "endColumn": 111,
+                    "endOffset": 1400
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1293,
+                        "endColumn": 111,
+                        "endOffset": 1400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1405,
+                    "endColumn": 100,
+                    "endOffset": 1501
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1405,
+                        "endColumn": 100,
+                        "endOffset": 1501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1506,
+                    "endColumn": 107,
+                    "endOffset": 1609
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1506,
+                        "endColumn": 107,
+                        "endOffset": 1609
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1614,
+                    "endColumn": 106,
+                    "endOffset": 1716
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1614,
+                        "endColumn": 106,
+                        "endOffset": 1716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1721,
+                    "endColumn": 106,
+                    "endOffset": 1823
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1721,
+                        "endColumn": 106,
+                        "endOffset": 1823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1828,
+                    "endColumn": 121,
+                    "endOffset": 1945
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1828,
+                        "endColumn": 121,
+                        "endOffset": 1945
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1950,
+                    "endColumn": 99,
+                    "endOffset": 2045
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1950,
+                        "endColumn": 99,
+                        "endOffset": 2045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2050,
+                    "endColumn": 81,
+                    "endOffset": 2127
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2050,
+                        "endColumn": 81,
+                        "endOffset": 2127
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2132,
+                    "endColumn": 100,
+                    "endOffset": 2228
+                },
+                "from": {
+                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\values-es-rUS\\values-es-rUS.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

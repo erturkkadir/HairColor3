@@ -37,10 +37,16 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.fragments.ReadFragment;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -49,7 +55,7 @@ import static com.syshuman.kadir.haircolor3.R.id.btnBLE;
 
 public class MainActivity extends AppCompatActivity implements BluetoothLeUart.Callback, ReadFragment.OnFragmentInteractionListener {
 
-    String messages, readStr, ble_status="No connection";
+    String messages, readStr="", ble_status="No connection";
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
     private BluetoothLeUart uart;
     private Context context;
@@ -107,6 +113,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
     }
 
+
     public void getCompanies() {spCompanies = (Spinner) findViewById(R.id.spCompany);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.companies, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -130,6 +137,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onZone1Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            Log.d("Debug", "Sent 1");
             firstSound.start();
             uart.send("1"); // Tell Arduino to read
             }
@@ -140,6 +148,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         public void onClick(View view) {
             firstSound.start();
             uart.send("2"); // Tell Arduino to read
+            Log.d("Debug", "Sent 2");
         }
     };
 
@@ -231,10 +240,18 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         writeLine("\nScanning for device... ");
         uart.registerCallback(this);
         uart.connectFirstAvailable();
+        if(!EventBus.getDefault().isRegistered(this))  EventBus.getDefault().register(this);
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
     }
 
     @Override
     protected void onStop() {
+        EventBus.getDefault().unregister(this);
         super.onStop();
         uart.unregisterCallback(this);
         uart.disconnect();
@@ -305,32 +322,36 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                String r_r = str.substring(str.indexOf("r_r") + 1, str.indexOf("r_g"));
-                String r_g = str.substring(str.indexOf("r_g") + 1, str.indexOf("r_b"));
-                String r_b = str.substring(str.indexOf("r_b") + 1, str.indexOf("r_c"));
-                String r_c = str.substring(str.indexOf("r_c") + 1, str.indexOf("g_r"));
+                String r_r = str.substring(str.indexOf("r_r") + 3, str.indexOf("r_g"));
+                String r_g = str.substring(str.indexOf("r_g") + 3, str.indexOf("r_b"));
+                String r_b = str.substring(str.indexOf("r_b") + 3, str.indexOf("r_c"));
+                String r_c = str.substring(str.indexOf("r_c") + 3, str.indexOf("g_r"));
 
-                String g_r = str.substring(str.indexOf("g_r") + 1, str.indexOf("g_g"));
-                String g_g = str.substring(str.indexOf("g_g") + 1, str.indexOf("g_b"));
-                String g_b = str.substring(str.indexOf("g_b") + 1, str.indexOf("g_c"));
-                String g_c = str.substring(str.indexOf("g_c") + 1, str.indexOf("b_r"));
+                String g_r = str.substring(str.indexOf("g_r") + 3, str.indexOf("g_g"));
+                String g_g = str.substring(str.indexOf("g_g") + 3, str.indexOf("g_b"));
+                String g_b = str.substring(str.indexOf("g_b") + 3, str.indexOf("g_c"));
+                String g_c = str.substring(str.indexOf("g_c") + 3, str.indexOf("b_r"));
 
-                String b_r = str.substring(str.indexOf("b_r") + 1, str.indexOf("b_g"));
-                String b_g = str.substring(str.indexOf("b_g") + 1, str.indexOf("b_b"));
-                String b_b = str.substring(str.indexOf("b_b") + 1, str.indexOf("b_c"));
-                String b_c = str.substring(str.indexOf("b_c") + 1, str.indexOf("a_r"));
+                String b_r = str.substring(str.indexOf("b_r") + 3, str.indexOf("b_g"));
+                String b_g = str.substring(str.indexOf("b_g") + 3, str.indexOf("b_b"));
+                String b_b = str.substring(str.indexOf("b_b") + 3, str.indexOf("b_c"));
+                String b_c = str.substring(str.indexOf("b_c") + 3, str.indexOf("a_r"));
 
-                String a_r = str.substring(str.indexOf("a_r") + 1, str.indexOf("a_g"));
-                String a_g = str.substring(str.indexOf("a_g") + 1, str.indexOf("a_b"));
-                String a_b = str.substring(str.indexOf("a_b") + 1, str.indexOf("a_c"));
-                String a_c = str.substring(str.indexOf("a_c") + 1, str.indexOf("e_e"));
+                String a_r = str.substring(str.indexOf("a_r") + 3, str.indexOf("a_g"));
+                String a_g = str.substring(str.indexOf("a_g") + 3, str.indexOf("a_b"));
+                String a_b = str.substring(str.indexOf("a_b") + 3, str.indexOf("a_c"));
+                String a_c = str.substring(str.indexOf("a_c") + 3, str.indexOf("chr"));
+
+                String zone = str.substring(str.indexOf("chr") + 3, str.indexOf("pow"));
+                String power = str.substring(str.indexOf("pow") + 3, str.indexOf("|"));
 
                 String company = spCompanies.getSelectedItem().toString();
                 lastSound.start();
+                String catalog = "Natural";
 
                 RestServer restServer = new RestServer(context);
 
-                restServer.getColor(txtZone1, company, "Natural",
+                restServer.getColor3(company, catalog, zone, power,
                         r_r, r_g, r_b, r_c,
                         g_r, g_g, g_b, g_c,
                         b_r, b_g, b_b, b_c,
@@ -402,9 +423,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
                 int id = item.getItemId();
                 if (id == R.id.nav_camera) {
-                    Log.d("Debug", "Nav Camera");
+                    Log.d("Debug", "Battery Level");
                 } else if (id == R.id.nav_gallery) {
-                    Log.d("Debug", "Nav Gallery");
+                    Log.d("Debug", "Reset Device");
                 } else if (id == R.id.nav_slideshow) {
                     Log.d("Debug", "Nav Slideshow");
                 } else if (id == R.id.nav_manage) {
@@ -425,4 +446,11 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     public void onFragmentInteraction(String color1, String delta1, String color2, String delta2) {
 
     }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(MessageEvents.onGetColor event) {
+        Toast.makeText(context, event.color + event.zone, Toast.LENGTH_LONG).show();
+
+    }
+
 }
