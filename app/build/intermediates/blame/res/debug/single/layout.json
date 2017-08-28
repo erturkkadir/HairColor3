@@ -1,1063 +1,239 @@
 [
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\activity_about.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/nav_header_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/nav_header_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\graph_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\graph_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_read.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_read.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_forgot.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_forgot.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_settings.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\content_settings.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_settings.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\content_settings.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_login.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\activity_device.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_login.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_read.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_read.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\activity_settings.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\fragment_register.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_device.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\content_device.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_training.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/content_training.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_register.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_register.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_device.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\content_device.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/notification_template_part_time.xml"
-    },
-    {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/app_bar_main.xml",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/app_bar_main.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_login.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\fragment_login.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_device.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\content_device.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_trainig.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\activity_trainig.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_settings.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/content_settings.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_boarding.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\activity_boarding.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_layout_tab_text.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\app_bar_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\activity_device.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_training.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\content_training.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_boarding.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\fragment_boarding.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_device.xml",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_device.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_register.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\activity_device.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forgot.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_forgot.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\fragment_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_login.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_login.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_boarding.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\activity_boarding.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_trainig.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\activity_trainig.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_about.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\content_about.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\content_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_about.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/content_about.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_training.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\content_training.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\app_bar_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\app_bar_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_boarding.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_boarding.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_navigation_item_separator.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_navigation_item_header.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_about.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_settings.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_read.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\fragment_read.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_about.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\content_about.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_device.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/content_device.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_trainig.xml",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_trainig.xml"
     },
     {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_navigation_menu.xml"
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\activity_about.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/nav_header_main.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/nav_header_main.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_boarding.xml",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_boarding.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/notification_template_media_custom.xml"
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/notification_template_media_custom.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_boarding.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\activity_boarding.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_register.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_register.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_select_dialog_material.xml"
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_read.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_read.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_login.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_login.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_search_view.xml"
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forgot.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\fragment_forgot.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_forgot.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_forgot.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_screen_toolbar.xml"
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_settings.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/content_settings.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_main.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_layout_snackbar.xml"
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\nav_header_main.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/select_dialog_multichoice_material.xml"
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_about.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/content_about.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_boarding.xml",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_boarding.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_forgot.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_forgot.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_navigation_item_subheader.xml"
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\activity_settings.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_alert_dialog_title_material.xml"
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_training.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/content_training.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/fragment_register.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_about.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_about.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
-        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/layout/design_navigation_menu_item.xml"
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_read.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_read.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\0bb78f7fdfc1bbc2f34b2c0f663d971da22b03f9\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_main.xml",
@@ -1065,22 +241,38 @@
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/res/layout/abc_expanded_menu_layout.xml"
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_boarding.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\layout\\fragment_boarding.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/activity_settings.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/activity_settings.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\ae957e70feb95edadc00f30c69584a7254d8eb7c\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\e2f2368a6c3ddfd9d9da82a85d9194d558535546\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/content_device.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/layout/content_device.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/layout/notification_template_part_time.xml"
     }
 ]

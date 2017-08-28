@@ -462,4 +462,63 @@ public class RestServer {
     }
 
 
+    public void getTrainData(String fileName) {
+
+
+        String url = "http://hcapi.free-estimation.com/api/v1/users/gettraindata";
+
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>(){
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+
+                            JSONObject json = new JSONObject(response);
+                            String statusCode = json.getString("status_code");
+                            String message = json.getString("message");
+
+                            JSONArray jsonArray = json.getJSONArray("data");
+                            JSONObject inner = new JSONObject(jsonArray.get(0).toString() );
+                            String recipe = inner.getString("cn_recipe");
+
+                            if(message.equals("Success")) {
+                                EventBus.getDefault().post( new MessageEvents.onGetRecipe(recipe) );
+                                Toast.makeText(context, "Recipe obtained from server...", Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "Please double check username and password", Toast.LENGTH_LONG).show();
+                    }
+                }){
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+
+
+                return params;
+            }
+
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("um_token", "6efcfbb2b37a61edd0fce33001aab6cc");
+                //params.put("upass", upass);
+                return params;
+            }
+
+        };
+
+        RequestQueue _requestQueue = Volley.newRequestQueue(context);
+        _requestQueue.add(stringRequest);
+    }
+
 }

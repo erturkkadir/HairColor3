@@ -39,6 +39,7 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
     private String readStr = "", ble_status="No connection";
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
     private Context context;
+    private boolean silent=true;
 
     @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.spTCompany) Spinner spTCompany;
@@ -97,7 +98,7 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
     View.OnClickListener btnTrainOnClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            firstSound.start();
+            if(!silent) firstSound.start();
             uart.send("1");
         }
     };
@@ -257,8 +258,8 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
                 String catalog = spTCatalog.getSelectedItem().toString();
                 String color = spTColor.getSelectedItem().toString();
 
-                firstSound.stop();
-                lastSound.start();
+                if(!silent) firstSound.stop();
+                if(!silent) lastSound.start();
 
                 RestServer restServer = new RestServer(context);
                 restServer.train(context,

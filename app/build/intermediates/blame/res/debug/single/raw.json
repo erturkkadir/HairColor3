@@ -1,27 +1,7 @@
 [
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep04.mp3",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\raw\\beep04.mp3"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\model.svm",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\raw\\model.svm"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep04.mp3",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\raw\\beep04.mp3"
-    },
-    {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/model.svm",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/model.svm"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep04.mp3",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\raw\\beep04.mp3"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep07.mp3",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\raw\\beep07.mp3"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/beep04.mp3",
@@ -30,21 +10,5 @@
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/beep07.mp3",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/beep07.mp3"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep07.mp3",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\raw\\beep07.mp3"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\model.svm",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\src\\main\\res\\raw\\model.svm"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\model.svm",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\raw\\model.svm"
-    },
-    {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep07.mp3",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\src\\main\\res\\raw\\beep07.mp3"
     }
 ]

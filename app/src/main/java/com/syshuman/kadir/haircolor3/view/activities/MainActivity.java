@@ -51,6 +51,8 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import libsvm.svm;
+import libsvm.svm_model;
 
 import static com.syshuman.kadir.haircolor3.R.id.btnBLE;
 import static com.syshuman.kadir.haircolor3.R.id.btnGetRecipe;
@@ -79,6 +81,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     @BindView(R.id.btnBLE) FloatingActionButton btnBLE;
     @BindView(R.id.spCompany) Spinner spCompanies;
     @BindView(R.id.toolbar) Toolbar toolbar;
+
+    private Boolean silent = true;
+
     RestServer restServer;
 
     private MediaPlayer firstSound, lastSound;
@@ -104,6 +109,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
         NavAndDraw();
 
+
         btnZone1.setOnClickListener(onZone1Click);
         btnZone2.setOnClickListener(onZone2Click);
         btnZone3.setOnClickListener(onZone3Click);
@@ -118,14 +124,19 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             }
         });
 
-        getCompanies();
-
         restServer = new RestServer(context);
+
+        getInitialData();
+
+
+
+
 
     }
 
 
-    public void getCompanies() {spCompanies = (Spinner) findViewById(R.id.spCompany);
+    public void getInitialData() {
+        spCompanies = (Spinner) findViewById(R.id.spCompany);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.companies, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spCompanies.setAdapter(adapter);
@@ -149,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         @Override
         public void onClick(View view) {
             Log.d("Debug", "Sent 1");
-            firstSound.start();
+            if(!silent) firstSound.start();
             uart.send("1"); // Tell Arduino to read
             zone = 1;
             }
@@ -158,7 +169,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onZone2Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            firstSound.start();
+            if(!silent)  firstSound.start();
             uart.send("2"); // Tell Arduino to read
             Log.d("Debug", "Sent 2");
             zone = 2;
@@ -168,7 +179,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onZone3Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            firstSound.start();
+            if(!silent) firstSound.start();
             uart.send("3"); // Tell Arduino to read
             zone = 3;
         }
@@ -177,7 +188,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onTargetClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            firstSound.start();
+            if(!silent)  firstSound.start();
             uart.send("4"); // Tell Arduino to read
             zone = 4;
         }
@@ -186,8 +197,8 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onGetRecipeListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            firstSound.start();
 
+            if(!silent) firstSound.start();
             restServer.getRecipe(txtZone1.getText().toString(), txtZone2.getText().toString(), txtZone3.getText().toString(), txtTarget.getText().toString());
         }
     };
@@ -370,7 +381,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                 String power = str.substring(str.indexOf("pow") + 3, str.indexOf("|"));
 
                 String company = spCompanies.getSelectedItem().toString();
-                lastSound.start();
+                if(!silent) lastSound.start();
                 String catalog = "Natural";
 
                 RestServer restServer = new RestServer(context);
