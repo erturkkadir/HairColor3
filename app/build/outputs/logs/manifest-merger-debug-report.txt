@@ -96,16 +96,16 @@ ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/An
 application
 ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:35:5-71:19
 MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] /Users/kerturkx/.android/build-cache/2874364a5f2f092810a2d9c3188baad763f02494/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/kerturkx/.android/build-cache/6ece5f81d2563d694b54384bbc3f2c1facbc82de/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/kerturkx/.android/build-cache/2e7d204c88457211dae3628234e54ab231b6511a/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /Users/kerturkx/.android/build-cache/a89276e74cbb7e320e31cbdb6b535c2a2c0e25cc/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /Users/kerturkx/.android/build-cache/6844291f48b67c29f1940e87974540b545bcfc2c/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/kerturkx/.android/build-cache/7c96e0cb99a440f235d760094cf30434cf1cb4c4/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/kerturkx/.android/build-cache/3e99ecc2e10d7ebd988a843455f0b57e19a4c2c5/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/kerturkx/.android/build-cache/ac4ea60281b04ea9dcca03f47db19bafad959a0f/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/kerturkx/.android/build-cache/eb33cc96dd94dc8732b96f5c305ee9558e10b51d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.3.0] /Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/kerturkx/.android/build-cache/c335ba65b1bebebaccdc07b60050fa00e216ae71/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/kerturkx/.android/build-cache/0188a3756aba98528831f8248e4c28824a09af88/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.0] /Users/kerturkx/.android/build-cache/2ac3cb34a1a6da80fb01bae3b1b7afde0f484d79/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.0] /Users/kerturkx/.android/build-cache/fcd54934800af2cd0e878a5a4d09476ee4b1e310/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/kerturkx/.android/build-cache/c677536c2a5f07245e84215a3f92e0c03d2d23ba/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/kerturkx/.android/build-cache/75a3722289117f0302afdb5b83c5f0b71a9bff97/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/kerturkx/.android/build-cache/d176cc91e363fbe44d45e3cc2a2ec64eff4734be/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/kerturkx/.android/build-cache/c29c9a61da7cec944dba4e0193e43db1e50e2a89/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.0] /Users/kerturkx/.android/build-cache/9b96b21be84e6c82f0d0dcb6c62a8eafc3a95b5c/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kerturkx/.android/build-cache/5c3cd5b5115d766e733732683a3f410891cc9157/output/AndroidManifest.xml:9:5-20
 	android:label
@@ -180,21 +180,21 @@ uses-sdk
 INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:7:5-43
 MERGED from [com.jakewharton:butterknife:8.8.1] /Users/kerturkx/.android/build-cache/03283949ec2f9e140310c5adc1ccdaf22b6a92f5/output/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:design:25.2.0] /Users/kerturkx/.android/build-cache/2874364a5f2f092810a2d9c3188baad763f02494/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/kerturkx/.android/build-cache/ae957e70feb95edadc00f30c69584a7254d8eb7c/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/kerturkx/.android/build-cache/6ece5f81d2563d694b54384bbc3f2c1facbc82de/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/kerturkx/.android/build-cache/2e7d204c88457211dae3628234e54ab231b6511a/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/kerturkx/.android/build-cache/ae2d8e1e00ecea37da4ca9b4512ddcae247a4e46/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /Users/kerturkx/.android/build-cache/a89276e74cbb7e320e31cbdb6b535c2a2c0e25cc/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] /Users/kerturkx/.android/build-cache/6844291f48b67c29f1940e87974540b545bcfc2c/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/kerturkx/.android/build-cache/7c96e0cb99a440f235d760094cf30434cf1cb4c4/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/kerturkx/.android/build-cache/3e99ecc2e10d7ebd988a843455f0b57e19a4c2c5/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/kerturkx/.android/build-cache/ac4ea60281b04ea9dcca03f47db19bafad959a0f/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/kerturkx/.android/build-cache/eb33cc96dd94dc8732b96f5c305ee9558e10b51d/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:design:25.3.0] /Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/kerturkx/.android/build-cache/c335ba65b1bebebaccdc07b60050fa00e216ae71/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/kerturkx/.android/build-cache/0188a3756aba98528831f8248e4c28824a09af88/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/kerturkx/.android/build-cache/56d403a928cbaf95635353c506800aa28cf49161/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.0] /Users/kerturkx/.android/build-cache/2ac3cb34a1a6da80fb01bae3b1b7afde0f484d79/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.0] /Users/kerturkx/.android/build-cache/fcd54934800af2cd0e878a5a4d09476ee4b1e310/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/kerturkx/.android/build-cache/c677536c2a5f07245e84215a3f92e0c03d2d23ba/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/kerturkx/.android/build-cache/75a3722289117f0302afdb5b83c5f0b71a9bff97/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/kerturkx/.android/build-cache/d176cc91e363fbe44d45e3cc2a2ec64eff4734be/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/kerturkx/.android/build-cache/c29c9a61da7cec944dba4e0193e43db1e50e2a89/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.0] /Users/kerturkx/.android/build-cache/9b96b21be84e6c82f0d0dcb6c62a8eafc3a95b5c/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kerturkx/.android/build-cache/5c3cd5b5115d766e733732683a3f410891cc9157/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /Users/kerturkx/.android/build-cache/2874364a5f2f092810a2d9c3188baad763f02494/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.0] /Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
@@ -202,8 +202,19 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kert
 		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-compat:25.3.0] /Users/kerturkx/.android/build-cache/9b96b21be84e6c82f0d0dcb6c62a8eafc3a95b5c/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.0] /Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.0] /Users/kerturkx/.android/build-cache/7c1a6fc48fa412437e067e84e3a216322ca81890/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.0] /Users/kerturkx/.android/build-cache/c335ba65b1bebebaccdc07b60050fa00e216ae71/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.0] /Users/kerturkx/.android/build-cache/0188a3756aba98528831f8248e4c28824a09af88/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.0] /Users/kerturkx/.android/build-cache/56d403a928cbaf95635353c506800aa28cf49161/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.0] /Users/kerturkx/.android/build-cache/2ac3cb34a1a6da80fb01bae3b1b7afde0f484d79/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] /Users/kerturkx/.android/build-cache/fcd54934800af2cd0e878a5a4d09476ee4b1e310/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] /Users/kerturkx/.android/build-cache/c677536c2a5f07245e84215a3f92e0c03d2d23ba/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] /Users/kerturkx/.android/build-cache/75a3722289117f0302afdb5b83c5f0b71a9bff97/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] /Users/kerturkx/.android/build-cache/d176cc91e363fbe44d45e3cc2a2ec64eff4734be/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] /Users/kerturkx/.android/build-cache/c29c9a61da7cec944dba4e0193e43db1e50e2a89/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] /Users/kerturkx/.android/build-cache/9b96b21be84e6c82f0d0dcb6c62a8eafc3a95b5c/output/AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:support-compat:25.3.0] /Users/kerturkx/.android/build-cache/9b96b21be84e6c82f0d0dcb6c62a8eafc3a95b5c/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.0] /Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:support-compat:25.3.0] /Users/kerturkx/.android/build-cache/9b96b21be84e6c82f0d0dcb6c62a8eafc3a95b5c/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.0] /Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/AndroidManifest.xml:26:9-47

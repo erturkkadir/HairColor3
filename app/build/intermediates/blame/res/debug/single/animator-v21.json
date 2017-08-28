@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\3ab35ce6c0a9eb0a15f63889607b41e88654ecd0\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\2874364a5f2f092810a2d9c3188baad763f02494\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\8d2a8aa8f2ebc2c80aa1dc2dfcb762cfe78bd0c7\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
-        "source": "/Users/kerturkx/.android/build-cache/2874364a5f2f092810a2d9c3188baad763f02494/output/res/animator-v21/design_appbar_state_list_animator.xml"
+        "source": "/Users/kerturkx/.android/build-cache/956d157d324fe0eb537c6e5ec955a423e44e075d/output/res/animator-v21/design_appbar_state_list_animator.xml"
     }
 ]

@@ -1,4 +1,4 @@
-#Mon Aug 21 22:13:19 PDT 2017
-base.0=C\:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+#Sat Aug 26 12:09:22 PDT 2017
+base.0=C\:\\HairColor\\HairColor3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
 renamed.0=classes.dex
-file.0=C\:\\HairColor\\HairColor3C\\HairColor3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex
+file.0=C\:\\HairColor\\HairColor3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex
