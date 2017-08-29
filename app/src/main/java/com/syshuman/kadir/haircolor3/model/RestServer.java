@@ -3,6 +3,7 @@ package com.syshuman.kadir.haircolor3.model;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.pm.PackageManager;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -464,13 +465,14 @@ public class RestServer {
 
     public void getTrainData(String fileName) {
 
-
-        String url = "http://hcapi.free-estimation.com/api/v1/users/gettraindata";
+        String url = "http://hcapi.free-estimation.com/api/v1/users/getTrainData";
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>(){
                     @Override
                     public void onResponse(String response) {
+                        float dFeatures[][];
+                        float dClasses[];
                         try {
 
                             JSONObject json = new JSONObject(response);
@@ -478,6 +480,13 @@ public class RestServer {
                             String message = json.getString("message");
 
                             JSONArray jsonArray = json.getJSONArray("data");
+                            for(int i=0; i<jsonArray.length(); i++) {
+                                String line = jsonArray.getString(i);
+                                //dClasses[i] = Float.valueOf(line.substring(0, line.indexOf(" ")));
+
+                            }
+
+
                             JSONObject inner = new JSONObject(jsonArray.get(0).toString() );
                             String recipe = inner.getString("cn_recipe");
 

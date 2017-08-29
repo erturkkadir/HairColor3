@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Aug 29 08:58:52 PDT 2017
+#Tue Aug 29 14:57:23 PDT 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_chronometer.xml
 14.set=ANDROID_RESOURCE
@@ -226,7 +226,7 @@
 156.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_arrow_forward_black_18dp.png
 240.set=ANDROID_RESOURCE
 285.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media.xml
-131.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility.png
+131.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility_off.png
 181.set=ANDROID_RESOURCE
 44.set=ANDROID_RESOURCE
 260.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_snackbar_include.xml
@@ -305,7 +305,7 @@
 250.set=ANDROID_RESOURCE
 286.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_view_list_nav_layout.xml
 191.set=ANDROID_RESOURCE
-132.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility_off.png
+132.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility.png
 54.set=ANDROID_RESOURCE
 261.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxhdpi-v4/ic_launcher.png
 184.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_search_url_text.xml
