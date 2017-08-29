@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     @BindView(R.id.btnBLE) FloatingActionButton btnBLE;
     @BindView(R.id.spCompany) Spinner spCompanies;
     @BindView(R.id.toolbar) Toolbar toolbar;
+    @BindView(R.id.imgBattery) ImageButton imgBattery;
+    @BindView(R.id.txtBattery) TextView txtBattery;
 
     private Boolean silent = true;
 
@@ -379,6 +381,13 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
                 String zone = str.substring(str.indexOf("chr") + 3, str.indexOf("pow"));
                 String power = str.substring(str.indexOf("pow") + 3, str.indexOf("|"));
+                int pow = Integer.valueOf(power); // 400
+                pow = 100*(pow-340) / (420-340);
+                txtBattery.setText(String.valueOf(pow)+"%");
+                if(pow<50)
+                    imgBattery.setBackgroundColor(Color.RED);
+                else
+                    imgBattery.setBackgroundColor(Color.BLUE);
 
                 String company = spCompanies.getSelectedItem().toString();
                 if(!silent) lastSound.start();

@@ -41,6 +41,8 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.btnBLE = Utils.findRequiredViewAsType(source, R.id.btnBLE, "field 'btnBLE'", FloatingActionButton.class);
     target.spCompanies = Utils.findRequiredViewAsType(source, R.id.spCompany, "field 'spCompanies'", Spinner.class);
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
+    target.imgBattery = Utils.findRequiredViewAsType(source, R.id.imgBattery, "field 'imgBattery'", ImageButton.class);
+    target.txtBattery = Utils.findRequiredViewAsType(source, R.id.txtBattery, "field 'txtBattery'", TextView.class);
   }
 
   @Override
@@ -63,5 +65,7 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.btnBLE = null;
     target.spCompanies = null;
     target.toolbar = null;
+    target.imgBattery = null;
+    target.txtBattery = null;
   }
 }

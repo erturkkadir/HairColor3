@@ -14,10 +14,44 @@
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
+            android:layout_gravity="end"
+            android:gravity="end"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="right"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                >
+
+
+                <ImageButton
+                    android:id="@+id/imgBattery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="-10dp"
+                    android:background="@color/colorAccent"
+                    android:clickable="false"
+                    android:scaleX="0.35"
+                    android:scaleY="0.35"
+                    android:src="@drawable/battery_small" />
+
+                <TextView
+                    android:id="@+id/txtBattery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50%"
+                    android:textColor="@color/white" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>
 
