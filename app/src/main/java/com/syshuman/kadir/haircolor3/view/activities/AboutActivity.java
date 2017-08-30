@@ -1,19 +1,13 @@
 package com.syshuman.kadir.haircolor3.view.activities;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.WebView;
-import android.widget.Button;
-
 import com.syshuman.kadir.haircolor3.R;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

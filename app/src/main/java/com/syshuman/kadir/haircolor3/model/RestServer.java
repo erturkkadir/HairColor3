@@ -3,10 +3,8 @@ package com.syshuman.kadir.haircolor3.model;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageManager;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -16,7 +14,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
-import com.syshuman.kadir.haircolor3.view.activities.DeviceActivity;
 import com.syshuman.kadir.haircolor3.view.activities.MainActivity;
 
 import org.greenrobot.eventbus.EventBus;
@@ -137,7 +134,7 @@ public class RestServer {
                             String statusCode = json.getString("status_code");
                             String message = json.getString("message");
                             if(message.equals("Success")) {
-                                Intent intent = new Intent(context, DeviceActivity.class);
+                                Intent intent = new Intent(context, MainActivity.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 context.startActivity(intent);
                             } else {

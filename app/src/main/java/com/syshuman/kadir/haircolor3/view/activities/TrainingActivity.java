@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.content.ContextCompat;
@@ -22,12 +23,9 @@ import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Spinner;
-import android.widget.TextView;
-
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 import com.syshuman.kadir.haircolor3.model.RestServer;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -35,7 +33,6 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
 
     private BluetoothLeUart uart;
     private MediaPlayer firstSound, lastSound;
-    private String messages;
     private String readStr = "", ble_status="No connection";
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
     private Context context;
@@ -275,7 +272,7 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
 
     @Override
     public void onRequestPermissionsResult(int requestCode,
-                                           String permissions[], int[] grantResults) {
+                                           @NonNull String permissions[], @NonNull int[] grantResults) {
         switch (requestCode) {
             case PERMISSION_REQUEST_COARSE_LOCATION: {
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
@@ -294,7 +291,6 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
                     });
                     builder.show();
                 }
-                return;
             }
         }
     }

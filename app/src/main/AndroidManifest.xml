@@ -52,10 +52,6 @@
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".view.activities.DeviceActivity"
-            android:label="@string/title_activity_device"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
             android:name=".view.activities.TrainingActivity"
             android:label="@string/title_activity_trainig"
             android:theme="@style/AppTheme.NoActionBar" />
