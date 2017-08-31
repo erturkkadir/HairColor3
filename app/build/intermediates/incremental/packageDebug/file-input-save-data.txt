@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Aug 30 20:42:09 PDT 2017
+#Wed Aug 30 20:44:51 PDT 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\abc_popup_menu_item_layout.xml
 14.set=ANDROID_RESOURCE

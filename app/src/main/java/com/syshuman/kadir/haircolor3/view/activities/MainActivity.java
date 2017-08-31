@@ -575,7 +575,13 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                     Log.d("Debug", "Battery Level");
                 } else if (id == R.id.btn_reset) {
                     Log.d("Debug", "Reset Device");
-                    uart.send("8");
+                    runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            uart.send("8");
+                        }
+                    });
+
                 } else if (id == R.id.nav_slideshow) {
                     Log.d("Debug", "Nav Slideshow");
                 } else if (id == R.id.nav_manage) {
