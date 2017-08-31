@@ -3204,6 +3204,7 @@ containing a value of this type.
         public static final int btnZone1=0x7f0f0092;
         public static final int btnZone2=0x7f0f0096;
         public static final int btnZone3=0x7f0f009a;
+        public static final int btn_reset=0x7f0f0102;
         public static final int buttonPanel=0x7f0f0052;
         public static final int cancel_action=0x7f0f00ec;
         public static final int center=0x7f0f002f;
@@ -3309,7 +3310,6 @@ containing a value of this type.
         public static final int mini=0x7f0f003e;
         public static final int multiply=0x7f0f0027;
         public static final int nav_camera=0x7f0f0101;
-        public static final int nav_gallery=0x7f0f0102;
         public static final int nav_manage=0x7f0f0104;
         public static final int nav_send=0x7f0f0106;
         public static final int nav_share=0x7f0f0105;

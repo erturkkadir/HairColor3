@@ -94,8 +94,16 @@
               <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
 =======
             <state relative-caret-position="148">
+<<<<<<< HEAD
+<<<<<<< HEAD
+              <caret line="375" column="0" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+=======
               <caret line="190" column="27" selection-start-line="190" selection-start-column="27" selection-end-line="190" selection-end-column="27" />
 >>>>>>> 591d71c86bd436f02e616b2911183e1a4835ebca
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+=======
+              <caret line="190" column="27" selection-start-line="190" selection-start-column="27" selection-end-line="190" selection-end-column="27" />
+>>>>>>> parent of 0f24573... Home delete
               <folding>
                 <element signature="e#5270#5521#0" expanded="true" />
                 <element signature="e#5520#5521#0" expanded="true" />
@@ -113,6 +121,10 @@
         </entry>
       </file>
 <<<<<<< HEAD
+<<<<<<< HEAD
+      <file leaf-file-name="RestServer.java" pinned="false" current-in-tab="false">
+=======
+<<<<<<< HEAD
       <file leaf-file-name="content_main.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,6 +136,10 @@
           <provider editor-type-id="android-designer2">
 =======
       <file leaf-file-name="RestServer.java" pinned="false" current-in-tab="true">
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+=======
+      <file leaf-file-name="RestServer.java" pinned="false" current-in-tab="true">
+>>>>>>> parent of 0f24573... Home delete
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/model/RestServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -154,10 +170,19 @@
               <folding />
             </state>
           </provider>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
           <provider selected="true" editor-type-id="android-designer2">
 >>>>>>> 591d71c86bd436f02e616b2911183e1a4835ebca
             <state />
           </provider>
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+=======
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+>>>>>>> parent of 0f24573... Home delete
         </entry>
       </file>
       <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
@@ -2725,8 +2750,16 @@
     <editor active="false" />
 =======
     <frame x="-7" y="2" width="1932" height="1045" extended-state="0" />
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <editor active="false" />
+=======
     <editor active="true" />
 >>>>>>> 591d71c86bd436f02e616b2911183e1a4835ebca
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+=======
+    <editor active="true" />
+>>>>>>> parent of 0f24573... Home delete
     <layout>
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2752,10 +2785,18 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40473506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40473506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 =======
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40473506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40473506" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> parent of 0f24573... Home delete
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
 >>>>>>> 591d71c86bd436f02e616b2911183e1a4835ebca
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2768,11 +2809,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25719962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27817994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26517573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+=======
+>>>>>>> parent of 0f24573... Home delete
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3080,7 +3127,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+=======
 >>>>>>> 591d71c86bd436f02e616b2911183e1a4835ebca
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+=======
+>>>>>>> parent of 0f24573... Home delete
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
@@ -3089,6 +3145,9 @@
           </folding>
         </state>
       </provider>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
@@ -3103,6 +3162,15 @@
       </provider>
 =======
       <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/content_about.xml">
+      <provider editor-type-id="android-designer2">
+=======
+      <provider editor-type-id="android-manifest">
+>>>>>>> parent of 0f24573... Home delete
         <state />
       </provider>
     </entry>
@@ -3276,6 +3344,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 0f24573... Home delete
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/syshuman/kadir/haircolor3/model/RestServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -3284,6 +3357,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 >>>>>>> 591d71c86bd436f02e616b2911183e1a4835ebca
+>>>>>>> 8b78f57099ecce75248ca56a82f3e10dee2ec062
+=======
+>>>>>>> parent of 0f24573... Home delete
   </component>
 </project>

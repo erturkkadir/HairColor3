@@ -9,9 +9,9 @@
 
             android:title="How To" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/btn_reset"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Technology" />
+            android:title="Reset" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
