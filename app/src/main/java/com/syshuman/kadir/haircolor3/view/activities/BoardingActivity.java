@@ -10,7 +10,6 @@ import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
-
 import com.syshuman.kadir.haircolor3.model.HairColorUser;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.model.RestServer;

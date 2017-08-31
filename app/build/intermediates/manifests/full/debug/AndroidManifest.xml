@@ -40,7 +40,7 @@
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.0" />
+        android:value="25.3.1" />
 
     <application
         android:allowBackup="true"
@@ -61,10 +61,6 @@
         <activity
             android:name="com.syshuman.kadir.haircolor3.view.activities.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.syshuman.kadir.haircolor3.view.activities.DeviceActivity"
-            android:label="@string/title_activity_device"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.syshuman.kadir.haircolor3.view.activities.TrainingActivity"

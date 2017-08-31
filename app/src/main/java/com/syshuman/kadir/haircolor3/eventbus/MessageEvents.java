@@ -28,4 +28,12 @@ public class MessageEvents {
         }
     }
 
+    public static class onTrainData {
+        public float[][] data;
+
+        public onTrainData(float[][] data) {
+            this.data = data;
+        }
+    }
+
 }

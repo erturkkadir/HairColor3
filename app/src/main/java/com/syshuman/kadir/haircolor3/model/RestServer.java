@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -15,7 +14,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
-import com.syshuman.kadir.haircolor3.view.activities.DeviceActivity;
 import com.syshuman.kadir.haircolor3.view.activities.MainActivity;
 
 import org.greenrobot.eventbus.EventBus;
@@ -136,7 +134,7 @@ public class RestServer {
                             String statusCode = json.getString("status_code");
                             String message = json.getString("message");
                             if(message.equals("Success")) {
-                                Intent intent = new Intent(context, DeviceActivity.class);
+                                Intent intent = new Intent(context, MainActivity.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                                 context.startActivity(intent);
                             } else {
@@ -461,5 +459,72 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
+
+    public void getTrainData(String fileName) {
+
+        String url = "http://hcapi.free-estimation.com/api/v1/users/getTrainData";
+
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>(){
+                    @Override
+                    public void onResponse(String response) {
+                        float dFeatures[][];
+                        float dClasses[];
+                        try {
+
+                            JSONObject json = new JSONObject(response);
+                            String statusCode = json.getString("status_code");
+                            String message = json.getString("message");
+
+                            JSONArray jsonArray = json.getJSONArray("data");
+                            for(int i=0; i<jsonArray.length(); i++) {
+                                String line = jsonArray.getString(i);
+                                //dClasses[i] = Float.valueOf(line.substring(0, line.indexOf(" ")));
+
+                            }
+
+
+                            JSONObject inner = new JSONObject(jsonArray.get(0).toString() );
+                            String recipe = inner.getString("cn_recipe");
+
+                            if(message.equals("Success")) {
+                                EventBus.getDefault().post( new MessageEvents.onGetRecipe(recipe) );
+                                Toast.makeText(context, "Recipe obtained from server...", Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "Please double check username and password", Toast.LENGTH_LONG).show();
+                    }
+                }){
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+
+
+                return params;
+            }
+
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("um_token", "6efcfbb2b37a61edd0fce33001aab6cc");
+                //params.put("upass", upass);
+                return params;
+            }
+
+        };
+
+        RequestQueue _requestQueue = Volley.newRequestQueue(context);
+        _requestQueue.add(stringRequest);
+    }
 
 }
