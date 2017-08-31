@@ -821,6 +821,7 @@ int id btnTrain 0x7f0f00a4
 int id btnZone1 0x7f0f0092
 int id btnZone2 0x7f0f0096
 int id btnZone3 0x7f0f009a
+int id btn_reset 0x7f0f0102
 int id buttonPanel 0x7f0f0052
 int id cancel_action 0x7f0f00ec
 int id center 0x7f0f002f
@@ -926,7 +927,6 @@ int id middle 0x7f0f0040
 int id mini 0x7f0f003e
 int id multiply 0x7f0f0027
 int id nav_camera 0x7f0f0101
-int id nav_gallery 0x7f0f0102
 int id nav_manage 0x7f0f0104
 int id nav_send 0x7f0f0106
 int id nav_share 0x7f0f0105

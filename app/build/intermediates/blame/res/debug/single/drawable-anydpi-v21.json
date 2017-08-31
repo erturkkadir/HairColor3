@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     }
 ]

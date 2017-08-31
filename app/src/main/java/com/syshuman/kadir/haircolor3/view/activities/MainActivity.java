@@ -96,6 +96,8 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     @BindView(R.id.imgBattery) ImageButton imgBattery;
     @BindView(R.id.txtBattery) TextView txtBattery;
 
+
+
     CharSequence categories[] = new CharSequence[] {"Natural", "Pigment", "Other"};
     AlertDialog.Builder builder;
 
@@ -189,7 +191,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onlZone1Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            builder.setTitle("Pick Category for Zone1");
+            builder.setTitle("Category for Zone1");
             builder.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -217,7 +219,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onlZone2Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            builder.setTitle("Pick Category for Zone2");
+            builder.setTitle("Category for Zone2");
             builder.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -242,7 +244,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onlZone3Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            builder.setTitle("Pick Category for Zone3");
+            builder.setTitle("Category for Zone3");
             builder.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -266,7 +268,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onlTargetClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            builder.setTitle("Pick Category for Target");
+            builder.setTitle("Category for Target");
             builder.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
@@ -339,6 +341,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
                 Log.i("BLE", "enabled BLE");
+                uart.send("9"); // get battery level
             }
         });
 
@@ -380,10 +383,10 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
     @Override
     public void onConnected(BluetoothLeUart uart) {
-        Log.i("BLE", "onConnected" + uart.toString());
+        Log.d("BLE", "onConnected" + uart.toString());
         ble_status = "Connected ";
         enableBLE();
-        //uart.send("5"); // get battery level
+
     }
 
     @Override
@@ -442,16 +445,20 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                String cod = str.substring(str.indexOf("cod") + 3, str.indexOf("r_r"));
+                String cod = str.substring(str.indexOf("cmd") + 3, str.indexOf("pow"));
                 switch (cod) {
-                    case "1":
+                    case "49":
+                    case "50":
+                    case "51":
+                    case "52":
                         decodeColor(str);
                         break;
-                    case "5":
-                        getBatteryLevel(str);
+                    case "53":
+                        break;
+                    case "57":
+                        setBatteryLevel(str);
                         break;
                     default:
-                        decodeColor(str);
                 }
             }
         });
@@ -477,9 +484,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
          String a_r = str.substring(str.indexOf("a_r") + 3, str.indexOf("a_g"));
          String a_g = str.substring(str.indexOf("a_g") + 3, str.indexOf("a_b"));
          String a_b = str.substring(str.indexOf("a_b") + 3, str.indexOf("a_c"));
-         String a_c = str.substring(str.indexOf("a_c") + 3, str.indexOf("chr"));
+         String a_c = str.substring(str.indexOf("a_c") + 3, str.indexOf("cmd"));
 
-         String zone = str.substring(str.indexOf("chr") + 3, str.indexOf("pow"));
+         String cmd = str.substring(str.indexOf("cmd") + 3, str.indexOf("pow"));
          String power = str.substring(str.indexOf("pow") + 3, str.indexOf("|"));
          int pow = Integer.valueOf(power); // 400
          pow = 100*(pow-340) / (420-340);
@@ -495,7 +502,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
          RestServer restServer = new RestServer(context);
 
-         restServer.getColor3(company, catalog, zone, power,
+         restServer.getColor3(company, catalog, cmd, power,
                  r_r, r_g, r_b, r_c,
                  g_r, g_g, g_b, g_c,
                  b_r, b_g, b_b, b_c,
@@ -566,8 +573,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                 int id = item.getItemId();
                 if (id == R.id.nav_camera) {
                     Log.d("Debug", "Battery Level");
-                } else if (id == R.id.nav_gallery) {
+                } else if (id == R.id.btn_reset) {
                     Log.d("Debug", "Reset Device");
+                    uart.send("8");
                 } else if (id == R.id.nav_slideshow) {
                     Log.d("Debug", "Nav Slideshow");
                 } else if (id == R.id.nav_manage) {
@@ -584,10 +592,15 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         });
     }
 
-    private void getBatteryLevel(String str) {
+    private void setBatteryLevel(String str) {
         String power = str.substring(str.indexOf("pow") + 3, str.indexOf("|"));
         int pow = Integer.valueOf(power); // 400
-        pow = 100 * (pow - 340) / (420 - 340);
+        pow = 100 * (pow - 340) / (430 - 340);
+        txtBattery.setText(String.valueOf(pow)+"%");
+        if(pow<50)
+            imgBattery.setBackgroundColor(Color.RED);
+        else
+            imgBattery.setBackgroundColor(Color.BLUE);
     }
 
 

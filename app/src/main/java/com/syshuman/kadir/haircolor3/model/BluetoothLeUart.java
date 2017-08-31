@@ -90,19 +90,19 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
     }
 
     // Return instance of BluetoothGatt.
-/*
+
     public BluetoothGatt getGatt() {
         Log.d(LOG_TAG, gatt.toString());
         return gatt;
     }
-*/
+
     // Return true if connected to UART device, false otherwise.
-    /*
+
     public boolean isConnected() {
         Log.d(LOG_TAG, "isConnected");
         return (tx != null && rx != null);
     }
-    */
+
 
     public String getDeviceInfo() {
         Log.d(LOG_TAG, "getDevice");
@@ -135,7 +135,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         writeInProgress = true; // Set the write in progress flag
         Log.d("Debug", "Before writeCharacteristic");
         gatt.writeCharacteristic(tx);
-
+/*
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
@@ -144,7 +144,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
             }
         }, 5000, 5000);
 
-
+*/
 
         while (writeInProgress) {
             // Wait for the flag to clear in onCharacteristicWrite
@@ -208,7 +208,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         // Start scan and connect to first available device.
         connectFirst = true;
         startScan();
-        Log.d(LOG_TAG, "SatartScan");
+        Log.d(LOG_TAG, "StartScan");
     }
 
     // Handlers for BluetoothGatt and LeScan events.
@@ -252,17 +252,12 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         Log.d(LOG_TAG, "TX : " + rx.toString());
 
         // Save reference to each DIS characteristic.
-        if (deviceInfoAvailable()) {
-            disManuf = gatt.getService(DIS_UUID).getCharacteristic(DIS_MANUF_UUID);
-            disModel = gatt.getService(DIS_UUID).getCharacteristic(DIS_MODEL_UUID);
-            disHWRev = gatt.getService(DIS_UUID).getCharacteristic(DIS_HWREV_UUID);
-            disSWRev = gatt.getService(DIS_UUID).getCharacteristic(DIS_SWREV_UUID);
-        } else {
-            disManuf = null;
-            disModel = null;
-            disHWRev = null;
-            disSWRev = null;
-        }
+
+        disManuf = gatt.getService(DIS_UUID).getCharacteristic(DIS_MANUF_UUID);
+        disModel = gatt.getService(DIS_UUID).getCharacteristic(DIS_MODEL_UUID);
+        disHWRev = gatt.getService(DIS_UUID).getCharacteristic(DIS_HWREV_UUID);
+        disSWRev = gatt.getService(DIS_UUID).getCharacteristic(DIS_SWREV_UUID);
+
 
         // Add device information characteristics to the read queue
         // These need to be queued because we have to wait for the response to the first
@@ -350,8 +345,9 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
 
         if (status == BluetoothGatt.GATT_SUCCESS) {
             Log.d("Debug","Characteristic write successful");
-            writeInProgress = false;
+
         }
+        writeInProgress = false;
 
     }
 
