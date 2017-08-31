@@ -12,6 +12,7 @@ import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 import java.util.Timer;
@@ -23,7 +24,7 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothAdapter.LeScanCallback { // UUIDs for UART service and associated characteristics.
 
-    private static String LOG_TAG = "Adafruit Ind";
+    private static String LOG_TAG = "Adafruit";
     // UUIDs for UART service and associated characteristics.
     private static UUID UART_UUID      = UUID.fromString("6e400001-b5a3-f393-e0a9-e50e24dcca9e");
     private static UUID TX_UUID        = UUID.fromString("6e400002-b5a3-f393-e0a9-e50e24dcca9e");
@@ -87,6 +88,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         this.writeInProgress = false;
         this.readQueue = new ConcurrentLinkedQueue<>();
         this.timer = new Timer();
+        Log.d(LOG_TAG, "Initialize BLE");
     }
 
     // Return instance of BluetoothGatt.
@@ -126,6 +128,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
 
     // Send data to connected UART device.
     private void send(byte[] data) {
+        Log.d(LOG_TAG, "send init");
         if (tx == null || data == null || data.length == 0) {
             // Do nothing if there is no connection or message to send.
             return;
@@ -133,8 +136,9 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         // Update TX characteristic value.  Note the setValue overload that takes a byte array must be used.
         tx.setValue(data);
         writeInProgress = true; // Set the write in progress flag
-        Log.d("Debug", "Before writeCharacteristic");
+        Log.d(LOG_TAG, "Before writeCharacteristic");
         gatt.writeCharacteristic(tx);
+        Log.d(LOG_TAG, "before while");
 /*
         timer.schedule(new TimerTask() {
             @Override
@@ -150,15 +154,16 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
             // Wait for the flag to clear in onCharacteristicWrite
         }
 
+        Log.d(LOG_TAG, "After while");
     }
 
     // Send data to connected UART device.
     public void send(String data) {
         if (data != null && !data.isEmpty()) {
-            Log.d("Debug", "in the send 1");
+            Log.d(LOG_TAG, "in the send 1");
             send(data.getBytes(Charset.forName("UTF-8")));
         } else {
-            Log.d("Debug", "out of the send 1");
+            Log.d(LOG_TAG, "out of the send 1");
         }
     }
 
@@ -180,14 +185,15 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         gatt = null;
         tx = null;
         rx = null;
+        Log.d(LOG_TAG, "Disconnect");
     }
 
     // Stop any in progress UART device scan.
     private void stopScan() {
         if (adapter != null) {
             adapter.stopLeScan(this);
-
         }
+        Log.d(LOG_TAG, "Stop Scan");
     }
 
     // Start scanning for BLE UART devices.  Registered callback's onDeviceFound method will be called
@@ -196,19 +202,16 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         if (adapter != null) {
             adapter.startLeScan(this);
         }
+        Log.d(LOG_TAG, "start Scan");
     }
 
     // Connect to the first available UART device.
     public void connectFirstAvailable() {
-        Log.d(LOG_TAG, "Disconnect");
-        // Disconnect to any connected device.
+
         disconnect();
-        // Stop any in progress device scan.
-        stopScan();
-        // Start scan and connect to first available device.
+        stopScan();  // Start scan and connect to first available device.
         connectFirst = true;
         startScan();
-        Log.d(LOG_TAG, "StartScan");
     }
 
     // Handlers for BluetoothGatt and LeScan events.
@@ -234,6 +237,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
             tx = null;
             notifyOnDisconnected(this);
         }
+        Log.d(LOG_TAG, "ConnectionStateChanged");
     }
 
     @Override
@@ -278,7 +282,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         try {
             gatt.readCharacteristic(disManuf);
         } catch (Exception e) {
-            Log.d(LOG_TAG,"sisMagnum");
+            Log.d(LOG_TAG,"unable to read Characteristic");
         }
 
         // Setup notifications on RX characteristic changes (i.e. data received).
@@ -293,25 +297,27 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         BluetoothGattDescriptor desc = rx.getDescriptor(CLIENT_UUID);
         if (desc == null) {
             // Stop if the RX characteristic has no client descriptor.
-            Log.d(LOG_TAG, "CLIENT UUID" );
+            Log.d(LOG_TAG, "CLIENT UUID not exist" );
             connectFailure();
             return;
         }
         desc.setValue(BluetoothGattDescriptor.ENABLE_NOTIFICATION_VALUE);
         if (!gatt.writeDescriptor(desc)) {
             // Stop if the client descriptor could not be written.
-            Log.d(LOG_TAG, "ENABLE NOTIFICATION" );
+            Log.d(LOG_TAG, "Client Desc could not be written" );
             connectFailure();
             return;
         }
         // Notify of connection completion.
         notifyOnConnected(this);
+        Log.d(LOG_TAG, "All well");
     }
 
     @Override
     public void onCharacteristicChanged(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic) {
         super.onCharacteristicChanged(gatt, characteristic);
         notifyOnReceive(this, characteristic);
+        Log.d(LOG_TAG, "onCharacteristicChanged");
     }
 
     @Override
@@ -335,19 +341,20 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         else {
             Log.d(LOG_TAG, "Failed reading characteristic " + characteristic.getUuid().toString());
         }
-        Log.d(LOG_TAG, "Done  : " + characteristic.getStringValue(0));
+        Log.d(LOG_TAG, "onCharacteristicRead  : " + characteristic.getStringValue(0));
     }
 
     @Override
     public void onCharacteristicWrite(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic, int status) {
-        Log.d("Debug", "Chr write: " );
+        Log.d(LOG_TAG, "Chr write: " );
         super.onCharacteristicWrite(gatt, characteristic, status);
 
         if (status == BluetoothGatt.GATT_SUCCESS) {
-            Log.d("Debug","Characteristic write successful");
+            Log.d(LOG_TAG,"Characteristic write successful");
 
         }
         writeInProgress = false;
+        Log.d(LOG_TAG, "onCharacteristicWrite");
 
     }
 
@@ -368,6 +375,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
             // Connect to device.
             gatt = device.connectGatt(context, true, this);
         }
+        Log.d(LOG_TAG, "onLeScan");
     }
 
     // Private functions to simplify the notification of all callbacks of a certain event.
@@ -377,6 +385,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
                 cb.onConnected(uart);
             }
         }
+        Log.d(LOG_TAG, "onNotifyOnConnected");
     }
 
     private void notifyOnConnectFailed(BluetoothLeUart uart) {
@@ -385,6 +394,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
                 cb.onConnectFailed(uart);
             }
         }
+        Log.d(LOG_TAG, "NotifyOnConnectionFailed");
     }
 
     private void notifyOnDisconnected(BluetoothLeUart uart) {
@@ -393,6 +403,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
                 cb.onDisconnected(uart);
             }
         }
+        Log.d(LOG_TAG, "NotifyOnDisconnected");
     }
 
     private void notifyOnReceive(BluetoothLeUart uart, BluetoothGattCharacteristic rx) {
@@ -401,6 +412,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
                 cb.onReceive(uart, rx);
             }
         }
+        Log.d(LOG_TAG, "NotifyOnReceived");
     }
 
     private void notifyOnDeviceFound(BluetoothDevice device) {
@@ -409,6 +421,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
                 cb.onDeviceFound(device);
             }
         }
+        Log.d(LOG_TAG, "notifyOnDeviceFound");
     }
 
     private void notifyOnDeviceInfoAvailable() {
@@ -417,6 +430,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
                 cb.onDeviceInfoAvailable();
             }
         }
+        Log.d(LOG_TAG, "notifyOnDeviceInfoAvailable");
     }
 
     // Notify callbacks of connection failure, and reset connection state.
@@ -424,6 +438,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         rx = null;
         tx = null;
         notifyOnConnectFailed(this);
+        Log.d(LOG_TAG, "connectFailure");
     }
 
     // Filtering by custom UUID is broken in Android 4.3 and 4.4, see:
