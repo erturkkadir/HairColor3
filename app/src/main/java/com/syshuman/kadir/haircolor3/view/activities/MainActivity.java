@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
     private BluetoothLeUart uart;
     private Context context;
+    private String LOG_TAG="Adafruit";
 
     @BindView(R.id.txtZone1) TextView txtZone1;
     @BindView(R.id.txtZone2) TextView txtZone2;
@@ -169,7 +170,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onZone1Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Log.d("Debug", "Sent 1");
+            Log.d(LOG_TAG, "Sent 1");
             if(!silent) firstSound.start();
             uart.send("1"); // Tell Arduino to read
             zone = 1;
@@ -199,7 +200,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         public void onClick(View view) {
             if(!silent)  firstSound.start();
             uart.send("2"); // Tell Arduino to read
-            Log.d("Debug", "Sent 2");
+            Log.d(LOG_TAG, "Sent 2");
             zone = 2;
         }
     };
@@ -315,7 +316,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             public void run() {
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
-                Log.i("BLE", "DisabledBLE");
+                Log.d(LOG_TAG, "DisabledBLE");
             }
         });
 
@@ -328,7 +329,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             public void run() {
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
-                Log.i("BLE", "enabled BLE");
+                Log.d(LOG_TAG, "enabled BLE");
                 uart.send("9"); // get battery level
             }
         });
@@ -371,7 +372,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
     @Override
     public void onConnected(BluetoothLeUart uart) {
-        Log.d("BLE", "onConnected" + uart.toString());
+        Log.d(LOG_TAG, "onConnected" + uart.toString());
         ble_status = "Connected ";
         enableBLE();
 
@@ -422,14 +423,14 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             public void run() {
                 btnBLE.setImageResource(R.drawable.bt_passive);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
-                Log.i("BLE", "disableLE");
+                Log.d(LOG_TAG, "disableLE");
             }
         });
         ble_status = "Device Info Available" + uart.toString();
     }
 
     public void decode(final String str) {
-        Log.d("Data", str);
+        Log.d(LOG_TAG, str);
         this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -497,7 +498,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                  a_r, a_g, a_b, a_c);
 
 
-         Log.d("Debug", "Step data here");
+         Log.d(LOG_TAG, "Step data here");
      }
 
     @Override
@@ -505,7 +506,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         switch (requestCode) {
             case PERMISSION_REQUEST_COARSE_LOCATION: {
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Log.d("TAG", "coarse location permission granted");
+                    Log.d(LOG_TAG, "coarse location permission granted");
                 } else {
                     final AlertDialog.Builder builder = new AlertDialog.Builder(this);
                     builder.setTitle("Functionality limited");
@@ -560,9 +561,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
                 int id = item.getItemId();
                 if (id == R.id.nav_camera) {
-                    Log.d("Debug", "Battery Level");
+                    Log.d(LOG_TAG, "Battery Level");
                 } else if (id == R.id.btn_reset) {
-                    Log.d("Debug", "Reset Device");
+                    Log.d(LOG_TAG, "Reset Device");
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
@@ -571,13 +572,13 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                     });
 
                 } else if (id == R.id.nav_slideshow) {
-                    Log.d("Debug", "Nav Slideshow");
+                    Log.d(LOG_TAG, "Nav Slideshow");
                 } else if (id == R.id.nav_manage) {
-                    Log.d("Debug", "Nav Manage");
+                    Log.d(LOG_TAG, "Nav Manage");
                 } else if (id == R.id.nav_share) {
-                    Log.d("Debug", "Nav Share");
+                    Log.d(LOG_TAG, "Nav Share");
                 } else if (id == R.id.nav_send) {
-                    Log.d("Debug", "Nav Send");
+                    Log.d(LOG_TAG, "Nav Send");
                 }
                 DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
                 drawer.closeDrawer(GravityCompat.START);

@@ -376,6 +376,11 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
             gatt = device.connectGatt(context, true, this);
         }
         Log.d(LOG_TAG, "onLeScan");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     // Private functions to simplify the notification of all callbacks of a certain event.
