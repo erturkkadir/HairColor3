@@ -1,54 +1,106 @@
 [
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/ic_sync_black_24dp.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-v21/ic_sync_black_24dp.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable-v21/avd_hide_password.xml"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_sync_black_24dp.xml",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_sync_black_24dp.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/shape_curve_corner_retangle.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-v21/shape_curve_corner_retangle.xml"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\shape_black_stroke_rectangle.xml",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\shape_black_stroke_rectangle.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/ic_notifications_black_24dp.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-v21/ic_notifications_black_24dp.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_notifications_black_24dp.xml",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable-v21/design_password_eye.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\shape_curve_corner_retangle.xml",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\shape_curve_corner_retangle.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/shape_black_stroke_rectangle.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-v21/shape_black_stroke_rectangle.xml"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\shape_curve_corner_retangle.xml",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\shape_curve_corner_retangle.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable-v21/avd_show_password.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\shape_black_stroke_rectangle.xml",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\shape_black_stroke_rectangle.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-v21/ic_info_black_24dp.xml",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-v21/ic_info_black_24dp.xml"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_sync_black_24dp.xml",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_sync_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_info_black_24dp.xml",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_info_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_info_black_24dp.xml",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_info_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ic_notifications_black_24dp.xml",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-v21\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }
 ]
