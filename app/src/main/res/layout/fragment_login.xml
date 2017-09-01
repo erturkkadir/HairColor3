@@ -170,9 +170,9 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="40dp"
-            android:background="@color/colorLightBlue"
+            android:background="@color/colorPrimaryDark"
             android:text="@string/login"
-            android:textColor="@color/colorBlack" />
+            android:textColor="@color/white" />
 
 
         <Button
@@ -185,7 +185,7 @@
             android:layout_marginTop="20dp"
             android:background="@drawable/shape_black_stroke_rectangle"
             android:text="@string/register"
-            android:textColor="@color/colorLightBlue" />
+            android:textColor="@color/blue" />
 
         <TextView
             android:id="@+id/forgot_password"

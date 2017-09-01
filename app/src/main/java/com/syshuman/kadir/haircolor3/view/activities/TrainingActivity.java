@@ -230,25 +230,27 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                String r_r = str.substring(str.indexOf("r_r")+1, str.indexOf("r_g"));
-                String r_g = str.substring(str.indexOf("r_g")+1, str.indexOf("r_b"));
-                String r_b = str.substring(str.indexOf("r_b")+1, str.indexOf("r_c"));
-                String r_c = str.substring(str.indexOf("r_c")+1, str.indexOf("g_r"));
+                String r_r = str.substring(str.indexOf("r_r")+3, str.indexOf("r_g"));
+                String r_g = str.substring(str.indexOf("r_g")+3, str.indexOf("r_b"));
+                String r_b = str.substring(str.indexOf("r_b")+3, str.indexOf("r_c"));
+                String r_c = str.substring(str.indexOf("r_c")+3, str.indexOf("g_r"));
 
-                String g_r = str.substring(str.indexOf("g_r")+1, str.indexOf("g_g"));
-                String g_g = str.substring(str.indexOf("g_g")+1, str.indexOf("g_b"));
-                String g_b = str.substring(str.indexOf("g_b")+1, str.indexOf("g_c"));
-                String g_c = str.substring(str.indexOf("g_c")+1, str.indexOf("b_r"));
+                String g_r = str.substring(str.indexOf("g_r")+3, str.indexOf("g_g"));
+                String g_g = str.substring(str.indexOf("g_g")+3, str.indexOf("g_b"));
+                String g_b = str.substring(str.indexOf("g_b")+3, str.indexOf("g_c"));
+                String g_c = str.substring(str.indexOf("g_c")+3, str.indexOf("b_r"));
 
-                String b_r = str.substring(str.indexOf("b_r")+1, str.indexOf("b_g"));
-                String b_g = str.substring(str.indexOf("b_g")+1, str.indexOf("b_b"));
-                String b_b = str.substring(str.indexOf("b_b")+1, str.indexOf("b_c"));
-                String b_c = str.substring(str.indexOf("b_c")+1, str.indexOf("a_r"));
+                String b_r = str.substring(str.indexOf("b_r")+3, str.indexOf("b_g"));
+                String b_g = str.substring(str.indexOf("b_g")+3, str.indexOf("b_b"));
+                String b_b = str.substring(str.indexOf("b_b")+3, str.indexOf("b_c"));
+                String b_c = str.substring(str.indexOf("b_c")+3, str.indexOf("a_r"));
 
-                String a_r = str.substring(str.indexOf("a_r")+1, str.indexOf("a_g"));
-                String a_g = str.substring(str.indexOf("a_g")+1, str.indexOf("a_b"));
-                String a_b = str.substring(str.indexOf("a_b")+1, str.indexOf("a_c"));
-                String a_c = str.substring(str.indexOf("a_c")+1, str.indexOf("e_e"));
+                String a_r = str.substring(str.indexOf("a_r")+3, str.indexOf("a_g"));
+                String a_g = str.substring(str.indexOf("a_g")+3, str.indexOf("a_b"));
+                String a_b = str.substring(str.indexOf("a_b")+3, str.indexOf("a_c"));
+                String a_c = str.substring(str.indexOf("a_c")+3, str.indexOf("cmd"));
+
+                String pow = str.substring(str.indexOf("cmd")+3, str.indexOf("pow"));
 
 
                 String company  = spTCompany.getSelectedItem().toString();
