@@ -35,16 +35,18 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.syshuman.kadir.haircolor3.dagger.components.DaggerHC3Component;
+import com.syshuman.kadir.haircolor3.dagger.components.HC3Component;
+import com.syshuman.kadir.haircolor3.dagger.modules.ContextModule;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.fragments.ReadFragment;
-
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -98,6 +100,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     private MediaPlayer firstSound, lastSound;
     private int zone = 1;
 
+    HC3Component component;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -113,6 +118,11 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         setSupportActionBar(toolbar);
 
         this.context = getApplicationContext();
+         component = DaggerHC3Component
+                .builder()
+                .contextModule(new ContextModule(context))
+                .build();
+
 
         getPermissions();
 
@@ -135,11 +145,11 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
-                uart = new BluetoothLeUart(context);
+                uart = component.getBluetoothLeUart();
             }
         });
 
-        restServer = new RestServer(context);
+        restServer = component.getRestServer();
 
         getInitialData();
 

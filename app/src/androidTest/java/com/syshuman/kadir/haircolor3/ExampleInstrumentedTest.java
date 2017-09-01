@@ -21,7 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() throws Exception {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
-
         assertEquals("com.syshuman.kadir.haircolor3", appContext.getPackageName());
     }
 }
