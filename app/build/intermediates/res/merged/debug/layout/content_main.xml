@@ -82,7 +82,7 @@
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="Read Zone 1 ..."
+                android:text="Zone 1"
                 android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
 
         </LinearLayout>
@@ -134,7 +134,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:elevation="0dp"
-                android:text="Read Zone 2 ..."
+                android:text="Zone 2"
                 android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
 
         </LinearLayout>
@@ -186,7 +186,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:elevation="0dp"
-                android:text="Read Zone 3 ..."
+                android:text="Zone 3"
                 android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
 
         </LinearLayout>
@@ -238,7 +238,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
                 android:elevation="0dp"
-                android:text="Read Target ..."
+                android:text="Target"
                 android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle" />
 
         </LinearLayout>

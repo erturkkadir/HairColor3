@@ -6,10 +6,12 @@ import android.bluetooth.BluetoothGattCharacteristic;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.media.MediaPlayer;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -89,13 +91,15 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
 
 
-    CharSequence categories[] = new CharSequence[] {"Natural", "Pigment", "Other"};
+    CharSequence categories[] = new CharSequence[] {"Natural", "Colored", "Pigments"};
     AlertDialog.Builder builder;
 
 
     private Boolean silent = true;
 
-    RestServer restServer;
+    private RestServer restServer;
+    private SharedPreferences sharedPreferences;
+    SharedPreferences.Editor editor;
 
     private MediaPlayer firstSound, lastSound;
     private int zone = 1;
@@ -142,7 +146,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         btnBLE.setOnClickListener(onBLEListener);
         btnGetRecipe.setOnClickListener(onGetRecipeListener);
 
-        runOnUiThread(new Runnable() {
+       runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 uart = component.getBluetoothLeUart();
@@ -155,10 +159,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
         builder = new AlertDialog.Builder(this);
 
-
-
     }
-
 
     public void getInitialData() {
         spCompanies = (Spinner) findViewById(R.id.spCompany);
@@ -167,7 +168,16 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         spCompanies.setAdapter(adapter);
         firstSound = MediaPlayer.create(context, R.raw.beep07);
         lastSound = MediaPlayer.create(context, R.raw.beep04);
+        getPreferences();
+    }
 
+    public void getPreferences() {
+        sharedPreferences = component.getSharedPreferences();
+        editor = sharedPreferences.edit();
+        lblZone1.setText(sharedPreferences.getString("Zone1", "Natural"));
+        lblZone2.setText(sharedPreferences.getString("Zone2", "Colored"));
+        lblZone3.setText(sharedPreferences.getString("Zone3", "Colored"));
+        lblTarget.setText(sharedPreferences.getString("Target", "Colored"));
     }
 
     View.OnClickListener onBLEListener = new View.OnClickListener() {
@@ -194,7 +204,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             builder.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    lblZone1.setText("Zone 1 " + categories[which]);
+                    lblZone1.setText(categories[which]);
+                    editor.putString("Zone1", (categories[which]).toString());
+                    editor.commit();
                     // the user clicked on colors[which]
                 }
             });
@@ -202,8 +214,6 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
         }
     };
-
-
 
     View.OnClickListener onZone2Click = new View.OnClickListener() {
         @Override
@@ -222,7 +232,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             builder.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    lblZone2.setText("Zone 2 " + categories[which]);
+                    lblZone2.setText(categories[which]);
+                    editor.putString("Zone2", lblZone2.getText().toString());
+                    editor.commit();
                 }
             });
             builder.show();
@@ -247,7 +259,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             builder.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    lblZone3.setText("Zone 3 " + categories[which]);
+                    lblZone3.setText(categories[which]);
+                    editor.putString("Zone3", lblZone3.getText().toString());
+                    editor.commit();
                 }
             });
             builder.show();
@@ -271,18 +285,18 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
             builder.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
-                    lblTarget.setText("Target " + categories[which]);
+                    lblTarget.setText(categories[which]);
+                    editor.putString("Target", lblTarget.getText().toString());
+                    editor.commit();
                 }
             });
             builder.show();
-
         }
     };
 
     View.OnClickListener onGetRecipeListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-
             if(!silent) firstSound.start();
             restServer.getRecipe(txtZone1.getText().toString(), txtZone2.getText().toString(), txtZone3.getText().toString(), txtTarget.getText().toString());
         }
@@ -574,13 +588,12 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                     Log.d(LOG_TAG, "Battery Level");
                 } else if (id == R.id.btn_reset) {
                     Log.d(LOG_TAG, "Reset Device");
-                    runOnUiThread(new Runnable() {
+                    AsyncTask.execute(new Runnable() {
                         @Override
                         public void run() {
                             uart.send("8");
                         }
                     });
-
                 } else if (id == R.id.nav_slideshow) {
                     Log.d(LOG_TAG, "Nav Slideshow");
                 } else if (id == R.id.nav_manage) {
