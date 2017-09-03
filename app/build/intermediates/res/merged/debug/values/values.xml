@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <string-array name="catalog">
-        <item>Natural</item>
-        <item>Other</item>
-        <item>All</item>
+       <item/>
     </string-array>
     <string-array name="color">
         <item>1 N</item>
@@ -19,11 +17,14 @@
     </string-array>
     <string-array name="companies">
         <item>Aveda</item>
-        <item>L\'Oreal</item>
+        <item>LOreal</item>
         <item>Schwartzkoph</item>
         <item>RedKen</item>
         <item>Goldwell</item>
         <item>Wells</item>
+    </string-array>
+    <string-array name="series">
+        <item/>
     </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -129,6 +130,7 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="background">#b2b2b2b2</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -786,11 +788,6 @@
         <item name="windowNoTitle">true</item>
     </style>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
-    <style name="AppTheme.mySpinner" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
-        <item name="android:textColor">@color/blue</item>
-        <item name="android:textSize">16sp</item>
-
-    </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
         <item name="listLayout">@layout/abc_select_dialog_material</item>

@@ -1,5 +1,7 @@
 package com.syshuman.kadir.haircolor3.eventbus;
 
+import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
+
 /**
  * Created by kadir on 2017-08-26.
  */
@@ -36,4 +38,29 @@ public class MessageEvents {
         }
     }
 
+
+    public static class onConnected {
+        public BluetoothLeUart uart;
+        public onConnected(BluetoothLeUart uart) {
+            this.uart = uart;
+        }
+    }
+
+    public static class onDeviceFound {
+        public onDeviceFound() {
+
+        }
+    }
+
+    public static class onDisconnect {
+        public onDisconnect() {
+        }
+    }
+
+    public static class onTrainingComplete {
+        public String message;
+        public onTrainingComplete(String message) {
+            this.message = message;
+        }
+    }
 }

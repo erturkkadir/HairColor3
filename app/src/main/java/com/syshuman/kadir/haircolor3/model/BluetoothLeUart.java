@@ -8,6 +8,11 @@ import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattDescriptor;
 import android.content.Context;
 import android.util.Log;
+
+import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
+
+import org.greenrobot.eventbus.EventBus;
+
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.charset.Charset;
@@ -101,6 +106,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
     // Return true if connected to UART device, false otherwise.
 
     public boolean isConnected() {
+        EventBus.getDefault().post( new MessageEvents.onConnected(this) );
         Log.d(LOG_TAG, "isConnected");
         return (tx != null && rx != null);
     }
@@ -122,6 +128,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
 
     private boolean deviceInfoAvailable() {
         Log.d(LOG_TAG, "deviceInfoAv");
+        EventBus.getDefault().post( new MessageEvents.onDeviceFound() );
         return disAvailable;
     }
 
@@ -133,28 +140,11 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
             // Do nothing if there is no connection or message to send.
             return;
         }
-        // Update TX characteristic value.  Note the setValue overload that takes a byte array must be used.
+
         tx.setValue(data);
         writeInProgress = true; // Set the write in progress flag
-        Log.d(LOG_TAG, "Before writeCharacteristic");
         gatt.writeCharacteristic(tx);
-        Log.d(LOG_TAG, "before while");
-/*
-        timer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-                writeInProgress = false;
-                Log.d("Debug", "Timeout happened...");
-            }
-        }, 5000, 5000);
-
-*/
-
-        while (writeInProgress) {
-            // Wait for the flag to clear in onCharacteristicWrite
-        }
-
-        Log.d(LOG_TAG, "After while");
+        while (writeInProgress);
     }
 
     // Send data to connected UART device.
@@ -186,6 +176,7 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
         tx = null;
         rx = null;
         Log.d(LOG_TAG, "Disconnect");
+        EventBus.getDefault().post( new MessageEvents.onDisconnect() );
     }
 
     // Stop any in progress UART device scan.

@@ -13,6 +13,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import com.syshuman.kadir.haircolor3.view.activities.MainActivity;
 
@@ -43,9 +44,7 @@ public class RestServer {
     }
 
     public void login(final String uname, final String upass) {
-
         String url = this.baseUrl + "api/v1/users/login";
-
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>(){
                     @Override
@@ -243,8 +242,6 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
-
-
     public void getColor3(final String company, final String catalog, final String zone, final String power,
                          final String r_r, final String r_g, final String r_b, final String r_c,
                          final String g_r, final String g_g, final String g_b, final String g_c,
@@ -315,15 +312,13 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
-
-
-
-    public void train(final Context context,
+    public void train3(final Context context,
                       final String r_r, final String r_g, final String r_b, final String r_c,
                       final String g_r, final String g_g, final String g_b, final String g_c,
                       final String b_r, final String b_g, final String b_b, final String b_c,
                       final String a_r, final String a_g, final String a_b, final String a_c,
-                      final String company, final String catalog, final String color) {
+                      final String pow,
+                      final String company, final String category, final String series, final String color) {
 
 
         String url = "http://hcapi.free-estimation.com/api/v1/users/train3";
@@ -336,6 +331,7 @@ public class RestServer {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
                             String message = json.getString("message");
+                            EventBus.getDefault().post(new MessageEvents.onTrainingComplete(message));
                             if(message.equals("Success")) {
                                 Toast.makeText(context, "Training data saved at server...Please try other colors", Toast.LENGTH_LONG).show();
                             } else {
@@ -350,7 +346,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check username and password", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "Please double check username and password "+error.getMessage().toString(), Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
@@ -376,8 +372,10 @@ public class RestServer {
                 params.put("a_b", a_b);
                 params.put("a_c", a_c);
 
+                params.put("pow", pow);
                 params.put("company", company);
-                params.put("catalog", catalog);
+                params.put("category", category);
+                params.put("series", series);
                 params.put("color", color);
                 return params;
             }
@@ -459,7 +457,6 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
-
     public void getTrainData(String fileName) {
 
         String url = "http://hcapi.free-estimation.com/api/v1/users/getTrainData";
@@ -527,4 +524,244 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
+    public void getCategory(final Context context, final String company, final Spinner spTCatalog) {
+        String url   = baseUrl + "api/v1/users/getcategory";
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>(){
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject json = new JSONObject(response);
+                            String statusCode = json.getString("status_code");
+                            String message = json.getString("message");
+                            JSONArray jsonArray = json.getJSONArray("data");
+
+                            if(message.equals("Success")) {
+                                List<String> label = new ArrayList<String>();
+                                if (jsonArray != null) {
+                                    for (int i=0;i<jsonArray.length();i++){
+                                        JSONObject inner = new JSONObject(jsonArray.get(i).toString() );
+                                        String names = inner.getString("cn_category");
+                                        label.add(names);
+                                    }
+                                }
+                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<String>(context, R.layout.simple_spinner, label);
+                                rtAdapter.setDropDownViewResource(R.layout.simple_spinner);
+                                spTCatalog.setAdapter(rtAdapter);
+
+                            } else {
+                                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "Please double check service at getCategory " + error.toString(), Toast.LENGTH_LONG).show();
+                    }
+                })
+        {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("company", company);
+                return params;
+            }
+
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("um_token", "298347decdd47d3ea70361c3acef225a");
+                //params.put("upass", upass);
+                return params;
+            }
+
+        };
+
+        RequestQueue _requestQueue = Volley.newRequestQueue(context);
+        _requestQueue.add(stringRequest);
+    }
+
+    public void getSeries(final Context context, final String company, final String category, final Spinner spTSeries) {
+        String url   = baseUrl + "api/v1/users/getseries";
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>(){
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject json = new JSONObject(response);
+                            String statusCode = json.getString("status_code");
+                            String message = json.getString("message");
+                            JSONArray jsonArray = json.getJSONArray("data");
+
+                            if(message.equals("Success")) {
+                                List<String> label = new ArrayList<String>();
+                                if (jsonArray != null) {
+                                    for (int i=0;i<jsonArray.length();i++){
+                                        JSONObject inner = new JSONObject(jsonArray.get(i).toString() );
+                                        String names = inner.getString("cn_series");
+                                        label.add(names);
+                                    }
+                                }
+
+                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<String>(context, R.layout.simple_spinner, label);
+                                rtAdapter.setDropDownViewResource(R.layout.simple_spinner);
+                                spTSeries.setAdapter(rtAdapter);
+                            } else {
+                                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "Please double check service at getSeries " + error.toString(), Toast.LENGTH_LONG).show();
+                    }
+                })
+        {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("company", company);
+                params.put("category", category);
+
+                return params;
+            }
+
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("um_token", "298347decdd47d3ea70361c3acef225a");
+                //params.put("upass", upass);
+                return params;
+            }
+
+        };
+
+        RequestQueue _requestQueue = Volley.newRequestQueue(context);
+        _requestQueue.add(stringRequest);
+    }
+
+    public void getColorList(final Context context, final String company, final String category, final String series, final Spinner spTColor) {
+        String url   = baseUrl + "api/v1/users/getcolorlist";
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>(){
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject json = new JSONObject(response);
+                            String statusCode = json.getString("status_code");
+                            String message = json.getString("message");
+                            JSONArray jsonArray = json.getJSONArray("data");
+
+                            if(message.equals("Success")) {
+                                List<String> label = new ArrayList<String>();
+                                if (jsonArray != null) {
+                                    for (int i=0;i<jsonArray.length();i++){
+                                        JSONObject inner = new JSONObject(jsonArray.get(i).toString() );
+                                        String names = inner.getString("cn_color");
+                                        label.add(names);
+                                    }
+                                }
+
+                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<String>(context, R.layout.simple_spinner, label);
+                                rtAdapter.setDropDownViewResource(R.layout.simple_spinner);
+                                spTColor.setAdapter(rtAdapter);
+                            } else {
+                                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "Please double check service at getColors " + error.toString(), Toast.LENGTH_LONG).show();
+                    }
+                })
+        {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("company", company);
+                params.put("category", category);
+                params.put("series", series);
+
+                return params;
+            }
+
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("um_token", "298347decdd47d3ea70361c3acef225a");
+                //params.put("upass", upass);
+                return params;
+            }
+
+        };
+
+        RequestQueue _requestQueue = Volley.newRequestQueue(context);
+        _requestQueue.add(stringRequest);
+    }
+
+    public void clearTrainData() {
+
+        String url = "http://hcapi.free-estimation.com/api/v1/users/cleartraindata";
+
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>(){
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+
+                            JSONObject json = new JSONObject(response);
+                            String statusCode = json.getString("status_code");
+                            String message = json.getString("message");
+
+                            if(message.equals("Success")) {
+                                Toast.makeText(context, "Train data on the server is erased...", Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "Error on clean Train data", Toast.LENGTH_LONG).show();
+                    }
+                }){
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<String, String>();
+                return params;
+            }
+
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<String, String>();
+                params.put("um_token", "6efcfbb2b37a61edd0fce33001aab6cc");
+                //params.put("upass", upass);
+                return params;
+            }
+        };
+
+        RequestQueue _requestQueue = Volley.newRequestQueue(context);
+        _requestQueue.add(stringRequest);
+    }
 }

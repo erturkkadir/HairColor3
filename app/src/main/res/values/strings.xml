@@ -45,17 +45,21 @@
 
     <string-array name="companies">
         <item>Aveda</item>
-        <item>L\'Oreal</item>
+        <item>LOreal</item>
         <item>Schwartzkoph</item>
         <item>RedKen</item>
         <item>Goldwell</item>
         <item>Wells</item>
     </string-array>
+
     <string-array name="catalog">
-        <item>Natural</item>
-        <item>Other</item>
-        <item>All</item>
+       <item></item>
     </string-array>
+
+    <string-array name="series">
+        <item></item>
+    </string-array>
+
     <string-array name="color">
         <item>1 N</item>
         <item>2 N</item>

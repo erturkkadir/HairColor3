@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         setSupportActionBar(toolbar);
 
         this.context = getApplicationContext();
-         component = DaggerHC3Component
+        component = DaggerHC3Component
                 .builder()
                 .contextModule(new ContextModule(context))
                 .build();

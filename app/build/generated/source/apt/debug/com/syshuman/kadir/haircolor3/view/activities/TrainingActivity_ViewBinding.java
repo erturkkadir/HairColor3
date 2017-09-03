@@ -28,10 +28,12 @@ public class TrainingActivity_ViewBinding implements Unbinder {
 
     target.toolbar = Utils.findRequiredViewAsType(source, R.id.toolbar, "field 'toolbar'", Toolbar.class);
     target.spTCompany = Utils.findRequiredViewAsType(source, R.id.spTCompany, "field 'spTCompany'", Spinner.class);
-    target.spTCatalog = Utils.findRequiredViewAsType(source, R.id.spTCatalog, "field 'spTCatalog'", Spinner.class);
+    target.spTCategory = Utils.findRequiredViewAsType(source, R.id.spTCategory, "field 'spTCategory'", Spinner.class);
+    target.spTSeries = Utils.findRequiredViewAsType(source, R.id.spTSeries, "field 'spTSeries'", Spinner.class);
     target.spTColor = Utils.findRequiredViewAsType(source, R.id.spTColor, "field 'spTColor'", Spinner.class);
     target.btnTrain = Utils.findRequiredViewAsType(source, R.id.btnTrain, "field 'btnTrain'", ImageButton.class);
     target.btnBLE = Utils.findRequiredViewAsType(source, R.id.btnBLE, "field 'btnBLE'", FloatingActionButton.class);
+    target.btnClearData = Utils.findRequiredViewAsType(source, R.id.btnClearData, "field 'btnClearData'", ImageButton.class);
   }
 
   @Override
@@ -43,9 +45,11 @@ public class TrainingActivity_ViewBinding implements Unbinder {
 
     target.toolbar = null;
     target.spTCompany = null;
-    target.spTCatalog = null;
+    target.spTCategory = null;
+    target.spTSeries = null;
     target.spTColor = null;
     target.btnTrain = null;
     target.btnBLE = null;
+    target.btnClearData = null;
   }
 }

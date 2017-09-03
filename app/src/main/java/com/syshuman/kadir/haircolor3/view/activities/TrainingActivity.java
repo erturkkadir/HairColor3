@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -20,12 +21,24 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Spinner;
+import android.widget.TextView;
+import android.widget.Toast;
+
 import com.syshuman.kadir.haircolor3.R;
+import com.syshuman.kadir.haircolor3.dagger.components.DaggerHC3Component;
+import com.syshuman.kadir.haircolor3.dagger.components.HC3Component;
+import com.syshuman.kadir.haircolor3.dagger.modules.ContextModule;
+import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 import com.syshuman.kadir.haircolor3.model.RestServer;
+
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -37,13 +50,20 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
     private Context context;
     private boolean silent=true;
+    RestServer restServer;
 
     @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.spTCompany) Spinner spTCompany;
-    @BindView(R.id.spTCatalog) Spinner spTCatalog;
+    @BindView(R.id.spTCategory) Spinner spTCategory;
+    @BindView(R.id.spTSeries) Spinner spTSeries;
     @BindView(R.id.spTColor) Spinner spTColor;
     @BindView(R.id.btnTrain) ImageButton btnTrain;
     @BindView(R.id.btnBLE) FloatingActionButton btnBLE;
+    @BindView(R.id.btnClearData) ImageButton btnClearData;
+
+    AlertDialog.Builder builder;
+
+
 
 
     @Override
@@ -55,9 +75,10 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_trainig);
-        this.context = getBaseContext();
+        this.context = getApplicationContext();
 
         ButterKnife.bind(this);
+
 
         setSupportActionBar(toolbar);
 
@@ -73,12 +94,17 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
 
         btnBLE.setOnClickListener(onBLEListener);
 
+        btnClearData.setOnClickListener(onClearDataOnclick);
+
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
+
                 uart = new BluetoothLeUart(context);
             }
         });
+        restServer = new RestServer(context);
+        builder = new AlertDialog.Builder(this);
     }
 
     @Override
@@ -91,6 +117,29 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
         return super.onOptionsItemSelected(item);
     }
 
+
+    View.OnClickListener onClearDataOnclick = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            builder.setTitle("Confirm");
+            builder.setMessage("Are you sure to delete training data");
+            builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    restServer.clearTrainData();
+                    dialogInterface.dismiss();
+                }
+            });
+            builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                }
+            });
+            AlertDialog alert = builder.create();
+            alert.show();
+        }
+    };
 
     View.OnClickListener btnTrainOnClick = new View.OnClickListener() {
         @Override
@@ -147,21 +196,72 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
 
     public void getData() {
 
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.companies, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        final ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.companies, R.layout.simple_spinner);
+        adapter.setDropDownViewResource(R.layout.simple_spinner);
         spTCompany.setAdapter(adapter);
-
-        ArrayAdapter<CharSequence> adapter1 = ArrayAdapter.createFromResource(this, R.array.catalog, android.R.layout.simple_spinner_item);
-        adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spTCatalog.setAdapter(adapter1);
-        //adapter.clear();
-
-        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this, R.array.color, android.R.layout.simple_spinner_item);
-        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spTColor.setAdapter(adapter2);
 
         firstSound = MediaPlayer.create(getApplicationContext(), R.raw.beep07);
         lastSound = MediaPlayer.create(getApplicationContext(), R.raw.beep04);
+
+
+        spTCompany.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                String company = adapterView.getItemAtPosition(i).toString();
+                restServer.getCategory(context, company, spTCategory);
+                ((TextView) view).setTextColor(Color.BLACK);
+                setListenerForCategory();
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
+    }
+
+    private void setListenerForCategory() {
+
+        spTCategory.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                String company = spTCompany.getSelectedItem().toString();
+                String category = spTCategory.getSelectedItem().toString();
+                restServer.getSeries(context, company, category, spTSeries);
+                ((TextView) view).setTextColor(Color.BLACK);
+                setListenerForSeries();
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
+    }
+
+    private void setListenerForSeries() {
+        spTSeries.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                String company = spTCompany.getSelectedItem().toString();
+                String catalog = spTCategory.getSelectedItem().toString();
+                String series = spTSeries.getSelectedItem().toString();
+                restServer.getColorList(context, company, catalog, series, spTColor);
+                ((TextView) view).setTextColor(Color.BLACK);
+                setListenerForColor();
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
+    }
+
+    private void setListenerForColor() {
+        spTColor.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                ((TextView) view).setTextColor(Color.BLACK);
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+            }
+        });
     }
 
     @Override
@@ -254,19 +354,20 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
 
 
                 String company  = spTCompany.getSelectedItem().toString();
-                String catalog = spTCatalog.getSelectedItem().toString();
+                String category = spTCategory.getSelectedItem().toString();
+                String series = spTSeries.getSelectedItem().toString();
                 String color = spTColor.getSelectedItem().toString();
 
                 if(!silent) firstSound.stop();
                 if(!silent) lastSound.start();
 
                 RestServer restServer = new RestServer(context);
-                restServer.train(context,
+                restServer.train3(context,
                         r_r, r_g, r_b, r_c,
                         g_r, g_g, g_b, g_c,
                         b_r, b_g, b_b, b_c,
                         a_r, a_g, a_b, a_c,
-                        company, catalog, color);
+                        pow, company, category, series, color);
             }
         });
     }
@@ -296,4 +397,10 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
             }
         }
     }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onTrainingComplete(MessageEvents.onTrainingComplete event) {
+
+    }
+
 }
