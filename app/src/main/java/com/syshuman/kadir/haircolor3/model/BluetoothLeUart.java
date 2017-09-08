@@ -342,7 +342,6 @@ public class BluetoothLeUart extends BluetoothGattCallback implements BluetoothA
 
         if (status == BluetoothGatt.GATT_SUCCESS) {
             Log.d(LOG_TAG,"Characteristic write successful");
-
         }
         writeInProgress = false;
         Log.d(LOG_TAG, "onCharacteristicWrite");

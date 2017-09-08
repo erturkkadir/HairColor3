@@ -75,6 +75,13 @@
             android:label="@string/title_activity_about"
             android:theme="@style/AppTheme.NoActionBar" />
 
+        <service
+            android:name="com.syshuman.kadir.haircolor3.BluetoothLeService"
+            android:enabled="true" />
+        <service
+            android:name="com.syshuman.kadir.haircolor3.model.BluetoothLeService"
+            android:exported="false" />
+
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
             android:authorities="com.syshuman.kadir.haircolor3.com.android.tools.fd.runtime.InstantRunContentProvider"

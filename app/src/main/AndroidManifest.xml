@@ -44,6 +44,7 @@
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -63,6 +64,13 @@
             android:name=".view.activities.AboutActivity"
             android:label="@string/title_activity_about"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".BluetoothLeService"
+            android:enabled="true" />
+        <service
+            android:name=".model.BluetoothLeService"
+            android:exported="false"></service>
     </application>
 
 </manifest>

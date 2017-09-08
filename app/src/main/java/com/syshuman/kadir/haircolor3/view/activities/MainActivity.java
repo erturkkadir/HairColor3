@@ -3,9 +3,13 @@ package com.syshuman.kadir.haircolor3.view.activities;
 import android.app.AlertDialog;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothGattCharacteristic;
+import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.ServiceConnection;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
@@ -14,6 +18,7 @@ import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -42,6 +47,7 @@ import com.syshuman.kadir.haircolor3.dagger.components.DaggerHC3Component;
 import com.syshuman.kadir.haircolor3.dagger.components.HC3Component;
 import com.syshuman.kadir.haircolor3.dagger.modules.ContextModule;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
+import com.syshuman.kadir.haircolor3.model.BluetoothLeService;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.model.RestServer;
@@ -52,11 +58,15 @@ import org.greenrobot.eventbus.ThreadMode;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity implements BluetoothLeUart.Callback, ReadFragment.OnFragmentInteractionListener {
+public class MainActivity extends AppCompatActivity implements ReadFragment.OnFragmentInteractionListener {
 
     String messages, readStr="", ble_status="No connection";
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
-    private BluetoothLeUart uart;
+    public final static String EXTRA_DATA                       = "com.syshuman.kadir.haircolor3.model.extra.EXTRA_DATA";
+
+    private static final String TAG="Ada";
+
+    //private BluetoothLeUart uart;
     private Context context;
     private String LOG_TAG="Adafruit";
 
@@ -88,6 +98,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.imgBattery) ImageButton imgBattery;
     @BindView(R.id.txtBattery) TextView txtBattery;
+    private BluetoothLeService bluetoothLeService;
+    private String deviceAddress = "DD:68:7B:5D:B0:9B";
+    private boolean connected =false;
 
 
 
@@ -146,12 +159,13 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         btnBLE.setOnClickListener(onBLEListener);
         btnGetRecipe.setOnClickListener(onGetRecipeListener);
 
-       runOnUiThread(new Runnable() {
+        /* runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 uart = component.getBluetoothLeUart();
             }
         });
+        */
 
         restServer = component.getRestServer();
 
@@ -159,7 +173,49 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
 
         builder = new AlertDialog.Builder(this);
 
+        Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
+        bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
+
     }
+
+    private final ServiceConnection serviceConnection = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            bluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
+            if(!bluetoothLeService.initialize()) {
+                Log.d(TAG, "Unable to Initialize");
+            }
+            bluetoothLeService.connect(deviceAddress);
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+
+        }
+    };
+
+    private BroadcastReceiver gattUpdateReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if (BluetoothLeService.ACTION_GATT_CONNECTED.equals(action)) {
+                connected = true;
+                setButtonStatus(1);
+            } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
+                connected = false;
+                setButtonStatus(0);
+            } else if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
+                setButtonStatus(2);
+            } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
+                String data = intent.getStringExtra(EXTRA_DATA);
+                Log.d(TAG, "Data " + data);
+                decode(data);
+                setButtonStatus(1);
+            }
+
+        }
+    };
+
 
     public void getInitialData() {
         spCompanies = (Spinner) findViewById(R.id.spCompany);
@@ -168,6 +224,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         spCompanies.setAdapter(adapter);
         firstSound = MediaPlayer.create(context, R.raw.beep07);
         lastSound = MediaPlayer.create(context, R.raw.beep04);
+
         getPreferences();
     }
 
@@ -190,9 +247,9 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     View.OnClickListener onZone1Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            Log.d(LOG_TAG, "Sent 1");
+            Log.d(LOG_TAG, "Sent 1 To device ");
             if(!silent) firstSound.start();
-            uart.send("1"); // Tell Arduino to read
+            bluetoothLeService.send("1"); // Tell Arduino to read
             zone = 1;
         }
     };
@@ -219,7 +276,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         @Override
         public void onClick(View view) {
             if(!silent)  firstSound.start();
-            uart.send("2"); // Tell Arduino to read
+            bluetoothLeService.send("2"); // Tell Arduino to read
             Log.d(LOG_TAG, "Sent 2");
             zone = 2;
         }
@@ -246,7 +303,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         @Override
         public void onClick(View view) {
             if(!silent) firstSound.start();
-            uart.send("3"); // Tell Arduino to read
+            bluetoothLeService.send("3"); // Tell Arduino to read
             zone = 3;
         }
     };
@@ -273,7 +330,7 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         @Override
         public void onClick(View view) {
             if(!silent)  firstSound.start();
-            uart.send("4"); // Tell Arduino to read
+            bluetoothLeService.send("4"); // Tell Arduino to read
             zone = 4;
         }
     };
@@ -333,31 +390,28 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
         return super.onOptionsItemSelected(item);
     }
 
-    public void disableBLE() {
-        ble_status = "Disable BLE";
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
+    public void setButtonStatus(int status) {
+
+        switch(status) {
+            case 0 : // Disconnected
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
-                Log.d(LOG_TAG, "DisabledBLE");
-            }
-        });
-
-    }
-
-    public void enableBLE() {
-        ble_status = "BLE Enabled";
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
+                break;
+            case 1 : // Connected
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
-                Log.d(LOG_TAG, "enabled BLE");
-                uart.send("9"); // get battery level
-            }
-        });
-
+                break;
+            case 2 : // Discovered
+                btnBLE.setImageResource(R.drawable.bt_active);
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));break;
+            case 3: // Data available
+                btnBLE.setImageResource(R.drawable.bt_active);
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
+                break;
+            default:
+                btnBLE.setImageResource(R.drawable.bt_active);
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
+        }
     }
 
     private void writeLine(final CharSequence text) {
@@ -372,10 +426,37 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     @Override
     protected void onResume() {
         super.onResume();
+
+        registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
+        if (bluetoothLeService != null) {
+            final boolean result = bluetoothLeService.connect(deviceAddress);
+            Log.d(TAG, "Connect request result=" + result);
+        }
         writeLine("\nScanning for device... ");
-        uart.registerCallback(this);
-        uart.connectFirstAvailable();
-        if(!EventBus.getDefault().isRegistered(this))  EventBus.getDefault().register(this);
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unbindService(serviceConnection);
+        bluetoothLeService = null;
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        unregisterReceiver(gattUpdateReceiver);
+    }
+
+    private static IntentFilter makeGattUpdateIntentFilter() {
+
+        final IntentFilter intentFilter = new IntentFilter();
+        intentFilter.addAction(BluetoothLeService.ACTION_GATT_CONNECTED);
+        intentFilter.addAction(BluetoothLeService.ACTION_GATT_DISCONNECTED);
+        intentFilter.addAction(BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED);
+        intentFilter.addAction(BluetoothLeService.ACTION_DATA_AVAILABLE);
+        return intentFilter;
     }
 
     @Override
@@ -388,93 +469,30 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
     protected void onStop() {
         EventBus.getDefault().unregister(this);
         super.onStop();
-        uart.unregisterCallback(this);
-        uart.disconnect();
-        disableBLE();
-        writeLine("\nStopped..");
+        setButtonStatus(0);
+        bluetoothLeService.close();
     }
 
-    @Override
-    public void onConnected(BluetoothLeUart uart) {
-        Log.d(LOG_TAG, "onConnected" + uart.toString());
-        ble_status = "Connected ";
-        enableBLE();
 
-    }
 
-    @Override
-    public void onConnectFailed(BluetoothLeUart uart) {
-        ble_status = "Connection Failed, " + uart.toString();
-        disableBLE();
-    }
-
-    @Override
-    public void onDisconnected(BluetoothLeUart uart) {
-        ble_status = "Device Disconnected";
-        disableBLE();
-    }
-
-    @Override
-    public void onReceive(BluetoothLeUart uart, BluetoothGattCharacteristic rx) {
-        ble_status = "Data Streaming";
-        String msg = "" + rx.getStringValue(0);
-        if (msg.indexOf('|') > 0) {
-            readStr = readStr + msg;
-            decode(readStr);
-            readStr = "";
-        } else {
-            readStr = readStr + msg;
-        }
-    }
-
-    @Override
-    public void onDeviceFound(BluetoothDevice device) {
-        ble_status = "Device Found";
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                btnBLE.setImageResource(R.drawable.bt_passive);
-                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.yellow)));
-            }
-        });
-    }
-
-    @Override
-    public void onDeviceInfoAvailable() {
-        ble_status = "BLE Disabled";
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                btnBLE.setImageResource(R.drawable.bt_passive);
-                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
-                Log.d(LOG_TAG, "disableLE");
-            }
-        });
-        ble_status = "Device Info Available" + uart.toString();
-    }
-
-    public void decode(final String str) {
+    public void decode( String str) {
         Log.d(LOG_TAG, str);
-        this.runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                String cod = str.substring(str.indexOf("cmd") + 3, str.indexOf("pow"));
-                switch (cod) {
-                    case "49":
-                    case "50":
-                    case "51":
-                    case "52":
-                        decodeColor(str);
-                        break;
-                    case "53":
-                        break;
-                    case "57":
-                        setBatteryLevel(str);
-                        break;
-                    default:
-                }
-            }
-        });
+
+        String cod = str.substring(str.indexOf("cmd") + 3, str.indexOf("pow"));
+        switch (cod) {
+            case "49":
+            case "50":
+            case "51":
+            case "52":
+                decodeColor(str);
+                break;
+            case "53":
+                break;
+            case "57":
+                setBatteryLevel(str);
+                break;
+            default:
+        }
     }
 
 
@@ -591,7 +609,8 @@ public class MainActivity extends AppCompatActivity implements BluetoothLeUart.C
                     AsyncTask.execute(new Runnable() {
                         @Override
                         public void run() {
-                            uart.send("8");
+
+                            //uart.send("8");
                         }
                     });
                 } else if (id == R.id.nav_slideshow) {
