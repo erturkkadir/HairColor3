@@ -5,6 +5,9 @@ import android.widget.Toast;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+
+import java.io.IOException;
+
 import libsvm.svm;
 import libsvm.svm_model;
 import libsvm.svm_node;
@@ -26,6 +29,8 @@ public class MySVM {
         this.restServer = restServer;
         svm_model model = svmTrain(xtrain, ytrain);
         double[] yprediction = svmPredict(xtest, model);
+        svm.
+
     }
 
     private svm_model svmTrain(double[][] xtrain, double[][] ytrain) {
@@ -57,6 +62,13 @@ public class MySVM {
         param.cache_size = 20000;
         param.eps = 0.001;
         svm_model model = svm.svm_train(prob, param);
+        model.
+
+        try {
+            svm.svm_save_model("model.svm", model);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         return model;
     }
 

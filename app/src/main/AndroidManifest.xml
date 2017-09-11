@@ -70,7 +70,12 @@
             android:enabled="true" />
         <service
             android:name=".model.BluetoothLeService"
-            android:exported="false"></service>
+            android:exported="false" />
+
+        <activity
+            android:name=".view.activities.SpeechToTextActivity"
+            android:label="@string/title_activity_speech_to_text"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

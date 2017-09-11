@@ -81,6 +81,11 @@
         <service
             android:name="com.syshuman.kadir.haircolor3.model.BluetoothLeService"
             android:exported="false" />
+
+        <activity
+            android:name="com.syshuman.kadir.haircolor3.view.activities.SpeechToTextActivity"
+            android:label="@string/title_activity_speech_to_text"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

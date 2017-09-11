@@ -2,13 +2,31 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\HairColor\HairColor3\app\lib\libsvm.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_060353b6f8d1268977651dc4881aa49131114fae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/lib/libsvm.jar"
+        jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="ce4cc769dfecabc92913f36b3332e1a6b0534cb7">
-        <dex dex="C:\HairColor\HairColor3\app\build\intermediates\pre-dexed\debug\libsvm_7e98fe2ebd51ec0ef1003acccf2a75dc9679a92c.jar" />
+        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/2/libsvm_94312b4b7a0f5440f1c5864ee3c78092e352242d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="347b6a95f5a6fb8e2bcc4994119e52012eb827cf">
+        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_115df551a95d7f2d59c3b0cfd724b6490998727e/classes.dex" />
     </item>
 
 </items>

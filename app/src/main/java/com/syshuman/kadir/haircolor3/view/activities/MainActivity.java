@@ -571,7 +571,8 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                         }
                     });
                 } else if (id == R.id.nav_slideshow) {
-                    Log.d(LOG_TAG, "Nav Slideshow");
+                    Intent intent = new Intent(context, SpeechToTextActivity.class);
+                    startActivity(intent);
                 } else if (id == R.id.nav_manage) {
                     Log.d(LOG_TAG, "Nav Manage");
                 } else if (id == R.id.nav_share) {

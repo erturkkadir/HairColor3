@@ -5,21 +5,20 @@
         <item
             android:id="@+id/nav_camera"
             android:actionLayout="@color/blue"
-            android:icon="@drawable/ic_menu_camera"
-
-            android:title="How To" />
+            android:icon="@drawable/ic_menu_share"
+            android:title="Search Customer" />
         <item
             android:id="@+id/btn_reset"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Reset" />
+            android:title="Misc" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Machine Learning" />
+            android:title="Machine Learning Settings" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Advanced" />
+            android:title="Device Settings" />
     </group>
 
     <item android:title="Account">

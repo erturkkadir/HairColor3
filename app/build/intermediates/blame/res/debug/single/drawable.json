@@ -1,914 +1,230 @@
 [
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_menu_slideshow.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_menu_slideshow.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_chevron_right_black_18dp.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_chevron_right_black_18dp.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_slideshow.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/battery_low.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/battery_low.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_low.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\battery_low.png"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\battery.png"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/battery.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/battery.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_manage.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.xml",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_menu_gallery.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_menu_gallery.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/bluetooth_logo.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/bluetooth_logo.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_menu_camera.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_menu_camera.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable/navigation_empty_icon.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_small.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\battery_small.png"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/side_nav_bar.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_arrow_forward_black_18dp.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_arrow_forward_black_18dp.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_menu_send.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_menu_send.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/bt_active.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/bt_active.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_low.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\battery_low.png"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_menu_manage.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_menu_manage.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_manage.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bluetooth_logo.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\bluetooth_logo.png"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/battery_small.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/battery_small.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_send.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_arrow_drop_down_black_18dp.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_arrow_drop_down_black_18dp.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_arrow_forward_black_48dp.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_arrow_forward_black_48dp.png"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/bt_passive.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/bt_passive.png"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_drop_down_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_drop_down_black_18dp.png"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\battery.png"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_menu_share.xml",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_menu_share.xml"
     },
     {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_drop_down_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_drop_down_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chevron_right_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_chevron_right_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_low.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\battery_low.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_passive.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\bt_passive.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\intel_logo.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\intel_logo.png"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\battery.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_send.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_slideshow.xml",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_small.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\battery_small.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chevron_right_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_chevron_right_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_slideshow.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_active.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\bt_active.png"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bluetooth_logo.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\bluetooth_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\intel_logo.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\intel_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_passive.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\bt_passive.png"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_manage.xml",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_forward_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_send.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_forward_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_passive.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\bt_passive.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_active.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\bt_active.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\intel_logo.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\intel_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_forward_black_48dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_forward_black_18dp.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_forward_black_48dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_low.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\battery_low.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_send.xml",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_send.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_drop_down_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_drop_down_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bluetooth_logo.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\bluetooth_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_active.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\bt_active.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\intel_logo.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\intel_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_forward_black_48dp.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_48dp.png"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bluetooth_logo.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\bluetooth_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_passive.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\bt_passive.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_small.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\battery_small.png"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_slideshow.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_slideshow.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chevron_right_black_18dp.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_chevron_right_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_manage.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_manage.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery_small.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\battery_small.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_drop_down_black_18dp.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_drop_down_black_18dp.png"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_forward_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_gallery.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_share.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_share.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bt_active.png",
-        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\bt_active.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\battery.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\battery.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\side_nav_bar.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chevron_right_black_18dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_chevron_right_black_18dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\40c745b3475a13ffb02b698850f2981e01d0d114\\output\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_arrow_forward_black_48dp.png",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_arrow_forward_black_48dp.png"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\kadir\\.android\\build-cache\\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/intel_logo.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/intel_logo.png"
     }
 ]
