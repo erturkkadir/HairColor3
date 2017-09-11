@@ -1,15 +1,19 @@
 package com.syshuman.kadir.haircolor3.view.activities;
 
 import android.app.AlertDialog;
-import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothGattCharacteristic;
+import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.ServiceConnection;
 import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -26,30 +30,26 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import com.syshuman.kadir.haircolor3.R;
-import com.syshuman.kadir.haircolor3.dagger.components.DaggerHC3Component;
-import com.syshuman.kadir.haircolor3.dagger.components.HC3Component;
-import com.syshuman.kadir.haircolor3.dagger.modules.ContextModule;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
-import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
+import com.syshuman.kadir.haircolor3.model.BluetoothLeService;
 import com.syshuman.kadir.haircolor3.model.RestServer;
-
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class TrainingActivity extends AppCompatActivity implements BluetoothLeUart.Callback {
+public class TrainingActivity extends AppCompatActivity  {
 
-    private BluetoothLeUart uart;
+
     private MediaPlayer firstSound, lastSound;
-    private String readStr = "", ble_status="No connection";
+    private String ble_status="No connection";
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
+    public final static String EXTRA_DATA                       = "com.syshuman.kadir.haircolor3.model.extra.EXTRA_DATA";
+
     private Context context;
     private boolean silent=true;
+    private String LOG_TAG="Adafruit";
     RestServer restServer;
 
     @BindView(R.id.toolbar) Toolbar toolbar;
@@ -61,7 +61,9 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
     @BindView(R.id.btnBLE) FloatingActionButton btnBLE;
     @BindView(R.id.btnClearData) ImageButton btnClearData;
 
-    AlertDialog.Builder builder;
+    private AlertDialog.Builder builder;
+    private BluetoothLeService bluetoothLeService;
+    private String deviceAddress = "DD:68:7B:5D:B0:9B";
 
 
 
@@ -87,7 +89,6 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
 
-
         getData();
 
         btnTrain.setOnClickListener(btnTrainOnClick);
@@ -96,16 +97,75 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
 
         btnClearData.setOnClickListener(onClearDataOnclick);
 
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-
-                uart = new BluetoothLeUart(context);
-            }
-        });
         restServer = new RestServer(context);
         builder = new AlertDialog.Builder(this);
+
+        Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
+        bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
     }
+
+    private final ServiceConnection serviceConnection = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName name, IBinder service) {
+            bluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
+            if(!bluetoothLeService.initialize()) {
+                Log.d(LOG_TAG, "Unable to Initialize");
+            }
+            if(!bluetoothLeService.isConnected)
+                bluetoothLeService.connect(deviceAddress);
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName name) {
+
+        }
+    };
+
+    private BroadcastReceiver gattUpdateReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if (BluetoothLeService.ACTION_GATT_CONNECTED.equals(action)) {
+
+                setButtonStatus(1);
+            } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
+
+                setButtonStatus(0);
+            } else if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
+                setButtonStatus(2);
+            } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
+                String data = intent.getStringExtra(EXTRA_DATA);
+                Log.d(LOG_TAG, "Data " + data);
+                decode(data);
+                setButtonStatus(1);
+            }
+        }
+    };
+
+    public void setButtonStatus(int status) {
+
+        switch(status) {
+            case 0 : // Disconnected
+                btnBLE.setImageResource(R.drawable.bt_active);
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
+                break;
+            case 1 : // Connected
+                btnBLE.setImageResource(R.drawable.bt_active);
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
+                break;
+            case 2 : // Discovered
+                btnBLE.setImageResource(R.drawable.bt_active);
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));break;
+            case 3: // Data available
+                btnBLE.setImageResource(R.drawable.bt_active);
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
+                break;
+            default:
+                btnBLE.setImageResource(R.drawable.bt_active);
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
+        }
+    }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -145,7 +205,7 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
         @Override
         public void onClick(View view) {
             if(!silent) firstSound.start();
-            uart.send("1");
+            bluetoothLeService.send("4"); // Tell Arduino to read
         }
     };
 
@@ -155,44 +215,6 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
             Snackbar.make(view, ble_status, Snackbar.LENGTH_LONG).setAction("Action", null).show();
         }
     };
-
-    private void writeLine(final CharSequence text) {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-              //  messages.append(text);
-            }
-        });
-    }
-
-    public void disableBLE(String str) {
-        ble_status = "Disable BLE";
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                btnBLE.setImageResource(R.drawable.bt_active);
-                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
-                Log.i("BLE", "DisabledBLE");
-            }
-        });
-        btnTrain.setClickable(false);
-        writeLine(str);
-
-    }
-
-    public void enableBLE(String str) {
-        ble_status = "BLE Enabled";
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                btnBLE.setImageResource(R.drawable.bt_active);
-                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
-                Log.i("BLE", "enabled BLE");
-            }
-        });
-        btnTrain.setClickable(true);
-        writeLine(str);
-    }
 
     public void getData() {
 
@@ -267,109 +289,79 @@ public class TrainingActivity extends AppCompatActivity implements BluetoothLeUa
     @Override
     protected void onResume() {
         super.onResume();
-        writeLine("\nScanning for device... ");
-        uart.registerCallback(this);
-        uart.connectFirstAvailable();
-    }
+        registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
+        if (bluetoothLeService != null) {
+            boolean result = bluetoothLeService.connect(deviceAddress);
+            Log.d(LOG_TAG, "Connect request result=" + result);
+            bluetoothLeService.send("9"); /* get battery*/
 
-    // OnStop, called right before the activity loses foreground fo public void onConnection.  Close the BTLE connection.
-    @Override
-    protected void onStop() {
-        super.onStop();
-        uart.unregisterCallback(this);
-        uart.disconnect();
-        disableBLE("\nStopped..");
-    }
-
-    @Override
-    public void onConnected(BluetoothLeUart uart) {
-
-        enableBLE("\nconnected");
-    }
-
-    @Override
-    public void onConnectFailed(BluetoothLeUart uart) {
-        disableBLE("\nError connecting to device ! ");
-    }
-
-    @Override
-    public void onDisconnected(BluetoothLeUart uart) {
-        disableBLE("\nDisconnected!");
-    }
-
-    @Override
-    public void onReceive(BluetoothLeUart uart, BluetoothGattCharacteristic rx) {
-        String msg = "" + rx.getStringValue(0);
-        Log.d("TAG", msg);
-
-        if(msg.indexOf('|')>0) {
-            readStr = readStr + msg;
-            writeLine("\nReceived : " + readStr + '\r' );
-            decode(readStr);
-            readStr = "";
         } else {
-            readStr = readStr + msg;
+
         }
     }
 
-    @Override
-    public void onDeviceFound(BluetoothDevice device) {
-        // Called when a UART device is discovered (after calling startScan).
-        Log.d("Test", device.toString());
-        writeLine("\nFound device : " + device.toString());
-        writeLine("\nWaiting for a connection....");
+    private static IntentFilter makeGattUpdateIntentFilter() {
+        final IntentFilter intentFilter = new IntentFilter();
+        intentFilter.addAction(BluetoothLeService.ACTION_GATT_CONNECTED);
+        intentFilter.addAction(BluetoothLeService.ACTION_GATT_DISCONNECTED);
+        intentFilter.addAction(BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED);
+        intentFilter.addAction(BluetoothLeService.ACTION_DATA_AVAILABLE);
+        return intentFilter;
     }
 
     @Override
-    public void onDeviceInfoAvailable() {
-        writeLine(uart.getDeviceInfo());
+    protected void onStop() {
+        super.onStop();
+        setButtonStatus(0);
+    }
+
+    private void updateBattery(String pow) {
+
     }
 
     public void decode(final String str) {
+        String cmd = str.substring(str.indexOf("cmd")+3, str.indexOf("pow"));
+        String pow = str.substring(str.indexOf("pow")+3, str.indexOf("|"));
+        if(cmd.equals("57")) {
+            updateBattery(pow);
+        }
+        String r_r = str.substring(str.indexOf("r_r")+3, str.indexOf("r_g"));
+        String r_g = str.substring(str.indexOf("r_g")+3, str.indexOf("r_b"));
+        String r_b = str.substring(str.indexOf("r_b")+3, str.indexOf("r_c"));
+        String r_c = str.substring(str.indexOf("r_c")+3, str.indexOf("g_r"));
 
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                String r_r = str.substring(str.indexOf("r_r")+3, str.indexOf("r_g"));
-                String r_g = str.substring(str.indexOf("r_g")+3, str.indexOf("r_b"));
-                String r_b = str.substring(str.indexOf("r_b")+3, str.indexOf("r_c"));
-                String r_c = str.substring(str.indexOf("r_c")+3, str.indexOf("g_r"));
+        String g_r = str.substring(str.indexOf("g_r")+3, str.indexOf("g_g"));
+        String g_g = str.substring(str.indexOf("g_g")+3, str.indexOf("g_b"));
+        String g_b = str.substring(str.indexOf("g_b")+3, str.indexOf("g_c"));
+        String g_c = str.substring(str.indexOf("g_c")+3, str.indexOf("b_r"));
 
-                String g_r = str.substring(str.indexOf("g_r")+3, str.indexOf("g_g"));
-                String g_g = str.substring(str.indexOf("g_g")+3, str.indexOf("g_b"));
-                String g_b = str.substring(str.indexOf("g_b")+3, str.indexOf("g_c"));
-                String g_c = str.substring(str.indexOf("g_c")+3, str.indexOf("b_r"));
+        String b_r = str.substring(str.indexOf("b_r")+3, str.indexOf("b_g"));
+        String b_g = str.substring(str.indexOf("b_g")+3, str.indexOf("b_b"));
+        String b_b = str.substring(str.indexOf("b_b")+3, str.indexOf("b_c"));
+        String b_c = str.substring(str.indexOf("b_c")+3, str.indexOf("a_r"));
 
-                String b_r = str.substring(str.indexOf("b_r")+3, str.indexOf("b_g"));
-                String b_g = str.substring(str.indexOf("b_g")+3, str.indexOf("b_b"));
-                String b_b = str.substring(str.indexOf("b_b")+3, str.indexOf("b_c"));
-                String b_c = str.substring(str.indexOf("b_c")+3, str.indexOf("a_r"));
-
-                String a_r = str.substring(str.indexOf("a_r")+3, str.indexOf("a_g"));
-                String a_g = str.substring(str.indexOf("a_g")+3, str.indexOf("a_b"));
-                String a_b = str.substring(str.indexOf("a_b")+3, str.indexOf("a_c"));
-                String a_c = str.substring(str.indexOf("a_c")+3, str.indexOf("cmd"));
-
-                String pow = str.substring(str.indexOf("cmd")+3, str.indexOf("pow"));
+        String a_r = str.substring(str.indexOf("a_r")+3, str.indexOf("a_g"));
+        String a_g = str.substring(str.indexOf("a_g")+3, str.indexOf("a_b"));
+        String a_b = str.substring(str.indexOf("a_b")+3, str.indexOf("a_c"));
+        String a_c = str.substring(str.indexOf("a_c")+3, str.indexOf("cmd"));
 
 
-                String company  = spTCompany.getSelectedItem().toString();
-                String category = spTCategory.getSelectedItem().toString();
-                String series = spTSeries.getSelectedItem().toString();
-                String color = spTColor.getSelectedItem().toString();
+        String company  = spTCompany.getSelectedItem().toString();
+        String category = spTCategory.getSelectedItem().toString();
+        String series = spTSeries.getSelectedItem().toString();
+        String color = spTColor.getSelectedItem().toString();
 
-                if(!silent) firstSound.stop();
-                if(!silent) lastSound.start();
+        if(!silent) firstSound.stop();
+        if(!silent) lastSound.start();
 
-                RestServer restServer = new RestServer(context);
-                restServer.train3(context,
+        RestServer restServer = new RestServer(context);
+        restServer.train3(context,
                         r_r, r_g, r_b, r_c,
                         g_r, g_g, g_b, g_c,
                         b_r, b_g, b_b, b_c,
                         a_r, a_g, a_b, a_c,
                         pow, company, category, series, color);
-            }
-        });
+
     }
 
 

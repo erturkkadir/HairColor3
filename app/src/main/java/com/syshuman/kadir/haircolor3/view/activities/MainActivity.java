@@ -1,8 +1,6 @@
 package com.syshuman.kadir.haircolor3.view.activities;
 
 import android.app.AlertDialog;
-import android.bluetooth.BluetoothDevice;
-import android.bluetooth.BluetoothGattCharacteristic;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -42,17 +40,14 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.syshuman.kadir.haircolor3.dagger.components.DaggerHC3Component;
 import com.syshuman.kadir.haircolor3.dagger.components.HC3Component;
 import com.syshuman.kadir.haircolor3.dagger.modules.ContextModule;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
-import com.syshuman.kadir.haircolor3.model.BluetoothLeService;
-import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 import com.syshuman.kadir.haircolor3.R;
+import com.syshuman.kadir.haircolor3.model.BluetoothLeService;
 import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.fragments.ReadFragment;
-import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import butterknife.BindView;
@@ -60,13 +55,10 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity implements ReadFragment.OnFragmentInteractionListener {
 
-    String messages, readStr="", ble_status="No connection";
+    String ble_status="No connection";
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
-    public final static String EXTRA_DATA                       = "com.syshuman.kadir.haircolor3.model.extra.EXTRA_DATA";
+    public final static String EXTRA_DATA   = "com.syshuman.kadir.haircolor3.model.extra.EXTRA_DATA";
 
-    private static final String TAG="Ada";
-
-    //private BluetoothLeUart uart;
     private Context context;
     private String LOG_TAG="Adafruit";
 
@@ -100,13 +92,9 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     @BindView(R.id.txtBattery) TextView txtBattery;
     private BluetoothLeService bluetoothLeService;
     private String deviceAddress = "DD:68:7B:5D:B0:9B";
-    private boolean connected =false;
-
-
 
     CharSequence categories[] = new CharSequence[] {"Natural", "Colored", "Pigments"};
     AlertDialog.Builder builder;
-
 
     private Boolean silent = true;
 
@@ -145,7 +133,6 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
         NavAndDraw();
 
-
         btnZone1.setOnClickListener(onZone1Click);
         btnZone2.setOnClickListener(onZone2Click);
         btnZone3.setOnClickListener(onZone3Click);
@@ -158,14 +145,6 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
         btnBLE.setOnClickListener(onBLEListener);
         btnGetRecipe.setOnClickListener(onGetRecipeListener);
-
-        /* runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                uart = component.getBluetoothLeUart();
-            }
-        });
-        */
 
         restServer = component.getRestServer();
 
@@ -183,14 +162,15 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         public void onServiceConnected(ComponentName name, IBinder service) {
             bluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
             if(!bluetoothLeService.initialize()) {
-                Log.d(TAG, "Unable to Initialize");
+                Log.d(LOG_TAG, "Unable to Initialize");
+
             }
             bluetoothLeService.connect(deviceAddress);
         }
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
-
+            Log.d(LOG_TAG, "Service disconnected");
         }
     };
 
@@ -199,20 +179,19 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if (BluetoothLeService.ACTION_GATT_CONNECTED.equals(action)) {
-                connected = true;
+                Log.d(LOG_TAG, "GATT CONNECTED");
                 setButtonStatus(1);
+                bluetoothLeService.send("9");
             } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
-                connected = false;
                 setButtonStatus(0);
             } else if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
                 setButtonStatus(2);
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
                 String data = intent.getStringExtra(EXTRA_DATA);
-                Log.d(TAG, "Data " + data);
+                Log.d(LOG_TAG, "Data " + data);
                 decode(data);
                 setButtonStatus(1);
             }
-
         }
     };
 
@@ -250,7 +229,6 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
             Log.d(LOG_TAG, "Sent 1 To device ");
             if(!silent) firstSound.start();
             bluetoothLeService.send("1"); // Tell Arduino to read
-            zone = 1;
         }
     };
 
@@ -278,7 +256,6 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
             if(!silent)  firstSound.start();
             bluetoothLeService.send("2"); // Tell Arduino to read
             Log.d(LOG_TAG, "Sent 2");
-            zone = 2;
         }
     };
 
@@ -304,7 +281,6 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         public void onClick(View view) {
             if(!silent) firstSound.start();
             bluetoothLeService.send("3"); // Tell Arduino to read
-            zone = 3;
         }
     };
 
@@ -331,7 +307,6 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         public void onClick(View view) {
             if(!silent)  firstSound.start();
             bluetoothLeService.send("4"); // Tell Arduino to read
-            zone = 4;
         }
     };
 
@@ -361,7 +336,6 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
@@ -410,31 +384,19 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                 break;
             default:
                 btnBLE.setImageResource(R.drawable.bt_active);
-                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
+                btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
         }
-    }
-
-    private void writeLine(final CharSequence text) {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                messages += text;
-            }
-        });
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
         if (bluetoothLeService != null) {
-            final boolean result = bluetoothLeService.connect(deviceAddress);
-            Log.d(TAG, "Connect request result=" + result);
+            boolean result = bluetoothLeService.connect(deviceAddress);
+            Log.d(LOG_TAG, "Connect request result=" + result);
         }
-        writeLine("\nScanning for device... ");
     }
-
 
     @Override
     protected void onDestroy() {
@@ -462,18 +424,13 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     @Override
     protected void onStart() {
         super.onStart();
-        EventBus.getDefault().register(this);
     }
 
     @Override
     protected void onStop() {
-        EventBus.getDefault().unregister(this);
         super.onStop();
         setButtonStatus(0);
-        bluetoothLeService.close();
     }
-
-
 
     public void decode( String str) {
         Log.d(LOG_TAG, str);
@@ -634,6 +591,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         int pow = Integer.valueOf(power); // 400
         pow = 100 * (pow - 340) / (430 - 340);
         txtBattery.setText(String.valueOf(pow)+"%");
+        Log.d(LOG_TAG, "setBatteryLevel"+power);
         if(pow<50)
             imgBattery.setBackgroundColor(Color.RED);
         else
