@@ -29,7 +29,7 @@ public class MySVM {
         this.restServer = restServer;
         svm_model model = svmTrain(xtrain, ytrain);
         double[] yprediction = svmPredict(xtest, model);
-        svm.
+
 
     }
 
@@ -62,7 +62,7 @@ public class MySVM {
         param.cache_size = 20000;
         param.eps = 0.001;
         svm_model model = svm.svm_train(prob, param);
-        model.
+
 
         try {
             svm.svm_save_model("model.svm", model);

@@ -45,7 +45,7 @@ public class TrainingActivity extends AppCompatActivity  {
     private MediaPlayer firstSound, lastSound;
     private String ble_status="No connection";
     private static final int PERMISSION_REQUEST_COARSE_LOCATION = 1;
-    public final static String EXTRA_DATA                       = "com.syshuman.kadir.haircolor3.model.extra.EXTRA_DATA";
+    public final static String EXTRA_DATA = "com.syshuman.kadir.haircolor3.model.extra.EXTRA_DATA";
 
     private Context context;
     private boolean silent=true;
@@ -65,9 +65,6 @@ public class TrainingActivity extends AppCompatActivity  {
     private BluetoothLeService bluetoothLeService;
     private String deviceAddress = "DD:68:7B:5D:B0:9B";
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,7 +77,6 @@ public class TrainingActivity extends AppCompatActivity  {
         this.context = getApplicationContext();
 
         ButterKnife.bind(this);
-
 
         setSupportActionBar(toolbar);
 
@@ -98,6 +94,7 @@ public class TrainingActivity extends AppCompatActivity  {
         btnClearData.setOnClickListener(onClearDataOnclick);
 
         restServer = new RestServer(context);
+
         builder = new AlertDialog.Builder(this);
 
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
@@ -113,6 +110,8 @@ public class TrainingActivity extends AppCompatActivity  {
             }
             if(!bluetoothLeService.isConnected)
                 bluetoothLeService.connect(deviceAddress);
+            else
+                setButtonStatus(1);
         }
 
         @Override
@@ -126,7 +125,6 @@ public class TrainingActivity extends AppCompatActivity  {
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
             if (BluetoothLeService.ACTION_GATT_CONNECTED.equals(action)) {
-
                 setButtonStatus(1);
             } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
 
@@ -291,12 +289,8 @@ public class TrainingActivity extends AppCompatActivity  {
         super.onResume();
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
         if (bluetoothLeService != null) {
-            boolean result = bluetoothLeService.connect(deviceAddress);
-            Log.d(LOG_TAG, "Connect request result=" + result);
-            bluetoothLeService.send("9"); /* get battery*/
-
-        } else {
-
+            if(!bluetoothLeService.isConnected)
+              bluetoothLeService.connect(deviceAddress);
         }
     }
 

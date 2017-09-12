@@ -11,6 +11,24 @@
         <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_060353b6f8d1268977651dc4881aa49131114fae/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/kerturkx/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/javax.inject-1_fbd3d56fd3ce2e163e64bec80c7107b89bf0ec0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/lib/libsvm.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce4cc769dfecabc92913f36b3332e1a6b0534cb7">
+        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/libsvm_94312b4b7a0f5440f1c5864ee3c78092e352242d.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/lib/libsvm.jar"
         jumboMode="true"
@@ -18,6 +36,15 @@
         revision="25.0.0"
         sha1="ce4cc769dfecabc92913f36b3332e1a6b0534cb7">
         <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/2/libsvm_94312b4b7a0f5440f1c5864ee3c78092e352242d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/kerturkx/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.8/55a1aa1cdcfd06b9950ca856e2bc2790e105146a/dagger-2.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="55a1aa1cdcfd06b9950ca856e2bc2790e105146a">
+        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/pre-dexed/debug/dagger-2.8_db3e3f37f31eb0a69a01c5c60ccd81c01f2fd19c.jar" />
     </item>
     <item
         is-multidex="true"

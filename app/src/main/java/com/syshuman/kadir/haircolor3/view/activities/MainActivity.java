@@ -488,7 +488,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
          if(!silent) lastSound.start();
          String catalog = "Natural";
 
-         RestServer restServer = new RestServer(context);
+         restServer = new RestServer(context);
 
          restServer.getColor3(company, catalog, cmd, power,
                  r_r, r_g, r_b, r_c,
@@ -598,7 +598,6 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         else
             imgBattery.setBackgroundColor(Color.BLUE);
     }
-
 
     @Override
     public void onFragmentInteraction(String color1, String delta1, String color2, String delta2) {
