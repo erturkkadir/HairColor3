@@ -49,6 +49,8 @@ import com.syshuman.kadir.haircolor3.model.BluetoothLeService;
 import com.syshuman.kadir.haircolor3.model.MySVM;
 import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.fragments.ReadFragment;
+
+import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.json.JSONException;
@@ -166,17 +168,15 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         public void onServiceConnected(ComponentName name, IBinder service) {
 
             bluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
-
-            if(!bluetoothLeService.initialize()) {
-                Log.d(LOG_TAG, "Unable to Initialize");
-                return;
+            if(!bluetoothLeService.initialized) {
+                if(!bluetoothLeService.initialize()) {
+                    Log.d(LOG_TAG, "Unable to Initialize");
+                    return;
+                }
             }
 
-            Log.d(LOG_TAG, "Initialized");
-            bluetoothLeService.connect(deviceAddress);
-
             if(!bluetoothLeService.isConnected) {
-               // bluetoothLeService.connect(deviceAddress);
+                bluetoothLeService.connect(deviceAddress);
                 Log.d(LOG_TAG, "connected");
             } else {
                 setButtonStatus(1);
@@ -408,13 +408,19 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     @Override
     protected void onResume() {
         super.onResume();
-
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
+        if(!EventBus.getDefault().isRegistered(this))   EventBus.getDefault().register(this);
+
+        /*
+        if(!bluetoothLeService.initialized)
+            bluetoothLeService.initialize();
 
         if (bluetoothLeService != null) {
             boolean result = bluetoothLeService.connect(deviceAddress);
+            registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
             Log.d(LOG_TAG, "Connect request result=" + result);
         }
+        */
 
     }
 
@@ -528,10 +534,9 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
          xtest[0][16] = Integer.valueOf(pow);
          MySVM svm = new MySVM(context);
-
          ypred = svm.predict(xtest);
          for(int i=0;i<ypred.length;i++) {
-             Toast.makeText(context, "Unable to saved at " + String.valueOf(ypred[i]), Toast.LENGTH_LONG).show();
+             Toast.makeText(context, "Predicted value is " + String.valueOf(ypred[i]), Toast.LENGTH_LONG).show();
          }
 
          restServer = new RestServer(context);

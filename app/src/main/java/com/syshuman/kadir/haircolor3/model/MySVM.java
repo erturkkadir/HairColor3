@@ -33,7 +33,7 @@ public class MySVM {
 
         int recordCount = xtrain.length;
         int featureCount = xtrain[0].length;
-        xtrain = scale(xtrain, recordCount, featureCount);
+        xtrain = scale(xtrain);
         prob.y = new double[recordCount];
         prob.l = recordCount;
         prob.x = new svm_node[recordCount][featureCount];
@@ -72,7 +72,9 @@ public class MySVM {
         return model;
     }
 
-    private double[][] scale(double[][] xtrain, int recordCount, int featureCount) {
+    private double[][] scale(double[][] xtrain) {
+        int recordCount = xtrain.length;
+        int featureCount = xtrain[0].length;
         for(int i=0;i<recordCount; i++)
             for(int j=0;j<featureCount; j++)
                 xtrain[i][j] = scale(xtrain[i][j]);
@@ -87,7 +89,9 @@ public class MySVM {
         return y_min  + (y_max-y_min) * (value-xmin) / (xmax-xmin);
     }
 
+
     public double[] predict(double[][] xdata) {
+        xdata = scale(xdata);
         String path = context.getFilesDir().getPath() + "/svm_model.svm" ;
         try {
             svm_model model = svm.svm_load_model(path);
@@ -111,7 +115,7 @@ public class MySVM {
                 nodes[i] = node;
             }
 
-            int totalClasses = 10;
+            int totalClasses = model.nr_class;
             int[] labels = new int[totalClasses];
             svm.svm_get_labels(model,labels);
             double[] prob_estimates = new double[totalClasses];

@@ -105,7 +105,7 @@ public class TrainingActivity extends AppCompatActivity  {
         builder = new AlertDialog.Builder(this);
 
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
-        bindService(gattServiceIntent, serviceConnection, 0);
+        bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
 
     }
 
@@ -113,13 +113,16 @@ public class TrainingActivity extends AppCompatActivity  {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
             bluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
+            /*
             if(!bluetoothLeService.initialize()) {
                 Log.d(LOG_TAG, "Unable to Initialize");
             }
             Log.d(LOG_TAG, "Initialized");
             bluetoothLeService.connect(deviceAddress);
+            */
 
             if(!bluetoothLeService.isConnected) {
+                bluetoothLeService.connect(deviceAddress);
                 Log.d(LOG_TAG, "not connected");
             } else {
                 setButtonStatus(1);
@@ -225,7 +228,7 @@ public class TrainingActivity extends AppCompatActivity  {
         @Override
         public void onClick(View view) {
             if(!silent) firstSound.start();
-            bluetoothLeService.send("4"); // Tell Arduino to read
+            bluetoothLeService.send("1"); // Tell Arduino to read
         }
     };
 
@@ -309,14 +312,16 @@ public class TrainingActivity extends AppCompatActivity  {
     @Override
     protected void onResume() {
         super.onResume();
-
-        registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
+        /*
         if (bluetoothLeService != null) {
-            if(!bluetoothLeService.isConnected)
-              bluetoothLeService.connect(deviceAddress);
-        }
+            if(!bluetoothLeService.initialized)
+                if(!bluetoothLeService.isConnected)
+                    bluetoothLeService.connect(deviceAddress);
 
+        }*/
+        registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
         if(!EventBus.getDefault().isRegistered(this))   EventBus.getDefault().register(this);
+
     }
 
     private static IntentFilter makeGattUpdateIntentFilter() {
@@ -331,9 +336,6 @@ public class TrainingActivity extends AppCompatActivity  {
     @Override
     protected void onStop() {
         super.onStop();
-        setButtonStatus(0);
-        bluetoothLeService.disconnect();
-        bluetoothLeService.close();
         if(EventBus.getDefault().isRegistered(this))   EventBus.getDefault().unregister(this);
     }
 

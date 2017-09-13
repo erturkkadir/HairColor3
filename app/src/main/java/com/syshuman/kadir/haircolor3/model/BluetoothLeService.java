@@ -32,6 +32,7 @@ public class BluetoothLeService extends Service {
     private String mBluetoothDeviceAddress;
     private BluetoothGatt mBluetoothGatt;
     public boolean isConnected = false;
+    public boolean initialized = false;
 
     private BluetoothGattCharacteristic tx;
     private BluetoothGattCharacteristic rx;
@@ -212,6 +213,8 @@ public class BluetoothLeService extends Service {
             return false;
         }
         Log.d(TAG, "BluetoothManager obtained.");
+
+        initialized = true;
 
         return true;
     }
