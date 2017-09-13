@@ -34,6 +34,7 @@ public class TrainingActivity_ViewBinding implements Unbinder {
     target.btnTrain = Utils.findRequiredViewAsType(source, R.id.btnTrain, "field 'btnTrain'", ImageButton.class);
     target.btnBLE = Utils.findRequiredViewAsType(source, R.id.btnBLE, "field 'btnBLE'", FloatingActionButton.class);
     target.btnClearData = Utils.findRequiredViewAsType(source, R.id.btnClearData, "field 'btnClearData'", ImageButton.class);
+    target.btnModel = Utils.findRequiredViewAsType(source, R.id.btnModel, "field 'btnModel'", ImageButton.class);
   }
 
   @Override
@@ -51,5 +52,6 @@ public class TrainingActivity_ViewBinding implements Unbinder {
     target.btnTrain = null;
     target.btnBLE = null;
     target.btnClearData = null;
+    target.btnModel = null;
   }
 }

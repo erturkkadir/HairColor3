@@ -1,6 +1,7 @@
 package com.syshuman.kadir.haircolor3.model;
 
 import android.content.Context;
+import android.os.Environment;
 import android.widget.Toast;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import org.greenrobot.eventbus.Subscribe;
@@ -23,20 +24,16 @@ public class MySVM {
     double[][] xtest;
     double[][] ytest;
 
-    public MySVM(Context context, RestServer restServer, svm _svm) {
+    public MySVM(Context context) {
         this.context = context;
-        this._svm = _svm;
-        this.restServer = restServer;
-        svm_model model = svmTrain(xtrain, ytrain);
-        double[] yprediction = svmPredict(xtest, model);
-
-
     }
 
-    private svm_model svmTrain(double[][] xtrain, double[][] ytrain) {
+    public svm_model svmTrain(double[][] xtrain, double[][] ytrain) {
         svm_problem prob = new svm_problem();
+
         int recordCount = xtrain.length;
         int featureCount = xtrain[0].length;
+        xtrain = scale(xtrain, recordCount, featureCount);
         prob.y = new double[recordCount];
         prob.l = recordCount;
         prob.x = new svm_node[recordCount][featureCount];
@@ -63,16 +60,46 @@ public class MySVM {
         param.eps = 0.001;
         svm_model model = svm.svm_train(prob, param);
 
+        String path = context.getFilesDir().getPath();
 
         try {
-            svm.svm_save_model("model.svm", model);
+            svm.svm_save_model(path+"/svm_model.svm", model);
+            Toast.makeText(context, "Model File is saved at " + path, Toast.LENGTH_LONG).show();
         } catch (IOException e) {
+            Toast.makeText(context, "Unable to saved at " + path, Toast.LENGTH_LONG).show();
             e.printStackTrace();
         }
         return model;
     }
 
-    public double[] svmPredict(double[][] xtest, svm_model model) {
+    private double[][] scale(double[][] xtrain, int recordCount, int featureCount) {
+        for(int i=0;i<recordCount; i++)
+            for(int j=0;j<featureCount; j++)
+                xtrain[i][j] = scale(xtrain[i][j]);
+        return xtrain;
+    }
+
+    private double scale(double value) {
+        int xmin = 200;
+        int xmax = 400;
+        int y_min = 0;
+        int y_max = 1;
+        return y_min  + (y_max-y_min) * (value-xmin) / (xmax-xmin);
+    }
+
+    public double[] predict(double[][] xdata) {
+        String path = context.getFilesDir().getPath() + "/svm_model.svm" ;
+        try {
+            svm_model model = svm.svm_load_model(path);
+            return svmPredict(xdata, model);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+
+    private double[] svmPredict(double[][] xtest, svm_model model) {
         double[] yPred = new double[xtest.length];
         for(int k = 0; k < xtest.length; k++){
             double[] fVector = xtest[k];
@@ -84,7 +111,7 @@ public class MySVM {
                 nodes[i] = node;
             }
 
-            int totalClasses = 2;
+            int totalClasses = 10;
             int[] labels = new int[totalClasses];
             svm.svm_get_labels(model,labels);
             double[] prob_estimates = new double[totalClasses];
@@ -94,11 +121,11 @@ public class MySVM {
     }
 
     public void getTrainData() {
-        restServer.getTrainData("data.txt");
+        //restServer.getTrainData("data.txt");
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onTrainData(MessageEvents.onTrainData event) {
-        Toast.makeText(context, event.data.length, Toast.LENGTH_LONG).show();
+    public void onTrainData(MessageEvents.onTrainedData event) {
+        //Toast.makeText(context, event.data.length, Toast.LENGTH_LONG).show();
     }
 }

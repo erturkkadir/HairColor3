@@ -33,11 +33,8 @@ import java.util.Map;
 
 public class RestServer {
 
-
-
     private String baseUrl  = "http://hcapi.free-estimation.com/";
     private Context context;
-
 
     public RestServer(Context context) {
         this.context = context;
@@ -242,30 +239,22 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
-    public void getColor3(final String company, final String catalog, final String zone, final String power,
-                         final String r_r, final String r_g, final String r_b, final String r_c,
-                         final String g_r, final String g_g, final String g_b, final String g_c,
-                         final String b_r, final String b_g, final String b_b, final String b_c,
-                         final String a_r, final String a_g, final String a_b, final String a_c
-                         ) {
+    public void getColor3(final int cn_id, final int zone  ) {
 
         String url   = baseUrl + "api/v1/users/getcolor3";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>(){
                     @Override
                     public void onResponse(String response) {
-                        EventBus.getDefault().post( new MessageEvents.onGetColor("", "") );
+
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
                             String message = json.getString("message");
                             JSONObject data = new JSONObject(json.getString("data"));
-                            String result = data.getString("lc_color");
-                            String zone = data.getString("lc_zone");
-
                             if(statusCode.equals("200 OK")) {
                                 Toast.makeText(context, "Color Obtained from server", Toast.LENGTH_LONG).show();
-                                EventBus.getDefault().post( new MessageEvents.onGetColor(result, zone) );
+                                EventBus.getDefault().post( new MessageEvents.onGetColor(data, zone) );
                             } else {
 
                                 Toast.makeText(context, message, Toast.LENGTH_LONG).show();
@@ -279,22 +268,13 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        EventBus.getDefault().post( new MessageEvents.onGetColor("", "") );
                         Toast.makeText(context, "Please double check service at gelcolor3", Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
             protected Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<String, String>();
-                params.put("company", company);
-                params.put("catalog", catalog);
-                params.put("zone", zone);
-                params.put("power", power);
-
-                params.put("r_r", r_r); params.put("r_g", r_g); params.put("r_b", r_b); params.put("r_c", r_c);
-                params.put("g_r", g_r); params.put("g_g", g_g); params.put("g_b", g_b); params.put("g_c", g_c);
-                params.put("b_r", b_r); params.put("b_g", b_g); params.put("b_b", b_b); params.put("b_c", b_c);
-                params.put("a_r", a_r); params.put("a_g", a_g); params.put("a_b", a_b); params.put("a_c", a_c);
+                params.put("cn_id", String.valueOf(cn_id));
                 return params;
             }
 
@@ -346,7 +326,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check username and password "+error.getMessage().toString(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "http://hcapi.free-estimation.com/api/v1/users/train3 POST Error ", Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
@@ -457,36 +437,22 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
-    public void getTrainData(String fileName) {
+    public void getTrainedData() {
 
-        String url = "http://hcapi.free-estimation.com/api/v1/users/getTrainData";
+        String url = "http://hcapi.free-estimation.com/api/v1/users/getdata3";
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>(){
                     @Override
                     public void onResponse(String response) {
-                        float dFeatures[][];
-                        float dClasses[];
                         try {
-
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
                             String message = json.getString("message");
-
                             JSONArray jsonArray = json.getJSONArray("data");
-                            for(int i=0; i<jsonArray.length(); i++) {
-                                String line = jsonArray.getString(i);
-                                //dClasses[i] = Float.valueOf(line.substring(0, line.indexOf(" ")));
-
-                            }
-
-
-                            JSONObject inner = new JSONObject(jsonArray.get(0).toString() );
-                            String recipe = inner.getString("cn_recipe");
-
                             if(message.equals("Success")) {
-                                EventBus.getDefault().post( new MessageEvents.onGetRecipe(recipe) );
-                                Toast.makeText(context, "Recipe obtained from server...", Toast.LENGTH_LONG).show();
+                                EventBus.getDefault().post( new MessageEvents.onTrainedData(jsonArray) );
+                                Toast.makeText(context, "Train data fetched from server...", Toast.LENGTH_LONG).show();
                             } else {
                                 Toast.makeText(context, message, Toast.LENGTH_LONG).show();
                             }
@@ -499,7 +465,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check username and password", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "Unable to fetch trained data" + error.getMessage(), Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override

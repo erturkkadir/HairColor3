@@ -46,10 +46,14 @@ import com.syshuman.kadir.haircolor3.dagger.modules.ContextModule;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeService;
+import com.syshuman.kadir.haircolor3.model.MySVM;
 import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.fragments.ReadFragment;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -160,17 +164,29 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     private final ServiceConnection serviceConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
+
             bluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
+
             if(!bluetoothLeService.initialize()) {
                 Log.d(LOG_TAG, "Unable to Initialize");
-
+                return;
             }
+
+            Log.d(LOG_TAG, "Initialized");
             bluetoothLeService.connect(deviceAddress);
+
+            if(!bluetoothLeService.isConnected) {
+               // bluetoothLeService.connect(deviceAddress);
+                Log.d(LOG_TAG, "connected");
+            } else {
+                setButtonStatus(1);
+            }
         }
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
             Log.d(LOG_TAG, "Service disconnected");
+            setButtonStatus(0);
         }
     };
 
@@ -184,6 +200,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                 bluetoothLeService.send("9");
             } else if (BluetoothLeService.ACTION_GATT_DISCONNECTED.equals(action)) {
                 setButtonStatus(0);
+                Log.d(LOG_TAG, "GATT DISCCONNECTED");
             } else if (BluetoothLeService.ACTION_GATT_SERVICES_DISCOVERED.equals(action)) {
                 setButtonStatus(2);
             } else if (BluetoothLeService.ACTION_DATA_AVAILABLE.equals(action)) {
@@ -391,11 +408,14 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     @Override
     protected void onResume() {
         super.onResume();
+
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
+
         if (bluetoothLeService != null) {
             boolean result = bluetoothLeService.connect(deviceAddress);
             Log.d(LOG_TAG, "Connect request result=" + result);
         }
+
     }
 
     @Override
@@ -432,51 +452,39 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         setButtonStatus(0);
     }
 
-    public void decode( String str) {
-        Log.d(LOG_TAG, str);
 
-        String cod = str.substring(str.indexOf("cmd") + 3, str.indexOf("pow"));
-        switch (cod) {
-            case "49":
-            case "50":
-            case "51":
-            case "52":
-                decodeColor(str);
-                break;
-            case "53":
-                break;
-            case "57":
-                setBatteryLevel(str);
-                break;
-            default:
-        }
-    }
+     public void decode(String str){
+         String cod = str.substring(str.indexOf("cmd") + 3, str.indexOf("pow"));
+         if(cod.equals("57")) {
+             String bat = str.substring(str.indexOf("pow")+3, str.indexOf("|"));
+             setBatteryLevel(bat);
+             return;
+         }
 
+         String r_r = str.substring(str.indexOf("r_r")+3, str.indexOf("r_g"));
+         String r_g = str.substring(str.indexOf("r_g")+3, str.indexOf("r_b"));
+         String r_b = str.substring(str.indexOf("r_b")+3, str.indexOf("r_c"));
+         String r_c = str.substring(str.indexOf("r_c")+3, str.indexOf("g_r"));
 
-     public void decodeColor(String str){
-         String r_r = str.substring(str.indexOf("r_r") + 3, str.indexOf("r_g"));
-         String r_g = str.substring(str.indexOf("r_g") + 3, str.indexOf("r_b"));
-         String r_b = str.substring(str.indexOf("r_b") + 3, str.indexOf("r_c"));
-         String r_c = str.substring(str.indexOf("r_c") + 3, str.indexOf("g_r"));
+         String g_r = str.substring(str.indexOf("g_r")+3, str.indexOf("g_g"));
+         String g_g = str.substring(str.indexOf("g_g")+3, str.indexOf("g_b"));
+         String g_b = str.substring(str.indexOf("g_b")+3, str.indexOf("g_c"));
+         String g_c = str.substring(str.indexOf("g_c")+3, str.indexOf("b_r"));
 
-         String g_r = str.substring(str.indexOf("g_r") + 3, str.indexOf("g_g"));
-         String g_g = str.substring(str.indexOf("g_g") + 3, str.indexOf("g_b"));
-         String g_b = str.substring(str.indexOf("g_b") + 3, str.indexOf("g_c"));
-         String g_c = str.substring(str.indexOf("g_c") + 3, str.indexOf("b_r"));
+         String b_r = str.substring(str.indexOf("b_r")+3, str.indexOf("b_g"));
+         String b_g = str.substring(str.indexOf("b_g")+3, str.indexOf("b_b"));
+         String b_b = str.substring(str.indexOf("b_b")+3, str.indexOf("b_c"));
+         String b_c = str.substring(str.indexOf("b_c")+3, str.indexOf("a_r"));
 
-         String b_r = str.substring(str.indexOf("b_r") + 3, str.indexOf("b_g"));
-         String b_g = str.substring(str.indexOf("b_g") + 3, str.indexOf("b_b"));
-         String b_b = str.substring(str.indexOf("b_b") + 3, str.indexOf("b_c"));
-         String b_c = str.substring(str.indexOf("b_c") + 3, str.indexOf("a_r"));
+         String a_r = str.substring(str.indexOf("a_r")+3, str.indexOf("a_g"));
+         String a_g = str.substring(str.indexOf("a_g")+3, str.indexOf("a_b"));
+         String a_b = str.substring(str.indexOf("a_b")+3, str.indexOf("a_c"));
+         String a_c = str.substring(str.indexOf("a_c")+3, str.indexOf("cmd"));
 
-         String a_r = str.substring(str.indexOf("a_r") + 3, str.indexOf("a_g"));
-         String a_g = str.substring(str.indexOf("a_g") + 3, str.indexOf("a_b"));
-         String a_b = str.substring(str.indexOf("a_b") + 3, str.indexOf("a_c"));
-         String a_c = str.substring(str.indexOf("a_c") + 3, str.indexOf("cmd"));
+         String cmd = str.substring(str.indexOf("cmd")+3, str.indexOf("pow"));
+         String pwr = str.substring(str.indexOf("pow")+3, str.indexOf("|"));
 
-         String cmd = str.substring(str.indexOf("cmd") + 3, str.indexOf("pow"));
-         String power = str.substring(str.indexOf("pow") + 3, str.indexOf("|"));
-         int pow = Integer.valueOf(power); // 400
+         int pow = Integer.valueOf(pwr); // 400
          pow = 100*(pow-340) / (420-340);
          txtBattery.setText(String.valueOf(pow)+"%");
          if(pow<50)
@@ -486,15 +494,49 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
          String company = spCompanies.getSelectedItem().toString();
          if(!silent) lastSound.start();
-         String catalog = "Natural";
+
+         int zone    = 1;
+         String catalog = lblZone1.getText().toString();
+
+         if(cmd.equals("49")) { zone = 1; catalog = lblZone1.getText().toString(); }
+         if(cmd.equals("50")) { zone = 2; catalog = lblZone2.getText().toString(); }
+         if(cmd.equals("51")) { zone = 3; catalog = lblZone3.getText().toString(); }
+         if(cmd.equals("52")) { zone = 4; catalog = lblTarget.getText().toString(); }
+
+         double[][] xtest = new double[1][17];
+         double[] ypred;
+
+         xtest[0][0] = Integer.valueOf(r_r);
+         xtest[0][1] = Integer.valueOf(r_g);
+         xtest[0][2] = Integer.valueOf(r_b);
+         xtest[0][3] = Integer.valueOf(r_c);
+
+         xtest[0][4] = Integer.valueOf(g_r);
+         xtest[0][5] = Integer.valueOf(g_g);
+         xtest[0][6] = Integer.valueOf(g_b);
+         xtest[0][7] = Integer.valueOf(g_c);
+
+         xtest[0][8] = Integer.valueOf(b_r);
+         xtest[0][9] = Integer.valueOf(b_g);
+         xtest[0][10] = Integer.valueOf(b_b);
+         xtest[0][11] = Integer.valueOf(b_c);
+
+         xtest[0][12] = Integer.valueOf(a_r);
+         xtest[0][13] = Integer.valueOf(a_g);
+         xtest[0][14] = Integer.valueOf(a_b);
+         xtest[0][15] = Integer.valueOf(a_c);
+
+         xtest[0][16] = Integer.valueOf(pow);
+         MySVM svm = new MySVM(context);
+
+         ypred = svm.predict(xtest);
+         for(int i=0;i<ypred.length;i++) {
+             Toast.makeText(context, "Unable to saved at " + String.valueOf(ypred[i]), Toast.LENGTH_LONG).show();
+         }
 
          restServer = new RestServer(context);
 
-         restServer.getColor3(company, catalog, cmd, power,
-                 r_r, r_g, r_b, r_c,
-                 g_r, g_g, g_b, g_c,
-                 b_r, b_g, b_b, b_c,
-                 a_r, a_g, a_b, a_c);
+         restServer.getColor3((int) ypred[0], zone);
 
 
          Log.d(LOG_TAG, "Step data here");
@@ -563,13 +605,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                     Log.d(LOG_TAG, "Battery Level");
                 } else if (id == R.id.btn_reset) {
                     Log.d(LOG_TAG, "Reset Device");
-                    AsyncTask.execute(new Runnable() {
-                        @Override
-                        public void run() {
-
-                            //uart.send("8");
-                        }
-                    });
+                   bluetoothLeService.send("8");
                 } else if (id == R.id.nav_slideshow) {
                     Intent intent = new Intent(context, SpeechToTextActivity.class);
                     startActivity(intent);
@@ -588,11 +624,9 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     }
 
     private void setBatteryLevel(String str) {
-        String power = str.substring(str.indexOf("pow") + 3, str.indexOf("|"));
-        int pow = Integer.valueOf(power); // 400
+        int pow = Integer.valueOf(str); // 400
         pow = 100 * (pow - 340) / (430 - 340);
         txtBattery.setText(String.valueOf(pow)+"%");
-        Log.d(LOG_TAG, "setBatteryLevel"+power);
         if(pow<50)
             imgBattery.setBackgroundColor(Color.RED);
         else
@@ -606,11 +640,26 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onGetColor(MessageEvents.onGetColor event) {
-        Toast.makeText(context, event.color + event.zone, Toast.LENGTH_LONG).show();
-        if(zone==1) txtZone1.setText("Zone11");
-        if(zone==2) txtZone2.setText("Zone22");
-        if(zone==3) txtZone3.setText("Zone33");
-        if(zone==4) txtTarget.setText("Target");
+        String company="None", category="None", series="None", color = "None", recipe = "None";
+        try {
+            JSONObject data = event.data;
+            company = data.getString("cn_company");
+            category = data.getString("cn_category");
+            series = data.getString("cn_series");
+            color = data.getString("cn_color");
+            recipe = data.getString("cn_recipe");
+            int zone = event.zone;
+        }catch (JSONException e) {
+            e.printStackTrace();
+
+        }
+
+        Toast.makeText(context, color, Toast.LENGTH_LONG).show();
+
+        if(zone==1) txtZone1.setText(color);
+        if(zone==2) txtZone2.setText(color);
+        if(zone==3) txtZone3.setText(color);
+        if(zone==4) txtTarget.setText(color);
 
     }
 

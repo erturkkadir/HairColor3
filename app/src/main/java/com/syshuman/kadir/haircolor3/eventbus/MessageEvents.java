@@ -2,6 +2,9 @@ package com.syshuman.kadir.haircolor3.eventbus;
 
 import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 /**
  * Created by kadir on 2017-08-26.
  */
@@ -13,11 +16,10 @@ public class MessageEvents {
     }
 
     public static class onGetColor {
-        public String color;
-        public String zone;
-
-        public onGetColor(String color, String zone) {
-            this.color = color;
+        public JSONObject data;
+        public int zone;
+        public onGetColor(JSONObject data, int zone) {
+            this.data = data;
             this.zone = zone;
         }
     }
@@ -30,11 +32,10 @@ public class MessageEvents {
         }
     }
 
-    public static class onTrainData {
-        public float[][] data;
-
-        public onTrainData(float[][] data) {
-            this.data = data;
+    public static class onTrainedData {
+        public JSONArray jsonArray;
+        public onTrainedData(JSONArray jsonArrays) {
+            this.jsonArray = jsonArrays ;
         }
     }
 

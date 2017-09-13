@@ -33,14 +33,18 @@ import android.widget.TextView;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeService;
+import com.syshuman.kadir.haircolor3.model.MySVM;
 import com.syshuman.kadir.haircolor3.model.RestServer;
+import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class TrainingActivity extends AppCompatActivity  {
-
 
     private MediaPlayer firstSound, lastSound;
     private String ble_status="No connection";
@@ -49,7 +53,7 @@ public class TrainingActivity extends AppCompatActivity  {
 
     private Context context;
     private boolean silent=true;
-    private String LOG_TAG="Adafruit";
+    private String LOG_TAG="Service";
     RestServer restServer;
 
     @BindView(R.id.toolbar) Toolbar toolbar;
@@ -60,6 +64,7 @@ public class TrainingActivity extends AppCompatActivity  {
     @BindView(R.id.btnTrain) ImageButton btnTrain;
     @BindView(R.id.btnBLE) FloatingActionButton btnBLE;
     @BindView(R.id.btnClearData) ImageButton btnClearData;
+    @BindView(R.id.btnModel) ImageButton btnModel;
 
     private AlertDialog.Builder builder;
     private BluetoothLeService bluetoothLeService;
@@ -93,30 +98,38 @@ public class TrainingActivity extends AppCompatActivity  {
 
         btnClearData.setOnClickListener(onClearDataOnclick);
 
+        btnModel.setOnClickListener(onModelClick);
+
         restServer = new RestServer(context);
 
         builder = new AlertDialog.Builder(this);
 
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
-        bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
+        bindService(gattServiceIntent, serviceConnection, 0);
+
     }
 
-    private final ServiceConnection serviceConnection = new ServiceConnection() {
+    private ServiceConnection serviceConnection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
             bluetoothLeService = ((BluetoothLeService.LocalBinder) service).getService();
             if(!bluetoothLeService.initialize()) {
                 Log.d(LOG_TAG, "Unable to Initialize");
             }
-            if(!bluetoothLeService.isConnected)
-                bluetoothLeService.connect(deviceAddress);
-            else
+            Log.d(LOG_TAG, "Initialized");
+            bluetoothLeService.connect(deviceAddress);
+
+            if(!bluetoothLeService.isConnected) {
+                Log.d(LOG_TAG, "not connected");
+            } else {
                 setButtonStatus(1);
+                Log.d(LOG_TAG, "connected");
+            }
         }
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
-
+            setButtonStatus(1);
         }
     };
 
@@ -196,6 +209,15 @@ public class TrainingActivity extends AppCompatActivity  {
             });
             AlertDialog alert = builder.create();
             alert.show();
+        }
+    };
+
+
+    View.OnClickListener onModelClick = new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+            restServer.getTrainedData();
+
         }
     };
 
@@ -287,11 +309,14 @@ public class TrainingActivity extends AppCompatActivity  {
     @Override
     protected void onResume() {
         super.onResume();
+
         registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
         if (bluetoothLeService != null) {
             if(!bluetoothLeService.isConnected)
               bluetoothLeService.connect(deviceAddress);
         }
+
+        if(!EventBus.getDefault().isRegistered(this))   EventBus.getDefault().register(this);
     }
 
     private static IntentFilter makeGattUpdateIntentFilter() {
@@ -307,17 +332,16 @@ public class TrainingActivity extends AppCompatActivity  {
     protected void onStop() {
         super.onStop();
         setButtonStatus(0);
-    }
-
-    private void updateBattery(String pow) {
-
+        bluetoothLeService.disconnect();
+        bluetoothLeService.close();
+        if(EventBus.getDefault().isRegistered(this))   EventBus.getDefault().unregister(this);
     }
 
     public void decode(final String str) {
         String cmd = str.substring(str.indexOf("cmd")+3, str.indexOf("pow"));
-        String pow = str.substring(str.indexOf("pow")+3, str.indexOf("|"));
         if(cmd.equals("57")) {
-            updateBattery(pow);
+            setButtonStatus(1);
+            return;
         }
         String r_r = str.substring(str.indexOf("r_r")+3, str.indexOf("r_g"));
         String r_g = str.substring(str.indexOf("r_g")+3, str.indexOf("r_b"));
@@ -339,6 +363,7 @@ public class TrainingActivity extends AppCompatActivity  {
         String a_b = str.substring(str.indexOf("a_b")+3, str.indexOf("a_c"));
         String a_c = str.substring(str.indexOf("a_c")+3, str.indexOf("cmd"));
 
+        String pow = str.substring(str.indexOf("pow")+3, str.indexOf("|"));
 
         String company  = spTCompany.getSelectedItem().toString();
         String category = spTCategory.getSelectedItem().toString();
@@ -385,7 +410,45 @@ public class TrainingActivity extends AppCompatActivity  {
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onTrainingComplete(MessageEvents.onTrainingComplete event) {
+    public void onTrainedData(MessageEvents.onTrainedData event) {
+
+        JSONArray jsonArray = event.jsonArray;
+        int length = jsonArray.length();
+
+        double[][] xtrain = new double[length][17];
+        double[][] ytrain = new double[length][1];
+
+        try {
+            for(int i=0; i<length;i++) {
+                JSONObject inner = new JSONObject(jsonArray.get(i).toString());
+                xtrain[i][0]  = inner.getInt("r_r")*1.0;
+                xtrain[i][1]  = inner.getInt("r_g")*1.0;
+                xtrain[i][2]  = inner.getInt("r_b")*1.0;
+                xtrain[i][3]  = inner.getInt("r_c")*1.0;
+                xtrain[i][4]  = inner.getInt("g_r")*1.0;
+                xtrain[i][5]  = inner.getInt("g_g")*1.0;
+                xtrain[i][6]  = inner.getInt("g_b")*1.0;
+                xtrain[i][7]  = inner.getInt("g_c")*1.0;
+                xtrain[i][8]  = inner.getInt("b_r")*1.0;
+                xtrain[i][9]  = inner.getInt("b_g")*1.0;
+                xtrain[i][10] = inner.getInt("b_b")*1.0;
+                xtrain[i][11] = inner.getInt("b_c")*1.0;
+                xtrain[i][12] = inner.getInt("a_r")*1.0;
+                xtrain[i][13] = inner.getInt("a_g")*1.0;
+                xtrain[i][14] = inner.getInt("a_b")*1.0;
+                xtrain[i][15] = inner.getInt("a_c")*1.0;
+                xtrain[i][16] = inner.getInt("pow")*1.0;
+
+                ytrain[i][0]  = inner.getInt("cn_id")*1.0;
+
+            }
+        } catch (JSONException e) {
+
+        }
+
+        MySVM mysvm = new MySVM(context);
+        mysvm.svmTrain(xtrain, ytrain);
+
 
     }
 
