@@ -1,4 +1,4 @@
-#Wed Sep 13 12:07:14 PDT 2017
+#Thu Sep 14 09:21:01 PDT 2017
 file.2=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_fbd3d56fd3ce2e163e64bec80c7107b89bf0ec0a/classes.dex
 base.2=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_fbd3d56fd3ce2e163e64bec80c7107b89bf0ec0a
 file.1=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55595ab77ef3b988d6ad5635d0c88ae1ca2ae0e3/classes.dex

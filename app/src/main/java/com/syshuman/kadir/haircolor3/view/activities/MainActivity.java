@@ -13,7 +13,6 @@ import android.content.pm.PackageManager;
 import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.media.MediaPlayer;
-import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -49,13 +48,11 @@ import com.syshuman.kadir.haircolor3.model.BluetoothLeService;
 import com.syshuman.kadir.haircolor3.model.MySVM;
 import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.fragments.ReadFragment;
-
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
