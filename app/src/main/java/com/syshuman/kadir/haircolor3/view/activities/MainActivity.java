@@ -498,47 +498,17 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
          String company = spCompanies.getSelectedItem().toString();
          if(!silent) lastSound.start();
 
-         int zone    = 1;
+         String zone    = "1";
          String catalog = lblZone1.getText().toString();
 
-         if(cmd.equals("49")) { zone = 1; catalog = lblZone1.getText().toString(); }
-         if(cmd.equals("50")) { zone = 2; catalog = lblZone2.getText().toString(); }
-         if(cmd.equals("51")) { zone = 3; catalog = lblZone3.getText().toString(); }
-         if(cmd.equals("52")) { zone = 4; catalog = lblTarget.getText().toString(); }
+         if(cmd.equals("49")) { zone = "1"; catalog = lblZone1.getText().toString(); }
+         if(cmd.equals("50")) { zone = "2"; catalog = lblZone2.getText().toString(); }
+         if(cmd.equals("51")) { zone = "3"; catalog = lblZone3.getText().toString(); }
+         if(cmd.equals("52")) { zone = "4"; catalog = lblTarget.getText().toString(); }
 
-         double[][] xtest = new double[1][17];
-         double[] ypred;
 
-         xtest[0][0] = Integer.valueOf(r_r);
-         xtest[0][1] = Integer.valueOf(r_g);
-         xtest[0][2] = Integer.valueOf(r_b);
-         xtest[0][3] = Integer.valueOf(r_c);
 
-         xtest[0][4] = Integer.valueOf(g_r);
-         xtest[0][5] = Integer.valueOf(g_g);
-         xtest[0][6] = Integer.valueOf(g_b);
-         xtest[0][7] = Integer.valueOf(g_c);
-
-         xtest[0][8] = Integer.valueOf(b_r);
-         xtest[0][9] = Integer.valueOf(b_g);
-         xtest[0][10] = Integer.valueOf(b_b);
-         xtest[0][11] = Integer.valueOf(b_c);
-
-         xtest[0][12] = Integer.valueOf(a_r);
-         xtest[0][13] = Integer.valueOf(a_g);
-         xtest[0][14] = Integer.valueOf(a_b);
-         xtest[0][15] = Integer.valueOf(a_c);
-
-         xtest[0][16] = Integer.valueOf(pow);
-         MySVM svm = new MySVM(context);
-         ypred = svm.predict(xtest);
-         for(int i=0;i<ypred.length;i++) {
-             Toast.makeText(context, "Predicted value is " + String.valueOf(ypred[i]), Toast.LENGTH_LONG).show();
-         }
-
-         restServer = new RestServer(context);
-
-         restServer.getColor3((int) ypred[0], zone);
+         restServer.getColor3(r_r, r_g, r_b, r_c, g_r, g_g, g_b, g_c, b_r, b_g, b_b, b_c, a_r, a_g, a_b, a_c, company, catalog, zone, pow);
 
 
          Log.d(LOG_TAG, "Step data here");
@@ -642,7 +612,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onGetColor(MessageEvents.onGetColor event) {
-        String company="None", category="None", series="None", color = "None", recipe = "None";
+        String company="None", category="None", series="None", color = "None", recipe = "None", zone="";
         try {
             JSONObject data = event.data;
             company = data.getString("cn_company");
@@ -650,19 +620,19 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
             series = data.getString("cn_series");
             color = data.getString("cn_color");
             recipe = data.getString("cn_recipe");
-            int zone = event.zone;
+            zone = event.zone;
         }catch (JSONException e) {
             e.printStackTrace();
 
         }
 
         Toast.makeText(context, color, Toast.LENGTH_LONG).show();
-
-        if(zone==1) txtZone1.setText(color);
-        if(zone==2) txtZone2.setText(color);
-        if(zone==3) txtZone3.setText(color);
-        if(zone==4) txtTarget.setText(color);
-
+        switch (zone) {
+            case "1" : txtZone1.setText(color); break;
+            case "2" : txtZone2.setText(color); break;
+            case "3" : txtZone3.setText(color); break;
+            case "4" : txtTarget.setText(color); break;
+        }
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)

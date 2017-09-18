@@ -6,7 +6,6 @@ import android.content.SharedPreferences;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
-
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -16,25 +15,20 @@ import com.android.volley.toolbox.Volley;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import com.syshuman.kadir.haircolor3.view.activities.MainActivity;
-
 import org.greenrobot.eventbus.EventBus;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by kadir on 2016-12-08.
- */
-
 public class RestServer {
 
     private String baseUrl  = "http://hcapi.free-estimation.com/";
     private Context context;
+    private String um_token = "298347decdd47d3ea70361c3acef225a";
 
     public RestServer(Context context) {
         this.context = context;
@@ -73,7 +67,7 @@ public class RestServer {
                 }){
             @Override
             protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
                 params.put("um_email", uname);
                 params.put("um_upass", upass);
                 return params;
@@ -81,7 +75,8 @@ public class RestServer {
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -91,7 +86,7 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
-    public void saveUser(JSONObject data) {
+    private void saveUser(JSONObject data) {
         try {
             JSONObject userm = data.getJSONObject("userm");
             Integer um_no = userm.getInt("um_no");
@@ -99,7 +94,7 @@ public class RestServer {
             String um_email = userm.getString("um_email");
             String um_uname = userm.getString("um_uname");
             String um_token = userm.getString("um_token");
-            SharedPreferences prefs = context.getSharedPreferences("com.syshuman.kadir.socks", context.MODE_PRIVATE);
+            SharedPreferences prefs = context.getSharedPreferences("com.syshuman.kadir.socks", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = prefs.edit();
             editor.putInt("um_no", um_no);
             editor.putInt("cm_no", cm_no);
@@ -109,16 +104,11 @@ public class RestServer {
             editor.apply();
 
         } catch(JSONException e) {
-
-
             e.printStackTrace();
         }
-
-
     }
 
     public void register(final Context context, final String uname, final String upass, final String fname, final String lname, final String devId, final int tz) {
-
 
         String url   = baseUrl + "api/v1/users/register"; // ?um_email=" + uname + "&um_upass=" + upass;
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
@@ -128,6 +118,10 @@ public class RestServer {
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http communication failure " + statusCode, Toast.LENGTH_LONG).show();
+                                return;
+                            }
                             String message = json.getString("message");
                             if(message.equals("Success")) {
                                 Intent intent = new Intent(context, MainActivity.class);
@@ -150,7 +144,7 @@ public class RestServer {
                 }){
             @Override
             protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
                 params.put("um_uname", uname);
                 params.put("um_upass", upass);
                 params.put("um_fname", fname);
@@ -163,9 +157,8 @@ public class RestServer {
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                //params.put("um_token", "");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -184,13 +177,17 @@ public class RestServer {
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communuication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
                             JSONArray jsonArray = json.getJSONArray("data");
 
                             if(message.equals("Success")) {
                                 Toast.makeText(context, "Color Obtained from server", Toast.LENGTH_LONG).show();
 
-                                List<String> label = new ArrayList<String>();
+                                List<String> label = new ArrayList<>();
                                 if (jsonArray != null) {
                                     for (int i=0;i<jsonArray.length();i++){
                                         JSONObject inner = new JSONObject(jsonArray.get(i).toString() );
@@ -199,7 +196,7 @@ public class RestServer {
                                     }
                                 }
 
-                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<String>(context, android.R.layout.simple_spinner_item, label);
+                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<>(context, android.R.layout.simple_spinner_item, label);
                                 rtAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                                 spColor.setAdapter(rtAdapter);
 
@@ -219,17 +216,11 @@ public class RestServer {
                         Toast.makeText(context, "Please double check service at gelcolor", Toast.LENGTH_LONG).show();
                     }
                 }){
-            @Override
-            protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
-                return params;
-            }
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "298347decdd47d3ea70361c3acef225a");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -239,7 +230,11 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
-    public void getColor3(final int cn_id, final int zone  ) {
+    public void getColor3(final String r_r, final String r_g, final String r_b, final String r_c,
+                          final String g_r, final String g_g, final String g_b, final String g_c,
+                          final String b_r, final String b_g, final String b_b, final String b_c,
+                          final String a_r, final String a_g, final String a_b, final String a_c,
+                          final String company, final String catalog, final String zone, final int pow  ) {
 
         String url   = baseUrl + "api/v1/users/getcolor3";
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
@@ -250,9 +245,13 @@ public class RestServer {
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
                             JSONObject data = new JSONObject(json.getString("data"));
-                            if(statusCode.equals("200 OK")) {
+                            if(message.equals("Success")) {
                                 Toast.makeText(context, "Color Obtained from server", Toast.LENGTH_LONG).show();
                                 EventBus.getDefault().post( new MessageEvents.onGetColor(data, zone) );
                             } else {
@@ -273,16 +272,39 @@ public class RestServer {
                 }){
             @Override
             protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("cn_id", String.valueOf(cn_id));
+                Map<String, String> params = new HashMap<>();
+                params.put("r_r", r_r);
+                params.put("r_g", r_g);
+                params.put("r_b", r_b);
+                params.put("r_c", r_c);
+
+                params.put("g_r", g_r);
+                params.put("g_g", g_g);
+                params.put("g_b", g_b);
+                params.put("g_c", g_c);
+
+                params.put("b_r", b_r);
+                params.put("b_g", b_g);
+                params.put("b_b", b_b);
+                params.put("b_c", b_c);
+
+                params.put("a_r", a_r);
+                params.put("a_g", a_g);
+                params.put("a_b", a_b);
+                params.put("a_c", a_c);
+
+                params.put("com", company);
+                params.put("cat", catalog);
+                params.put("zon", zone);
+                params.put("pow", String.valueOf(pow));
+
                 return params;
             }
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "298347decdd47d3ea70361c3acef225a");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -310,6 +332,10 @@ public class RestServer {
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
                             EventBus.getDefault().post(new MessageEvents.onTrainingComplete(message));
                             if(message.equals("Success")) {
@@ -331,7 +357,7 @@ public class RestServer {
                 }){
             @Override
             protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
                 params.put("r_r", r_r);
                 params.put("r_g", r_g);
                 params.put("r_b", r_b);
@@ -362,9 +388,8 @@ public class RestServer {
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "6efcfbb2b37a61edd0fce33001aab6cc");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -388,8 +413,11 @@ public class RestServer {
 
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communuication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
-
                             JSONArray jsonArray = json.getJSONArray("data");
                             JSONObject inner = new JSONObject(jsonArray.get(0).toString() );
                             String recipe = inner.getString("cn_recipe");
@@ -414,7 +442,7 @@ public class RestServer {
                 }){
             @Override
             protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
                 params.put("zone1", zone1);
                 params.put("zone2", zone2);
                 params.put("zone3", zone3);
@@ -425,9 +453,8 @@ public class RestServer {
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "6efcfbb2b37a61edd0fce33001aab6cc");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -448,6 +475,10 @@ public class RestServer {
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communuication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
                             JSONArray jsonArray = json.getJSONArray("data");
                             if(message.equals("Success")) {
@@ -468,19 +499,11 @@ public class RestServer {
                         Toast.makeText(context, "Unable to fetch trained data" + error.getMessage(), Toast.LENGTH_LONG).show();
                     }
                 }){
-            @Override
-            protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
-
-
-                return params;
-            }
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "6efcfbb2b37a61edd0fce33001aab6cc");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -499,11 +522,15 @@ public class RestServer {
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
                             JSONArray jsonArray = json.getJSONArray("data");
 
                             if(message.equals("Success")) {
-                                List<String> label = new ArrayList<String>();
+                                List<String> label = new ArrayList<>();
                                 if (jsonArray != null) {
                                     for (int i=0;i<jsonArray.length();i++){
                                         JSONObject inner = new JSONObject(jsonArray.get(i).toString() );
@@ -511,7 +538,7 @@ public class RestServer {
                                         label.add(names);
                                     }
                                 }
-                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<String>(context, R.layout.simple_spinner, label);
+                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<>(context, R.layout.simple_spinner, label);
                                 rtAdapter.setDropDownViewResource(R.layout.simple_spinner);
                                 spTCatalog.setAdapter(rtAdapter);
 
@@ -533,16 +560,15 @@ public class RestServer {
         {
             @Override
             protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
                 params.put("company", company);
                 return params;
             }
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "298347decdd47d3ea70361c3acef225a");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -561,11 +587,15 @@ public class RestServer {
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
                             JSONArray jsonArray = json.getJSONArray("data");
 
                             if(message.equals("Success")) {
-                                List<String> label = new ArrayList<String>();
+                                List<String> label = new ArrayList<>();
                                 if (jsonArray != null) {
                                     for (int i=0;i<jsonArray.length();i++){
                                         JSONObject inner = new JSONObject(jsonArray.get(i).toString() );
@@ -574,7 +604,7 @@ public class RestServer {
                                     }
                                 }
 
-                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<String>(context, R.layout.simple_spinner, label);
+                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<>(context, R.layout.simple_spinner, label);
                                 rtAdapter.setDropDownViewResource(R.layout.simple_spinner);
                                 spTSeries.setAdapter(rtAdapter);
                             } else {
@@ -595,7 +625,7 @@ public class RestServer {
         {
             @Override
             protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
                 params.put("company", company);
                 params.put("category", category);
 
@@ -604,9 +634,8 @@ public class RestServer {
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "298347decdd47d3ea70361c3acef225a");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -625,11 +654,15 @@ public class RestServer {
                         try {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
                             JSONArray jsonArray = json.getJSONArray("data");
 
                             if(message.equals("Success")) {
-                                List<String> label = new ArrayList<String>();
+                                List<String> label = new ArrayList<>();
                                 if (jsonArray != null) {
                                     for (int i=0;i<jsonArray.length();i++){
                                         JSONObject inner = new JSONObject(jsonArray.get(i).toString() );
@@ -638,7 +671,7 @@ public class RestServer {
                                     }
                                 }
 
-                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<String>(context, R.layout.simple_spinner, label);
+                                ArrayAdapter<String> rtAdapter = new ArrayAdapter<>(context, R.layout.simple_spinner, label);
                                 rtAdapter.setDropDownViewResource(R.layout.simple_spinner);
                                 spTColor.setAdapter(rtAdapter);
                             } else {
@@ -659,7 +692,7 @@ public class RestServer {
         {
             @Override
             protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
+                Map<String, String> params = new HashMap<>();
                 params.put("company", company);
                 params.put("category", category);
                 params.put("series", series);
@@ -669,9 +702,8 @@ public class RestServer {
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "298347decdd47d3ea70361c3acef225a");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
 
@@ -693,8 +725,11 @@ public class RestServer {
 
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communuication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
                             String message = json.getString("message");
-
                             if(message.equals("Success")) {
                                 Toast.makeText(context, "Train data on the server is erased...", Toast.LENGTH_LONG).show();
                             } else {
@@ -712,17 +747,11 @@ public class RestServer {
                         Toast.makeText(context, "Error on clean Train data", Toast.LENGTH_LONG).show();
                     }
                 }){
-            @Override
-            protected Map<String, String> getParams() {
-                Map<String, String> params = new HashMap<String, String>();
-                return params;
-            }
 
             @Override
             public Map<String, String> getHeaders() {
-                Map<String, String> params = new HashMap<String, String>();
-                params.put("um_token", "6efcfbb2b37a61edd0fce33001aab6cc");
-                //params.put("upass", upass);
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
                 return params;
             }
         };

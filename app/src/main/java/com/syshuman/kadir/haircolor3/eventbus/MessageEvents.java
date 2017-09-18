@@ -17,8 +17,8 @@ public class MessageEvents {
 
     public static class onGetColor {
         public JSONObject data;
-        public int zone;
-        public onGetColor(JSONObject data, int zone) {
+        public String zone;
+        public onGetColor(JSONObject data, String zone) {
             this.data = data;
             this.zone = zone;
         }
