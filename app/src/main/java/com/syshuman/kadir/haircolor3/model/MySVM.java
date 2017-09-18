@@ -51,9 +51,9 @@ public class MySVM {
 
         svm_parameter param = new svm_parameter();
         param.probability = 1;
-        param.gamma = 0.078215;
+        param.gamma = 0.5;
         param.nu = 0.5;
-        param.C = 512;
+        param.C = 32768;
         param.svm_type = svm_parameter.C_SVC;
         param.kernel_type = svm_parameter.RBF;
         param.cache_size = 20000;

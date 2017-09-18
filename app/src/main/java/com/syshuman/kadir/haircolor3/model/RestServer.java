@@ -62,7 +62,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check username and password", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "Please double check username and password (login)", Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
@@ -139,7 +139,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check username and password", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "POST api/v1/users/register failed", Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
@@ -178,7 +178,7 @@ public class RestServer {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
                             if(!statusCode.equals("200 OK")) {
-                                Toast.makeText(context, "Http Communuication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
                                 return;
                             }
                             String message = json.getString("message");
@@ -199,8 +199,6 @@ public class RestServer {
                                 ArrayAdapter<String> rtAdapter = new ArrayAdapter<>(context, android.R.layout.simple_spinner_item, label);
                                 rtAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                                 spColor.setAdapter(rtAdapter);
-
-
                             } else {
                                 Toast.makeText(context, message, Toast.LENGTH_LONG).show();
                             }
@@ -213,7 +211,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check service at gelcolor", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "POST api/v1/users/getnames failed", Toast.LENGTH_LONG).show();
                     }
                 }){
 
@@ -267,7 +265,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check service at gelcolor3", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "POST api/v1/users/getcolor3 failed", Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
@@ -293,10 +291,10 @@ public class RestServer {
                 params.put("a_b", a_b);
                 params.put("a_c", a_c);
 
-                params.put("com", company);
-                params.put("cat", catalog);
-                params.put("zon", zone);
-                params.put("pow", String.valueOf(pow));
+                params.put("company", company);
+                params.put("category", catalog);
+                params.put("zone", zone);
+                params.put("power", String.valueOf(pow));
 
                 return params;
             }
@@ -352,7 +350,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "http://hcapi.free-estimation.com/api/v1/users/train3 POST Error ", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "POST http://hcapi.free-estimation.com/api/v1/users/train3 Failed ", Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
@@ -402,7 +400,6 @@ public class RestServer {
 
     public void getRecipe(final String zone1, final String zone2, final String zone3, final String target) {
 
-
         String url = "http://hcapi.free-estimation.com/api/v1/users/getrecipe";
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
@@ -414,7 +411,7 @@ public class RestServer {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
                             if(!statusCode.equals("200 OK")) {
-                                Toast.makeText(context, "Http Communuication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
                                 return;
                             }
                             String message = json.getString("message");
@@ -424,7 +421,7 @@ public class RestServer {
 
                             if(message.equals("Success")) {
                                 EventBus.getDefault().post( new MessageEvents.onGetRecipe(recipe) );
-                                Toast.makeText(context, "Recipe obtained from server...", Toast.LENGTH_LONG).show();
+                                Toast.makeText(context, "Recipe is available. Success...", Toast.LENGTH_LONG).show();
                             } else {
                                 Toast.makeText(context, message, Toast.LENGTH_LONG).show();
                             }
@@ -437,7 +434,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check username and password", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "POST api/v1/users/getrecipe failed", Toast.LENGTH_LONG).show();
                     }
                 }){
             @Override
@@ -476,7 +473,7 @@ public class RestServer {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
                             if(!statusCode.equals("200 OK")) {
-                                Toast.makeText(context, "Http Communuication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
                                 return;
                             }
                             String message = json.getString("message");
@@ -496,7 +493,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Unable to fetch trained data" + error.getMessage(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "POST api/v1/users/getdata3 is failed " + error.getMessage(), Toast.LENGTH_LONG).show();
                     }
                 }){
 
@@ -554,7 +551,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check service at getCategory " + error.toString(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "api/v1/users/getcategory is failed " + error.toString(), Toast.LENGTH_LONG).show();
                     }
                 })
         {
@@ -619,7 +616,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check service at getSeries " + error.toString(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "api/v1/users/getseries is failed " + error.toString(), Toast.LENGTH_LONG).show();
                     }
                 })
         {
@@ -686,7 +683,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Please double check service at getColors " + error.toString(), Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, "api/v1/users/getcolorlist is failed " + error.toString(), Toast.LENGTH_LONG).show();
                     }
                 })
         {
@@ -726,7 +723,7 @@ public class RestServer {
                             JSONObject json = new JSONObject(response);
                             String statusCode = json.getString("status_code");
                             if(!statusCode.equals("200 OK")) {
-                                Toast.makeText(context, "Http Communuication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
                                 return;
                             }
                             String message = json.getString("message");
@@ -744,7 +741,7 @@ public class RestServer {
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        Toast.makeText(context, "Error on clean Train data", Toast.LENGTH_LONG).show();
+                        Toast.makeText(context, " api/v1/users/cleartraindata failed", Toast.LENGTH_LONG).show();
                     }
                 }){
 
