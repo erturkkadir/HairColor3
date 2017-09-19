@@ -219,7 +219,8 @@ public class TrainingActivity extends AppCompatActivity  {
     View.OnClickListener onModelClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            restServer.getTrainedData();
+            //restServer.getTrainedData();
+            restServer.reTrain3();;
 
         }
     };

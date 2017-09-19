@@ -756,4 +756,52 @@ public class RestServer {
         RequestQueue _requestQueue = Volley.newRequestQueue(context);
         _requestQueue.add(stringRequest);
     }
+
+
+    public void reTrain3() {
+
+        String url = "http://hcapi.free-estimation.com/api/v1/users/retrain3";
+
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>(){
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject json = new JSONObject(response);
+                            String statusCode = json.getString("status_code");
+                            if(!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG ).show();
+                                return;
+                            }
+                            String message = json.getString("message");
+                            if(message.equals("Success")) {
+                                Toast.makeText(context, "Re Trained 3 is success...", Toast.LENGTH_LONG).show();
+                            } else {
+                                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "POST api/v1/users/getdata3 is failed " + error.getMessage(), Toast.LENGTH_LONG).show();
+                    }
+                }){
+
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
+                return params;
+            }
+
+        };
+
+        RequestQueue _requestQueue = Volley.newRequestQueue(context);
+        _requestQueue.add(stringRequest);
+    }
 }

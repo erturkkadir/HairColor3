@@ -1,22 +1,42 @@
 [
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_black_24dp.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-xxxhdpi/ic_info_black_24dp.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_sync_black_24dp.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-xxxhdpi/ic_sync_black_24dp.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_sync_black_24dp.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_sync_black_24dp.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon_delete.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-xxxhdpi/icon_delete.png"
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_info_black_24dp.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_info_black_24dp.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\icon_delete.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_delete.png"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_notifications_black_24dp.png",
-        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-xxxhdpi/ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_info_black_24dp.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_info_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_notifications_black_24dp.png",
+        "source": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\icon_delete.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\icon_delete.png"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_sync_black_24dp.png",
+        "source": "C:\\HairColor\\HairColor3\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_sync_black_24dp.png"
     }
 ]
