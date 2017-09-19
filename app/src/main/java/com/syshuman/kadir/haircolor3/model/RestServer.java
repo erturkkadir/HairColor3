@@ -248,12 +248,15 @@ public class RestServer {
                                 return;
                             }
                             String message = json.getString("message");
-                            JSONObject data = new JSONObject(json.getString("data"));
+                            JSONArray jsonArray = json.getJSONArray("data");
                             if(message.equals("Success")) {
-                                Toast.makeText(context, "Color Obtained from server", Toast.LENGTH_LONG).show();
-                                EventBus.getDefault().post( new MessageEvents.onGetColor(data, zone) );
-                            } else {
-
+                                if (jsonArray != null) {
+                                    EventBus.getDefault().post(new MessageEvents.onGetColor(jsonArray, zone));
+                                    Toast.makeText(context, "Color Obtained from server", Toast.LENGTH_LONG).show();
+                                } else {
+                                    Toast.makeText(context, "data is null from server", Toast.LENGTH_LONG).show();
+                                }
+                            }else {
                                 Toast.makeText(context, message, Toast.LENGTH_LONG).show();
                             }
 

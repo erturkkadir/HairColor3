@@ -1,7 +1,7 @@
 .crashlytics_data/*
 .DS_Store
 .gradle/*
-.idea
+.idea/*
 .settings/*
 *.iml
 bin/*

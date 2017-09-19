@@ -51,6 +51,7 @@ import com.syshuman.kadir.haircolor3.view.fragments.ReadFragment;
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import butterknife.BindView;
@@ -69,6 +70,11 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     @BindView(R.id.txtZone2) TextView txtZone2;
     @BindView(R.id.txtZone3) TextView txtZone3;
     @BindView(R.id.txtTarget) TextView txtTarget;
+
+    @BindView(R.id.txtZone1_1) TextView txtZone1_1;
+    @BindView(R.id.txtZone2_1) TextView txtZone2_1;
+    @BindView(R.id.txtZone3_1) TextView txtZone3_1;
+    @BindView(R.id.txtTarget_1) TextView txtTarget_1;
 
     @BindView(R.id.btnZone1) Button btnZone1;
     @BindView(R.id.btnZone2) Button btnZone2;
@@ -377,6 +383,33 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
         return super.onOptionsItemSelected(item);
     }
+    private void setButtonStates(Boolean states) {
+
+        /*
+        btnZone1.setClickable(states);
+        btnZone2.setClickable(states);
+        btnZone3.setClickable(states);
+        btnTarget.setClickable(states);
+
+        btnZone1.setEnabled(states);
+        btnZone2.setEnabled(states);
+        btnZone3.setEnabled(states);
+        btnTarget.setEnabled(states);
+
+        if(states) {
+            btnZone1.setBackground(null);
+            btnZone2.setBackground(null);
+            btnZone3.setBackground(null);
+            btnTarget.setBackground(null);
+        } else {
+            btnZone1.setBackgroundColor(getResources().getColor(R.color.colorGrey));
+            btnZone2.setBackgroundColor(getResources().getColor(R.color.colorGrey));
+            btnZone3.setBackgroundColor(getResources().getColor(R.color.colorGrey));
+            btnTarget.setBackgroundColor(getResources().getColor(R.color.colorGrey));
+        }
+*/
+
+    }
 
     public void setButtonStatus(int status) {
 
@@ -384,10 +417,12 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
             case 0 : // Disconnected
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
+                setButtonStates(false);
                 break;
             case 1 : // Connected
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
+                setButtonStates(true);
                 break;
             case 2 : // Discovered
                 btnBLE.setImageResource(R.drawable.bt_active);
@@ -396,7 +431,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.blue)));
                 break;
-            default:
+            default:setButtonStates(false);
                 btnBLE.setImageResource(R.drawable.bt_active);
                 btnBLE.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(context, R.color.colorGrey)));
         }
@@ -612,15 +647,31 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onGetColor(MessageEvents.onGetColor event) {
-        String company="None", category="None", series="None", color = "None", recipe = "None", zone="";
+        String zone = event.zone;
+        String company="None", category="None", series="None", color = "None", recipe = "None", delta="";
+        String str1 = "", str2 = "";
         try {
-            JSONObject data = event.data;
-            company = data.getString("cn_company");
-            category = data.getString("cn_category");
-            series = data.getString("cn_series");
-            color = data.getString("cn_color");
-            recipe = data.getString("cn_recipe");
-            zone = event.zone;
+            JSONArray data = event.data;
+            JSONObject inner = new JSONObject(data.get(0).toString());
+
+            company = inner.getString("cn_company");
+            category = inner.getString("cn_category");
+            series = inner.getString("cn_series");
+            color = inner.getString("cn_id");
+            recipe = inner.getString("cn_recipe");
+            delta = inner.getString("delta");
+            str1 = color + " (" + delta + ") ";
+
+            inner = new JSONObject(data.get(1).toString());
+            company = inner.getString("cn_company");
+            category = inner.getString("cn_category");
+            series = inner.getString("cn_series");
+            color = inner.getString("cn_id");
+            recipe = inner.getString("cn_recipe");
+            delta = inner.getString("delta");
+            str2 = color + "(" + delta + ")";
+
+
         }catch (JSONException e) {
             e.printStackTrace();
 
@@ -628,10 +679,10 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
         Toast.makeText(context, color, Toast.LENGTH_LONG).show();
         switch (zone) {
-            case "1" : txtZone1.setText(color); break;
-            case "2" : txtZone2.setText(color); break;
-            case "3" : txtZone3.setText(color); break;
-            case "4" : txtTarget.setText(color); break;
+            case "1" : txtZone1.setText(str1); txtZone1_1.setText(str2);break;
+            case "2" : txtZone2.setText(str1); txtZone2_1.setText(str2); break;
+            case "3" : txtZone3.setText(str1); txtZone3_1.setText(str2); break;
+            case "4" : txtTarget.setText(str1); txtTarget_1.setText(str2); break;
         }
     }
 

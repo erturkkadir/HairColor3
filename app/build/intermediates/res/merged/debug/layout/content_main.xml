@@ -63,22 +63,39 @@
                     android:text="Zone 1 - Root"
                     android:textAppearance="@style/TextAppearance.AppCompat"
                     android:textColor="@color/colorGrey" />
-
-                <TextView
-                    android:id="@+id/txtZone1"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="left|center_vertical"
-                    android:text="..."
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:textColor="@color/blue"
-                    android:textSize="18sp" />
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtZone1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0.7"
+                        android:text="..."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtZone1_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0.3"
+                        android:text="..."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="18sp" />
+                </LinearLayout>
 
             </LinearLayout>
 
             <Button
                 android:id="@+id/btnZone1"
-                style="@android:style/Widget.DeviceDefault.Light.Button.Inset"
+                style="@android:style/Widget.Button.Inset"
                 android:layout_width="125dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -115,16 +132,33 @@
                     android:textAppearance="@style/TextAppearance.AppCompat"
                     android:textColor="@color/colorGrey" />
 
-                <TextView
-                    android:id="@+id/txtZone2"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="left|center_vertical"
-                    android:text="..."
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:textColor="@color/blue"
-                    android:textSize="18sp" />
+                    android:orientation="horizontal">
 
+                    <TextView
+                        android:id="@+id/txtZone2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0.7"
+                        android:text="..."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtZone2_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0.3"
+                        android:text="..."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="18sp" />
+                </LinearLayout>
             </LinearLayout>
 
             <Button
@@ -166,16 +200,33 @@
                     android:text="Zone 3 - End"
                     android:textAppearance="@style/TextAppearance.AppCompat"
                     android:textColor="@color/colorGrey" />
-
-                <TextView
-                    android:id="@+id/txtZone3"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="left|center_vertical"
-                    android:text="..."
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:textColor="@color/blue"
-                    android:textSize="18sp" />
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtZone3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0.7"
+                        android:text="..."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtZone3_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0.3"
+                        android:text="..."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="18sp" />
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -219,15 +270,34 @@
                     android:textAppearance="@style/TextAppearance.AppCompat"
                     android:textColor="@color/colorGrey" />
 
-                <TextView
-                    android:id="@+id/txtTarget"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="left|center_vertical"
-                    android:text="..."
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                    android:textColor="@color/blue"
-                    android:textSize="18sp" />
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtTarget"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0.7"
+                        android:text="..."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/blue"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/txtTarget_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="left|center_vertical"
+                        android:layout_weight="0.3"
+                        android:text="..."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="18sp" />
+                </LinearLayout>
 
             </LinearLayout>
 

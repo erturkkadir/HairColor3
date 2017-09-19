@@ -33,6 +33,10 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.txtZone2 = Utils.findRequiredViewAsType(source, R.id.txtZone2, "field 'txtZone2'", TextView.class);
     target.txtZone3 = Utils.findRequiredViewAsType(source, R.id.txtZone3, "field 'txtZone3'", TextView.class);
     target.txtTarget = Utils.findRequiredViewAsType(source, R.id.txtTarget, "field 'txtTarget'", TextView.class);
+    target.txtZone1_1 = Utils.findRequiredViewAsType(source, R.id.txtZone1_1, "field 'txtZone1_1'", TextView.class);
+    target.txtZone2_1 = Utils.findRequiredViewAsType(source, R.id.txtZone2_1, "field 'txtZone2_1'", TextView.class);
+    target.txtZone3_1 = Utils.findRequiredViewAsType(source, R.id.txtZone3_1, "field 'txtZone3_1'", TextView.class);
+    target.txtTarget_1 = Utils.findRequiredViewAsType(source, R.id.txtTarget_1, "field 'txtTarget_1'", TextView.class);
     target.btnZone1 = Utils.findRequiredViewAsType(source, R.id.btnZone1, "field 'btnZone1'", Button.class);
     target.btnZone2 = Utils.findRequiredViewAsType(source, R.id.btnZone2, "field 'btnZone2'", Button.class);
     target.btnZone3 = Utils.findRequiredViewAsType(source, R.id.btnZone3, "field 'btnZone3'", Button.class);
@@ -65,6 +69,10 @@ public class MainActivity_ViewBinding implements Unbinder {
     target.txtZone2 = null;
     target.txtZone3 = null;
     target.txtTarget = null;
+    target.txtZone1_1 = null;
+    target.txtZone2_1 = null;
+    target.txtZone3_1 = null;
+    target.txtTarget_1 = null;
     target.btnZone1 = null;
     target.btnZone2 = null;
     target.btnZone3 = null;
