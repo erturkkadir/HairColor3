@@ -1,226 +1,226 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:2:1-76:12
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:2:1-76:12
 	package
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:3:5-44
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:5:5-65
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:5:22-62
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:5:22-62
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:6:5-76
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:6:5-76
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:6:22-73
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:6:22-73
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:7:5-81
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:7:22-78
 uses-feature#android.hardware.camera
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:9:5-60
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:9:5-60
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:9:19-57
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:9:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:10:5-70
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:10:5-70
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:10:19-67
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:10:19-67
 uses-permission#android.permission.INTERNET
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:12:5-67
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:12:22-64
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:13:5-66
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:13:5-66
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:13:22-63
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:13:22-63
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:14:5-79
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:14:22-76
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:16:5-80
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:16:5-80
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:16:22-77
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:17:5-71
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:17:5-71
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:17:22-68
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:17:22-68
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:18:5-68
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:18:5-68
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:18:22-65
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:18:22-65
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:19:5-82
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:19:5-82
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:19:22-79
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:19:22-79
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:20:5-81
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:20:22-78
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:20:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:21:5-79
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:21:22-76
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:22:5-68
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:22:5-68
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:22:22-65
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:22:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:23:5-74
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:23:5-74
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:23:22-71
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:23:22-71
 uses-feature#android.hardware.bluetooth_le
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:25:5-27:35
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:25:5-27:35
 	android:required
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:27:9-32
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:27:9-32
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:26:9-53
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:26:9-53
 permission#com.syshuman.kadir.haircolor3.permission.C2D_MESSAGE
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:29:5-31:47
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:29:5-31:47
 	android:protectionLevel
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:31:9-44
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:31:9-44
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:30:9-76
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:30:9-76
 uses-permission#com.syshuman.kadir.haircolor3.permission.C2D_MESSAGE
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:33:5-92
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:33:5-92
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:33:22-89
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:33:22-89
 application
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:35:5-74:19
-MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kerturkx/.android/build-cache/1880210ad561a83e77268115f3b44e5c8fa1eafc/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kerturkx/.android/build-cache/3b6a6697c690bd75faf353cc2cee4d830627c636/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/kerturkx/.android/build-cache/a756ef0ebe255b5a8c89f70168b6924fb2a4a395/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/kerturkx/.android/build-cache/464420783810a84063710e2cee7d570ce4a4a144/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/kerturkx/.android/build-cache/ed9fa9da666dbe9c71543927d8f96d3c35d5ed6f/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kerturkx/.android/build-cache/f8bc6e0b7f324ceca8116744f002f64c882a6098/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kerturkx/.android/build-cache/6e794fa5c5a6a4dca326b5e956e327cd4ebdadc3/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kerturkx/.android/build-cache/cc9c6198cc765ea924b03b349651765db35137ac/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/kerturkx/.android/build-cache/c4d2f412c0c28a9606453a0b46221ce6d5c26d9a/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kerturkx/.android/build-cache/5c3cd5b5115d766e733732683a3f410891cc9157/output/AndroidManifest.xml:9:5-20
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:35:5-74:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\kadir\.android\build-cache\2553a00ce75d9c2446ee78165f83590ba43dee77\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\kadir\.android\build-cache\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kadir\.android\build-cache\68c1eb61c21eb46009a037bd4a29d0109d0901a0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kadir\.android\build-cache\8e8968a29a2ee6f844c93007ef3ff84cd15845b6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kadir\.android\build-cache\bbafc41e066812b0a1a32c6375ebd0f5f0a43acb\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kadir\.android\build-cache\a25005af34a306628aa022e082223d493ea81315\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kadir\.android\build-cache\bf5c7c077bcabf21d20f23d787ec5669206f837f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kadir\.android\build-cache\d0f197e4b3c85e4cf60fa01d4f70da757ae78fa1\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kadir\.android\build-cache\63089dd939a174a03c1ff5f1096e7631034a839e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kadir\.android\build-cache\2c819910cb11b1ee02c3dbd2c313bbfd0230854c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kadir\.android\build-cache\2cc0dcb43a9bcea8c42fc662a0b780bd7049190c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kadir\.android\build-cache\6a3270004a2f871936321056f1c58ba86432c18a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kadir\.android\build-cache\bdc09ca44567606631288281be70eb67827f47b5\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:38:9-41
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:38:9-41
 	android:supportsRtl
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:39:9-35
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:39:9-35
 	android:allowBackup
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:36:9-35
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:36:9-35
 	android:icon
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:37:9-45
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:37:9-45
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:40:9-40
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:40:9-40
 activity#com.syshuman.kadir.haircolor3.view.activities.BoardingActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:41:9-49:20
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:41:9-49:20
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:43:13-60
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:43:13-60
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:44:13-56
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:44:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:42:13-61
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:42:13-61
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:45:13-48:29
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:45:13-48:29
 action#android.intent.action.MAIN
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:46:17-69
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:46:17-69
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:46:25-66
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:47:17-77
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:47:27-74
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:47:27-74
 activity#com.syshuman.kadir.haircolor3.view.activities.MainActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:50:9-53:59
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:50:9-53:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:52:13-45
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:52:13-45
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:53:13-56
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:51:13-57
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:51:13-57
 activity#com.syshuman.kadir.haircolor3.view.activities.TrainingActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:54:9-57:59
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:54:9-57:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:56:13-59
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:56:13-59
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:57:13-56
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:57:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:55:13-61
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:55:13-61
 activity#com.syshuman.kadir.haircolor3.view.activities.SettingsActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:58:9-61:59
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:58:9-61:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:60:13-60
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:60:13-60
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:61:13-56
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:59:13-61
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:59:13-61
 activity#com.syshuman.kadir.haircolor3.view.activities.AboutActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:62:9-65:59
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:62:9-65:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:64:13-57
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:64:13-57
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:65:13-56
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:63:13-58
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:63:13-58
 service#com.syshuman.kadir.haircolor3.model.BluetoothLeService
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:66:9-68:40
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:66:9-68:40
 	android:exported
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:68:13-37
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:68:13-37
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:67:13-53
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:67:13-53
 activity#com.syshuman.kadir.haircolor3.view.activities.SpeechToTextActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:70:9-73:68
+ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:70:9-73:68
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:72:13-66
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:72:13-66
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:73:13-56
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:73:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:71:13-65
+		ADDED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml:71:13-65
 uses-sdk
-INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:7:5-43
-MERGED from [com.jakewharton:butterknife:8.8.1] /Users/kerturkx/.android/build-cache/03283949ec2f9e140310c5adc1ccdaf22b6a92f5/output/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kerturkx/.android/build-cache/1880210ad561a83e77268115f3b44e5c8fa1eafc/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kerturkx/.android/build-cache/3b6a6697c690bd75faf353cc2cee4d830627c636/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kerturkx/.android/build-cache/e654823c1c4962ada49cc53aa58bb35adaa181a3/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /Users/kerturkx/.android/build-cache/a756ef0ebe255b5a8c89f70168b6924fb2a4a395/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /Users/kerturkx/.android/build-cache/464420783810a84063710e2cee7d570ce4a4a144/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/kerturkx/.android/build-cache/ed9fa9da666dbe9c71543927d8f96d3c35d5ed6f/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kerturkx/.android/build-cache/f8bc6e0b7f324ceca8116744f002f64c882a6098/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kerturkx/.android/build-cache/6e794fa5c5a6a4dca326b5e956e327cd4ebdadc3/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kerturkx/.android/build-cache/cc9c6198cc765ea924b03b349651765db35137ac/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/kerturkx/.android/build-cache/c4d2f412c0c28a9606453a0b46221ce6d5c26d9a/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kerturkx/.android/build-cache/5c3cd5b5115d766e733732683a3f410891cc9157/output/AndroidManifest.xml:5:5-7:41
+INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\kadir\.android\build-cache\2553a00ce75d9c2446ee78165f83590ba43dee77\output\AndroidManifest.xml:7:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\kadir\.android\build-cache\34d226bd6e01ba37ab4754f68f96234f5acbb683\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:design:25.3.1] C:\Users\kadir\.android\build-cache\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kadir\.android\build-cache\68c1eb61c21eb46009a037bd4a29d0109d0901a0\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kadir\.android\build-cache\8e8968a29a2ee6f844c93007ef3ff84cd15845b6\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kadir\.android\build-cache\bbafc41e066812b0a1a32c6375ebd0f5f0a43acb\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kadir\.android\build-cache\cb954a3995b4ef7c58792aa261cea1d5bfc512e5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kadir\.android\build-cache\a25005af34a306628aa022e082223d493ea81315\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kadir\.android\build-cache\bf5c7c077bcabf21d20f23d787ec5669206f837f\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kadir\.android\build-cache\d0f197e4b3c85e4cf60fa01d4f70da757ae78fa1\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kadir\.android\build-cache\63089dd939a174a03c1ff5f1096e7631034a839e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kadir\.android\build-cache\2c819910cb11b1ee02c3dbd2c313bbfd0230854c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kadir\.android\build-cache\2cc0dcb43a9bcea8c42fc662a0b780bd7049190c\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kadir\.android\build-cache\6a3270004a2f871936321056f1c58ba86432c18a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\kadir\.android\build-cache\bdc09ca44567606631288281be70eb67827f47b5\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kadir\.android\build-cache\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\HairColor\HairColor3\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kerturkx/.android/build-cache/1880210ad561a83e77268115f3b44e5c8fa1eafc/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kerturkx/.android/build-cache/3b6a6697c690bd75faf353cc2cee4d830627c636/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kerturkx/.android/build-cache/e654823c1c4962ada49cc53aa58bb35adaa181a3/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/kerturkx/.android/build-cache/a756ef0ebe255b5a8c89f70168b6924fb2a4a395/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/kerturkx/.android/build-cache/464420783810a84063710e2cee7d570ce4a4a144/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/kerturkx/.android/build-cache/ed9fa9da666dbe9c71543927d8f96d3c35d5ed6f/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kerturkx/.android/build-cache/f8bc6e0b7f324ceca8116744f002f64c882a6098/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/kerturkx/.android/build-cache/6e794fa5c5a6a4dca326b5e956e327cd4ebdadc3/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/kerturkx/.android/build-cache/cc9c6198cc765ea924b03b349651765db35137ac/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/kerturkx/.android/build-cache/c4d2f412c0c28a9606453a0b46221ce6d5c26d9a/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\kadir\.android\build-cache\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\kadir\.android\build-cache\68c1eb61c21eb46009a037bd4a29d0109d0901a0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\kadir\.android\build-cache\8e8968a29a2ee6f844c93007ef3ff84cd15845b6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\kadir\.android\build-cache\bbafc41e066812b0a1a32c6375ebd0f5f0a43acb\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\kadir\.android\build-cache\cb954a3995b4ef7c58792aa261cea1d5bfc512e5\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\kadir\.android\build-cache\a25005af34a306628aa022e082223d493ea81315\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\kadir\.android\build-cache\bf5c7c077bcabf21d20f23d787ec5669206f837f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\kadir\.android\build-cache\d0f197e4b3c85e4cf60fa01d4f70da757ae78fa1\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\kadir\.android\build-cache\63089dd939a174a03c1ff5f1096e7631034a839e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\kadir\.android\build-cache\2c819910cb11b1ee02c3dbd2c313bbfd0230854c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\kadir\.android\build-cache\2cc0dcb43a9bcea8c42fc662a0b780bd7049190c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\kadir\.android\build-cache\6a3270004a2f871936321056f1c58ba86432c18a\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kadir\.android\build-cache\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\kadir\.android\build-cache\f1ecb4222d24d9034ad3b2cc27fbd3bd256f7cc9\output\AndroidManifest.xml:26:9-47

@@ -72,8 +72,9 @@
                         android:id="@+id/txtZone1"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
-                        android:layout_gravity="left|center_vertical"
+                        android:layout_gravity="center_vertical"
                         android:layout_weight="0.7"
+                        android:gravity="right"
                         android:text="..."
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@color/blue"
@@ -85,6 +86,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="left|center_vertical"
                         android:layout_weight="0.3"
+                        android:gravity="center_horizontal"
                         android:text="..."
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@color/colorGrey"
@@ -143,6 +145,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="left|center_vertical"
                         android:layout_weight="0.7"
+                        android:gravity="right"
                         android:text="..."
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@color/blue"
@@ -154,6 +157,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="left|center_vertical"
                         android:layout_weight="0.3"
+                        android:gravity="center_horizontal"
                         android:text="..."
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@color/colorGrey"
@@ -211,6 +215,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="left|center_vertical"
                         android:layout_weight="0.7"
+                        android:gravity="right"
                         android:text="..."
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@color/blue"
@@ -222,6 +227,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="left|center_vertical"
                         android:layout_weight="0.3"
+                        android:gravity="center_horizontal"
                         android:text="..."
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@color/colorGrey"
@@ -282,6 +288,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="left|center_vertical"
                         android:layout_weight="0.7"
+                        android:gravity="right"
                         android:text="..."
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@color/blue"
@@ -293,6 +300,7 @@
                         android:layout_height="match_parent"
                         android:layout_gravity="left|center_vertical"
                         android:layout_weight="0.3"
+                        android:gravity="center_horizontal"
                         android:text="..."
                         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                         android:textColor="@color/colorGrey"
@@ -340,10 +348,12 @@
 
             <TextView
                 android:id="@+id/txtRecipe"
+                style="@android:style/Widget.DeviceDefault.TextView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Instruction" />
+                android:text="Instruction"
+                android:textSize="24sp" />
         </LinearLayout>
     </LinearLayout>
 

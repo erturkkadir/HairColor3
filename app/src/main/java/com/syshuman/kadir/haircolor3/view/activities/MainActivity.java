@@ -350,7 +350,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
         @Override
         public void onClick(View view) {
             if(!silent) firstSound.start();
-            restServer.getRecipe(txtZone1.getText().toString(), txtZone2.getText().toString(), txtZone3.getText().toString(), txtTarget.getText().toString());
+            restServer.getRecipe(txtZone1.getHint().toString(), txtZone2.getHint().toString(), txtZone3.getHint().toString(), txtTarget.getHint().toString());
         }
     };
 
@@ -648,28 +648,30 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onGetColor(MessageEvents.onGetColor event) {
         String zone = event.zone;
-        String company="None", category="None", series="None", color = "None", recipe = "None", delta="";
+        String company1="None", category1="None", series1="None", color1 = "None", delta1="", cn_id1;
+        String company2="None", category2="None", series2="None", color2 = "None", delta2="", cn_id2;;
         String str1 = "", str2 = "";
+
         try {
             JSONArray data = event.data;
             JSONObject inner = new JSONObject(data.get(0).toString());
 
-            company = inner.getString("cn_company");
-            category = inner.getString("cn_category");
-            series = inner.getString("cn_series");
-            color = inner.getString("cn_id");
-            recipe = inner.getString("cn_recipe");
-            delta = inner.getString("delta");
-            str1 = color + " (" + delta + ") ";
+            company1 = inner.getString("cn_company");
+            category1 = inner.getString("cn_category");
+            series1 = inner.getString("cn_series");
+            color1 = inner.getString("cn_color");
+            delta1 = inner.getString("delta");
+            cn_id1 = inner.getString("cn_id");
+            str1 = color1 + "("+ delta1+")";
 
             inner = new JSONObject(data.get(1).toString());
-            company = inner.getString("cn_company");
-            category = inner.getString("cn_category");
-            series = inner.getString("cn_series");
-            color = inner.getString("cn_id");
-            recipe = inner.getString("cn_recipe");
-            delta = inner.getString("delta");
-            str2 = color + "(" + delta + ")";
+            company2 = inner.getString("cn_company");
+            category2 = inner.getString("cn_category");
+            series2 = inner.getString("cn_series");
+            color2 = inner.getString("cn_color");
+            delta2 = inner.getString("delta");
+            cn_id2 = inner.getString("cn_id");
+            str2 = color2 + "("+ delta2+")";
 
 
         }catch (JSONException e) {
@@ -677,12 +679,12 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
         }
 
-        Toast.makeText(context, color, Toast.LENGTH_LONG).show();
+        Toast.makeText(context, color1, Toast.LENGTH_LONG).show();
         switch (zone) {
-            case "1" : txtZone1.setText(str1); txtZone1_1.setText(str2);break;
-            case "2" : txtZone2.setText(str1); txtZone2_1.setText(str2); break;
-            case "3" : txtZone3.setText(str1); txtZone3_1.setText(str2); break;
-            case "4" : txtTarget.setText(str1); txtTarget_1.setText(str2); break;
+            case "1" : txtZone1.setText(str1); txtZone1_1.setText(str2); txtZone1.setHint(color1); break;
+            case "2" : txtZone2.setText(str1); txtZone2_1.setText(str2); txtZone2.setHint(color1); break;
+            case "3" : txtZone3.setText(str1); txtZone3_1.setText(str2); txtZone3.setHint(color1); break;
+            case "4" : txtTarget.setText(str1); txtTarget_1.setText(str2); txtTarget.setHint(color1); break;
         }
     }
 
