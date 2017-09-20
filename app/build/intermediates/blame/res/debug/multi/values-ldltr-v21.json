@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "outputFile": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "outputFile": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\HairColor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "outputFile": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,7 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "file": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
         ]
     },
     {
-        "outputFile": "C:\\HairColor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "outputFile": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\Documents\\Github\\haircolor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
         "map": [
             {
                 "to": {
@@ -83,7 +83,31 @@
                     "endOffset": 163
                 },
                 "from": {
-                    "file": "C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kerturkx\\.android\\build-cache\\968897dd21bbea31b0176123e30996cd9f2bcd1a\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 112,
+                        "endOffset": 163
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\HairColor\\HairColor3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldltr-v21\\values-ldltr-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 112,
+                    "endOffset": 163
+                },
+                "from": {
+                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -349,8 +349,31 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     View.OnClickListener onGetRecipeListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+
+            String trg = txtTarget.getText().toString();
+
+            if(trg.equals("...")) {
+                builder.
+                        setTitle("Target Required").
+                        setMessage("Please make sure that target color is picked").
+                        setPositiveButton("Try Again", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        })
+                ;
+                builder.show();
+                return;
+            }
+
+            String hintZone1; if(txtZone1.getHint()==null) hintZone1=""; else  hintZone1 = txtZone1.getHint().toString() ;
+            String hintZone2; if(txtZone2.getHint()==null) hintZone2=""; else  hintZone2 = txtZone2.getHint().toString() ;
+            String hintZone3; if(txtZone3.getHint()==null) hintZone3=""; else  hintZone3 = txtZone3.getHint().toString() ;
+
+
             if(!silent) firstSound.start();
-            restServer.getRecipe(txtZone1.getHint().toString(), txtZone2.getHint().toString(), txtZone3.getHint().toString(), txtTarget.getHint().toString());
+            restServer.getRecipe(hintZone1, hintZone2, hintZone3, txtTarget.getHint().toString());
         }
     };
 
@@ -661,6 +684,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
             series1 = inner.getString("cn_series");
             color1 = inner.getString("cn_color");
             delta1 = inner.getString("delta");
+            if(delta1.equals("null")) delta1 = "-";
             cn_id1 = inner.getString("cn_id");
             str1 = color1 + "("+ delta1+")";
 
@@ -670,6 +694,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
             series2 = inner.getString("cn_series");
             color2 = inner.getString("cn_color");
             delta2 = inner.getString("delta");
+            if(delta2.equals("null")) delta2 = "-";
             cn_id2 = inner.getString("cn_id");
             str2 = color2 + "("+ delta2+")";
 
