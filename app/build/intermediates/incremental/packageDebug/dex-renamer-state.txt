@@ -1,4 +1,4 @@
-#Wed Sep 20 08:44:27 PDT 2017
+#Thu Sep 21 10:44:06 PDT 2017
 base.0=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_115df551a95d7f2d59c3b0cfd724b6490998727e
 renamed.1=classes.dex
 renamed.0=classes2.dex
