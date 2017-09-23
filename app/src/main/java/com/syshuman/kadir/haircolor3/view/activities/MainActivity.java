@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     private String deviceAddress = "DD:68:7B:5D:B0:9B";
 
     CharSequence categories[] = new CharSequence[] {"Natural", "Colored", "Pigments"};
-    AlertDialog.Builder builder;
+    AlertDialog.Builder dialog;
 
     private Boolean silent = true;
 
@@ -159,7 +159,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
 
         getInitialData();
 
-        builder = new AlertDialog.Builder(this);
+        dialog = new AlertDialog.Builder(this);
 
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
@@ -255,8 +255,8 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     View.OnClickListener onlZone1Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            builder.setTitle("Category for Zone1");
-            builder.setItems(categories, new DialogInterface.OnClickListener() {
+            dialog.setTitle("Category for Zone1");
+            dialog.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     lblZone1.setText(categories[which]);
@@ -265,7 +265,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                     // the user clicked on colors[which]
                 }
             });
-            builder.show();
+            dialog.show();
 
         }
     };
@@ -282,8 +282,8 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     View.OnClickListener onlZone2Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            builder.setTitle("Category for Zone2");
-            builder.setItems(categories, new DialogInterface.OnClickListener() {
+            dialog.setTitle("Category for Zone2");
+            dialog.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     lblZone2.setText(categories[which]);
@@ -291,7 +291,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                     editor.commit();
                 }
             });
-            builder.show();
+            dialog.show();
 
         }
     };
@@ -308,8 +308,8 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     View.OnClickListener onlZone3Click = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            builder.setTitle("Category for Zone3");
-            builder.setItems(categories, new DialogInterface.OnClickListener() {
+            dialog.setTitle("Category for Zone3");
+            dialog.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     lblZone3.setText(categories[which]);
@@ -317,7 +317,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                     editor.commit();
                 }
             });
-            builder.show();
+            dialog.show();
 
         }
     };
@@ -333,8 +333,8 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
     View.OnClickListener onlTargetClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            builder.setTitle("Category for Target");
-            builder.setItems(categories, new DialogInterface.OnClickListener() {
+            dialog.setTitle("Category for Target");
+            dialog.setItems(categories, new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     lblTarget.setText(categories[which]);
@@ -342,15 +342,33 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                     editor.commit();
                 }
             });
-            builder.show();
+            dialog.show();
         }
     };
 
     View.OnClickListener onGetRecipeListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            String str1="", str2="", str3="", str4="";
             if(!silent) firstSound.start();
-            restServer.getRecipe(txtZone1.getHint().toString(), txtZone2.getHint().toString(), txtZone3.getHint().toString(), txtTarget.getHint().toString());
+            if(txtZone1.getHint()==null) str1 = ""; else str1 = txtZone1.getHint().toString();
+            if(txtZone2.getHint()==null) str2 = ""; else str2 = txtZone2.getHint().toString();
+            if(txtZone3.getHint()==null) str3 = ""; else str3 = txtZone3.getHint().toString();
+            if(txtTarget.getHint()==null) {
+                dialog.setTitle("Target Color is Missing").
+                        setMessage("Please Read Target Color.").
+                        setNeutralButton("OK", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialogInterface, int i) {
+                                dialogInterface.dismiss();
+                            }
+                        });
+                dialog.show();
+
+            } else {
+                str4 = txtTarget.getHint().toString();
+                restServer.getRecipe(str1, str2, str3, str4);
+            }
         }
     };
 
@@ -556,18 +574,18 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                     Log.d(LOG_TAG, "coarse location permission granted");
                 } else {
-                    final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                    builder.setTitle("Functionality limited");
-                    builder.setMessage("Since location access has not been granted, this app will not be able to discover beacons when in the background.");
-                    builder.setPositiveButton(android.R.string.ok, null);
-                    builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
+
+                    dialog.setTitle("Functionality limited");
+                    dialog.setMessage("Since location access has not been granted, this app will not be able to discover beacons when in the background.");
+                    dialog.setPositiveButton(android.R.string.ok, null);
+                    dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
 
                         @Override
                         public void onDismiss(DialogInterface dialog) {
                         }
 
                     });
-                    builder.show();
+                    dialog.show();
                 }
             }
         }

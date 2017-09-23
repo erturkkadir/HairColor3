@@ -219,8 +219,24 @@ public class TrainingActivity extends AppCompatActivity  {
     View.OnClickListener onModelClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
-            //restServer.getTrainedData();
-            restServer.reTrain3();;
+            AlertDialog.Builder dialog;
+            dialog = new AlertDialog.Builder(TrainingActivity.this);
+            dialog.setTitle("Re Training Alert")
+                    .setMessage("Are you sure to retrain with new data")
+                    .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            restServer.reTrain3();
+                        }
+                    })
+                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialogInterface, int i) {
+                            dialogInterface.dismiss();
+                        }
+                    });
+            dialog.show();
+
 
         }
     };
@@ -385,7 +401,6 @@ public class TrainingActivity extends AppCompatActivity  {
                         pow, company, category, series, color);
 
     }
-
 
     @Override
     public void onRequestPermissionsResult(int requestCode,
