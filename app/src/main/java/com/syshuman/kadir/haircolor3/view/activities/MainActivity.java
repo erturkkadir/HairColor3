@@ -369,6 +369,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
                 str4 = txtTarget.getHint().toString();
                 restServer.getRecipe(str1, str2, str3, str4);
             }
+
         }
     };
 
@@ -679,6 +680,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
             series1 = inner.getString("cn_series");
             color1 = inner.getString("cn_color");
             delta1 = inner.getString("delta");
+            if(delta1.equals("null")) delta1 = "-";
             cn_id1 = inner.getString("cn_id");
             str1 = color1 + "("+ delta1+")";
 
@@ -688,6 +690,7 @@ public class MainActivity extends AppCompatActivity implements ReadFragment.OnFr
             series2 = inner.getString("cn_series");
             color2 = inner.getString("cn_color");
             delta2 = inner.getString("delta");
+            if(delta2.equals("null")) delta2 = "-";
             cn_id2 = inner.getString("cn_id");
             str2 = color2 + "("+ delta2+")";
 

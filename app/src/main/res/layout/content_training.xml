@@ -15,8 +15,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scrollIndicators="right"
-        android:scrollbarAlwaysDrawVerticalTrack="?android:attr/windowClipToOutline"
-        android:scrollbarStyle="insideOverlay"
         android:scrollbars="vertical">
 
 
@@ -27,13 +25,6 @@
             android:orientation="vertical"
             android:scrollIndicators="right"
             android:scrollbars="vertical">
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" />
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -46,7 +37,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center_vertical|center_horizontal"
-                    android:text="Training"
+                    android:text="@string/training"
                     android:textSize="30sp" />
             </LinearLayout>
 
@@ -63,18 +54,18 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
                     android:gravity="start"
-                    android:text="Company"
+                    android:text="@string/company"
                     android:textSize="16sp" />
 
                 <Spinner
                     android:id="@+id/spTCompany"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="right"
+                    android:gravity="end"
                     android:textAlignment="gravity" />
 
             </LinearLayout>
@@ -92,17 +83,17 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:text="Category"
+                    android:text="@string/category"
                     android:textSize="16sp" />
 
                 <Spinner
                     android:id="@+id/spTCategory"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="right"
+                    android:gravity="end"
                     android:textAlignment="gravity" />
 
             </LinearLayout>
@@ -120,17 +111,17 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:text="Series"
+                    android:text="@string/series"
                     android:textSize="16sp" />
 
                 <Spinner
                     android:id="@+id/spTSeries"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="right"
+                    android:gravity="end"
                     android:textAlignment="gravity" />
 
             </LinearLayout>
@@ -148,17 +139,17 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.5"
-                    android:text="Color"
+                    android:text="@string/color"
                     android:textSize="16sp" />
 
                 <Spinner
                     android:id="@+id/spTColor"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:gravity="right"
+                    android:gravity="end"
                     android:textAlignment="gravity" />
 
             </LinearLayout>
@@ -176,7 +167,8 @@
 
                 <ImageButton
                     android:id="@+id/btnTrain"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
+                    android:contentDescription="@string/action_about"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:srcCompat="@drawable/ic_launcher" />
@@ -190,7 +182,7 @@
                 <TextView
                     android:id="@+id/txtResult"
                     android:layout_width="match_parent"
-                    android:layout_height="75dp" />
+                    android:layout_height="100dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -202,7 +194,8 @@
                     android:id="@+id/btnModel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="top|left"
+                    android:layout_gravity="top|start"
+                    android:contentDescription="@string/action_about"
                     android:src="@drawable/ic_launcher_old" />
             </LinearLayout>
 
