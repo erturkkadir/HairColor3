@@ -90,4 +90,6 @@
     <string name="color">Color</string>
     <string name="perc">%</string>
 
+    <string name="detail">Detail</string>
+
 </resources>

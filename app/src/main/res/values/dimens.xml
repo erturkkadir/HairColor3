@@ -8,4 +8,5 @@
     <dimen name="font_title_size">40sp</dimen>
     <dimen name="font_top_bar_size">20sp</dimen>
     <dimen name="font_small">15sp</dimen>
+    <dimen name="activity_margin">20dp</dimen>
 </resources>
