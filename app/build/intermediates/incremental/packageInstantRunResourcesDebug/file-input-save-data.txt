@@ -1,19 +1,35 @@
 #Internal package file, do not edit.
+<<<<<<< Updated upstream
 #Fri Dec 15 11:53:29 PST 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_menu_item_action_area.xml
 14.set=ANDROID_RESOURCE
 180.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_speech_to_text.xml
+=======
+#Fri Dec 15 14:40:55 PST 2017
+210.set=ANDROID_RESOURCE
+282.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_dark.xml
+14.set=ANDROID_RESOURCE
+180.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_dropdown_item_icons_2line.xml
+>>>>>>> Stashed changes
 118.set=ANDROID_RESOURCE
 60.set=ANDROID_RESOURCE
 2.set=ANDROID_RESOURCE
 164.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 26.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_hint_foreground_material_light.xml
 209.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 78.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
 307.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/battery_low.png
 21.set=ANDROID_RESOURCE
 53.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_expanded_menu_layout.xml
+=======
+26.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_tab_text.xml
+209.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+78.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/intel_logo.png
+21.set=ANDROID_RESOURCE
+53.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_normal.9.png
+>>>>>>> Stashed changes
 107.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 313.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 236.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -21,14 +37,22 @@
 125.set=ANDROID_RESOURCE
 288.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 211.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 80.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_menu_send.xml
+=======
+80.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_top_material.xml
+>>>>>>> Stashed changes
 134.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 263.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 186.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 277.set=ANDROID_RESOURCE
 161.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 290.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 192.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_dropdown_item_icons_2line.xml
+=======
+192.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+>>>>>>> Stashed changes
 132.set=ANDROID_RESOURCE
 238.set=ANDROID_RESOURCE
 179.set=ANDROID_RESOURCE
@@ -37,6 +61,7 @@
 34.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 88.set=ANDROID_RESOURCE
 86.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 319.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_spinner.xml
 65.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
 61.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -52,17 +77,39 @@
 321.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_view_list_nav_layout.xml
 244.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
 167.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_light.xml
+=======
+65.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/shape_black_stroke_rectangle.xml
+61.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+217.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media_custom.xml
+40.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+245.set=ANDROID_RESOURCE
+269.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_light.xml
+186.set=ANDROID_RESOURCE
+115.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_action.xml
+49.set=ANDROID_RESOURCE
+92.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_btn_colored_material.xml
+244.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+167.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_close_item_material.xml
+>>>>>>> Stashed changes
 275.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 198.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 121.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 296.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
 291.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 142.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility.png
+=======
+142.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_hide_password.xml
+>>>>>>> Stashed changes
 250.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 173.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 95.set=ANDROID_RESOURCE
 100.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 271.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+=======
+271.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_light.xml
+>>>>>>> Stashed changes
 206.set=ANDROID_RESOURCE
 0.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media.xml
 311.set=ANDROID_RESOURCE
@@ -70,13 +117,18 @@
 193.set=ANDROID_RESOURCE
 56.set=ANDROID_RESOURCE
 19.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 15.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_show_password_2.xml
+=======
+15.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_settings.xml
+>>>>>>> Stashed changes
 46.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 213.set=ANDROID_RESOURCE
 98.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 21.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 17.set=ANDROID_RESOURCE
 73.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 229.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_bottom_sheet_dialog.xml
 302.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 225.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -102,6 +154,31 @@
 308.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-sw600dp-v13/design_layout_snackbar.xml
 31.set=ANDROID_RESOURCE
 54.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_chevron_right_black_18dp.png
+=======
+229.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_track_material.xml
+225.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+204.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-hdpi-v4/ic_launcher.png
+127.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_lock_bk.png
+63.set=ANDROID_RESOURCE
+6.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+5.set=ANDROID_RESOURCE
+256.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_tick_mark_material.xml
+179.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+102.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_boarding.xml
+231.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_voice_search_api_material.xml
+154.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_email_bk.png
+167.set=ANDROID_RESOURCE
+220.set=ANDROID_RESOURCE
+283.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_device.xml
+24.set=ANDROID_RESOURCE
+181.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+128.set=ANDROID_RESOURCE
+70.set=ANDROID_RESOURCE
+27.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_radio.xml
+79.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/ic_launcher.png
+31.set=ANDROID_RESOURCE
+54.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item_separator.xml
+>>>>>>> Stashed changes
 108.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 314.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 237.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -116,8 +193,12 @@
 287.set=ANDROID_RESOURCE
 162.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 291.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 193.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
 307.set=ANDROID_RESOURCE
+=======
+193.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/design_password_eye.xml
+>>>>>>> Stashed changes
 142.set=ANDROID_RESOURCE
 248.set=ANDROID_RESOURCE
 189.set=ANDROID_RESOURCE
@@ -128,6 +209,7 @@
 209.set=ANDROID_RESOURCE
 87.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 10.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 66.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_snackbar.xml
 218.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_item_layout.xml
 314.set=ANDROID_RESOURCE
@@ -157,6 +239,34 @@
 66.set=ANDROID_RESOURCE
 8.set=ANDROID_RESOURCE
 16.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_settings.xml
+=======
+66.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/ic_sync_black_24dp.xml
+218.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-anydpi-v21/design_ic_visibility_off.xml
+41.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png
+255.set=ANDROID_RESOURCE
+196.set=ANDROID_RESOURCE
+116.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_dark.xml
+93.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+147.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+59.set=ANDROID_RESOURCE
+245.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+168.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_toolbar.xml
+276.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+199.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+122.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+220.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple.xml
+143.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
+251.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+174.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+110.set=ANDROID_RESOURCE
+272.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/icon_delete.png
+216.set=ANDROID_RESOURCE
+1.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_grow_fade_in_from_bottom.xml
+262.set=ANDROID_RESOURCE
+66.set=ANDROID_RESOURCE
+8.set=ANDROID_RESOURCE
+16.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_material.xml
+>>>>>>> Stashed changes
 47.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 223.set=ANDROID_RESOURCE
 99.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -165,6 +275,7 @@
 74.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 303.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 226.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 205.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_in.xml
 128.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_trainig.xml
 73.set=ANDROID_RESOURCE
@@ -179,18 +290,42 @@
 171.set=ANDROID_RESOURCE
 34.set=ANDROID_RESOURCE
 182.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_in_bottom.xml
+=======
+205.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_custom_big.xml
+128.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_edittext.xml
+73.set=ANDROID_RESOURCE
+7.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+257.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_menu_item_action_area.xml
+103.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/menu/menu_main.xml
+232.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_notifications_black_24dp.png
+155.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_light.xml
+230.set=ANDROID_RESOURCE
+284.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_ab_back_material.xml
+130.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_ble.png
+171.set=ANDROID_RESOURCE
+34.set=ANDROID_RESOURCE
+182.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/bt_passive.png
+>>>>>>> Stashed changes
 138.set=ANDROID_RESOURCE
 80.set=ANDROID_RESOURCE
-28.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_tab_text.xml
+28.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
 41.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 55.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+=======
+55.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+>>>>>>> Stashed changes
 109.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 315.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 238.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
-30.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_radio.xml
+30.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_bottom.xml
 145.set=ANDROID_RESOURCE
 213.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 82.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/intel_logo.png
+=======
+82.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+>>>>>>> Stashed changes
 136.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 265.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 188.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -199,8 +334,12 @@
 240.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 163.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 106.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 292.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 194.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+=======
+194.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/design_fab_out.xml
+>>>>>>> Stashed changes
 190.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 317.set=ANDROID_RESOURCE
 152.set=ANDROID_RESOURCE
@@ -211,6 +350,7 @@
 219.set=ANDROID_RESOURCE
 88.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 11.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 67.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
 219.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_training.xml
 42.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
@@ -227,6 +367,23 @@
 298.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_dark_normal.xml
 221.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/shape_curve_corner_retangle.xml
 144.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+=======
+67.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_material.xml
+219.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_icon.xml
+42.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_indicator_material.xml
+265.set=ANDROID_RESOURCE
+117.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/ic_launcher_old.png
+94.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+148.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+69.set=ANDROID_RESOURCE
+246.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_sync_black_24dp.png
+169.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_in_bottom.xml
+277.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+200.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+123.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+221.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/delete32.png
+144.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_popup_menu_header_item_layout.xml
+>>>>>>> Stashed changes
 252.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 175.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 120.set=ANDROID_RESOURCE
@@ -244,6 +401,7 @@
 304.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 227.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 50.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 206.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/ic_notifications_black_24dp.xml
 129.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_top.xml
 83.set=ANDROID_RESOURCE
@@ -274,6 +432,36 @@
 62.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 214.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 83.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/ic_launcher.png
+=======
+206.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/shape_curve_corner_retangle.xml
+129.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_text_material.xml
+83.set=ANDROID_RESOURCE
+8.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+258.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_back.png
+104.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png
+233.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_tab_icon.xml
+156.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_seek_thumb.xml
+240.set=ANDROID_RESOURCE
+285.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+131.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility_off.png
+181.set=ANDROID_RESOURCE
+44.set=ANDROID_RESOURCE
+260.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/menu/menu_boarding.xml
+183.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_title_material.xml
+148.set=ANDROID_RESOURCE
+90.set=ANDROID_RESOURCE
+201.set=ANDROID_RESOURCE
+29.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple_overlay_action_mode.xml
+109.set=ANDROID_RESOURCE
+51.set=ANDROID_RESOURCE
+56.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+239.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+31.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_vector_test.xml
+155.set=ANDROID_RESOURCE
+62.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+214.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+83.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+>>>>>>> Stashed changes
 137.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 12.set=ANDROID_RESOURCE
 266.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -284,9 +472,15 @@
 116.set=ANDROID_RESOURCE
 293.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 0.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 195.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/bt_passive.png
 191.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 170.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/sing_upemail.png
+=======
+195.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_media_cancel_action.xml
+191.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+170.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim-v21/design_bottom_sheet_slide_out.xml
+>>>>>>> Stashed changes
 162.set=ANDROID_RESOURCE
 268.set=ANDROID_RESOURCE
 37.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -294,6 +488,7 @@
 229.set=ANDROID_RESOURCE
 89.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 12.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 68.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item_subheader.xml
 43.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
 275.set=ANDROID_RESOURCE
@@ -302,13 +497,28 @@
 149.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 79.set=ANDROID_RESOURCE
 247.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/support_simple_spinner_dropdown_item.xml
+=======
+68.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/side_nav_bar.xml
+43.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launcher.png
+275.set=ANDROID_RESOURCE
+118.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_clear_material.xml
+95.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+149.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+79.set=ANDROID_RESOURCE
+247.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+>>>>>>> Stashed changes
 278.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 201.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 70.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/ic_sync_black_24dp.xml
 124.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 299.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_light.xml
 222.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_custom_big.xml
 145.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/raw/beep07.mp3
+=======
+222.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_checkbox.xml
+145.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_go_search_api_material.xml
+>>>>>>> Stashed changes
 253.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 176.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 130.set=ANDROID_RESOURCE
@@ -329,6 +539,7 @@
 309.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/icon_delete.png
 305.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 51.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 207.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
 93.set=ANDROID_RESOURCE
 204.set=ANDROID_RESOURCE
@@ -345,12 +556,30 @@
 54.set=ANDROID_RESOURCE
 261.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/simple_spinner.xml
 184.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_tile_bg.xml
+=======
+207.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_action_bar_item_background_material.xml
+93.set=ANDROID_RESOURCE
+204.set=ANDROID_RESOURCE
+9.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+259.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_menu_manage.xml
+105.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+234.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_menu_gallery.xml
+157.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_arrow_forward_black_18dp.png
+250.set=ANDROID_RESOURCE
+286.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+191.set=ANDROID_RESOURCE
+132.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility.png
+54.set=ANDROID_RESOURCE
+261.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_activity_chooser_view.xml
+184.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_login.xml
+>>>>>>> Stashed changes
 158.set=ANDROID_RESOURCE
 211.set=ANDROID_RESOURCE
 15.set=ANDROID_RESOURCE
 119.set=ANDROID_RESOURCE
 61.set=ANDROID_RESOURCE
 3.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 57.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
 317.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 32.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_bottom.xml
@@ -358,6 +587,14 @@
 63.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 215.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 84.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_edit_text_material.xml
+=======
+57.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_view.xml
+32.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
+165.set=ANDROID_RESOURCE
+63.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+215.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+84.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_info_black_24dp.png
+>>>>>>> Stashed changes
 138.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 22.set=ANDROID_RESOURCE
 267.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -368,13 +605,20 @@
 126.set=ANDROID_RESOURCE
 294.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 140.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 273.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_icon_background.xml
 196.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/googleg_standard_color_18.png
 171.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_icon_group.xml
+=======
+273.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_singlechoice_material.xml
+196.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+171.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_tile_bg.xml
+>>>>>>> Stashed changes
 278.set=ANDROID_RESOURCE
 38.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 133.set=ANDROID_RESOURCE
 239.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 17.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_material.xml
 13.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 69.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/shape_black_stroke_rectangle.xml
@@ -391,6 +635,23 @@
 300.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/icon_delete.png
 223.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_action_bar_item_background_material.xml
 146.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+=======
+17.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_bar.xml
+13.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+69.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_menu_slideshow.xml
+44.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+285.set=ANDROID_RESOURCE
+119.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_search_api_material.xml
+96.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_show_password.xml
+89.set=ANDROID_RESOURCE
+248.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item.xml
+279.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+202.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+71.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_multichoice_material.xml
+125.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+223.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
+146.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media_custom.xml
+>>>>>>> Stashed changes
 254.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 177.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 100.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -413,6 +674,7 @@
 77.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 306.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 52.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 208.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/design_password_eye.xml
 214.set=ANDROID_RESOURCE
 106.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
@@ -429,11 +691,29 @@
 185.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
 6.set=ANDROID_RESOURCE
 160.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+=======
+208.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media_narrow_custom.xml
+214.set=ANDROID_RESOURCE
+106.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_launcher.png
+18.set=ANDROID_RESOURCE
+235.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/ic_info_black_24dp.xml
+158.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/sing_upemail.png
+260.set=ANDROID_RESOURCE
+287.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_chronometer.xml
+210.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_thumb_material.xml
+133.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png
+64.set=ANDROID_RESOURCE
+262.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/notification_action_background.xml
+185.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_search_url_text.xml
+6.set=ANDROID_RESOURCE
+160.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+>>>>>>> Stashed changes
 168.set=ANDROID_RESOURCE
 221.set=ANDROID_RESOURCE
 25.set=ANDROID_RESOURCE
 129.set=ANDROID_RESOURCE
 71.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 58.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item_separator.xml
 318.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 33.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_vector_test.xml
@@ -444,6 +724,17 @@
 32.set=ANDROID_RESOURCE
 268.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 60.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+=======
+58.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png
+33.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media_narrow.xml
+64.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+216.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+85.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_content_include.xml
+139.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+32.set=ANDROID_RESOURCE
+268.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+60.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_internal_bg.xml
+>>>>>>> Stashed changes
 114.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 91.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 320.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -452,16 +743,25 @@
 136.set=ANDROID_RESOURCE
 295.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 141.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 274.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
 197.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_title_material.xml
 120.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/raw/beep04.mp3
 270.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 172.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+=======
+274.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_borderless_text_material.xml
+197.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+120.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_activity_chooser_view_list_item.xml
+270.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+172.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+>>>>>>> Stashed changes
 288.set=ANDROID_RESOURCE
 39.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 308.set=ANDROID_RESOURCE
 143.set=ANDROID_RESOURCE
 249.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 18.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_bar.xml
 14.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 45.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_indicator_material.xml
@@ -472,11 +772,26 @@
 97.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_btn_colored_material.xml
 20.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/alpha.xml
 249.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_dialog_title_material.xml
+=======
+18.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/alpha.xml
+14.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+45.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+228.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+99.set=ANDROID_RESOURCE
+104.set=ANDROID_RESOURCE
+97.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/navigation_empty_icon.xml
+20.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_dialog_material_background.xml
+249.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_icon_background.xml
+>>>>>>> Stashed changes
 203.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 72.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/side_nav_bar.xml
 126.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 301.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_singlechoice_material.xml
 224.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_plusone_small_off_client.png
+=======
+224.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/support_simple_spinner_dropdown_item.xml
+>>>>>>> Stashed changes
 255.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 178.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 101.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -485,7 +800,11 @@
 256.set=ANDROID_RESOURCE
 197.set=ANDROID_RESOURCE
 230.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 5.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_light.xml
+=======
+5.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
+>>>>>>> Stashed changes
 153.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 282.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 180.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -498,6 +817,7 @@
 78.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 307.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 53.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 209.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/design_fab_out.xml
 224.set=ANDROID_RESOURCE
 107.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_boarding.xml
@@ -514,6 +834,23 @@
 263.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/battery.png
 186.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
 161.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_btn_checkable.xml
+=======
+209.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_menu_overflow_material.xml
+224.set=ANDROID_RESOURCE
+107.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_default.xml
+28.set=ANDROID_RESOURCE
+80.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+236.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_media_action.xml
+159.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_icon_group.xml
+270.set=ANDROID_RESOURCE
+288.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+211.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_main.xml
+134.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+74.set=ANDROID_RESOURCE
+263.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_show_password_3.xml
+186.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_register.xml
+161.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_text_input_password_icon.xml
+>>>>>>> Stashed changes
 192.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 290.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxhdpi-v4/ic_launcher.png
 231.set=ANDROID_RESOURCE
@@ -521,6 +858,7 @@
 35.set=ANDROID_RESOURCE
 139.set=ANDROID_RESOURCE
 81.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 59.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
 319.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 34.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
@@ -531,6 +869,17 @@
 42.set=ANDROID_RESOURCE
 269.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 61.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_view.xml
+=======
+59.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+34.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+65.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+217.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+86.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_main.xml
+40.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+42.set=ANDROID_RESOURCE
+269.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+61.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_snackbar.xml
+>>>>>>> Stashed changes
 115.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 92.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 321.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -539,6 +888,7 @@
 146.set=ANDROID_RESOURCE
 296.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 142.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 275.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_menu_item.xml
 198.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/common_google_signin_btn_text_dark.xml
 121.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_dark.xml
@@ -547,10 +897,20 @@
 250.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_layout.xml
 173.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_read_color.xml
 298.set=ANDROID_RESOURCE
+=======
+275.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_forgot.xml
+198.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/delete64.png
+121.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_trainig.xml
+271.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+0.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+250.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_menu_item.xml
+173.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+>>>>>>> Stashed changes
 107.set=ANDROID_RESOURCE
 318.set=ANDROID_RESOURCE
 153.set=ANDROID_RESOURCE
 259.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 19.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_dark.xml
 15.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 10.set=ANDROID_RESOURCE
@@ -559,11 +919,25 @@
 114.set=ANDROID_RESOURCE
 98.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
 21.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+=======
+19.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+15.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+10.set=ANDROID_RESOURCE
+46.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/design_snackbar_out.xml
+229.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+114.set=ANDROID_RESOURCE
+98.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+21.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_color_highlight_material.xml
+>>>>>>> Stashed changes
 204.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 73.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_menu_slideshow.xml
 127.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 302.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_borderless_text_material.xml
 225.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media_narrow_custom.xml
+=======
+225.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_switch_thumb_material.xml
+>>>>>>> Stashed changes
 256.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 179.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 102.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -571,7 +945,7 @@
 266.set=ANDROID_RESOURCE
 231.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 154.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
-6.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
+6.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines_media.xml
 283.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 181.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 121.set=ANDROID_RESOURCE
@@ -585,6 +959,7 @@ count=322
 54.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 234.set=ANDROID_RESOURCE
 175.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 108.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/design_error.xml
 38.set=ANDROID_RESOURCE
 81.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -599,6 +974,21 @@ count=322
 187.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
 110.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png
 162.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_spinner_textfield_background_material.xml
+=======
+108.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/animator-v21/design_appbar_state_list_animator.xml
+38.set=ANDROID_RESOURCE
+81.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+237.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/design_tint_password_toggle.xml
+280.set=ANDROID_RESOURCE
+289.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_spinner.xml
+212.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+135.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/raw/beep07.mp3
+84.set=ANDROID_RESOURCE
+264.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_snackbar_include.xml
+187.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+110.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/battery_small.png
+162.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_hide_password_3.xml
+>>>>>>> Stashed changes
 193.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 300.set=ANDROID_RESOURCE
 291.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
@@ -608,11 +998,19 @@ count=322
 149.set=ANDROID_RESOURCE
 91.set=ANDROID_RESOURCE
 202.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 35.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
 66.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 218.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 87.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
 10.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/app_bar_main.xml
+=======
+35.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_shrink_fade_out_from_bottom.xml
+66.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+218.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+87.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-anydpi-v21/design_ic_visibility.xml
+10.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg.xml
+>>>>>>> Stashed changes
 41.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 52.set=ANDROID_RESOURCE
 116.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -620,6 +1018,7 @@ count=322
 245.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 168.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 156.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 147.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/design_bottom_navigation_item_background.xml
 297.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 220.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -632,27 +1031,49 @@ count=322
 1.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 251.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim-v21/design_bottom_sheet_slide_in.xml
 174.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_text_input_password_icon.xml
+=======
+147.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_popup_menu_item_layout.xml
+220.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+143.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+276.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_text_cursor_material.xml
+199.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_holo_dark.xml
+122.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_top.xml
+272.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+13.set=ANDROID_RESOURCE
+1.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+251.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_menu_camera.xml
+174.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_default_mtrl_shape.xml
+>>>>>>> Stashed changes
 117.set=ANDROID_RESOURCE
 1.set=ANDROID_RESOURCE
 163.set=ANDROID_RESOURCE
 269.set=ANDROID_RESOURCE
 16.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 20.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 47.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
 22.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_dialog_material_background.xml
+=======
+47.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_light.xml
+22.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_textfield_search_material.xml
+>>>>>>> Stashed changes
 124.set=ANDROID_RESOURCE
 99.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
 205.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 74.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_multichoice_material.xml
 128.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 303.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_forgot.xml
 226.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_menu_overflow_material.xml
+=======
+226.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_dialog_title_material.xml
+>>>>>>> Stashed changes
 257.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 103.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 276.set=ANDROID_RESOURCE
 232.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 155.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
-7.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines_media.xml
+7.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_hide_password_1.xml
 284.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 130.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 182.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -667,6 +1088,7 @@ count=322
 244.set=ANDROID_RESOURCE
 30.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 185.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 109.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/menu/menu_main.xml
 48.set=ANDROID_RESOURCE
 82.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -682,12 +1104,29 @@ count=322
 111.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
 240.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple.xml
 163.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_dark.xml
+=======
+109.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_lock.png
+48.set=ANDROID_RESOURCE
+82.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+238.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/simple_spinner.xml
+290.set=ANDROID_RESOURCE
+213.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_bottom_sheet_dialog.xml
+136.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+94.set=ANDROID_RESOURCE
+205.set=ANDROID_RESOURCE
+265.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxhdpi-v4/ic_launcher.png
+188.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_action_tombstone.xml
+111.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_settings.xml
+240.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/battery.png
+163.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/design_snackbar_in.xml
+>>>>>>> Stashed changes
 194.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 310.set=ANDROID_RESOURCE
 292.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_about.xml
 251.set=ANDROID_RESOURCE
 192.set=ANDROID_RESOURCE
 55.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 190.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item_header.xml
 159.set=ANDROID_RESOURCE
 212.set=ANDROID_RESOURCE
@@ -697,6 +1136,17 @@ count=322
 219.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 88.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_info_black_24dp.png
 11.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg.xml
+=======
+190.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_in.xml
+159.set=ANDROID_RESOURCE
+212.set=ANDROID_RESOURCE
+16.set=ANDROID_RESOURCE
+36.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_arrow_drop_down_black_18dp.png
+67.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+219.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+88.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_button_bar_material.xml
+11.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_dark.xml
+>>>>>>> Stashed changes
 42.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 62.set=ANDROID_RESOURCE
 117.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -705,6 +1155,7 @@ count=322
 246.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 169.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 166.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 148.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_menu_share.xml
 298.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 221.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -722,20 +1173,44 @@ count=322
 30.set=ANDROID_RESOURCE
 48.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
 23.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_color_highlight_material.xml
+=======
+148.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+221.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+144.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+277.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_item_material.xml
+200.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_about.xml
+123.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_borderless_material.xml
+23.set=ANDROID_RESOURCE
+2.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+252.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+175.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+150.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_spinner_textfield_background_material.xml
+127.set=ANDROID_RESOURCE
+279.set=ANDROID_RESOURCE
+30.set=ANDROID_RESOURCE
+48.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_thumb.xml
+23.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_radio_material.xml
+>>>>>>> Stashed changes
 134.set=ANDROID_RESOURCE
 206.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 75.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_out.xml
 129.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 304.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/translate.xml
 227.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_main.xml
 258.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 50.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_light.xml
+=======
+227.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_layout.xml
+258.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+50.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+>>>>>>> Stashed changes
 104.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 286.set=ANDROID_RESOURCE
 310.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 233.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 156.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
-8.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_hide_password_1.xml
+8.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v23/abc_control_background_material.xml
 285.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 131.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 260.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -756,6 +1231,7 @@ count=322
 31.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 58.set=ANDROID_RESOURCE
 83.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 316.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
 239.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_icon.xml
 62.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png
@@ -768,27 +1244,52 @@ count=322
 19.set=ANDROID_RESOURCE
 241.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/delete32.png
 164.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_small_material.xml
+=======
+239.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+62.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+214.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_track.xml
+137.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/design_bottom_navigation_item_background.xml
+215.set=ANDROID_RESOURCE
+266.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+189.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_boarding.xml
+112.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+19.set=ANDROID_RESOURCE
+241.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_menu.xml
+164.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/design_snackbar_background.xml
+>>>>>>> Stashed changes
 195.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 320.set=ANDROID_RESOURCE
 293.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_light_focused.xml
 261.set=ANDROID_RESOURCE
 170.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 65.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 191.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/design_fab_in.xml
+=======
+191.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/ic_notifications_black_24dp.xml
+>>>>>>> Stashed changes
 7.set=ANDROID_RESOURCE
 169.set=ANDROID_RESOURCE
 222.set=ANDROID_RESOURCE
 26.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 37.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_shrink_fade_out_from_bottom.xml
 68.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 89.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_content_include.xml
 12.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_dark.xml
+=======
+37.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_qr_code.png
+68.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+89.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+12.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+>>>>>>> Stashed changes
 43.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 72.set=ANDROID_RESOURCE
 118.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 95.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 247.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 70.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 149.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/nav_header_main.xml
 299.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 222.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -810,17 +1311,41 @@ count=322
 309.set=ANDROID_RESOURCE
 309.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 24.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_textfield_search_material.xml
+=======
+149.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_btn_checkable.xml
+222.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+145.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+170.set=ANDROID_RESOURCE
+278.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/translate.xml
+201.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_speech_to_text.xml
+124.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_up_container.xml
+33.set=ANDROID_RESOURCE
+3.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+253.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+176.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_layout.xml
+151.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_dark.xml
+137.set=ANDROID_RESOURCE
+280.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-sw600dp-v13/design_layout_snackbar.xml
+289.set=ANDROID_RESOURCE
+40.set=ANDROID_RESOURCE
+49.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_expanded_menu_layout.xml
+24.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_hint_foreground_material_light.xml
+>>>>>>> Stashed changes
 144.set=ANDROID_RESOURCE
 207.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 76.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_enter.xml
 305.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/select_dialog_item_material.xml
 259.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 51.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/design_snackbar_out.xml
+=======
+51.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_chevron_right_black_18dp.png
+>>>>>>> Stashed changes
 105.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 296.set=ANDROID_RESOURCE
 311.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 234.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
-9.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v23/abc_control_background_material.xml
+9.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/app_bar_main.xml
 157.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 105.set=ANDROID_RESOURCE
 286.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -838,6 +1363,7 @@ count=322
 32.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 68.set=ANDROID_RESOURCE
 84.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 317.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_chronometer.xml
 63.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
 215.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_holo_dark.xml
@@ -849,20 +1375,40 @@ count=322
 90.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_main.xml
 242.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/common_google_signin_btn_tint.xml
 165.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_email_bk.png
+=======
+63.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+215.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_holo_light.xml
+138.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/nav_header_main.xml
+225.set=ANDROID_RESOURCE
+267.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_about.xml
+113.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/raw/beep04.mp3
+29.set=ANDROID_RESOURCE
+90.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg_low.xml
+242.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+165.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_check.png
+>>>>>>> Stashed changes
 273.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 196.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 294.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_light.xml
 271.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 140.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_disabled.xml
+=======
+140.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_show_password_1.xml
+>>>>>>> Stashed changes
 171.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 75.set=ANDROID_RESOURCE
 232.set=ANDROID_RESOURCE
 173.set=ANDROID_RESOURCE
 17.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 36.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 38.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_arrow_drop_down_black_18dp.png
+=======
+38.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+>>>>>>> Stashed changes
 69.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
-13.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+13.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
 44.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 82.set=ANDROID_RESOURCE
 119.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -873,6 +1419,7 @@ count=322
 223.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 146.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 180.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 279.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_time.xml
 202.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_boarding.xml
 125.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_clear_material.xml
@@ -896,6 +1443,28 @@ count=322
 306.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_text_cursor_material.xml
 11.set=ANDROID_RESOURCE
 52.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_switch_thumb.xml
+=======
+279.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/battery_low.png
+202.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_item_layout.xml
+125.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+43.set=ANDROID_RESOURCE
+4.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+254.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_part_time.xml
+177.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/design_fab_in.xml
+100.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
+147.set=ANDROID_RESOURCE
+152.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_small_material.xml
+200.set=ANDROID_RESOURCE
+281.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/icon_delete.png
+108.set=ANDROID_RESOURCE
+50.set=ANDROID_RESOURCE
+25.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/bluetooth_logo.png
+154.set=ANDROID_RESOURCE
+208.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+77.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/raw/model.svm
+11.set=ANDROID_RESOURCE
+52.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+>>>>>>> Stashed changes
 106.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 312.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 235.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -916,6 +1485,7 @@ count=322
 33.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 78.set=ANDROID_RESOURCE
 85.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 318.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
 64.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_cab_background_internal_bg.xml
 60.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -930,22 +1500,48 @@ count=322
 320.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout-v11/notification_template_big_media.xml
 243.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_checkbox.xml
 166.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_arrow_forward_black_48dp.png
+=======
+64.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item_subheader.xml
+60.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+216.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_in_top.xml
+139.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_menu_share.xml
+235.set=ANDROID_RESOURCE
+268.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_read.xml
+176.set=ANDROID_RESOURCE
+114.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_dark.xml
+39.set=ANDROID_RESOURCE
+91.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_select_dialog_material.xml
+243.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/design_fab_background.xml
+166.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_speech_to_text.xml
+>>>>>>> Stashed changes
 274.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 197.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 120.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 295.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_read.xml
 281.set=ANDROID_RESOURCE
+<<<<<<< Updated upstream
 141.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/design_ic_visibility_off.png
 172.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 85.set=ANDROID_RESOURCE
 270.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_plusone_tall_off_client.png
 301.set=ANDROID_RESOURCE
+=======
+141.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/abc_hint_foreground_material_dark.xml
+172.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+85.set=ANDROID_RESOURCE
+270.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+>>>>>>> Stashed changes
 242.set=ANDROID_RESOURCE
 183.set=ANDROID_RESOURCE
 46.set=ANDROID_RESOURCE
 18.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 39.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_qr_code.png
 14.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+=======
+39.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/menu/activity_main_drawer.xml
+14.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_show_password_2.xml
+>>>>>>> Stashed changes
 45.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 92.set=ANDROID_RESOURCE
 203.set=ANDROID_RESOURCE
@@ -953,6 +1549,7 @@ count=322
 20.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 249.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 72.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< Updated upstream
 228.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_thumb_material.xml
 301.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
 224.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
@@ -966,4 +1563,18 @@ count=322
 101.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
 230.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_dark.xml
 153.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/avd_hide_password.xml
+=======
+228.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/anim-v21/design_bottom_sheet_slide_in.xml
+224.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+190.set=ANDROID_RESOURCE
+203.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/content_training.xml
+126.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+53.set=ANDROID_RESOURCE
+5.base=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_
+255.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_bottom_navigation_item.xml
+178.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/layout/design_navigation_item_header.xml
+101.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/color/design_error.xml
+230.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/bt_active.png
+153.file=/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_arrow_forward_black_48dp.png
+>>>>>>> Stashed changes
 157.set=ANDROID_RESOURCE

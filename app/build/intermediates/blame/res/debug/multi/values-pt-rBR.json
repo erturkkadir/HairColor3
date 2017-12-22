@@ -7,6 +7,7 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
+<<<<<<< Updated upstream
                     "endColumn": 119,
                     "endOffset": 220
                 },
@@ -734,8 +735,10 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+=======
+>>>>>>> Stashed changes
                     "endColumn": 119,
-                    "endOffset": 170
+                    "endOffset": 220
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -752,9 +755,9 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 175,
+                    "startOffset": 225,
                     "endColumn": 107,
-                    "endOffset": 278
+                    "endOffset": 328
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -771,9 +774,9 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 283,
+                    "startOffset": 333,
                     "endColumn": 122,
-                    "endOffset": 401
+                    "endOffset": 451
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -790,9 +793,9 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 406,
+                    "startOffset": 456,
                     "endColumn": 105,
-                    "endOffset": 507
+                    "endOffset": 557
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -809,9 +812,9 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 512,
+                    "startOffset": 562,
                     "endColumn": 106,
-                    "endOffset": 614
+                    "endOffset": 664
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -828,9 +831,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 619,
+                    "startOffset": 669,
                     "endColumn": 88,
-                    "endOffset": 703
+                    "endOffset": 753
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -847,9 +850,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 708,
+                    "startOffset": 758,
                     "endColumn": 100,
-                    "endOffset": 804
+                    "endOffset": 854
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -866,9 +869,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 809,
+                    "startOffset": 859,
                     "endColumn": 117,
-                    "endOffset": 922
+                    "endOffset": 972
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -885,9 +888,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 927,
+                    "startOffset": 977,
                     "endColumn": 82,
-                    "endOffset": 1005
+                    "endOffset": 1055
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -904,9 +907,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1010,
+                    "startOffset": 1060,
                     "endColumn": 79,
-                    "endOffset": 1085
+                    "endOffset": 1135
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -923,9 +926,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1090,
+                    "startOffset": 1140,
                     "endColumn": 86,
-                    "endOffset": 1172
+                    "endOffset": 1222
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -942,9 +945,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1177,
+                    "startOffset": 1227,
                     "endColumn": 106,
-                    "endOffset": 1279
+                    "endOffset": 1329
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -961,9 +964,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1284,
+                    "startOffset": 1334,
                     "endColumn": 111,
-                    "endOffset": 1391
+                    "endOffset": 1441
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -980,9 +983,9 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1396,
+                    "startOffset": 1446,
                     "endColumn": 101,
-                    "endOffset": 1493
+                    "endOffset": 1543
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -999,9 +1002,9 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1498,
+                    "startOffset": 1548,
                     "endColumn": 107,
-                    "endOffset": 1601
+                    "endOffset": 1651
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -1018,9 +1021,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1606,
+                    "startOffset": 1656,
                     "endColumn": 106,
-                    "endOffset": 1708
+                    "endOffset": 1758
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -1037,9 +1040,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1713,
+                    "startOffset": 1763,
                     "endColumn": 109,
-                    "endOffset": 1818
+                    "endOffset": 1868
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -1056,9 +1059,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1823,
+                    "startOffset": 1873,
                     "endColumn": 124,
-                    "endOffset": 1943
+                    "endOffset": 1993
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -1075,9 +1078,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1948,
+                    "startOffset": 1998,
                     "endColumn": 99,
-                    "endOffset": 2043
+                    "endOffset": 2093
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -1094,9 +1097,28 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2048,
+                    "startOffset": 2098,
+                    "endColumn": 268,
+                    "endOffset": 2362
+                },
+                "from": {
+                    "file": "/Users/kerturkx/.android/build-cache/b9319ff861d385673d96ec6e290c02f4073499fc/output/res/values-pt-rBR/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 347,
+                        "endColumn": 268,
+                        "endOffset": 611
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2367,
                     "endColumn": 84,
-                    "endOffset": 2128
+                    "endOffset": 2447
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",
@@ -1111,11 +1133,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2133,
+                    "startOffset": 2452,
                     "endColumn": 100,
-                    "endOffset": 2229
+                    "endOffset": 2548
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-pt-rBR\\values-pt-rBR.xml",

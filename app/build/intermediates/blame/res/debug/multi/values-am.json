@@ -7,6 +7,7 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
+<<<<<<< Updated upstream
                     "endColumn": 101,
                     "endOffset": 202
                 },
@@ -734,8 +735,10 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+=======
+>>>>>>> Stashed changes
                     "endColumn": 101,
-                    "endOffset": 152
+                    "endOffset": 202
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -752,9 +755,9 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 157,
+                    "startOffset": 207,
                     "endColumn": 107,
-                    "endOffset": 260
+                    "endOffset": 310
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -771,9 +774,9 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 265,
+                    "startOffset": 315,
                     "endColumn": 122,
-                    "endOffset": 383
+                    "endOffset": 433
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -790,9 +793,9 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 388,
+                    "startOffset": 438,
                     "endColumn": 98,
-                    "endOffset": 482
+                    "endOffset": 532
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -809,9 +812,9 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 487,
+                    "startOffset": 537,
                     "endColumn": 105,
-                    "endOffset": 588
+                    "endOffset": 638
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -828,9 +831,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 593,
+                    "startOffset": 643,
                     "endColumn": 85,
-                    "endOffset": 674
+                    "endOffset": 724
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -847,9 +850,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 679,
+                    "startOffset": 729,
                     "endColumn": 102,
-                    "endOffset": 777
+                    "endOffset": 827
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -866,9 +869,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 782,
+                    "startOffset": 832,
                     "endColumn": 112,
-                    "endOffset": 890
+                    "endOffset": 940
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -885,9 +888,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 895,
+                    "startOffset": 945,
                     "endColumn": 77,
-                    "endOffset": 968
+                    "endOffset": 1018
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -904,9 +907,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 973,
+                    "startOffset": 1023,
                     "endColumn": 77,
-                    "endOffset": 1046
+                    "endOffset": 1096
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -923,9 +926,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1051,
+                    "startOffset": 1101,
                     "endColumn": 78,
-                    "endOffset": 1125
+                    "endOffset": 1175
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -942,9 +945,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1130,
+                    "startOffset": 1180,
                     "endColumn": 99,
-                    "endOffset": 1225
+                    "endOffset": 1275
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -961,9 +964,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1230,
+                    "startOffset": 1280,
                     "endColumn": 99,
-                    "endOffset": 1325
+                    "endOffset": 1375
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -980,9 +983,9 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1330,
+                    "startOffset": 1380,
                     "endColumn": 95,
-                    "endOffset": 1421
+                    "endOffset": 1471
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -999,9 +1002,9 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1426,
+                    "startOffset": 1476,
                     "endColumn": 102,
-                    "endOffset": 1524
+                    "endOffset": 1574
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -1018,9 +1021,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1529,
+                    "startOffset": 1579,
                     "endColumn": 98,
-                    "endOffset": 1623
+                    "endOffset": 1673
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -1037,9 +1040,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1628,
+                    "startOffset": 1678,
                     "endColumn": 106,
-                    "endOffset": 1730
+                    "endOffset": 1780
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -1056,9 +1059,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1735,
+                    "startOffset": 1785,
                     "endColumn": 115,
-                    "endOffset": 1846
+                    "endOffset": 1896
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -1075,9 +1078,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1851,
+                    "startOffset": 1901,
                     "endColumn": 95,
-                    "endOffset": 1942
+                    "endOffset": 1992
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -1094,9 +1097,28 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1947,
+                    "startOffset": 1997,
+                    "endColumn": 206,
+                    "endOffset": 2199
+                },
+                "from": {
+                    "file": "/Users/kerturkx/.android/build-cache/b9319ff861d385673d96ec6e290c02f4073499fc/output/res/values-am/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 206,
+                        "endOffset": 545
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2204,
                     "endColumn": 78,
-                    "endOffset": 2021
+                    "endOffset": 2278
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",
@@ -1111,11 +1133,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2026,
+                    "startOffset": 2283,
                     "endColumn": 100,
-                    "endOffset": 2122
+                    "endOffset": 2379
                 },
                 "from": {
                     "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/C:\\Users\\kadir\\.android\\build-cache\\68c1eb61c21eb46009a037bd4a29d0109d0901a0\\output\\res\\values-am\\values-am.xml",

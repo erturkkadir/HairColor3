@@ -67,8 +67,13 @@ int attr autoCompleteTextViewStyle 0x7f0100c0
 int attr background 0x7f010038
 int attr backgroundSplit 0x7f01003a
 int attr backgroundStacked 0x7f010039
+<<<<<<< Updated upstream
 int attr backgroundTint 0x7f01016a
 int attr backgroundTintMode 0x7f01016b
+=======
+int attr backgroundTint 0x7f010167
+int attr backgroundTintMode 0x7f010168
+>>>>>>> Stashed changes
 int attr barLength 0x7f0100f7
 int attr behavior_autoHide 0x7f0100fe
 int attr behavior_hideable 0x7f0100cf
@@ -84,7 +89,11 @@ int attr buttonBarNegativeButtonStyle 0x7f0100be
 int attr buttonBarNeutralButtonStyle 0x7f0100bf
 int attr buttonBarPositiveButtonStyle 0x7f0100bd
 int attr buttonBarStyle 0x7f01008e
+<<<<<<< Updated upstream
 int attr buttonGravity 0x7f01015f
+=======
+int attr buttonGravity 0x7f01015c
+>>>>>>> Stashed changes
 int attr buttonPanelSideLayout 0x7f01004d
 int attr buttonSize 0x7f010129
 int attr buttonStyle 0x7f0100c1
@@ -96,8 +105,13 @@ int attr checkedTextViewStyle 0x7f0100c4
 int attr circleCrop 0x7f010105
 int attr closeIcon 0x7f010120
 int attr closeItemLayout 0x7f01004a
+<<<<<<< Updated upstream
 int attr collapseContentDescription 0x7f010161
 int attr collapseIcon 0x7f010160
+=======
+int attr collapseContentDescription 0x7f01015e
+int attr collapseIcon 0x7f01015d
+>>>>>>> Stashed changes
 int attr collapsedTitleGravity 0x7f0100de
 int attr collapsedTitleTextAppearance 0x7f0100d8
 int attr color 0x7f0100f1
@@ -121,10 +135,17 @@ int attr contentInsetStart 0x7f010042
 int attr contentInsetStartWithNavigation 0x7f010046
 int attr contentScrim 0x7f0100d9
 int attr controlBackground 0x7f0100b6
+<<<<<<< Updated upstream
 int attr counterEnabled 0x7f01014c
 int attr counterMaxLength 0x7f01014d
 int attr counterOverflowTextAppearance 0x7f01014f
 int attr counterTextAppearance 0x7f01014e
+=======
+int attr counterEnabled 0x7f010149
+int attr counterMaxLength 0x7f01014a
+int attr counterOverflowTextAppearance 0x7f01014c
+int attr counterTextAppearance 0x7f01014b
+>>>>>>> Stashed changes
 int attr customNavigationLayout 0x7f01003b
 int attr defaultQueryHint 0x7f01011f
 int attr dialogPreferredPadding 0x7f010087
@@ -142,8 +163,13 @@ int attr editTextBackground 0x7f01009b
 int attr editTextColor 0x7f01009a
 int attr editTextStyle 0x7f0100c5
 int attr elevation 0x7f010048
+<<<<<<< Updated upstream
 int attr errorEnabled 0x7f01014a
 int attr errorTextAppearance 0x7f01014b
+=======
+int attr errorEnabled 0x7f010147
+int attr errorTextAppearance 0x7f010148
+>>>>>>> Stashed changes
 int attr expandActivityOverflowButtonDrawable 0x7f01004c
 int attr expanded 0x7f010053
 int attr expandedTitleGravity 0x7f0100df
@@ -160,9 +186,15 @@ int attr goIcon 0x7f010121
 int attr headerLayout 0x7f010111
 int attr height 0x7f010002
 int attr hideOnContentScroll 0x7f010041
+<<<<<<< Updated upstream
 int attr hintAnimationEnabled 0x7f010150
 int attr hintEnabled 0x7f010149
 int attr hintTextAppearance 0x7f010148
+=======
+int attr hintAnimationEnabled 0x7f01014d
+int attr hintEnabled 0x7f010146
+int attr hintTextAppearance 0x7f010145
+>>>>>>> Stashed changes
 int attr homeAsUpIndicator 0x7f01008c
 int attr homeLayout 0x7f01003c
 int attr icon 0x7f010035
@@ -247,6 +279,7 @@ int attr listPreferredItemHeightSmall 0x7f0100a2
 int attr listPreferredItemPaddingLeft 0x7f0100a4
 int attr listPreferredItemPaddingRight 0x7f0100a5
 int attr logo 0x7f010036
+<<<<<<< Updated upstream
 int attr logoDescription 0x7f010164
 int attr maxActionInlineWidth 0x7f01012c
 int attr maxButtonHeight 0x7f01015e
@@ -260,15 +293,38 @@ int attr overlapAnchor 0x7f010112
 int attr paddingBottomNoButtons 0x7f010114
 int attr paddingEnd 0x7f010168
 int attr paddingStart 0x7f010167
+=======
+int attr logoDescription 0x7f010161
+int attr maxActionInlineWidth 0x7f010129
+int attr maxButtonHeight 0x7f01015b
+int attr measureWithLargestChild 0x7f010100
+int attr menu 0x7f01010c
+int attr multiChoiceItemLayout 0x7f01004f
+int attr navigationContentDescription 0x7f010160
+int attr navigationIcon 0x7f01015f
+int attr navigationMode 0x7f010030
+int attr overlapAnchor 0x7f010112
+int attr paddingBottomNoButtons 0x7f010114
+int attr paddingEnd 0x7f010165
+int attr paddingStart 0x7f010164
+>>>>>>> Stashed changes
 int attr paddingTopNoTitle 0x7f010115
 int attr panelBackground 0x7f0100aa
 int attr panelMenuListTheme 0x7f0100ac
 int attr panelMenuListWidth 0x7f0100ab
+<<<<<<< Updated upstream
 int attr passwordToggleContentDescription 0x7f010153
 int attr passwordToggleDrawable 0x7f010152
 int attr passwordToggleEnabled 0x7f010151
 int attr passwordToggleTint 0x7f010154
 int attr passwordToggleTintMode 0x7f010155
+=======
+int attr passwordToggleContentDescription 0x7f010150
+int attr passwordToggleDrawable 0x7f01014f
+int attr passwordToggleEnabled 0x7f01014e
+int attr passwordToggleTint 0x7f010151
+int attr passwordToggleTintMode 0x7f010152
+>>>>>>> Stashed changes
 int attr popupMenuStyle 0x7f010098
 int attr popupTheme 0x7f010049
 int attr popupWindowStyle 0x7f010099
@@ -295,14 +351,22 @@ int attr selectableItemBackground 0x7f010090
 int attr selectableItemBackgroundBorderless 0x7f010091
 int attr showAsAction 0x7f010106
 int attr showDividers 0x7f010101
+<<<<<<< Updated upstream
 int attr showText 0x7f010137
+=======
+int attr showText 0x7f010134
+>>>>>>> Stashed changes
 int attr showTitle 0x7f010052
 int attr singleChoiceItemLayout 0x7f010050
 int attr spanCount 0x7f010117
 int attr spinBars 0x7f0100f2
 int attr spinnerDropDownItemStyle 0x7f01008b
 int attr spinnerStyle 0x7f0100cb
+<<<<<<< Updated upstream
 int attr splitTrack 0x7f010136
+=======
+int attr splitTrack 0x7f010133
+>>>>>>> Stashed changes
 int attr srcCompat 0x7f010058
 int attr stackFromEnd 0x7f010119
 int attr state_above_anchor 0x7f010113
@@ -313,6 +377,7 @@ int attr statusBarScrim 0x7f0100da
 int attr subMenuArrow 0x7f01010b
 int attr submitBackground 0x7f010128
 int attr subtitle 0x7f010032
+<<<<<<< Updated upstream
 int attr subtitleTextAppearance 0x7f010157
 int attr subtitleTextColor 0x7f010166
 int attr subtitleTextStyle 0x7f010034
@@ -337,6 +402,32 @@ int attr tabPaddingTop 0x7f010144
 int attr tabSelectedTextColor 0x7f010142
 int attr tabTextAppearance 0x7f010140
 int attr tabTextColor 0x7f010141
+=======
+int attr subtitleTextAppearance 0x7f010154
+int attr subtitleTextColor 0x7f010163
+int attr subtitleTextStyle 0x7f010034
+int attr suggestionRowLayout 0x7f010126
+int attr switchMinWidth 0x7f010131
+int attr switchPadding 0x7f010132
+int attr switchStyle 0x7f0100cc
+int attr switchTextAppearance 0x7f010130
+int attr tabBackground 0x7f010138
+int attr tabContentStart 0x7f010137
+int attr tabGravity 0x7f01013a
+int attr tabIndicatorColor 0x7f010135
+int attr tabIndicatorHeight 0x7f010136
+int attr tabMaxWidth 0x7f01013c
+int attr tabMinWidth 0x7f01013b
+int attr tabMode 0x7f010139
+int attr tabPadding 0x7f010144
+int attr tabPaddingBottom 0x7f010143
+int attr tabPaddingEnd 0x7f010142
+int attr tabPaddingStart 0x7f010140
+int attr tabPaddingTop 0x7f010141
+int attr tabSelectedTextColor 0x7f01013f
+int attr tabTextAppearance 0x7f01013d
+int attr tabTextColor 0x7f01013e
+>>>>>>> Stashed changes
 int attr textAllCaps 0x7f01005c
 int attr textAppearanceLargePopupMenu 0x7f010083
 int attr textAppearanceListItem 0x7f0100a8
@@ -348,16 +439,25 @@ int attr textAppearanceSmallPopupMenu 0x7f010084
 int attr textColorAlertDialogListItem 0x7f0100bc
 int attr textColorError 0x7f0100f0
 int attr textColorSearchUrl 0x7f01009f
+<<<<<<< Updated upstream
 int attr theme 0x7f010169
 int attr thickness 0x7f0100f8
 int attr thumbTextPadding 0x7f010132
 int attr thumbTint 0x7f01012d
 int attr thumbTintMode 0x7f01012e
+=======
+int attr theme 0x7f010166
+int attr thickness 0x7f0100f8
+int attr thumbTextPadding 0x7f01012f
+int attr thumbTint 0x7f01012a
+int attr thumbTintMode 0x7f01012b
+>>>>>>> Stashed changes
 int attr tickMark 0x7f010059
 int attr tickMarkTint 0x7f01005a
 int attr tickMarkTintMode 0x7f01005b
 int attr title 0x7f01002f
 int attr titleEnabled 0x7f0100e0
+<<<<<<< Updated upstream
 int attr titleMargin 0x7f010158
 int attr titleMarginBottom 0x7f01015c
 int attr titleMarginEnd 0x7f01015a
@@ -366,13 +466,29 @@ int attr titleMarginTop 0x7f01015b
 int attr titleMargins 0x7f01015d
 int attr titleTextAppearance 0x7f010156
 int attr titleTextColor 0x7f010165
+=======
+int attr titleMargin 0x7f010155
+int attr titleMarginBottom 0x7f010159
+int attr titleMarginEnd 0x7f010157
+int attr titleMarginStart 0x7f010156
+int attr titleMarginTop 0x7f010158
+int attr titleMargins 0x7f01015a
+int attr titleTextAppearance 0x7f010153
+int attr titleTextColor 0x7f010162
+>>>>>>> Stashed changes
 int attr titleTextStyle 0x7f010033
 int attr toolbarId 0x7f0100db
 int attr toolbarNavigationButtonStyle 0x7f010097
 int attr toolbarStyle 0x7f010096
+<<<<<<< Updated upstream
 int attr track 0x7f01012f
 int attr trackTint 0x7f010130
 int attr trackTintMode 0x7f010131
+=======
+int attr track 0x7f01012c
+int attr trackTint 0x7f01012d
+int attr trackTintMode 0x7f01012e
+>>>>>>> Stashed changes
 int attr useCompatPadding 0x7f0100fd
 int attr voiceIcon 0x7f010124
 int attr windowActionBar 0x7f01005d
@@ -754,6 +870,7 @@ int drawable battery_small 0x7f020057
 int drawable bluetooth_logo 0x7f020058
 int drawable bt_active 0x7f020059
 int drawable bt_passive 0x7f02005a
+<<<<<<< Updated upstream
 int drawable common_full_open_on_phone 0x7f02005b
 int drawable common_google_signin_btn_icon_dark 0x7f02005c
 int drawable common_google_signin_btn_icon_dark_focused 0x7f02005d
@@ -878,10 +995,111 @@ int id btnZone3 0x7f0f00d9
 int id btn_reset 0x7f0f0115
 int id buttonPanel 0x7f0f0059
 int id cancel_action 0x7f0f00ff
+=======
+int drawable delete32 0x7f02005b
+int drawable delete64 0x7f02005c
+int drawable design_bottom_navigation_item_background 0x7f02005d
+int drawable design_fab_background 0x7f02005e
+int drawable design_ic_visibility 0x7f02005f
+int drawable design_ic_visibility_off 0x7f020060
+int drawable design_password_eye 0x7f020061
+int drawable design_snackbar_background 0x7f020062
+int drawable ic_arrow_drop_down_black_18dp 0x7f020063
+int drawable ic_arrow_forward_black_18dp 0x7f020064
+int drawable ic_arrow_forward_black_48dp 0x7f020065
+int drawable ic_chevron_right_black_18dp 0x7f020066
+int drawable ic_info_black_24dp 0x7f020067
+int drawable ic_launcher 0x7f020068
+int drawable ic_launcher_old 0x7f020069
+int drawable ic_menu_camera 0x7f02006a
+int drawable ic_menu_gallery 0x7f02006b
+int drawable ic_menu_manage 0x7f02006c
+int drawable ic_menu_send 0x7f02006d
+int drawable ic_menu_share 0x7f02006e
+int drawable ic_menu_slideshow 0x7f02006f
+int drawable ic_notifications_black_24dp 0x7f020070
+int drawable ic_sync_black_24dp 0x7f020071
+int drawable icon_delete 0x7f020072
+int drawable intel_logo 0x7f020073
+int drawable navigation_empty_icon 0x7f020074
+int drawable notification_action_background 0x7f020075
+int drawable notification_bg 0x7f020076
+int drawable notification_bg_low 0x7f020077
+int drawable notification_bg_low_normal 0x7f020078
+int drawable notification_bg_low_pressed 0x7f020079
+int drawable notification_bg_normal 0x7f02007a
+int drawable notification_bg_normal_pressed 0x7f02007b
+int drawable notification_icon_background 0x7f02007c
+int drawable notification_template_icon_bg 0x7f020082
+int drawable notification_template_icon_low_bg 0x7f020083
+int drawable notification_tile_bg 0x7f02007d
+int drawable notify_panel_notification_icon_bg 0x7f02007e
+int drawable shape_black_stroke_rectangle 0x7f02007f
+int drawable shape_curve_corner_retangle 0x7f020080
+int drawable side_nav_bar 0x7f020081
+int id Login 0x7f0f00d2
+int id RxLogo 0x7f0f00cd
+int id Start 0x7f0f008e
+int id account_email_input 0x7f0f00c5
+int id account_email_input2 0x7f0f00bf
+int id action0 0x7f0f00f2
+int id action_about 0x7f0f0110
+int id action_bar 0x7f0f006d
+int id action_bar_activity_content 0x7f0f0000
+int id action_bar_container 0x7f0f006c
+int id action_bar_root 0x7f0f0068
+int id action_bar_spinner 0x7f0f0001
+int id action_bar_subtitle 0x7f0f004b
+int id action_bar_title 0x7f0f004a
+int id action_container 0x7f0f00ef
+int id action_context_bar 0x7f0f006e
+int id action_divider 0x7f0f00f6
+int id action_image 0x7f0f00f0
+int id action_menu_divider 0x7f0f0002
+int id action_menu_presenter 0x7f0f0003
+int id action_mode_bar 0x7f0f006a
+int id action_mode_bar_stub 0x7f0f0069
+int id action_mode_close_button 0x7f0f004c
+int id action_settings 0x7f0f010e
+int id action_text 0x7f0f00f1
+int id action_training 0x7f0f010f
+int id actions 0x7f0f00fe
+int id activity_chooser_view_content 0x7f0f004d
+int id add 0x7f0f0026
+int id adjust_height 0x7f0f0041
+int id adjust_width 0x7f0f0042
+int id agree_eula 0x7f0f00e5
+int id alertTitle 0x7f0f0061
+int id all 0x7f0f0014
+int id always 0x7f0f0043
+int id auto 0x7f0f002d
+int id back_arrow 0x7f0f00bb
+int id back_to_register_arrow 0x7f0f00e8
+int id basic 0x7f0f0015
+int id beginning 0x7f0f003f
+int id bottom 0x7f0f002e
+int id btnBLE 0x7f0f0083
+int id btnClearData 0x7f0f0082
+int id btnForgot 0x7f0f00d3
+int id btnGetRecipe 0x7f0f00a2
+int id btnLogin 0x7f0f00d1
+int id btnModel 0x7f0f00ac
+int id btnRegister 0x7f0f00d4
+int id btnSpeak 0x7f0f00a5
+int id btnTarget 0x7f0f00a1
+int id btnTrain 0x7f0f00aa
+int id btnZone1 0x7f0f0095
+int id btnZone2 0x7f0f0099
+int id btnZone3 0x7f0f009d
+int id btn_reset 0x7f0f0109
+int id buttonPanel 0x7f0f0054
+int id cancel_action 0x7f0f00f3
+>>>>>>> Stashed changes
 int id center 0x7f0f002f
 int id center_horizontal 0x7f0f0030
 int id center_vertical 0x7f0f0031
 int id chains 0x7f0f0016
+<<<<<<< Updated upstream
 int id checkbox 0x7f0f0069
 int id chronometer 0x7f0f0107
 int id clip_horizontal 0x7f0f003a
@@ -1048,6 +1266,169 @@ int id spTColor 0x7f0f009b
 int id spTCompany 0x7f0f0098
 int id spTSeries 0x7f0f009a
 int id spacer 0x7f0f005a
+=======
+int id checkbox 0x7f0f0064
+int id chronometer 0x7f0f00fb
+int id clip_horizontal 0x7f0f003a
+int id clip_vertical 0x7f0f003b
+int id collapseActionView 0x7f0f0044
+int id confirm_email_title 0x7f0f00e9
+int id confirm_email_view 0x7f0f00e7
+int id confirm_password_input 0x7f0f00e2
+int id confirm_password_wrap 0x7f0f00e1
+int id confirmation_note 0x7f0f00eb
+int id confirmation_title 0x7f0f00ea
+int id container 0x7f0f007d
+int id contentPanel 0x7f0f0057
+int id content_boarding 0x7f0f00b9
+int id content_device 0x7f0f008a
+int id content_main 0x7f0f0090
+int id custom 0x7f0f005e
+int id customPanel 0x7f0f005d
+int id decor_content_parent 0x7f0f006b
+int id default_activity_button 0x7f0f0050
+int id design_bottom_sheet 0x7f0f00b0
+int id design_menu_item_action_area 0x7f0f00b7
+int id design_menu_item_action_area_stub 0x7f0f00b6
+int id design_menu_item_text 0x7f0f00b5
+int id design_navigation_view 0x7f0f00b4
+int id disableHome 0x7f0f001b
+int id dividen_line 0x7f0f00c6
+int id dividen_line1 0x7f0f00db
+int id dividen_line2 0x7f0f00de
+int id dividen_line3 0x7f0f00e0
+int id dividen_line4 0x7f0f00c0
+int id drawer_layout 0x7f0f007f
+int id editText2 0x7f0f0086
+int id editText3 0x7f0f0088
+int id editText4 0x7f0f0087
+int id edit_query 0x7f0f006f
+int id email_input 0x7f0f00dd
+int id email_input_wrap 0x7f0f00c4
+int id email_input_wrap2 0x7f0f00be
+int id email_wrap 0x7f0f00dc
+int id end 0x7f0f0032
+int id end_padder 0x7f0f0105
+int id enterAlways 0x7f0f0021
+int id enterAlwaysCollapsed 0x7f0f0022
+int id exitUntilCollapsed 0x7f0f0023
+int id expand_activities_button 0x7f0f004e
+int id expanded_menu 0x7f0f0063
+int id fab 0x7f0f0081
+int id fill 0x7f0f003c
+int id fill_horizontal 0x7f0f003d
+int id fill_vertical 0x7f0f0033
+int id firstname_input 0x7f0f00d8
+int id firstname_wrap 0x7f0f00d7
+int id fixed 0x7f0f0048
+int id forgot_password 0x7f0f00cb
+int id forgot_password_title1 0x7f0f00bc
+int id forgot_password_title2 0x7f0f00bd
+int id forgot_password_view 0x7f0f00ba
+int id home 0x7f0f0004
+int id homeAsUp 0x7f0f001c
+int id icon 0x7f0f0052
+int id icon_group 0x7f0f00ff
+int id ifRoom 0x7f0f0045
+int id image 0x7f0f004f
+int id imageView 0x7f0f00ed
+int id imgBT 0x7f0f008b
+int id imgBattery 0x7f0f0084
+int id info 0x7f0f00fc
+int id intro 0x7f0f007e
+int id ippw 0x7f0f00ce
+int id item_touch_helper_previous_elevation 0x7f0f0005
+int id lTarget 0x7f0f009e
+int id lZone1 0x7f0f0092
+int id lZone2 0x7f0f0096
+int id lZone3 0x7f0f009a
+int id language_input 0x7f0f00e4
+int id language_wrap 0x7f0f00e3
+int id largeLabel 0x7f0f00ae
+int id lastname_input 0x7f0f00da
+int id lastname_wrap 0x7f0f00d9
+int id lblTarget 0x7f0f009f
+int id lblZone1 0x7f0f0093
+int id lblZone2 0x7f0f0097
+int id lblZone3 0x7f0f009b
+int id left 0x7f0f0034
+int id line1 0x7f0f0101
+int id line3 0x7f0f0103
+int id listMode 0x7f0f0018
+int id list_item 0x7f0f0051
+int id login_btn 0x7f0f00c9
+int id logo 0x7f0f00cc
+int id main_login_view 0x7f0f00c2
+int id masked 0x7f0f0107
+int id media_actions 0x7f0f00f5
+int id messages 0x7f0f008f
+int id middle 0x7f0f0040
+int id mini 0x7f0f003e
+int id multiply 0x7f0f0027
+int id nav_camera 0x7f0f0108
+int id nav_manage 0x7f0f010b
+int id nav_send 0x7f0f010d
+int id nav_share 0x7f0f010c
+int id nav_slideshow 0x7f0f010a
+int id nav_view 0x7f0f0080
+int id navigation_header_container 0x7f0f00b3
+int id never 0x7f0f0046
+int id next_step_btn 0x7f0f00ec
+int id none 0x7f0f0017
+int id normal 0x7f0f0019
+int id notification_background 0x7f0f00fd
+int id notification_main_column 0x7f0f00f8
+int id notification_main_column_container 0x7f0f00f7
+int id packed 0x7f0f0012
+int id parallax 0x7f0f0038
+int id parent 0x7f0f000f
+int id parentPanel 0x7f0f0056
+int id password_input 0x7f0f00c8
+int id password_input_wrap 0x7f0f00c7
+int id password_wrap 0x7f0f00df
+int id pin 0x7f0f0039
+int id progress_circular 0x7f0f0006
+int id progress_horizontal 0x7f0f0007
+int id prove_age 0x7f0f00e6
+int id radio 0x7f0f0066
+int id register_btn 0x7f0f00ca
+int id register_view 0x7f0f00d5
+int id right 0x7f0f0035
+int id right_icon 0x7f0f0100
+int id right_side 0x7f0f00f9
+int id screen 0x7f0f0028
+int id scroll 0x7f0f0024
+int id scrollIndicatorDown 0x7f0f005c
+int id scrollIndicatorUp 0x7f0f0058
+int id scrollView 0x7f0f0059
+int id scrollable 0x7f0f0049
+int id search_badge 0x7f0f0071
+int id search_bar 0x7f0f0070
+int id search_button 0x7f0f0072
+int id search_close_btn 0x7f0f0077
+int id search_edit_frame 0x7f0f0073
+int id search_go_btn 0x7f0f0079
+int id search_mag_icon 0x7f0f0074
+int id search_plate 0x7f0f0075
+int id search_src_text 0x7f0f0076
+int id search_voice_btn 0x7f0f007a
+int id select_dialog_listview 0x7f0f007b
+int id send_email 0x7f0f00c1
+int id shortcut 0x7f0f0065
+int id showCustom 0x7f0f001d
+int id showHome 0x7f0f001e
+int id showTitle 0x7f0f001f
+int id smallLabel 0x7f0f00ad
+int id snackbar_action 0x7f0f00b2
+int id snackbar_text 0x7f0f00b1
+int id snap 0x7f0f0025
+int id spCompany 0x7f0f0091
+int id spTCategory 0x7f0f00a7
+int id spTColor 0x7f0f00a9
+int id spTCompany 0x7f0f00a6
+int id spTSeries 0x7f0f00a8
+int id spacer 0x7f0f0055
+>>>>>>> Stashed changes
 int id split_action_bar 0x7f0f0008
 int id spread 0x7f0f0010
 int id spread_inside 0x7f0f0013
@@ -1056,6 +1437,7 @@ int id src_in 0x7f0f002a
 int id src_over 0x7f0f002b
 int id standard 0x7f0f0049
 int id start 0x7f0f0036
+<<<<<<< Updated upstream
 int id status_bar_latest_event_content 0x7f0f0100
 int id submenuarrow 0x7f0f006c
 int id submit_area 0x7f0f007d
@@ -1102,6 +1484,49 @@ int id view_offset_helper 0x7f0f000e
 int id visible 0x7f0f0112
 int id webView 0x7f0f008f
 int id wide 0x7f0f004a
+=======
+int id status_bar_latest_event_content 0x7f0f00f4
+int id submenuarrow 0x7f0f0067
+int id submit_area 0x7f0f0078
+int id superlight_title 0x7f0f00c3
+int id tMessage 0x7f0f008c
+int id tabMode 0x7f0f001a
+int id text 0x7f0f0104
+int id text2 0x7f0f0102
+int id textSpacerNoButtons 0x7f0f005b
+int id textSpacerNoTitle 0x7f0f005a
+int id textView 0x7f0f00ee
+int id text_input_password_toggle 0x7f0f00b8
+int id textinput_counter 0x7f0f0009
+int id textinput_error 0x7f0f000a
+int id time 0x7f0f00fa
+int id title 0x7f0f0053
+int id titleDividerNoCustom 0x7f0f0062
+int id title_template 0x7f0f0060
+int id toolbar 0x7f0f007c
+int id top 0x7f0f0037
+int id topPanel 0x7f0f005f
+int id topbar_title 0x7f0f00d6
+int id touch_outside 0x7f0f00af
+int id transition_current_scene 0x7f0f000b
+int id transition_scene_layoutid_cache 0x7f0f000c
+int id txtBattery 0x7f0f0085
+int id txtRecipe 0x7f0f00a3
+int id txtResult 0x7f0f00ab
+int id txtSpeechInput 0x7f0f00a4
+int id txtStep 0x7f0f008d
+int id txtTarget 0x7f0f00a0
+int id txtZone1 0x7f0f0094
+int id txtZone2 0x7f0f0098
+int id txtZone3 0x7f0f009c
+int id uname 0x7f0f00cf
+int id up 0x7f0f000d
+int id upass 0x7f0f00d0
+int id useLogo 0x7f0f0020
+int id view_offset_helper 0x7f0f000e
+int id visible 0x7f0f0106
+int id webView 0x7f0f0089
+>>>>>>> Stashed changes
 int id withText 0x7f0f0047
 int id wrap 0x7f0f0011
 int id wrap_content 0x7f0f002c
@@ -1223,6 +1648,7 @@ int string abc_activity_chooser_view_see_all 0x7f080006
 int string abc_activitychooserview_choose_application 0x7f080007
 int string abc_capital_off 0x7f080008
 int string abc_capital_on 0x7f080009
+<<<<<<< Updated upstream
 int string abc_font_family_body_1_material 0x7f080026
 int string abc_font_family_body_2_material 0x7f080027
 int string abc_font_family_button_material 0x7f080028
@@ -1235,6 +1661,20 @@ int string abc_font_family_headline_material 0x7f08002e
 int string abc_font_family_menu_material 0x7f08002f
 int string abc_font_family_subhead_material 0x7f080030
 int string abc_font_family_title_material 0x7f080031
+=======
+int string abc_font_family_body_1_material 0x7f080016
+int string abc_font_family_body_2_material 0x7f080017
+int string abc_font_family_button_material 0x7f080018
+int string abc_font_family_caption_material 0x7f080019
+int string abc_font_family_display_1_material 0x7f08001a
+int string abc_font_family_display_2_material 0x7f08001b
+int string abc_font_family_display_3_material 0x7f08001c
+int string abc_font_family_display_4_material 0x7f08001d
+int string abc_font_family_headline_material 0x7f08001e
+int string abc_font_family_menu_material 0x7f08001f
+int string abc_font_family_subhead_material 0x7f080020
+int string abc_font_family_title_material 0x7f080021
+>>>>>>> Stashed changes
 int string abc_search_hint 0x7f08000a
 int string abc_searchview_description_clear 0x7f08000b
 int string abc_searchview_description_query 0x7f08000c
@@ -1244,6 +1684,7 @@ int string abc_searchview_description_voice 0x7f08000f
 int string abc_shareactionprovider_share_with 0x7f080010
 int string abc_shareactionprovider_share_with_application 0x7f080011
 int string abc_toolbar_collapse_description 0x7f080012
+<<<<<<< Updated upstream
 int string account_email 0x7f080032
 int string action_about 0x7f080033
 int string action_help 0x7f080034
@@ -1322,6 +1763,70 @@ int string title_activity_settings 0x7f080069
 int string title_activity_speech_to_text 0x7f08006a
 int string title_activity_trainig 0x7f08006b
 int string training 0x7f08006c
+=======
+int string account_email 0x7f080022
+int string action_about 0x7f080023
+int string action_help 0x7f080024
+int string action_settings 0x7f080025
+int string action_training 0x7f080026
+int string age_info 0x7f080027
+int string agree_eula 0x7f080028
+int string app_name 0x7f080029
+int string appbar_scrolling_view_behavior 0x7f08002a
+int string bottom_sheet_behavior 0x7f08002b
+int string character_counter_pattern 0x7f08002c
+int string common_google_play_services_unknown_issue 0x7f080013
+int string confirm_email 0x7f08002d
+int string confirm_password 0x7f08002e
+int string confirmation 0x7f08002f
+int string confirmation_note 0x7f080030
+int string default_web_client_id 0x7f080031
+int string email 0x7f080032
+int string english 0x7f080033
+int string firebase_database_url 0x7f080034
+int string first_name 0x7f080035
+int string forgot_password 0x7f080036
+int string gcm_defaultSenderId 0x7f080037
+int string google_api_key 0x7f080038
+int string google_app_id 0x7f080039
+int string google_crash_reporting_api_key 0x7f08003a
+int string google_storage_bucket 0x7f08003b
+int string hair_color 0x7f08003c
+int string hello_blank_fragment 0x7f08003d
+int string ic_mic 0x7f08003e
+int string language 0x7f08003f
+int string last_name 0x7f080040
+int string login 0x7f080041
+int string logo_exp 0x7f080042
+int string navigation_close 0x7f080043
+int string navigation_open 0x7f080044
+int string next_step 0x7f080045
+int string password 0x7f080046
+int string password_reset 0x7f080047
+int string password_toggle_content_description 0x7f080048
+int string password_with_note 0x7f080049
+int string path_password_eye 0x7f08004a
+int string path_password_eye_mask_strike_through 0x7f08004b
+int string path_password_eye_mask_visible 0x7f08004c
+int string path_password_strike_through 0x7f08004d
+int string register 0x7f08004e
+int string register_lower 0x7f08004f
+int string search_menu_title 0x7f080014
+int string send_instruction 0x7f080050
+int string speech_not_supported 0x7f080051
+int string speech_prompt 0x7f080052
+int string status_bar_notification_info_overflow 0x7f080015
+int string tap_on_mic 0x7f080053
+int string that 0x7f080054
+int string title_activity_about 0x7f080055
+int string title_activity_boarding 0x7f080056
+int string title_activity_device 0x7f080057
+int string title_activity_forgot 0x7f080058
+int string title_activity_register 0x7f080059
+int string title_activity_settings 0x7f08005a
+int string title_activity_speech_to_text 0x7f08005b
+int string title_activity_trainig 0x7f08005c
+>>>>>>> Stashed changes
 int style AlertDialog_AppCompat 0x7f0a00a2
 int style AlertDialog_AppCompat_Light 0x7f0a00a3
 int style Animation_AppCompat_Dialog 0x7f0a00a4
@@ -2081,7 +2586,11 @@ int styleable DrawerArrowToggle_drawableSize 2
 int styleable DrawerArrowToggle_gapBetweenBars 3
 int styleable DrawerArrowToggle_spinBars 1
 int styleable DrawerArrowToggle_thickness 7
+<<<<<<< Updated upstream
 int[] styleable FloatingActionButton { 0x7f010048, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f01016a, 0x7f01016b }
+=======
+int[] styleable FloatingActionButton { 0x7f010048, 0x7f0100f9, 0x7f0100fa, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f010167, 0x7f010168 }
+>>>>>>> Stashed changes
 int styleable FloatingActionButton_backgroundTint 6
 int styleable FloatingActionButton_backgroundTintMode 7
 int styleable FloatingActionButton_borderWidth 4
@@ -2204,11 +2713,15 @@ int styleable SearchView_searchIcon 10
 int styleable SearchView_submitBackground 16
 int styleable SearchView_suggestionRowLayout 14
 int styleable SearchView_voiceIcon 12
+<<<<<<< Updated upstream
 int[] styleable SignInButton { 0x7f010129, 0x7f01012a, 0x7f01012b }
 int styleable SignInButton_buttonSize 0
 int styleable SignInButton_colorScheme 1
 int styleable SignInButton_scopeUris 2
 int[] styleable SnackbarLayout { 0x0101011f, 0x7f010048, 0x7f01012c }
+=======
+int[] styleable SnackbarLayout { 0x0101011f, 0x7f010048, 0x7f010129 }
+>>>>>>> Stashed changes
 int styleable SnackbarLayout_android_maxWidth 0
 int styleable SnackbarLayout_elevation 1
 int styleable SnackbarLayout_maxActionInlineWidth 2
@@ -2218,7 +2731,11 @@ int styleable Spinner_android_entries 0
 int styleable Spinner_android_popupBackground 1
 int styleable Spinner_android_prompt 2
 int styleable Spinner_popupTheme 4
+<<<<<<< Updated upstream
 int[] styleable SwitchCompat { 0x01010124, 0x01010125, 0x01010142, 0x7f01012d, 0x7f01012e, 0x7f01012f, 0x7f010130, 0x7f010131, 0x7f010132, 0x7f010133, 0x7f010134, 0x7f010135, 0x7f010136, 0x7f010137 }
+=======
+int[] styleable SwitchCompat { 0x01010124, 0x01010125, 0x01010142, 0x7f01012a, 0x7f01012b, 0x7f01012c, 0x7f01012d, 0x7f01012e, 0x7f01012f, 0x7f010130, 0x7f010131, 0x7f010132, 0x7f010133, 0x7f010134 }
+>>>>>>> Stashed changes
 int styleable SwitchCompat_android_textOff 1
 int styleable SwitchCompat_android_textOn 0
 int styleable SwitchCompat_android_thumb 2
@@ -2237,7 +2754,11 @@ int[] styleable TabItem { 0x01010002, 0x010100f2, 0x0101014f }
 int styleable TabItem_android_icon 0
 int styleable TabItem_android_layout 1
 int styleable TabItem_android_text 2
+<<<<<<< Updated upstream
 int[] styleable TabLayout { 0x7f010138, 0x7f010139, 0x7f01013a, 0x7f01013b, 0x7f01013c, 0x7f01013d, 0x7f01013e, 0x7f01013f, 0x7f010140, 0x7f010141, 0x7f010142, 0x7f010143, 0x7f010144, 0x7f010145, 0x7f010146, 0x7f010147 }
+=======
+int[] styleable TabLayout { 0x7f010135, 0x7f010136, 0x7f010137, 0x7f010138, 0x7f010139, 0x7f01013a, 0x7f01013b, 0x7f01013c, 0x7f01013d, 0x7f01013e, 0x7f01013f, 0x7f010140, 0x7f010141, 0x7f010142, 0x7f010143, 0x7f010144 }
+>>>>>>> Stashed changes
 int styleable TabLayout_tabBackground 3
 int styleable TabLayout_tabContentStart 2
 int styleable TabLayout_tabGravity 5
@@ -2265,7 +2786,11 @@ int styleable TextAppearance_android_textSize 0
 int styleable TextAppearance_android_textStyle 2
 int styleable TextAppearance_android_typeface 1
 int styleable TextAppearance_textAllCaps 9
+<<<<<<< Updated upstream
 int[] styleable TextInputLayout { 0x0101009a, 0x01010150, 0x7f010148, 0x7f010149, 0x7f01014a, 0x7f01014b, 0x7f01014c, 0x7f01014d, 0x7f01014e, 0x7f01014f, 0x7f010150, 0x7f010151, 0x7f010152, 0x7f010153, 0x7f010154, 0x7f010155 }
+=======
+int[] styleable TextInputLayout { 0x0101009a, 0x01010150, 0x7f010145, 0x7f010146, 0x7f010147, 0x7f010148, 0x7f010149, 0x7f01014a, 0x7f01014b, 0x7f01014c, 0x7f01014d, 0x7f01014e, 0x7f01014f, 0x7f010150, 0x7f010151, 0x7f010152 }
+>>>>>>> Stashed changes
 int styleable TextInputLayout_android_hint 1
 int styleable TextInputLayout_android_textColorHint 0
 int styleable TextInputLayout_counterEnabled 6
@@ -2282,7 +2807,11 @@ int styleable TextInputLayout_passwordToggleDrawable 12
 int styleable TextInputLayout_passwordToggleEnabled 11
 int styleable TextInputLayout_passwordToggleTint 14
 int styleable TextInputLayout_passwordToggleTintMode 15
+<<<<<<< Updated upstream
 int[] styleable Toolbar { 0x010100af, 0x01010140, 0x7f01002f, 0x7f010032, 0x7f010036, 0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047, 0x7f010049, 0x7f010156, 0x7f010157, 0x7f010158, 0x7f010159, 0x7f01015a, 0x7f01015b, 0x7f01015c, 0x7f01015d, 0x7f01015e, 0x7f01015f, 0x7f010160, 0x7f010161, 0x7f010162, 0x7f010163, 0x7f010164, 0x7f010165, 0x7f010166 }
+=======
+int[] styleable Toolbar { 0x010100af, 0x01010140, 0x7f01002f, 0x7f010032, 0x7f010036, 0x7f010042, 0x7f010043, 0x7f010044, 0x7f010045, 0x7f010046, 0x7f010047, 0x7f010049, 0x7f010153, 0x7f010154, 0x7f010155, 0x7f010156, 0x7f010157, 0x7f010158, 0x7f010159, 0x7f01015a, 0x7f01015b, 0x7f01015c, 0x7f01015d, 0x7f01015e, 0x7f01015f, 0x7f010160, 0x7f010161, 0x7f010162, 0x7f010163 }
+>>>>>>> Stashed changes
 int styleable Toolbar_android_gravity 0
 int styleable Toolbar_android_minHeight 1
 int styleable Toolbar_buttonGravity 21
@@ -2312,13 +2841,21 @@ int styleable Toolbar_titleMarginTop 17
 int styleable Toolbar_titleMargins 19
 int styleable Toolbar_titleTextAppearance 12
 int styleable Toolbar_titleTextColor 27
+<<<<<<< Updated upstream
 int[] styleable View { 0x01010000, 0x010100da, 0x7f010167, 0x7f010168, 0x7f010169 }
+=======
+int[] styleable View { 0x01010000, 0x010100da, 0x7f010164, 0x7f010165, 0x7f010166 }
+>>>>>>> Stashed changes
 int styleable View_android_focusable 1
 int styleable View_android_theme 0
 int styleable View_paddingEnd 3
 int styleable View_paddingStart 2
 int styleable View_theme 4
+<<<<<<< Updated upstream
 int[] styleable ViewBackgroundHelper { 0x010100d4, 0x7f01016a, 0x7f01016b }
+=======
+int[] styleable ViewBackgroundHelper { 0x010100d4, 0x7f010167, 0x7f010168 }
+>>>>>>> Stashed changes
 int styleable ViewBackgroundHelper_android_background 0
 int styleable ViewBackgroundHelper_backgroundTint 1
 int styleable ViewBackgroundHelper_backgroundTintMode 2
