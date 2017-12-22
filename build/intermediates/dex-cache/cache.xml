@@ -6,63 +6,27 @@
         jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
+        revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_060353b6f8d1268977651dc4881aa49131114fae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/kerturkx/.android/build-cache/60119cdff70bab219770f8ae6d312ae30111b16b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="057fb316bed8467398333f30926c2d5506e275b2">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_530f55bac35a72bcd415ffc0716c6f155403dfd2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/kerturkx/.android/build-cache/59bb27a92eb7349363a7e5f94dc1649c4c10b7d6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0257fa8906d8b1312e56113964591f82d4ff3a71/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_daa7b166bb96b6b23d5a93fa504c89ea3ced69b0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/kerturkx/.android/build-cache/591d1129070d19a4457dc014ef949ebd3245b445/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0c5ccb580e74ab28fe8353b6e33d042aa2b4a708/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/lib/libsvm.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ce4cc769dfecabc92913f36b3332e1a6b0534cb7">
-        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/2/libsvm_94312b4b7a0f5440f1c5864ee3c78092e352242d/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.0"
-        sha1="39aa8ffb2d8cf6fcbc8cf0131ab73ab0c5bcd430">
+        revision="25.0.2"
+        sha1="6581194d5ad627d9a8c9f9106c81e256846cd4d1">
         <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_115df551a95d7f2d59c3b0cfd724b6490998727e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/lib/libsvm.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ce4cc769dfecabc92913f36b3332e1a6b0534cb7">
+        <dex dex="/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/transforms/dex/debug/folders/1000/2/libsvm_94312b4b7a0f5440f1c5864ee3c78092e352242d/classes.dex" />
     </item>
 
 </items>

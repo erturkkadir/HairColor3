@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:2:1-78:12
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:2:1-94:12
 	package
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
@@ -106,7 +106,7 @@ MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/bu
 	android:name
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:33:22-89
 application
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:35:5-76:19
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:35:5-92:19
 MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/AndroidManifest.xml:29:5-20
@@ -114,12 +114,6 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/kerturk
 MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kerturkx/.android/build-cache/3b6a6697c690bd75faf353cc2cee4d830627c636/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/kerturkx/.android/build-cache/a756ef0ebe255b5a8c89f70168b6924fb2a4a395/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kerturkx/.android/build-cache/5c3cd5b5115d766e733732683a3f410891cc9157/output/AndroidManifest.xml:9:5-20
-<<<<<<< Updated upstream
-MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/kerturkx/.android/build-cache/60119cdff70bab219770f8ae6d312ae30111b16b/output/AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/kerturkx/.android/build-cache/591d1129070d19a4457dc014ef949ebd3245b445/output/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/kerturkx/.android/build-cache/59bb27a92eb7349363a7e5f94dc1649c4c10b7d6/output/AndroidManifest.xml:19:5-21:19
-=======
 MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:19:5-29:19
 MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/kerturkx/.android/build-cache/dd8024108a635a1a029aee11492e90774b4faa4a/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/kerturkx/.android/build-cache/6e6e594425027c9fd0c8aca59cfce86c9ed41388/output/AndroidManifest.xml:24:5-33:19
@@ -128,7 +122,6 @@ MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/bu
 MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/kerturkx/.android/build-cache/a83243a2fb34bcaffbf39575bdf5f4e36a8053ec/output/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/kerturkx/.android/build-cache/00b92370ea7374627ca4115aa7b12d5954948844/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/kerturkx/.android/build-cache/b9319ff861d385673d96ec6e290c02f4073499fc/output/AndroidManifest.xml:19:5-21:19
->>>>>>> Stashed changes
 MERGED from [com.android.support:support-v4:25.3.1] /Users/kerturkx/.android/build-cache/464420783810a84063710e2cee7d570ce4a4a144/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/kerturkx/.android/build-cache/ed9fa9da666dbe9c71543927d8f96d3c35d5ed6f/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kerturkx/.android/build-cache/f8bc6e0b7f324ceca8116744f002f64c882a6098/output/AndroidManifest.xml:29:5-20
@@ -209,6 +202,26 @@ ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/An
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:75:13-56
 	android:name
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:73:13-65
+service#com.syshuman.kadir.haircolor3.service.MessageService
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:78:9-82:19
+	android:name
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:78:18-56
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:79:13-81:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:80:17-78
+	android:name
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:80:25-75
+service#com.syshuman.kadir.haircolor3.service.InstanceIDService
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:84:9-88:19
+	android:name
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:84:18-59
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:85:13-87:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:86:17-80
+	android:name
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:86:25-77
 uses-sdk
 INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:7:5-43
@@ -220,12 +233,6 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/kerturkx
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/kerturkx/.android/build-cache/e654823c1c4962ada49cc53aa58bb35adaa181a3/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/kerturkx/.android/build-cache/a756ef0ebe255b5a8c89f70168b6924fb2a4a395/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kerturkx/.android/build-cache/5c3cd5b5115d766e733732683a3f410891cc9157/output/AndroidManifest.xml:5:5-7:41
-<<<<<<< Updated upstream
-MERGED from [com.google.android.gms:play-services-plus:11.0.4] /Users/kerturkx/.android/build-cache/60119cdff70bab219770f8ae6d312ae30111b16b/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.4] /Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /Users/kerturkx/.android/build-cache/591d1129070d19a4457dc014ef949ebd3245b445/output/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] /Users/kerturkx/.android/build-cache/59bb27a92eb7349363a7e5f94dc1649c4c10b7d6/output/AndroidManifest.xml:17:5-43
-=======
 MERGED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:17:5-42
 MERGED from [com.google.firebase:firebase-core:9.6.0] /Users/kerturkx/.android/build-cache/dd8024108a635a1a029aee11492e90774b4faa4a/output/AndroidManifest.xml:4:5-42
 MERGED from [com.google.firebase:firebase-analytics:9.6.0] /Users/kerturkx/.android/build-cache/6e6e594425027c9fd0c8aca59cfce86c9ed41388/output/AndroidManifest.xml:17:5-42
@@ -234,7 +241,6 @@ MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/bu
 MERGED from [com.google.firebase:firebase-common:9.6.0] /Users/kerturkx/.android/build-cache/a83243a2fb34bcaffbf39575bdf5f4e36a8053ec/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-tasks:9.6.0] /Users/kerturkx/.android/build-cache/00b92370ea7374627ca4115aa7b12d5954948844/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.6.0] /Users/kerturkx/.android/build-cache/b9319ff861d385673d96ec6e290c02f4073499fc/output/AndroidManifest.xml:17:5-42
->>>>>>> Stashed changes
 MERGED from [com.android.support:support-v4:25.3.1] /Users/kerturkx/.android/build-cache/464420783810a84063710e2cee7d570ce4a4a144/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/kerturkx/.android/build-cache/ed9fa9da666dbe9c71543927d8f96d3c35d5ed6f/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/kerturkx/.android/build-cache/f8bc6e0b7f324ceca8116744f002f64c882a6098/output/AndroidManifest.xml:21:5-23:63
@@ -244,7 +250,8 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/kerturkx/.android
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/kerturkx/.android/build-cache/5c3cd5b5115d766e733732683a3f410891cc9157/output/AndroidManifest.xml:7:9-38
+		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
@@ -265,36 +272,12 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/kerturkx/.android
 		ADDED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:26:9-47
-<<<<<<< Updated upstream
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] /Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/AndroidManifest.xml:19:19-85
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/kerturkx/.android/build-cache/59bb27a92eb7349363a7e5f94dc1649c4c10b7d6/output/AndroidManifest.xml:20:9-121
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/kerturkx/.android/build-cache/59bb27a92eb7349363a7e5f94dc1649c4c10b7d6/output/AndroidManifest.xml:20:66-119
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /Users/kerturkx/.android/build-cache/59bb27a92eb7349363a7e5f94dc1649c4c10b7d6/output/AndroidManifest.xml:20:20-65
-=======
 service#com.google.firebase.messaging.FirebaseMessagingService
 ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:23:9-27:19
 	android:exported
 		ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:23:88-111
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:23:18-87
-intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:24:13-26:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:24:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:25:17-77
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:9.6.0] /Users/kerturkx/.android/build-cache/0b19e09c67049ab6fe6f8776ca0e1017ac79fd71/output/AndroidManifest.xml:25:25-75
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
 ADDED from [com.google.firebase:firebase-analytics:9.6.0] /Users/kerturkx/.android/build-cache/6e6e594425027c9fd0c8aca59cfce86c9ed41388/output/AndroidManifest.xml:25:7-26:18
 MERGED from [com.google.firebase:firebase-analytics-impl:9.6.0] /Users/kerturkx/.android/build-cache/69bc0e2f150d3121e1d50db0a30c677093ca8665/output/AndroidManifest.xml:25:7-26:18
@@ -361,14 +344,6 @@ ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/bui
 		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/build-cache/9019f0fc420447b0ff1f3cbf3fa607d3858daf18/output/AndroidManifest.xml:44:83-106
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/build-cache/9019f0fc420447b0ff1f3cbf3fa607d3858daf18/output/AndroidManifest.xml:44:18-82
-intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/build-cache/9019f0fc420447b0ff1f3cbf3fa607d3858daf18/output/AndroidManifest.xml:45:13-47:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/build-cache/9019f0fc420447b0ff1f3cbf3fa607d3858daf18/output/AndroidManifest.xml:45:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/build-cache/9019f0fc420447b0ff1f3cbf3fa607d3858daf18/output/AndroidManifest.xml:46:17-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/build-cache/9019f0fc420447b0ff1f3cbf3fa607d3858daf18/output/AndroidManifest.xml:46:25-77
 provider#com.google.firebase.provider.FirebaseInitProvider
 ADDED from [com.google.firebase:firebase-common:9.6.0] /Users/kerturkx/.android/build-cache/a83243a2fb34bcaffbf39575bdf5f4e36a8053ec/output/AndroidManifest.xml:6:9-175
 	android:authorities
@@ -385,4 +360,3 @@ ADDED from [com.google.android.gms:play-services-basement:9.6.0] /Users/kerturkx
 		ADDED from [com.google.android.gms:play-services-basement:9.6.0] /Users/kerturkx/.android/build-cache/b9319ff861d385673d96ec6e290c02f4073499fc/output/AndroidManifest.xml:20:66-119
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:9.6.0] /Users/kerturkx/.android/build-cache/b9319ff861d385673d96ec6e290c02f4073499fc/output/AndroidManifest.xml:20:20-65
->>>>>>> Stashed changes

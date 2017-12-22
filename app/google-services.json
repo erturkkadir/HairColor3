@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "423668349655",
-    "firebase_url": "https://socks-77350.firebaseio.com",
-    "project_id": "socks-77350",
-    "storage_bucket": "socks-77350.appspot.com"
+    "project_number": "486067805996",
+    "firebase_url": "https://haircolor-b8010.firebaseio.com",
+    "project_id": "haircolor-b8010",
+    "storage_bucket": "haircolor-b8010.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:423668349655:android:1d539c25f3ac239f",
+        "mobilesdk_app_id": "1:486067805996:android:7c40bb6f144ffdff",
         "android_client_info": {
           "package_name": "com.syshuman.kadir.haircolor3"
         }
       },
       "oauth_client": [
         {
-          "client_id": "423668349655-dm2tb7def2g46ms88f92fo0n2tko71s6.apps.googleusercontent.com",
+          "client_id": "486067805996-g6fhh1fst66dqlo88ebf3serhonqvss8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCP9y-yp03QVHZgk8ysLtb-21Yqu8zM-F4"
+          "current_key": "AIzaSyDhQWFr0lv_fi_LXi6Disdwpw_IF5xERAQ"
         }
       ],
       "services": {

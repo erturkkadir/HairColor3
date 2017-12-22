@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="23"
+        android:minSdkVersion="24"
         android:targetSdkVersion="24" />
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -83,12 +83,21 @@
             android:name="com.syshuman.kadir.haircolor3.view.activities.SpeechToTextActivity"
             android:label="@string/title_activity_speech_to_text"
             android:theme="@style/AppTheme.NoActionBar" />
-<<<<<<< Updated upstream
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-=======
+
+        <!-- Firebase Notifications -->
+        <service android:name="com.syshuman.kadir.haircolor3.service.MessageService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.syshuman.kadir.haircolor3.service.InstanceIDService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- ./Firebase Notifications -->
+
+
         <!--
          FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
@@ -155,7 +164,6 @@
             android:authorities="com.syshuman.kadir.haircolor3.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
->>>>>>> Stashed changes
 
         <meta-data
             android:name="com.google.android.gms.version"
