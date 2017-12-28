@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Hair Color 3</string>
+    <string name="app_name">Hair Color App</string>
     <string name="action_training">Training</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_device">DeviceActivity</string>

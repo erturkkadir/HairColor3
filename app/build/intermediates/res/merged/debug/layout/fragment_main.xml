@@ -14,7 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/logo"
-        android:layout_alignParentRight="false"
         android:layout_alignParentEnd="false"
         android:orientation="horizontal"
         android:gravity="top">
@@ -23,10 +22,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/RxLogo"
-            android:contentDescription="RxMainPic"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
             android:layout_gravity="top"
             android:scaleType="fitStart" />
     </LinearLayout>
@@ -48,28 +43,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/uname"
-            android:singleLine="true"
-            android:hint ="ID"
             android:lines = "1"
-            android:layout_row="0"
-            android:layout_column="0"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:textSize="20dp"
             android:text="a@a.com" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
-            android:hint = "password"
             android:ems="10"
             android:id="@+id/upass"
-            android:layout_row="1"
-            android:layout_column="0"
             android:layout_marginRight="15dp"
             android:layout_marginLeft="15dp"
-            android:textSize="20dp"
             android:text="1" />
 
         <Button
@@ -77,13 +63,10 @@
             android:layout_height="wrap_content"
             android:text="LogIn"
             android:id="@+id/btnLogin"
-            android:layout_below="@+id/Login"
-            android:layout_row="1"
-            android:layout_column="1"
-            android:layout_rowSpan="2"
+
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
-            android:textSize="20dp"
+
             android:enabled="true" />
 
 
@@ -94,12 +77,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Forgot Password"
                 android:id="@+id/btnForgot"
-                android:textSize="20dp"
                 android:onClick="onClickLogin"
-                android:layout_below="@+id/ippw"
-                android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
                 android:clickable="true" />
 
@@ -108,10 +87,7 @@
                 android:layout_height="wrap_content"
                 android:text="Register?"
                 android:id="@+id/btnRegister"
-                android:textSize="20dp"
                 android:onClick="onClickLogin"
-                android:layout_below="@+id/ippw"
-                android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
                 android:clickable="true" />
         </LinearLayout>

@@ -729,7 +729,7 @@
     <string name="action_training">Training</string>
     <string name="age_info">Age</string>
     <string name="agree_eula">EULA</string>
-    <string name="app_name">Hair Color 3</string>
+    <string name="app_name">Hair Color App</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="category">Category</string>

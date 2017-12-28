@@ -1,5 +1,7 @@
 package com.syshuman.kadir.haircolor3.view.activities;
 
+import android.Manifest;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,8 +10,9 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
-import android.os.Build;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomSheetBehavior;
 import android.support.design.widget.NavigationView;
@@ -34,6 +37,10 @@ import com.google.firebase.messaging.FirebaseMessaging;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.utils.Config;
 import com.syshuman.kadir.haircolor3.utils.NotificationUtils;
+import com.syshuman.kadir.haircolor3.utils.PermissionUtils;
+
+import java.util.HashMap;
+import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -42,28 +49,32 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity  {
 
     private static final String LOG_TAG = "MainActivity";
-    private static final int PERMISSION_REQUEST_COARSE_LOCATION =  1;
 
-    AlertDialog.Builder dialog;
+    private static final int PERMISSION_ALL = 123;
+    private static final int REQUEST_COARSE_LOCATION =  0;
+    private static final int REQUEST_IMAGE_CAPTURE = 1;
+    private static final int REQUEST_EXTERNAL_STORAGE = 2;
 
+
+    private AlertDialog dialog;
     private Context context;
-    @BindView(R.id.toolbar) Toolbar toolbar;
+    private Activity activity;
+    private BottomSheetBehavior sheetBehavior;
+    private BroadcastReceiver mRegistrationBroadcastReceiver;
+    private PermissionUtils permissionsUtils;
 
+    @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.bottom_sheet) LinearLayout layoutBottomSheet;
     @BindView(R.id.custName) TextView custName;
     @BindView(R.id.lastVisit) TextView lastVisit;
 
-    BottomSheetBehavior sheetBehavior;
-
-    private BroadcastReceiver mRegistrationBroadcastReceiver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_main);
 
@@ -75,9 +86,48 @@ public class MainActivity extends AppCompatActivity  {
 
         this.context = getApplicationContext();
 
+        dialog = new AlertDialog.Builder(this).create();
+
         getPermissions();
 
+        setBottomSheet();
+
+        registerFirebaseReceiver();
+
+    }
+
+
+    private void registerFirebaseReceiver() {
+
+        mRegistrationBroadcastReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+
+                // checking for type intent filter
+                if (intent.getAction().equals(Config.REGISTRATION_COMPLETE)) {
+                    // gcm successfully registered
+                    // now subscribe to `global` topic to receive app wide notifications
+                    FirebaseMessaging.getInstance().subscribeToTopic(Config.TOPIC_GLOBAL);
+
+                    displayFirebaseRegId();
+
+                } else if (intent.getAction().equals(Config.PUSH_NOTIFICATION)) {
+                    // new push notification is received
+
+                    String message = intent.getStringExtra("message");
+
+                    Toast.makeText(getApplicationContext(), "Push notification: " + message, Toast.LENGTH_LONG).show();
+
+                }
+            }
+        };
+    }
+
+
+    private void setBottomSheet() {
+
         sheetBehavior = BottomSheetBehavior.from(layoutBottomSheet);
+        sheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
         sheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
             @Override
             public void onStateChanged(@NonNull View bottomSheet, int newState) {
@@ -106,38 +156,19 @@ public class MainActivity extends AppCompatActivity  {
 
             }
         });
-        if (sheetBehavior.getState() != BottomSheetBehavior.STATE_EXPANDED) {
-            sheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
-        }else {
-            sheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
-        }
 
-        custName.setText("Kadir Erturk");
-        lastVisit.setText("31.07.1966 13:12:12");
 
-        mRegistrationBroadcastReceiver = new BroadcastReceiver() {
+
+        custName.setText("Select Customer");
+        lastVisit.setText("");
+        custName.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onReceive(Context context, Intent intent) {
-
-                // checking for type intent filter
-                if (intent.getAction().equals(Config.REGISTRATION_COMPLETE)) {
-                    // gcm successfully registered
-                    // now subscribe to `global` topic to receive app wide notifications
-                    FirebaseMessaging.getInstance().subscribeToTopic(Config.TOPIC_GLOBAL);
-
-                    displayFirebaseRegId();
-
-                } else if (intent.getAction().equals(Config.PUSH_NOTIFICATION)) {
-                    // new push notification is received
-
-                    String message = intent.getStringExtra("message");
-
-                    Toast.makeText(getApplicationContext(), "Push notification: " + message, Toast.LENGTH_LONG).show();
-
-                }
+            public void onClick(View v) {
+                sheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
             }
-        };
+        });
     }
+
 
 
     private void displayFirebaseRegId() {
@@ -231,6 +262,7 @@ public class MainActivity extends AppCompatActivity  {
                 int id = item.getItemId();
                 switch (id) {
                     case R.id.nav_camera :
+                        dispatchTakePictureIntent();
                         break;
                     case R.id.btn_reset :
                         break;
@@ -251,49 +283,50 @@ public class MainActivity extends AppCompatActivity  {
     }
 
     public void getPermissions() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-            if (context.checkSelfPermission(android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setTitle("This app needs location access");
-                builder.setMessage("Please grant location access so this app can detect beacons.");
-                builder.setPositiveButton(android.R.string.ok, null);
-                builder.setOnDismissListener(new DialogInterface.OnDismissListener() {
-                    public void onDismiss(DialogInterface dialog) {
-                        requestPermissions(new String[]{android.Manifest.permission.ACCESS_COARSE_LOCATION}, PERMISSION_REQUEST_COARSE_LOCATION);
-                    }
-                });
-                builder.show();
-            }
-        }
 
-        if (!context.getPackageManager().hasSystemFeature(PackageManager.FEATURE_BLUETOOTH_LE)) {
-            Toast.makeText(this, "BLE is not supported", Toast.LENGTH_SHORT).show();
-            finish();
-        }
+        permissionsUtils = new PermissionUtils(this);
+        Map<String, Integer> permissions = new HashMap<>();
+        permissions.put(Manifest.permission.ACCESS_COARSE_LOCATION, REQUEST_COARSE_LOCATION);
+        permissions.put(Manifest.permission.CAMERA, REQUEST_IMAGE_CAPTURE);
+        permissions.put(Manifest.permission.WRITE_EXTERNAL_STORAGE, REQUEST_EXTERNAL_STORAGE);
+
+        permissionsUtils.getPermissions(permissions);
+
     }
+
 
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull  int[] grantResults) {
         switch (requestCode) {
-            case PERMISSION_REQUEST_COARSE_LOCATION: {
-                if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    Log.d(LOG_TAG, "coarse location permission granted");
-                } else {
-
-                    dialog.setTitle("Functionality limited");
-                    dialog.setMessage("Since location access has not been granted, this app will not be able to discover beacons when in the background.");
-                    dialog.setPositiveButton(android.R.string.ok, null);
-                    dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
-
-                        @Override
-                        public void onDismiss(DialogInterface dialog) {
-                        }
-
-                    });
-                    dialog.show();
+            case PERMISSION_ALL:
+                if (grantResults.length > 0) {
+                    if(grantResults[0] != PackageManager.PERMISSION_GRANTED) permissionsUtils.deniedLocation();
+                    if(grantResults[1] != PackageManager.PERMISSION_GRANTED) permissionsUtils.deniedCamera();
+                    if(grantResults[2] != PackageManager.PERMISSION_GRANTED) permissionsUtils.deniedStorage();
                 }
-            }
+                break;
         }
     }
 
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
+            Bundle extras = data.getExtras();
+            Bitmap imageBitmap = (Bitmap) extras.get("data");
+            saveImage(imageBitmap);
+        }
+    }
+
+    private void dispatchTakePictureIntent() {
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        }
+    }
+
+
+    private void saveImage(Bitmap bitmap) {
+        Toast.makeText(context, " saved ", Toast.LENGTH_SHORT).show();
+    }
 }

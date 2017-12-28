@@ -26,7 +26,9 @@ ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/An
 	android:name
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:7:22-78
 uses-feature#android.hardware.camera
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:9:5-60
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:9:5-84
+	android:required
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:9:58-81
 	android:name
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:9:19-57
 uses-feature#android.hardware.camera.autofocus

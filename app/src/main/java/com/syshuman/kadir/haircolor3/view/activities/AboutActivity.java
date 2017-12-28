@@ -7,6 +7,8 @@ import android.view.MenuItem;
 import android.view.Window;
 import android.view.WindowManager;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
+
 import com.syshuman.kadir.haircolor3.R;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -34,9 +36,16 @@ public class AboutActivity extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
+        webView.setWebViewClient(new WebViewClient(){
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView webview, String url) {
+                webView.loadUrl(url);
+                return false;
+            }
+        });
 
-        webView.getSettings().setJavaScriptEnabled(true);
-        //webView.loadUrl("http://www.maphaircolor.com");
+        webView.loadUrl("http://www.maphaircolor.com/contact");
+
     }
 
     @Override
