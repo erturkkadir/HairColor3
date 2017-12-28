@@ -13,6 +13,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.syshuman.kadir.haircolor3.R;
+import com.syshuman.kadir.haircolor3.eventbus.BoardingEvents;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import com.syshuman.kadir.haircolor3.view.activities.MainActivity;
 import org.greenrobot.eventbus.EventBus;
@@ -46,11 +47,11 @@ public class RestServer {
                             String message = json.getString("message");
                             JSONObject data = json.getJSONObject("data");
                             if(statusCode.equals("200 OK")) {
+                                EventBus.getDefault().post(new BoardingEvents.onLoginSuccess("OK"));
                                 saveUser(data);
-                                Intent intent = new Intent(context, MainActivity.class);
-                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                                context.startActivity(intent);
+
                             } else {
+                                EventBus.getDefault().post(new BoardingEvents.onLoginFailed(statusCode.toString()));
                                 Toast.makeText(context, message, Toast.LENGTH_LONG).show();
                             }
 
@@ -120,14 +121,14 @@ public class RestServer {
                             String statusCode = json.getString("status_code");
                             if(!statusCode.equals("200 OK")) {
                                 Toast.makeText(context, "Http communication failure " + statusCode, Toast.LENGTH_LONG).show();
+                                EventBus.getDefault().post(new BoardingEvents.onRegistrationFailed("Communication Error"));
                                 return;
                             }
                             String message = json.getString("message");
                             if(message.equals("Success")) {
-                                Intent intent = new Intent(context, MainActivity.class);
-                                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                                context.startActivity(intent);
+                                EventBus.getDefault().post(new BoardingEvents.onRegisterSuccess("OK"));
                             } else {
+                                EventBus.getDefault().post(new BoardingEvents.onRegistrationFailed(statusCode));
                                 Toast.makeText(context, message, Toast.LENGTH_LONG).show();
                             }
 

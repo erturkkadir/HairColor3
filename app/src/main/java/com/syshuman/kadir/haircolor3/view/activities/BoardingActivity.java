@@ -10,10 +10,17 @@ import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Toast;
+
+import com.syshuman.kadir.haircolor3.eventbus.BoardingEvents;
 import com.syshuman.kadir.haircolor3.model.HairColorUser;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.fragments.LoginFragment;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 public class BoardingActivity extends AppCompatActivity {
 
@@ -34,6 +41,8 @@ public class BoardingActivity extends AppCompatActivity {
         setContentView(R.layout.activity_boarding);
         this.context = getBaseContext();
 
+        restServer = new RestServer(context);
+
         this.devId = Settings.Secure.getString(getContentResolver(), Settings.Secure.ANDROID_ID);
 
         SharedPreferences prefs = this.getSharedPreferences("com.syshuman.kadir.socks", this.MODE_PRIVATE);
@@ -51,14 +60,57 @@ public class BoardingActivity extends AppCompatActivity {
     public void replaceFragment(Fragment fragment, String TAG) {
 
         fragmentTransaction = getFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.container, fragment, TAG);
+        fragmentTransaction.add(R.id.container, fragment, TAG).addToBackStack(null);
         fragmentTransaction.commit();
     }
 
     public void login( String uName, String uPass) {
-        restServer = new RestServer(context);
+
         restServer.login( uName, uPass);
     }
 
+    public void register( String fName, String lName, String uPass) {
 
+        restServer.register(context, fName, uPass, fName, lName, devId, 8);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
+    }
+
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        EventBus.getDefault().unregister(this);
+    }
+
+
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(BoardingEvents.onLoginSuccess event) {
+        Intent intent = new Intent(context, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(BoardingEvents.onLoginFailed error) {
+        Toast.makeText(context, error.toString(), Toast.LENGTH_LONG).show();
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(BoardingEvents.onRegisterSuccess event) {
+        Intent intent = new Intent(context, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
+        Toast.makeText(context, event.toString(), Toast.LENGTH_LONG).show();
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(BoardingEvents.onRegistrationFailed error) {
+        Toast.makeText(context, error.toString(), Toast.LENGTH_LONG).show();
+    }
 }

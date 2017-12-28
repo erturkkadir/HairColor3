@@ -13,11 +13,12 @@
     <string name="forgot_password">Forgot Password</string>
     <string name="password_reset">Password Reset</string>
     <string name="send_instruction">send_instruction</string>
-    <string name="account_email">account_email</string>
+    <string name="create_new">Create New Account</string>
+    <string name="account_email">email</string>
 
     <string name="register_lower">register_lower</string>
     <string name="password_with_note">password_with_note</string>
-    <string name="confirm_password">confirm_password</string>
+    <string name="confirm_password">confirm password</string>
     <string name="language">language</string>
     <string name="english">english</string>
     <string name="agree_eula">EULA</string>
@@ -26,13 +27,13 @@
     <string name="confirmation">confirmation</string>
     <string name="confirmation_note">confirmation_note</string>
     <string name="next_step">next_step</string>
-    <string name="first_name">first_name</string>
-    <string name="last_name">last_name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
     <string name="email">email</string>
 
     <string name="logo_exp"> Hair Color</string>
     <string name="hair_color">HairColor</string>
-    <string name="that">Gey your hair color correctly</string>
+    <string name="that">Get your genuine hair color</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->
@@ -91,5 +92,14 @@
     <string name="perc">%</string>
 
     <string name="detail">Detail</string>
+    <string name="contentDescription">No decription</string>
+
+    <string name="my_account">My Account</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="uname">a@a.com</string>
+    <string name="upass">1</string>
+
+
 
 </resources>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:2:1-94:12
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:2:1-93:12
 	package
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:3:5-44
 		INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml
@@ -108,7 +108,7 @@ MERGED from [com.google.firebase:firebase-iid:9.6.0] /Users/kerturkx/.android/bu
 	android:name
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:33:22-89
 application
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:35:5-92:19
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:35:5-91:19
 MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/AndroidManifest.xml:29:5-20
@@ -141,7 +141,7 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/kerturkx/.android
 	android:theme
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:40:9-40
 activity#com.syshuman.kadir.haircolor3.view.activities.BoardingActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:41:9-50:20
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:41:9-49:20
 	android:label
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:43:13-60
 	android:theme
@@ -149,81 +149,81 @@ ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/An
 	android:name
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:42:13-61
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:45:13-49:29
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:45:13-48:29
 action#android.intent.action.MAIN
 ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:46:17-69
 	android:name
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:46:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:48:17-77
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:48:27-74
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:47:27-74
 activity#com.syshuman.kadir.haircolor3.view.activities.MainActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:51:9-54:59
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:50:9-53:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:53:13-45
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:52:13-45
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:54:13-56
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:53:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:52:13-57
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:51:13-57
 activity#com.syshuman.kadir.haircolor3.view.activities.TrainingActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:55:9-58:59
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:54:9-57:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:57:13-59
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:56:13-59
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:58:13-56
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:57:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:56:13-61
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:55:13-61
 activity#com.syshuman.kadir.haircolor3.view.activities.SettingsActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:59:9-62:59
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:58:9-61:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:61:13-60
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:60:13-60
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:62:13-56
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:60:13-61
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:59:13-61
 activity#com.syshuman.kadir.haircolor3.view.activities.AboutActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:63:9-66:59
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:62:9-65:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:65:13-57
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:64:13-57
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:66:13-56
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:65:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:64:13-58
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:63:13-58
 service#com.syshuman.kadir.haircolor3.model.BluetoothLeService
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:68:9-70:40
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:67:9-69:40
 	android:exported
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:70:13-37
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:69:13-37
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:69:13-53
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:68:13-53
 activity#com.syshuman.kadir.haircolor3.view.activities.SpeechToTextActivity
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:72:9-75:59
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:71:9-74:59
 	android:label
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:74:13-66
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:73:13-66
 	android:theme
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:75:13-56
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:74:13-56
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:73:13-65
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:72:13-65
 service#com.syshuman.kadir.haircolor3.service.MessageService
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:78:9-82:19
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:77:9-81:19
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:78:18-56
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:77:18-56
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:79:13-81:29
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:78:13-80:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:80:17-78
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:79:17-78
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:80:25-75
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:79:25-75
 service#com.syshuman.kadir.haircolor3.service.InstanceIDService
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:84:9-88:19
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:83:9-87:19
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:84:18-59
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:83:18-59
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:85:13-87:29
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:84:13-86:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:86:17-80
+ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:85:17-80
 	android:name
-		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:86:25-77
+		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:85:25-77
 uses-sdk
 INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:7:5-43

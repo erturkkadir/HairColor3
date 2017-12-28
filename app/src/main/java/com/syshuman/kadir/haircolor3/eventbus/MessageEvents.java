@@ -3,11 +3,6 @@ package com.syshuman.kadir.haircolor3.eventbus;
 import com.syshuman.kadir.haircolor3.model.BluetoothLeUart;
 
 import org.json.JSONArray;
-import org.json.JSONObject;
-
-/**
- * Created by kadir on 2017-08-26.
- */
 
 public class MessageEvents {
 

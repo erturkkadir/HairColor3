@@ -9,4 +9,18 @@
     <dimen name="font_top_bar_size">20sp</dimen>
     <dimen name="font_small">15sp</dimen>
     <dimen name="activity_margin">20dp</dimen>
+    <dimen name="paddingGlobal">10dp</dimen>
+
+    <dimen name="paddingSmall">5dp</dimen>
+    <dimen name="paddingMedium">10dp</dimen>
+    <dimen name="paddingLarge">20dp</dimen>
+
+    <dimen name="marginSmall">5dp</dimen>
+    <dimen name="marginMedium">10dp</dimen>
+    <dimen name="marginLarge">20dp</dimen>
+
+    <dimen name="fontSmall">10sp</dimen>
+    <dimen name="fontMedium">14sp</dimen>
+    <dimen name="fontLarge">18sp</dimen>
+    <dimen name="fontExtra">24sp</dimen>
 </resources>

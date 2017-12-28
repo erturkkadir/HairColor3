@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity  {
     @BindView(R.id.custName) TextView custName;
     @BindView(R.id.lastVisit) TextView lastVisit;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -96,7 +95,6 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
-
     private void registerFirebaseReceiver() {
 
         mRegistrationBroadcastReceiver = new BroadcastReceiver() {
@@ -122,7 +120,6 @@ public class MainActivity extends AppCompatActivity  {
             }
         };
     }
-
 
     private void setBottomSheet() {
 
@@ -168,8 +165,6 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
     }
-
-
 
     private void displayFirebaseRegId() {
         SharedPreferences pref = getApplicationContext().getSharedPreferences(Config.SHARED_PREF, 0);
@@ -272,7 +267,13 @@ public class MainActivity extends AppCompatActivity  {
                         break;
                     case R.id.nav_manage :
                         break;
-                    case R.id.nav_send:
+
+                    case R.id.nav_myaccount:
+                        Toast.makeText(context,"MyAccount",Toast.LENGTH_LONG).show();
+                        break;
+                    case R.id.nav_signout:
+                        Toast.makeText(context,"SignOut",Toast.LENGTH_LONG).show();
+                        sign_out();
                         break;
                 }
                 DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -280,6 +281,15 @@ public class MainActivity extends AppCompatActivity  {
                 return true;
             }
         });
+    }
+
+
+    private void sign_out() {
+        SharedPreferences prefs = this.getSharedPreferences("com.syshuman.kadir.socks", this.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.remove("um_no");
+        editor.apply();
+        finish();
     }
 
     public void getPermissions() {
@@ -327,6 +337,7 @@ public class MainActivity extends AppCompatActivity  {
 
 
     private void saveImage(Bitmap bitmap) {
+        /* Save Image to server */
         Toast.makeText(context, " saved ", Toast.LENGTH_SHORT).show();
     }
 }
