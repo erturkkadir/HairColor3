@@ -1,13 +1,40 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.syshuman.kadir.haircolor3.view.fragments.ForgotFragment">
+    android:background="@drawable/background"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/email_wrap"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:padding="@dimen/marginMedium">
 
-</FrameLayout>
+        <EditText
+            android:id="@+id/email_forgot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress|textAutoCorrect"
+            android:textSize="@dimen/fontMedium" />
+    </android.support.design.widget.TextInputLayout>
+
+    <View
+        android:id="@+id/dividen_line4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+
+    <Button
+        android:id="@+id/send_forgot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginMedium"
+        android:background="?android:attr/fastScrollTrackDrawable"
+        android:text="@string/send_instruction" />
+</LinearLayout>
+

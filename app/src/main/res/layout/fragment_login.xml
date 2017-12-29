@@ -147,13 +147,12 @@
             android:text="@string/register"
             android:textSize="@dimen/fontLarge" />
 
-        <TextView
-            android:id="@+id/forgot_password"
+        <Button
+            android:id="@+id/forgot_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginLarge"
-            android:gravity="center_horizontal"
-            android:padding="@dimen/paddingLarge"
+            android:background="@drawable/shape_black_stroke_rectangle"
             android:text="@string/forgot_password"
             android:textSize="@dimen/fontLarge" />
 

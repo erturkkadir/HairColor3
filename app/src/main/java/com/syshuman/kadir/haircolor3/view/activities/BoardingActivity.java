@@ -51,6 +51,7 @@ public class BoardingActivity extends AppCompatActivity {
             HairColorUser hcuser = new HairColorUser();
             Intent intent = new Intent(this, MainActivity.class);
             this.startActivity(intent);
+            finish();
         } else {
             LoginFragment loginFragment = new LoginFragment();
             replaceFragment(loginFragment, "LoginFragment");
@@ -59,6 +60,12 @@ public class BoardingActivity extends AppCompatActivity {
 
     public void replaceFragment(Fragment fragment, String TAG) {
 
+        fragmentTransaction = getFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.container, fragment, TAG);
+        fragmentTransaction.commit();
+    }
+
+    public void addFragment(Fragment fragment, String TAG) {
         fragmentTransaction = getFragmentManager().beginTransaction();
         fragmentTransaction.add(R.id.container, fragment, TAG).addToBackStack(null);
         fragmentTransaction.commit();
@@ -70,9 +77,13 @@ public class BoardingActivity extends AppCompatActivity {
     }
 
     public void register( String fName, String lName, String uPass) {
-
         restServer.register(context, fName, uPass, fName, lName, devId, 8);
     }
+
+    public void forgot( String email) {
+        restServer.forgot(email);
+    }
+
 
     @Override
     public void onStart() {
@@ -87,13 +98,12 @@ public class BoardingActivity extends AppCompatActivity {
         EventBus.getDefault().unregister(this);
     }
 
-
-
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onEvent(BoardingEvents.onLoginSuccess event) {
         Intent intent = new Intent(context, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
+        finish();
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -106,11 +116,22 @@ public class BoardingActivity extends AppCompatActivity {
         Intent intent = new Intent(context, MainActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(intent);
+        finish();
         Toast.makeText(context, event.toString(), Toast.LENGTH_LONG).show();
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onEvent(BoardingEvents.onRegistrationFailed error) {
+        Toast.makeText(context, error.toString(), Toast.LENGTH_LONG).show();
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(BoardingEvents.onForgotEmailSuccess message) {
+        Toast.makeText(context, message.toString(), Toast.LENGTH_LONG).show();
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEvent(BoardingEvents.onForgotEmailFailed error) {
         Toast.makeText(context, error.toString(), Toast.LENGTH_LONG).show();
     }
 }

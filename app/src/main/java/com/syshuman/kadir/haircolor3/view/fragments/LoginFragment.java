@@ -12,11 +12,19 @@ import android.widget.EditText;
 import com.syshuman.kadir.haircolor3.view.activities.BoardingActivity;
 import com.syshuman.kadir.haircolor3.R;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 
 public class LoginFragment extends Fragment {
 
-    EditText uname = null;
-    EditText upass = null;
+    @BindView(R.id.login_btn) Button btnLogin;
+    @BindView(R.id.register_btn) Button btnRegister;
+    @BindView(R.id.forgot_btn) Button btnForgot;
+
+    @BindView(R.id.account_email_input) EditText uname;
+    @BindView(R.id.password_input) EditText upass;
+
     public LoginFragment() {
         // Required empty public constructor
     }
@@ -38,10 +46,8 @@ public class LoginFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_login, container, false);
 
-        uname = (EditText) view.findViewById(R.id.account_email_input);
-        upass = (EditText) view.findViewById(R.id.password_input);
+        ButterKnife.bind(this, view);
 
-        Button btnLogin = (Button) view.findViewById(R.id.login_btn);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,17 +55,23 @@ public class LoginFragment extends Fragment {
             }
         });
 
-        Button btnRegister = (Button) view.findViewById(R.id.register_btn);
+
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 RegisterFragment registerFragment = new RegisterFragment();
-                ((BoardingActivity) getActivity()).replaceFragment(registerFragment, "RegisterFragment");
-
+                ((BoardingActivity) getActivity()).addFragment(registerFragment, "RegisterFragment");
             }
         });
 
 
+        btnForgot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ForgotFragment forgotFragment = new ForgotFragment();
+                ((BoardingActivity) getActivity()).addFragment(forgotFragment, "ForgotFragment");
+            }
+        });
 
         return view;
     }

@@ -4,20 +4,20 @@
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/border_shadow.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/notification_tile_bg.xml"
-    },
-    {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
         "source": "/Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/kerturkx/.android/build-cache/968897dd21bbea31b0176123e30996cd9f2bcd1a/output/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_menu_slideshow.xml",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable/ic_menu_slideshow.xml"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/kerturkx/.android/build-cache/b40f00c291e2227308fb3337c0f0bae291e7c1ae/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable/ic_chevron_right_black_18dp.png",

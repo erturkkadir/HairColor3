@@ -3,33 +3,29 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:actionLayout="@color/blue"
-            android:icon="@drawable/ic_menu_share"
-            android:title="Search Customer" />
+            android:id="@+id/nav_customer"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/customer" />
         <item
-            android:id="@+id/btn_reset"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Misc" />
+            android:id="@+id/nav_stylist"
+            android:icon="?android:attr/actionModeCutDrawable"
+            android:title="@string/stylist" />
+
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Machine Learning Settings" />
-        <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_widget"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Device Settings" />
+            android:title="@string/widget" />
     </group>
 
-    <item android:title="Account">
+    <item android:title="@string/my_account">
         <menu>
             <item
                 android:id="@+id/nav_myaccount"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="?android:attr/actionModePasteDrawable"
                 android:title="@string/my_account" />
             <item
                 android:id="@+id/nav_signout"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/icon_delete"
                 android:title="@string/sign_out" />
         </menu>
     </item>

@@ -1,11 +1,11 @@
 package com.syshuman.kadir.haircolor3.view.activities;
 
 import android.Manifest;
-import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
@@ -38,6 +38,7 @@ import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.utils.Config;
 import com.syshuman.kadir.haircolor3.utils.NotificationUtils;
 import com.syshuman.kadir.haircolor3.utils.PermissionUtils;
+import com.syshuman.kadir.haircolor3.view.fragments.CustomerFragment;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -54,14 +55,13 @@ public class MainActivity extends AppCompatActivity  {
     private static final int REQUEST_COARSE_LOCATION =  0;
     private static final int REQUEST_IMAGE_CAPTURE = 1;
     private static final int REQUEST_EXTERNAL_STORAGE = 2;
-
-
     private AlertDialog dialog;
     private Context context;
-    private Activity activity;
     private BottomSheetBehavior sheetBehavior;
     private BroadcastReceiver mRegistrationBroadcastReceiver;
     private PermissionUtils permissionsUtils;
+
+    private FragmentTransaction fragmentTransaction;
 
     @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.bottom_sheet) LinearLayout layoutBottomSheet;
@@ -72,8 +72,8 @@ public class MainActivity extends AppCompatActivity  {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_main);
 
@@ -154,8 +154,6 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
-
-
         custName.setText("Select Customer");
         lastVisit.setText("");
         custName.setOnClickListener(new View.OnClickListener() {
@@ -208,7 +206,6 @@ public class MainActivity extends AppCompatActivity  {
         return super.onOptionsItemSelected(item);
     }
 
-
     @Override
     protected void onResume() {
         super.onResume();
@@ -256,16 +253,20 @@ public class MainActivity extends AppCompatActivity  {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 switch (id) {
-                    case R.id.nav_camera :
+
+                    case R.id.nav_customer :
+                        CustomerFragment customerFragment = new CustomerFragment();
+                        customerFragment.setContext(context);
+                        addFragment(customerFragment, "CustomerFragment");
+                        break;
+
+                    case R.id.nav_stylist :
                         dispatchTakePictureIntent();
                         break;
-                    case R.id.btn_reset :
-                        break;
-                    case R.id.nav_slideshow :
+
+                    case R.id.nav_widget :
                         Intent intent = new Intent(context, SpeechToTextActivity.class);
                         startActivity(intent);
-                        break;
-                    case R.id.nav_manage :
                         break;
 
                     case R.id.nav_myaccount:
@@ -283,13 +284,15 @@ public class MainActivity extends AppCompatActivity  {
         });
     }
 
-
     private void sign_out() {
         SharedPreferences prefs = this.getSharedPreferences("com.syshuman.kadir.socks", this.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
         editor.remove("um_no");
         editor.apply();
-        finish();
+        Intent intent = new Intent(context, BoardingActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
+
     }
 
     public void getPermissions() {
@@ -317,6 +320,20 @@ public class MainActivity extends AppCompatActivity  {
                 break;
         }
     }
+
+    public void replaceFragment(Fragment fragment, String TAG) {
+
+        fragmentTransaction = getFragmentManager().beginTransaction();
+        fragmentTransaction.replace(R.id.main_container, fragment, TAG);
+        fragmentTransaction.commit();
+    }
+
+    public void addFragment(Fragment fragment, String TAG) {
+        fragmentTransaction = getFragmentManager().beginTransaction();
+        fragmentTransaction.add(R.id.main_container, fragment, TAG).addToBackStack(null);
+        fragmentTransaction.commit();
+    }
+
 
 
     @Override

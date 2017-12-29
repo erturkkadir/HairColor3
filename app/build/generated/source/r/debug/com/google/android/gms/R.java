@@ -13,23 +13,23 @@ public final class R {
         public static final int imageAspectRatioAdjust = 0x7f010103;
     }
     public static final class id {
-        public static final int adjust_height = 0x7f0f0041;
-        public static final int adjust_width = 0x7f0f0042;
-        public static final int auto = 0x7f0f002d;
-        public static final int center = 0x7f0f002f;
-        public static final int none = 0x7f0f0017;
-        public static final int normal = 0x7f0f0019;
-        public static final int radio = 0x7f0f0066;
-        public static final int text = 0x7f0f0101;
-        public static final int text2 = 0x7f0f00ff;
-        public static final int toolbar = 0x7f0f007d;
-        public static final int wrap_content = 0x7f0f002c;
+        public static final int adjust_height = 0x7f100041;
+        public static final int adjust_width = 0x7f100042;
+        public static final int auto = 0x7f10002d;
+        public static final int center = 0x7f10002f;
+        public static final int none = 0x7f100017;
+        public static final int normal = 0x7f100019;
+        public static final int radio = 0x7f100066;
+        public static final int text = 0x7f100109;
+        public static final int text2 = 0x7f100107;
+        public static final int toolbar = 0x7f10007d;
+        public static final int wrap_content = 0x7f10002c;
     }
     public static final class integer {
-        public static final int google_play_services_version = 0x7f0c0006;
+        public static final int google_play_services_version = 0x7f0d0006;
     }
     public static final class string {
-        public static final int common_google_play_services_unknown_issue = 0x7f080013;
+        public static final int common_google_play_services_unknown_issue = 0x7f090013;
     }
     public static final class styleable {
         public static final int[] LoadingImageView = { 0x7f010103, 0x7f010104, 0x7f010105 };

@@ -12,7 +12,7 @@
     <string name="password">password</string>
     <string name="forgot_password">Forgot Password</string>
     <string name="password_reset">Password Reset</string>
-    <string name="send_instruction">send_instruction</string>
+    <string name="send_instruction">Send Instruction</string>
     <string name="create_new">Create New Account</string>
     <string name="account_email">email</string>
 
@@ -100,6 +100,9 @@
     <string name="uname">a@a.com</string>
     <string name="upass">1</string>
 
-
+    <string name="customer">Customer</string>
+    <string name="stylist">Stylist</string>
+    <string name="widget">Widget</string>
+    <string name="searcable">Search customer by name</string>
 
 </resources>
