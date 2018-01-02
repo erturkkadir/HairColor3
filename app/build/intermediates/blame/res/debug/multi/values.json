@@ -957,7 +957,14 @@
                     "endOffset": 7083
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/values/colors.xml"
+                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 153,
+                        "endColumn": 45,
+                        "endOffset": 194
+                    }
                 }
             },
             {
@@ -5001,14 +5008,7 @@
                     "endOffset": 65336
                 },
                 "from": {
-                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 105,
-                        "startColumn": 4,
-                        "startOffset": 3936,
-                        "endColumn": 61,
-                        "endOffset": 3993
-                    }
+                    "file": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/values/strings.xml"
                 }
             },
             {

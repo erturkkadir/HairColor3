@@ -3689,7 +3689,7 @@ containing a value of this type.
         public static final int project_id=0x7f090057;
         public static final int register=0x7f090058;
         public static final int register_lower=0x7f090059;
-        public static final int searcable=0x7f09005a;
+        public static final int searchable =0x7f09005a;
         public static final int search_menu_title=0x7f090014;
         public static final int send_instruction=0x7f09005b;
         public static final int series=0x7f09005c;

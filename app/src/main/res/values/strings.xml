@@ -35,8 +35,6 @@
     <string name="hair_color">HairColor</string>
     <string name="that">Get your genuine hair color</string>
 
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_boarding">Hair Color 3</string>
 
@@ -54,11 +52,11 @@
     </string-array>
 
     <string-array name="catalog">
-        <item></item>
+        <item>C1</item>
     </string-array>
 
     <string-array name="series">
-        <item></item>
+        <item>S1</item>
     </string-array>
 
     <string-array name="color">
@@ -81,7 +79,7 @@
     <string name="ic_mic">Mic</string>
 
     <string name="speech_prompt">Say something&#8230;</string>
-    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="speech_not_supported">Sorry! Your device does not support speech input</string>
     <string name="tap_on_mic">Tap on mic to speak</string>
 
     <string name="training">Training</string>
@@ -92,7 +90,7 @@
     <string name="perc">%</string>
 
     <string name="detail">Detail</string>
-    <string name="contentDescription">No decription</string>
+    <string name="contentDescription">No description</string>
 
     <string name="my_account">My Account</string>
     <string name="sign_out">Sign Out</string>
@@ -103,6 +101,6 @@
     <string name="customer">Customer</string>
     <string name="stylist">Stylist</string>
     <string name="widget">Widget</string>
-    <string name="searcable">Search customer by name</string>
+    <string name="searchable">Search customer by name</string>
 
 </resources>
