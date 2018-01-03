@@ -12,11 +12,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Filter;
+import android.widget.SearchView;
 import android.widget.TextView;
 
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.adapter.CustomerAdapter;
 import com.syshuman.kadir.haircolor3.model.Customer;
+import com.syshuman.kadir.haircolor3.view.activities.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,12 +27,16 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
-public class CustomerFragment extends Fragment {
+public class CustomerFragment extends Fragment implements CustomerAdapter.CustomerAdapterListener{
 
     @BindView(R.id.rvCustomer) RecyclerView rvCustomer;
+
     private List<Customer> customerList = new ArrayList<>();
+
     private CustomerAdapter mAdapter;
-    public Context context;
+    private SearchView searchView;
+
+    private Context context;
 
     public CustomerFragment() {
         // Required empty public constructor
@@ -48,70 +54,31 @@ public class CustomerFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_customer, container, false);
         ButterKnife.bind(this, view);
 
-        mAdapter = new CustomerAdapter(customerList);
+        ((MainActivity) getActivity()).setTitle("Customer List");
+
+
+        customerList = new ArrayList<>();
+
+        mAdapter = new CustomerAdapter(context, customerList, this);
+
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(context);
         rvCustomer.setLayoutManager(mLayoutManager);
         rvCustomer.setItemAnimator(new DefaultItemAnimator());
         rvCustomer.addItemDecoration(new DividerItemDecoration(context, LinearLayoutManager.VERTICAL));
-
         rvCustomer.setAdapter(mAdapter);
 
-        prepareData();
+        fetchContacts();
         return view;
     }
 
-    private void prepareData() {
+    private void fetchContacts() {
 
-        Customer customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-        customer = new Customer("Mad Max: Fury Road", "Action & Adventure", "2015");
-        customerList.add(customer);
-
-
+        ((MainActivity) getActivity()).fetchCustomerData();
 
     }
 
+    @Override
+    public void onCustomerSelected(Customer customer) {
+
+    }
 }

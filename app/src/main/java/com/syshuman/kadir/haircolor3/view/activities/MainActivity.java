@@ -35,6 +35,7 @@ import android.widget.Toast;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.syshuman.kadir.haircolor3.R;
+import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.utils.Config;
 import com.syshuman.kadir.haircolor3.utils.NotificationUtils;
 import com.syshuman.kadir.haircolor3.utils.PermissionUtils;
@@ -62,6 +63,8 @@ public class MainActivity extends AppCompatActivity  {
     private PermissionUtils permissionsUtils;
 
     private FragmentTransaction fragmentTransaction;
+
+    RestServer restServer;
 
     @BindView(R.id.toolbar) Toolbar toolbar;
     @BindView(R.id.bottom_sheet) LinearLayout layoutBottomSheet;
@@ -92,6 +95,8 @@ public class MainActivity extends AppCompatActivity  {
         setBottomSheet();
 
         registerFirebaseReceiver();
+
+        restServer = new RestServer(context);
 
     }
 
@@ -284,6 +289,12 @@ public class MainActivity extends AppCompatActivity  {
         });
     }
 
+
+    public void setTitle(String title) {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle(title);
+    }
+
     private void sign_out() {
         SharedPreferences prefs = this.getSharedPreferences("com.syshuman.kadir.socks", this.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
@@ -356,5 +367,9 @@ public class MainActivity extends AppCompatActivity  {
     private void saveImage(Bitmap bitmap) {
         /* Save Image to server */
         Toast.makeText(context, " saved ", Toast.LENGTH_SHORT).show();
+    }
+
+    public void fetchCustomerData() {
+        restServer.getCustomers(context);
     }
 }

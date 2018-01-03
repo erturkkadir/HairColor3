@@ -1,5 +1,6 @@
 package com.syshuman.kadir.haircolor3.adapter;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,6 +22,9 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.MyView
     private List<Customer> customerList;
     private List<Customer> customerListFiltered;
 
+    private CustomerAdapterListener listener;
+    private Context context;
+
 
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
@@ -31,11 +35,19 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.MyView
             fname = (TextView) view.findViewById(R.id.rvFirstName);
             lname = (TextView) view.findViewById(R.id.rvLastName);
             email = (TextView) view.findViewById(R.id.rvEmail);
+            view.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    listener.onCustomerSelected(customerListFiltered.get(getAdapterPosition()));
+                }
+            });
         }
     }
 
 
-    public CustomerAdapter(List<Customer> customerList) {
+    public CustomerAdapter(Context context, List<Customer> customerList, CustomerAdapterListener listener) {
+        this.context = context;
+        this.listener = listener;
         this.customerListFiltered = customerList;
         this.customerList = customerList;
     }
@@ -53,6 +65,7 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.MyView
         holder.fname.setText(customer.getFirstName());
         holder.lname.setText(customer.getLastName());
         holder.email.setText(customer.getEmail());
+
     }
 
     @Override
@@ -87,9 +100,12 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.MyView
             protected void publishResults(CharSequence constraint, FilterResults results) {
                 customerListFiltered = (ArrayList<Customer>) results.values;
                 notifyDataSetChanged();;
-
             }
         };
+    }
+
+    public interface CustomerAdapterListener {
+        void onCustomerSelected(Customer customer);
     }
 }
 

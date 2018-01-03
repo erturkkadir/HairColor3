@@ -282,6 +282,65 @@ public class RestServer {
         _requestQueue.add(stringRequest);
     }
 
+    public void getCustomers(final Context context) {
+        String url = baseUrl + "api/v1/users/getnames";
+        url = "https://api.androidhive.info/json/contacts.json";
+
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        try {
+                            JSONObject json = new JSONObject(response);
+                            String statusCode = json.getString("status_code");
+                            if (!statusCode.equals("200 OK")) {
+                                Toast.makeText(context, "Http Communication Error" + statusCode, Toast.LENGTH_LONG).show();
+                                return;
+                            }
+                            String message = json.getString("message");
+                            JSONArray jsonArray = json.getJSONArray("data");
+
+                            if (message.equals("Success")) {
+                                Toast.makeText(context, "Customers from server", Toast.LENGTH_LONG).show();
+
+                                List<Customer> customer = new ArrayList<>();
+                                if (jsonArray != null) {
+                                    for (int i = 0; i < jsonArray.length(); i++) {
+                                        JSONObject inner = new JSONObject(jsonArray.get(i).toString());
+                                        //customer.add(new Gson.fromJSoninner);
+                                        //adapter.
+                                    }
+                                }
+
+
+                            } else {
+                                Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, "POST api/v1/users/getnames failed", Toast.LENGTH_LONG).show();
+                    }
+                }) {
+
+            @Override
+            public Map<String, String> getHeaders() {
+                Map<String, String> params = new HashMap<>();
+                params.put("um_token", um_token);
+                return params;
+            }
+
+        };
+
+        RequestQueue _requestQueue = Volley.newRequestQueue(context);
+        _requestQueue.add(stringRequest);
+    }
     public void getColor3(final String r_r, final String r_g, final String r_b, final String r_c,
                           final String g_r, final String g_g, final String g_b, final String g_c,
                           final String b_r, final String b_g, final String b_b, final String b_c,

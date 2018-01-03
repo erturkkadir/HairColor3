@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <string-array name="catalog">
-        <item/>
+        <item>C1</item>
     </string-array>
     <string-array name="color">
         <item>1 N</item>
@@ -24,7 +24,7 @@
         <item>Wells</item>
     </string-array>
     <string-array name="series">
-        <item/>
+        <item>S1</item>
     </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -144,7 +144,7 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#ffffff</color>
+    <color name="colorAccent">#3030f0</color>
     <color name="colorBlack">#000000</color>
     <color name="colorGrey">#b9b5b6</color>
     <color name="colorGrey1">#e2e2e2</color>
@@ -752,7 +752,7 @@
     <string name="confirm_password">confirm password</string>
     <string name="confirmation">confirmation</string>
     <string name="confirmation_note">confirmation_note</string>
-    <string name="contentDescription">No decription</string>
+    <string name="contentDescription">No description</string>
     <string name="create_new">Create New Account</string>
     <string name="customer">Customer</string>
     <string name="default_web_client_id" translatable="false">486067805996-g6fhh1fst66dqlo88ebf3serhonqvss8.apps.googleusercontent.com</string>
@@ -790,12 +790,12 @@
     <string name="project_id" translatable="false">haircolor-b8010</string>
     <string name="register">Register</string>
     <string name="register_lower">register_lower</string>
-    <string name="searcable">Search customer by name</string>
     <string name="search_menu_title">Search</string>
+    <string name="searchable">Search customer by name</string>
     <string name="send_instruction">Send Instruction</string>
     <string name="series">Series</string>
     <string name="sign_out">Sign Out</string>
-    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="speech_not_supported">Sorry! Your device does not support speech input</string>
     <string name="speech_prompt">Say something…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stylist">Stylist</string>
@@ -822,15 +822,12 @@
         <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-
         <item name="android:textColorPrimary">@color/colorAccent</item>
         <item name="android:textColor">@color/colorAccent</item>
         <item name="android:textColorHint">@color/white</item>
-
     </style>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.NoActionBar">
