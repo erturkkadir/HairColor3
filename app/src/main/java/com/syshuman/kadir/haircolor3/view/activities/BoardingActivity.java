@@ -13,7 +13,7 @@ import android.view.WindowManager;
 import android.widget.Toast;
 
 import com.syshuman.kadir.haircolor3.eventbus.BoardingEvents;
-import com.syshuman.kadir.haircolor3.model.HairColorUser;
+import com.syshuman.kadir.haircolor3.model.StylistM;
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.fragments.LoginFragment;
@@ -48,7 +48,7 @@ public class BoardingActivity extends AppCompatActivity {
         SharedPreferences prefs = this.getSharedPreferences("com.syshuman.kadir.socks", this.MODE_PRIVATE);
         Integer um_no = prefs.getInt("um_no", 0);
         if(um_no!=0) {
-            HairColorUser hcuser = new HairColorUser();
+            StylistM hcuser = new StylistM();
             Intent intent = new Intent(this, MainActivity.class);
             this.startActivity(intent);
             finish();

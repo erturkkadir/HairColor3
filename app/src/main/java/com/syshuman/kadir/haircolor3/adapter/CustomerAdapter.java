@@ -10,7 +10,7 @@ import android.widget.Filterable;
 import android.widget.TextView;
 
 import com.syshuman.kadir.haircolor3.R;
-import com.syshuman.kadir.haircolor3.model.Customer;
+import com.syshuman.kadir.haircolor3.model.CustM;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,8 +19,8 @@ import java.util.List;
 
 public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.MyViewHolder>  implements Filterable {
 
-    private List<Customer> customerList;
-    private List<Customer> customerListFiltered;
+    private List<CustM> custMList;
+    private List<CustM> custMListFiltered;
 
     private CustomerAdapterListener listener;
     private Context context;
@@ -38,18 +38,18 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.MyView
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    listener.onCustomerSelected(customerListFiltered.get(getAdapterPosition()));
+                    listener.onCustomerSelected(custMListFiltered.get(getAdapterPosition()));
                 }
             });
         }
     }
 
 
-    public CustomerAdapter(Context context, List<Customer> customerList, CustomerAdapterListener listener) {
+    public CustomerAdapter(Context context, List<CustM> custMList, CustomerAdapterListener listener) {
         this.context = context;
         this.listener = listener;
-        this.customerListFiltered = customerList;
-        this.customerList = customerList;
+        this.custMListFiltered = custMList;
+        this.custMList = custMList;
     }
 
     @Override
@@ -61,16 +61,16 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.MyView
 
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
-        Customer customer = customerList.get(position);
-        holder.fname.setText(customer.getFirstName());
-        holder.lname.setText(customer.getLastName());
-        holder.email.setText(customer.getEmail());
+        CustM custM = custMList.get(position);
+        holder.fname.setText(custM.getCm_fname());
+        holder.lname.setText(custM.getCm_lname());
+        holder.email.setText(custM.getCm_email());
 
     }
 
     @Override
     public int getItemCount() {
-        return customerList.size();
+        return custMList.size();
     }
 
     @Override
@@ -81,31 +81,31 @@ public class CustomerAdapter extends RecyclerView.Adapter<CustomerAdapter.MyView
             protected FilterResults performFiltering(CharSequence constraint) {
                 String charString = constraint.toString();
                 if(charString.isEmpty()) {
-                    customerListFiltered = customerList;
+                    custMListFiltered = custMList;
                 } else {
-                    List<Customer> filteredList = new ArrayList<>();
-                    for(Customer row : customerList) {
-                        if(row.getFirstName().contains(charString.toLowerCase() )) {
+                    List<CustM> filteredList = new ArrayList<>();
+                    for(CustM row : custMList) {
+                        if(row.getCm_fname().contains(charString.toLowerCase() )) {
                             filteredList.add(row);
                         }
                     }
-                    customerListFiltered = filteredList;
+                    custMListFiltered = filteredList;
                 }
                 FilterResults filterResults = new FilterResults();
-                filterResults.values = customerListFiltered;
+                filterResults.values = custMListFiltered;
                 return filterResults;
             }
 
             @Override
             protected void publishResults(CharSequence constraint, FilterResults results) {
-                customerListFiltered = (ArrayList<Customer>) results.values;
+                custMListFiltered = (ArrayList<CustM>) results.values;
                 notifyDataSetChanged();;
             }
         };
     }
 
     public interface CustomerAdapterListener {
-        void onCustomerSelected(Customer customer);
+        void onCustomerSelected(CustM custM);
     }
 }
 

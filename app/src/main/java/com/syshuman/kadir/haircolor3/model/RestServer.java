@@ -303,7 +303,7 @@ public class RestServer {
                             if (message.equals("Success")) {
                                 Toast.makeText(context, "Customers from server", Toast.LENGTH_LONG).show();
 
-                                List<Customer> customer = new ArrayList<>();
+                                List<CustM> custM = new ArrayList<>();
                                 if (jsonArray != null) {
                                     for (int i = 0; i < jsonArray.length(); i++) {
                                         JSONObject inner = new JSONObject(jsonArray.get(i).toString());

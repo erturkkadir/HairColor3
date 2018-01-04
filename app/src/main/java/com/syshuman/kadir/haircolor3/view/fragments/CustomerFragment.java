@@ -11,14 +11,15 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Filter;
 import android.widget.SearchView;
-import android.widget.TextView;
 
 import com.syshuman.kadir.haircolor3.R;
 import com.syshuman.kadir.haircolor3.adapter.CustomerAdapter;
-import com.syshuman.kadir.haircolor3.model.Customer;
+import com.syshuman.kadir.haircolor3.model.CustM;
+import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.view.activities.MainActivity;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +32,8 @@ public class CustomerFragment extends Fragment implements CustomerAdapter.Custom
 
     @BindView(R.id.rvCustomer) RecyclerView rvCustomer;
 
-    private List<Customer> customerList = new ArrayList<>();
+    private List<CustM> custMList = new ArrayList<>();
+    private RestServer restServer;
 
     private CustomerAdapter mAdapter;
     private SearchView searchView;
@@ -42,8 +44,9 @@ public class CustomerFragment extends Fragment implements CustomerAdapter.Custom
         // Required empty public constructor
     }
 
-    public void setContext(Context context) {
+    public void setContext(Context context, RestServer restServer) {
         this.context = context;
+        this.restServer = restServer;
     }
 
 
@@ -57,9 +60,9 @@ public class CustomerFragment extends Fragment implements CustomerAdapter.Custom
         ((MainActivity) getActivity()).setTitle("Customer List");
 
 
-        customerList = new ArrayList<>();
+        custMList = new ArrayList<>();
 
-        mAdapter = new CustomerAdapter(context, customerList, this);
+        mAdapter = new CustomerAdapter(context, custMList, this);
 
         RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(context);
         rvCustomer.setLayoutManager(mLayoutManager);
@@ -71,14 +74,26 @@ public class CustomerFragment extends Fragment implements CustomerAdapter.Custom
         return view;
     }
 
+    @Override
+    public void onStart() {
+        super.onStart();
+        EventBus.getDefault().register(this);
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        EventBus.getDefault().unregister(this);
+    }
+
     private void fetchContacts() {
 
-        ((MainActivity) getActivity()).fetchCustomerData();
+        restServer.getCustomers(context);
 
     }
 
     @Override
-    public void onCustomerSelected(Customer customer) {
+    public void onCustomerSelected(CustM custM) {
 
     }
 }

@@ -261,7 +261,7 @@ public class MainActivity extends AppCompatActivity  {
 
                     case R.id.nav_customer :
                         CustomerFragment customerFragment = new CustomerFragment();
-                        customerFragment.setContext(context);
+                        customerFragment.setContext(context, restServer);
                         addFragment(customerFragment, "CustomerFragment");
                         break;
 
