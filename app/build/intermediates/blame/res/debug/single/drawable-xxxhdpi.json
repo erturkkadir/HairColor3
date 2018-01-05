@@ -1,7 +1,23 @@
 [
     {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_camera.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_camera.png"
+    },
+    {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_info_black_24dp.png",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-xxxhdpi/ic_info_black_24dp.png"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_manage.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_manage.png"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_share.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_share.png"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_gallery.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_gallery.png"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_sync_black_24dp.png",
@@ -14,6 +30,14 @@
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_launcher.png",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/drawable-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_slideshow.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_slideshow.png"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_menu_send.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/generated/res/pngs/debug/drawable-xxxhdpi/ic_menu_send.png"
     },
     {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_notifications_black_24dp.png",

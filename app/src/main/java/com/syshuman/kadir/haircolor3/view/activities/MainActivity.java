@@ -39,7 +39,19 @@ import com.syshuman.kadir.haircolor3.model.RestServer;
 import com.syshuman.kadir.haircolor3.utils.Config;
 import com.syshuman.kadir.haircolor3.utils.NotificationUtils;
 import com.syshuman.kadir.haircolor3.utils.PermissionUtils;
+import com.syshuman.kadir.haircolor3.view.fragments.CameraFragment;
 import com.syshuman.kadir.haircolor3.view.fragments.CustomerFragment;
+import com.syshuman.kadir.haircolor3.view.fragments.StylistFragment;
+
+import org.opencv.android.BaseLoaderCallback;
+import org.opencv.android.LoaderCallbackInterface;
+import org.opencv.android.OpenCVLoader;
+import org.opencv.android.Utils;
+import org.opencv.core.Core;
+import org.opencv.core.CvType;
+import org.opencv.core.Mat;
+import org.opencv.core.Point;
+import org.opencv.imgproc.Imgproc;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -99,6 +111,7 @@ public class MainActivity extends AppCompatActivity  {
         restServer = new RestServer(context);
 
     }
+
 
     private void registerFirebaseReceiver() {
 
@@ -266,12 +279,18 @@ public class MainActivity extends AppCompatActivity  {
                         break;
 
                     case R.id.nav_stylist :
+                        StylistFragment stylistFragment = new StylistFragment();
+                        addFragment(stylistFragment, "StylistFragment");
                         dispatchTakePictureIntent();
                         break;
 
                     case R.id.nav_widget :
-                        Intent intent = new Intent(context, SpeechToTextActivity.class);
-                        startActivity(intent);
+                        //Intent intent = new Intent(context, SpeechToTextActivity.class);
+                        //startActivity(intent);
+
+                        CameraFragment cameraFragment = new CameraFragment();
+                        cameraFragment.setContext(context);
+                        addFragment(cameraFragment, "CameraFragment");
                         break;
 
                     case R.id.nav_myaccount:
@@ -352,7 +371,7 @@ public class MainActivity extends AppCompatActivity  {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             Bundle extras = data.getExtras();
             Bitmap imageBitmap = (Bitmap) extras.get("data");
-            saveImage(imageBitmap);
+            saveImage(imageBitmap, imageBitmap);
         }
     }
 
@@ -364,8 +383,31 @@ public class MainActivity extends AppCompatActivity  {
     }
 
 
-    private void saveImage(Bitmap bitmap) {
+    private void saveImage(Bitmap haystack, Bitmap needle) {
+
+        int match_method = Imgproc.TM_CCOEFF;
+
+
         /* Save Image to server */
+        Mat mHaystack = new Mat();
+        Utils.bitmapToMat(haystack, mHaystack);
+
+        Mat mNeedle = new Mat();
+        Utils.bitmapToMat(needle, mNeedle);
+
+        int result_cols = needle.getWidth();
+        int result_rows = needle.getHeight();
+        Mat result = new Mat(result_rows, result_cols, CvType.CV_32FC1);
+
+        // Do the Matching and Normalize
+        Imgproc.matchTemplate(mHaystack, mNeedle, result, match_method);
+        Core.normalize(result, result, 0, 1, Core.NORM_MINMAX, -1, new Mat());
+
+        // / Localizing the best match with minMaxLoc
+        Core.MinMaxLocResult mmr = Core.minMaxLoc(result);
+
+        Point matchLoc = mmr.maxLoc;
+
         Toast.makeText(context, " saved ", Toast.LENGTH_SHORT).show();
     }
 

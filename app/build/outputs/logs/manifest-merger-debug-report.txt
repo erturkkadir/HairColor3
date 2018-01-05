@@ -226,6 +226,7 @@ ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/An
 		ADDED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml:89:25-77
 uses-sdk
 INJECTED from /Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [HairColor3:openCVLibrary340:unspecified] /Users/kerturkx/Documents/Github/haircolor/HairColor3/openCVLibrary340/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.volley:volley:1.0.0] /Users/kerturkx/.android/build-cache/6b9383c0dac0890b0d9c5a3bcfaab7513a278ff7/output/AndroidManifest.xml:7:5-43
 MERGED from [com.jakewharton:butterknife:8.8.1] /Users/kerturkx/.android/build-cache/03283949ec2f9e140310c5adc1ccdaf22b6a92f5/output/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:design:25.3.1] /Users/kerturkx/.android/build-cache/40c745b3475a13ffb02b698850f2981e01d0d114/output/AndroidManifest.xml:21:5-23:62

@@ -6,6 +6,9 @@ import android.widget.Toast;
 import com.syshuman.kadir.haircolor3.eventbus.MessageEvents;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
+import org.opencv.core.CvType;
+import org.opencv.core.Mat;
+import org.opencv.ml.SVM;
 
 import java.io.IOException;
 
@@ -131,5 +134,15 @@ public class MySVM {
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onTrainData(MessageEvents.onTrainedData event) {
         //Toast.makeText(context, event.data.length, Toast.LENGTH_LONG).show();
+    }
+
+    public void cvSVM() {
+        float[] labelArray = new float[20];
+        int sizeOfDataSet = 12;
+        Mat responses = new Mat(1, sizeOfDataSet, CvType.CV_32F);
+        responses.put(0,0,labelArray);
+
+        SVM svm = SVM.create();
+
     }
 }

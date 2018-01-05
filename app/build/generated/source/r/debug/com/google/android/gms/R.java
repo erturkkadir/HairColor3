@@ -8,21 +8,21 @@ package com.google.android.gms;
 
 public final class R {
     public static final class attr {
-        public static final int circleCrop = 0x7f010105;
-        public static final int imageAspectRatio = 0x7f010104;
-        public static final int imageAspectRatioAdjust = 0x7f010103;
+        public static final int circleCrop = 0x7f010107;
+        public static final int imageAspectRatio = 0x7f010106;
+        public static final int imageAspectRatioAdjust = 0x7f010105;
     }
     public static final class id {
-        public static final int adjust_height = 0x7f0f0041;
-        public static final int adjust_width = 0x7f0f0042;
+        public static final int adjust_height = 0x7f0f0044;
+        public static final int adjust_width = 0x7f0f0045;
         public static final int auto = 0x7f0f002d;
-        public static final int center = 0x7f0f002f;
+        public static final int center = 0x7f0f0032;
         public static final int none = 0x7f0f0017;
         public static final int normal = 0x7f0f0019;
-        public static final int radio = 0x7f0f0066;
-        public static final int text = 0x7f0f010b;
-        public static final int text2 = 0x7f0f0109;
-        public static final int toolbar = 0x7f0f007d;
+        public static final int radio = 0x7f0f0069;
+        public static final int text = 0x7f0f0110;
+        public static final int text2 = 0x7f0f010e;
+        public static final int toolbar = 0x7f0f0080;
         public static final int wrap_content = 0x7f0f002c;
     }
     public static final class integer {
@@ -32,7 +32,7 @@ public final class R {
         public static final int common_google_play_services_unknown_issue = 0x7f080013;
     }
     public static final class styleable {
-        public static final int[] LoadingImageView = { 0x7f010103, 0x7f010104, 0x7f010105 };
+        public static final int[] LoadingImageView = { 0x7f010105, 0x7f010106, 0x7f010107 };
         public static final int LoadingImageView_circleCrop = 2;
         public static final int LoadingImageView_imageAspectRatio = 1;
         public static final int LoadingImageView_imageAspectRatioAdjust = 0;
