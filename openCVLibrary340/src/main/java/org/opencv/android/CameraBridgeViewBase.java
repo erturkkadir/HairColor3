@@ -1,5 +1,6 @@
 package org.opencv.android;
 
+import java.lang.reflect.Method;
 import java.util.List;
 
 import org.opencv.BuildConfig;
@@ -13,6 +14,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
+import android.graphics.Camera;
 import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.util.AttributeSet;
@@ -407,6 +409,7 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
         }
 
         if (bmpValid && mCacheBitmap != null) {
+
             Canvas canvas = getHolder().lockCanvas();
             if (canvas != null) {
                 canvas.drawColor(0, android.graphics.PorterDuff.Mode.CLEAR);
@@ -431,6 +434,7 @@ public abstract class CameraBridgeViewBase extends SurfaceView implements Surfac
                     mFpsMeter.measure();
                     mFpsMeter.draw(canvas, 20, 30);
                 }
+
                 getHolder().unlockCanvasAndPost(canvas);
             }
         }

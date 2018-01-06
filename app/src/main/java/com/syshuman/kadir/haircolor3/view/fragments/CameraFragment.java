@@ -2,8 +2,6 @@ package com.syshuman.kadir.haircolor3.view.fragments;
 
 import android.app.Fragment;
 import android.content.Context;
-import android.graphics.Canvas;
-import android.graphics.Paint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -68,24 +66,9 @@ public class CameraFragment extends Fragment implements CameraBridgeViewBase.CvC
 
         mOpenCvCameraView = (CameraBridgeViewBase) surfaceView;
 
-
-/*
-        Canvas canvas = mOpenCvCameraView.getHolder().lockCanvas();
-        canvas.rotate(90,0,0);
-        float scale = canvas.getWidth() / (float) mOpenCvCameraView.getHeight();
-        float scale2 = canvas.getHeight() / (float) mOpenCvCameraView.getWidth();
-        if(scale2 > scale){
-            scale = scale2;
-        }
-        if (scale != 0) {
-            canvas.scale(scale, scale,0,0);
-        }
-        canvas.drawBitmap(bitmap, 0, -bitmap.getHeight(), null);
-        */
-
-
         mOpenCvCameraView.setVisibility(SurfaceView.VISIBLE);
         mOpenCvCameraView.setCvCameraViewListener(this);
+
 
         return view;
     }
