@@ -62,6 +62,7 @@ import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity  {
 
+
     private static final String LOG_TAG = "MainActivity";
 
     private static final int PERMISSION_ALL = 123;
@@ -385,30 +386,7 @@ public class MainActivity extends AppCompatActivity  {
 
     private void saveImage(Bitmap haystack, Bitmap needle) {
 
-        int match_method = Imgproc.TM_CCOEFF;
 
-
-        /* Save Image to server */
-        Mat mHaystack = new Mat();
-        Utils.bitmapToMat(haystack, mHaystack);
-
-        Mat mNeedle = new Mat();
-        Utils.bitmapToMat(needle, mNeedle);
-
-        int result_cols = needle.getWidth();
-        int result_rows = needle.getHeight();
-        Mat result = new Mat(result_rows, result_cols, CvType.CV_32FC1);
-
-        // Do the Matching and Normalize
-        Imgproc.matchTemplate(mHaystack, mNeedle, result, match_method);
-        Core.normalize(result, result, 0, 1, Core.NORM_MINMAX, -1, new Mat());
-
-        // / Localizing the best match with minMaxLoc
-        Core.MinMaxLocResult mmr = Core.minMaxLoc(result);
-
-        Point matchLoc = mmr.maxLoc;
-
-        Toast.makeText(context, " saved ", Toast.LENGTH_SHORT).show();
     }
 
     public void fetchCustomerData() {

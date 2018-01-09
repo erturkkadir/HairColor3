@@ -1192,7 +1192,11 @@ int mipmap ic_qr_code 0x7f030007
 int mipmap sing_upemail 0x7f030008
 int raw beep04 0x7f070000
 int raw beep07 0x7f070001
-int raw model 0x7f070002
+int raw left_down 0x7f070002
+int raw left_up 0x7f070003
+int raw model 0x7f070004
+int raw right_down 0x7f070005
+int raw right_up 0x7f070006
 int string abc_action_bar_home_description 0x7f080000
 int string abc_action_bar_home_description_format 0x7f080001
 int string abc_action_bar_home_subtitle_description_format 0x7f080002

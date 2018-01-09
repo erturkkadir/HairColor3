@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/right_up.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/right_up.png"
+    },
+    {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/model.svm",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/model.svm"
     },
@@ -8,7 +12,19 @@
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/beep04.mp3"
     },
     {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/left_up.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/left_up.png"
+    },
+    {
         "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/beep07.mp3",
         "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/beep07.mp3"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/left_down.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/left_down.png"
+    },
+    {
+        "merged": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/build/intermediates/res/merged/debug/raw/right_down.png",
+        "source": "/Users/kerturkx/Documents/Github/haircolor/HairColor3/app/src/main/res/raw/right_down.png"
     }
 ]
